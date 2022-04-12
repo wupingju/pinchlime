@@ -11,6 +11,9 @@ taxonomies:
     - Launcher
 ---
 
+![test](blog/Raycast.png)
+_圖片來源：[Raycast官網](https://www.raycast.com/)_
+
 ![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/Cf0jpA.png)
 _圖片來源：[Raycast官網](https://www.raycast.com/)_
 
