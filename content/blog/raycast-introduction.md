@@ -11,7 +11,7 @@ taxonomies:
     - Launcher
 ---
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/rqguH9.png)
+![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/GPQ3Wq.png)
 
 ## 為什麼想嘗試 Raycast？
 
