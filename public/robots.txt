@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pinchlime.com/sitemap.xml

@@ -40,7 +40,7 @@ include_content = false
 [extra]
 author = "P.J. Wu"
 email = "mimir@hey.com"
-theme_color = "#EA4C89"
+theme_color = "#003c6d"
 
 ### THIRD PARTY
 # google_analytics = "UA-012345-67"
@@ -56,7 +56,7 @@ paths = "on"
 taxonomies = "on"
 
 [languages.zh-TW]
-build_search_index = true
+build_search_index = false
 description = "介紹生產力工具，以及分享使用心得"
 title = "Pin 起來！"
 
