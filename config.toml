@@ -1,4 +1,4 @@
-base_url = "https://fabulous-baklava-36fa48.netlify.app"
+base_url = "https://pinchlime.netlify.app"
 build_search_index = false
 compile_sass = false
 default_language = "zh-TW"
