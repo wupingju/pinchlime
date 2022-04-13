@@ -161,11 +161,14 @@
             {{ custom_sidebar.content | safe }}
 
           <h2>{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
-          <ul class="list-none text-sm">
-          {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
-          {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
-            {{ macro::post_side(page=page) }}
-          {% endfor %} 
+          <ul>
+            {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
+            {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
+            <li>
+              <a class="no-underline"
+                >{{ macro::post_side(page=page) }}
+            </li>
+            {% endfor %} 
           </ul>
 
           <h2 ><a class="no-underline" href="{{lang_prefix_path}}tags/">{{ trans(key="label_tags",lang=lang) }}</a></h2>

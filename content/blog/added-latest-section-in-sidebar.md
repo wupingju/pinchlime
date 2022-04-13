@@ -79,6 +79,7 @@ taxonomies:
 {% macro post_min(page) %}
 <a href="{{ 頁面連結 }}">{{ 頁面標題 }}</a> <span class="muted text-sm">Updated on {{ 更新時間 }}</span>
 {% endmacro post_min %}
+```
 
 所以我想拿掉或想調整的就是後段的字而已，但我又不想要讓網站上其他用到 macro post_min 的段落一起改動，因此我就新增了一個 macro post_side ，並且調整為：
 
@@ -92,10 +93,12 @@ taxonomies:
 
 ![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/sidebar-3_BatLIM.png)
 
+後來還亂調整了一些小地方，讓這個區塊跟上下能長得更像一點，在這邊就不多提了！
+
 ---
 
 小結：
 
-透過這次修改的經驗，更熟悉 base.html 跟 macro.html 是怎麼互動的，覺得很有邏輯，連我這種完全程式外行的人都能改出自己想要的感覺，相當開心！
+透過這次修改的經驗，更熟悉 Zola 裡面的 base.html 跟 macro.html 是怎麼互動的，覺得很有邏輯，連我這種完全程式外行的人都能改出自己想要的感覺，相當開心！
 
 之後再來試試看製作一個電子報的 section ，並且把最新的電子報內容丟上來！

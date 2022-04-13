@@ -376,14 +376,14 @@ li.inline {
     z-index: 1;
     height: 100vh;
     overflow-y: auto;
-    width: 20rem;
+    width: 22rem;
   }
   .sidebar ul {
     border-left: 1px solid var(--colors-divider);
     list-style: none;
   }
   .sidebar li {
-    font-size: 0.9rem;
+    font-size: 1.0rem;
   }
   .sidebar h2,
   .sidebar h3 {

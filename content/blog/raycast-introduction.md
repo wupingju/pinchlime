@@ -5,7 +5,7 @@ updated: 2022-04-02
 path: 2022/04/02/raycast-introduction/
 taxonomies:
   categories: 
-    - 新 Pin 上線
+    - New Pins
   tags: 
     - Raycast
     - Launcher
