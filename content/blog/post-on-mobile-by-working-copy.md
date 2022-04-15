@@ -5,7 +5,7 @@ updated: 2022-04-15
 draft: true
 taxonomies:
   categories: 
-    - Blog
+    - Random
   tags: 
     - Working Copy
     - Github

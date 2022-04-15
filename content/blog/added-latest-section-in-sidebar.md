@@ -5,7 +5,7 @@ updated: 2022-04-13
 draft: false
 taxonomies:
   categories: 
-    - Blog
+    - Pinchlime
   tags: 
     - Zola
 ---
