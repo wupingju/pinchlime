@@ -8,7 +8,7 @@ taxonomies:
     - Tools
     tags: 
     - Logseq
-    - Wworkflowy
+    - Workflowy
     - Outliner
 ---
 
