@@ -11,6 +11,8 @@ taxonomies:
     - Zettelkasten
 ---
 
+## 本文
+
 今天下午到晚上，都在思考該如何實踐 Zettelkasten 這套方法到我的workflow裡。
 
 想著想著，就開始嘗試，首先就先從整理 Obsidian 的筆記開始。

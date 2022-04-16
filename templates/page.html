@@ -55,15 +55,6 @@
       <section>
       
         <section class="main">
-          {% if page.toc %}
-          <div class="main-toc pt">
-            <details>
-              <summary>{{trans(key="label_table_contents",lang=lang)}}</summary>
-              {{ macro::page_toc(toc=page.toc) }}
-            </details>
-
-          </div>
-          {% endif %}
           <section id="start"></section>
           <article>
             {{ page.content | safe }}
@@ -97,6 +88,36 @@
 {% if page.toc %}
 <h2>{{trans(key="label_table_contents",lang=lang)}}</h2>
 {{ macro::page_toc(toc=page.toc) }}
+<body>
+  {% if page.taxonomies %}
+  <h2>快速導覽</h2>
+  <ul class="list-none text-sm">
+    <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}">➤ 看更多 {{
+      page.taxonomies.categories[0] }} 分類</a><br>      
+    {% if page.taxonomies.tags -%}
+    {% for tag in page.taxonomies.tags %}
+    <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">➤ 看更多 {{ tag }} 標籤</a>{% if page.taxonomies.tags | length > 1 %}{% if
+    loop.index != page.taxonomies.tags | length %}<br>{% endif %}{% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endif %}
+  </ul>
+  <br>
+  <br>
+</body>
+
+<h2>看其他{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+<ul>
+  {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
+  {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+  <li>
+    <a class="no-underline"
+      >{{ macro::post_side(page=page) }}
+  </li>
+  {% endfor %} 
+</ul>
+<br>
+<h2><a href="{{ get_url(path="@/_index.md",lang=lang) }}"> 回到{{trans(key="label_home",lang=lang)}}</a></h2><br>
 {% endif %}
 </aside>
 

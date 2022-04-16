@@ -91,31 +91,17 @@ body {
 h1,
 h2,
 h3 {
-  padding-top: 1.4rem;
-  padding-bottom: 1.4rem;
-  margin-bottom: 1rem;
-  line-height: 1.1;
+  padding-top: 2.4rem;
+  padding-bottom: 1.2rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.0;
   font-weight: 500;
-  border-bottom: 1px solid var(--colors-divider);
   position: relative;
 }
 .no-border {
   border: none;
 }
-h1::after,
-h2::after,
-h3::after {
-  padding: 0;
-  margin: 0;
-  display: block;
-  content: "";
-  width: 50%;
-  height: 1.1px;
-  background-color: white;
-  position: absolute;
-  right: 0;
-  bottom: -1px;
-}
+
 h1 {
   font-size: 1.625rem;
 }
@@ -169,8 +155,8 @@ ul {
   margin-bottom: 1.4rem;
 }
 p {
-  margin-top: 1.4rem;
-  margin-bottom: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   padding-right: 0;
   vertical-align: baseline;
 }
@@ -301,14 +287,15 @@ a.muted,
   padding-right: 1.4rem;
 }
 .pt {
-  padding-top: 1.4rem;
+  padding-top: 0rem;
+  padding-bottom: 0.2rem;
 }
 .pl {
   padding-left: 1.4rem;
 }
 
 article {
-  padding-bottom: 2rem;
+  padding-bottom: 0.2rem;
 }
 article:last-of-type {
   padding-bottom: 0;

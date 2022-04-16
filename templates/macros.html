@@ -1,5 +1,6 @@
 {% macro post_max(page) %}
 <article>
+  <h1 class="no-border pb-sm"><a class="no-underline " href="{{ page.permalink }}">{{ page.title }}</a></h1>
   <section class="muted pt">
     <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time>
     {% if page.taxonomies.categories %} |
@@ -9,7 +10,6 @@
     </a> 
   {% endif %}
     </section>
-  <h1 class="no-border pb-sm"><a class="no-underline " href="{{ page.permalink }}">{{ page.title }}</a></h1>
 
   {% if page.summary -%}
   <div>{{ page.summary | safe }}</div>
@@ -31,7 +31,7 @@
     </section>
   </div>  
    <br>
-  <hr class="w-1__2">
+  <hr class="w-full">
 </article>
 {% endmacro post_max %}
 

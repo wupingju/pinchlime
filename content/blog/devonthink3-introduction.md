@@ -5,7 +5,7 @@ updated: 2021-01-24
 path: 2021/01/24/devonthink3-introduction/
 taxonomies:
   categories: 
-    - Toolbox
+    - Tools
   tags: 
     - DEVONthink
 ---
