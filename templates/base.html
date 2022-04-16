@@ -165,8 +165,9 @@
             {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
             {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
             <li>
-              <a class="no-underline"
-                >{{ macro::post_side(page=page) }}
+              <a class="no-underline">
+                {{ macro::post_side(page=page) }}
+              </a>
             </li>
             {% endfor %} 
           </ul>

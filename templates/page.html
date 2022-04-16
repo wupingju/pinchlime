@@ -90,13 +90,13 @@
 {{ macro::page_toc(toc=page.toc) }}
 <body>
   {% if page.taxonomies %}
-  <h2>快速導覽</h2>
+  <h2>看更多相關文章</h2>
   <ul class="list-none text-sm">
-    <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}">➤ 看更多 {{
+    <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}">➤&emsp;其他 {{
       page.taxonomies.categories[0] }} 分類</a><br>      
     {% if page.taxonomies.tags -%}
     {% for tag in page.taxonomies.tags %}
-    <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">➤ 看更多 {{ tag }} 標籤</a>{% if page.taxonomies.tags | length > 1 %}{% if
+    <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">➤&emsp;其他 {{ tag }} 標籤</a>{% if page.taxonomies.tags | length > 1 %}{% if
     loop.index != page.taxonomies.tags | length %}<br>{% endif %}{% endif %}
     {% endfor %}
     {% endif %}
