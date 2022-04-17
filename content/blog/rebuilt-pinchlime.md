@@ -3,6 +3,7 @@ title: Pin 起來改版了！從 Wordpress 搬家到 Zola！
 date: 2022-04-17
 updated: 2022-04-17
 draft: false
+description: 當我之前知道有「靜態網站產生器」（Static Site Generator）這種可以直接把 markdown 文件渲染成網站的東西存在後，我心中就一直想著，總有一天一定要用用看。
 taxonomies:
   categories: 
     - Pinchlime
