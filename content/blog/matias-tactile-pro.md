@@ -3,6 +3,7 @@ title: Matias Tactile Pro
 date: 2021-04-11
 updated: 2021-04-11
 path: 2021/04/11/matias-tactile-pro/
+description: 我在店內試打這個鍵盤時，直接被它「兩段式」的敲擊感燒到，簡單來說，就是鍵盤按下去會有明顯的「段落感」，輕壓跟重壓的感覺不太一樣，我也不知道這會造成什麼效果，但就覺得很酷，而且鍵盤本身很乾淨好看。
 taxonomies:
   categories: 
     - Random

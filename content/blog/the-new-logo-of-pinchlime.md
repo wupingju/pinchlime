@@ -3,6 +3,7 @@ title: Pin 起來的新 Logo
 date: 2022-02-27
 updated: 2022-02-27
 path: 2022/02/27/the-new-logo-of-pinchlime/
+description: Pin 起來 這個部落格當時是先想好中文的名字，覺得很喜歡這個動詞的意象，常常在跟同事討論的時候說要把這串對話「Pin 起來」，所以我有個小小的希望是大家看了我寫的文後，可以把很多裡面的介紹或想法 Pin 在自己的紀錄裡。
 taxonomies:
   categories: 
     - Pinchlime

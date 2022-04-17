@@ -3,6 +3,7 @@ title: 社群巨頭 Twitter 收購電子報服務新創 Revue
 date: 2021-01-26
 updated: 2021-01-26
 path: 2021/01/26/revue-joined-twitter/
+description: 對Twitter來說，透過跟Revue的深度整合，可以讓在Twitter上已經有不少追蹤者的內容創作者，可以透過Revue獲得更多報酬、跟讀者維持更緊密的關係，而使他們更願意繼續留在Twitter上。
 taxonomies:
   categories: 
     - Random

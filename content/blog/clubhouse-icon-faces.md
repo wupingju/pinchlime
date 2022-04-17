@@ -3,6 +3,7 @@ title: Clubhouse 的封面頭像都是誰？
 date: 2021-02-11
 updated: 2021-02-11
 path: 2021/02/12/clubhouse-icon-faces/
+description: 重點不在於讚數跟追蹤數，而在於透過你的聲音，產生的人與人之間真實的連結與對話。
 taxonomies:
   categories: 
     - Random

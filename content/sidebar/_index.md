@@ -1,6 +1,6 @@
 ---
-sort_by: "date"
-sort_direction: "decending"
+sort_by: date
+sort_direction: decending
 updated: 2022-04-04
 ---
 

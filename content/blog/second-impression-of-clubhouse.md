@@ -3,6 +3,7 @@ title: 完整一點的 Clubhouse 體驗心得
 date: 2021-01-30
 updated: 2021-01-30
 path: 2021/01/30/second-impression-of-clubhouse/
+description: 到頭來，在Clubhouse上面，人的吸引力可能還是比興趣主題的吸引力更高一些，當然這只是我的感覺，但如果大家也都是這樣的話，這或許也能說明，為何它看起來像是一個蠻有潛力爆紅的平台。
 taxonomies:
   categories: 
     - Random

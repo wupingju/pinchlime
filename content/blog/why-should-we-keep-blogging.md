@@ -3,6 +3,7 @@ title: 好文推薦——《我為什麼鼓勵工程師寫blog》
 date: 2020-03-07
 updated: 2020-03-07
 path: 2020/03/07/why-should-we-keep-blogging/
+description: 只要多寫、持續寫，很多原本想像不到的好事情，就會一個接著一個的發生。
 taxonomies:
   categories: 
     - Random

@@ -3,6 +3,7 @@ title: 2020 年 Mac 資料搬家紀錄
 date: 2020-02-16
 updated: 2020-02-16
 path: 2020/02/16/2020-mac-data-transfer/
+description: 最近剛購入了 2019 MacBook Pro 16” ，非常雀躍欣喜，不過關於新電腦的介紹不是這篇的重點，這篇是想記錄兼分享一下，「資料移轉」這件想到就令人頭痛的事。看是否可以給未來的自己以及其他有需要的人一些有用的幫助。
 taxonomies:
   categories: 
     - Random

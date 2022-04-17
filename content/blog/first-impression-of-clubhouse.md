@@ -3,6 +3,7 @@ title: Clubhouse 初體驗
 date: 2021-01-29
 updated: 2021-01-29
 path: 2021/01/29/first-impression-of-clubhouse/
+description: Clubhouse對我來說，是個還蠻新鮮的app，不確定還會使用多久、以及上面的社群會不會持續活躍發展，但至少目前來說體驗是還蠻有趣獨特的！
 taxonomies:
   categories: 
     - Random

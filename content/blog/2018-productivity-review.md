@@ -4,6 +4,7 @@ date: 2019-02-11
 updated: 2019-02-11
 path: 2019/02/11/2018-productivity-review/
 draft: false
+description: 就這樣一個牽一個，我不知不覺地接觸到了許多之前從來沒聽過的服務或軟體。很神奇的是，這些工具彼此之間通常整合度還很高。也就是說，一整套一起用，用起來更順手。
 taxonomies:
   categories: 
     - Reviews

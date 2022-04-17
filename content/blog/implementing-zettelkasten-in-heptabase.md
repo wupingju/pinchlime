@@ -3,6 +3,7 @@ title: 用 Heptabase 進行卡片寫作的心得
 date: 2022-03-07
 updated: 2022-03-07
 path: 2022/03/07/implementing-zettelkasten-in-heptabase/
+description: 對我來說，Heptabase 雖然仍在 Open Beta 階段，但已經能夠快速篩選、快速引用、快速編輯，並且標明使用的狀態，可以說是個非常適合進行卡片寫作的好產品了。
 taxonomies:
   categories: 
     - Tools

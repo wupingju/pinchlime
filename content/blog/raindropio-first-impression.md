@@ -3,6 +3,7 @@ title: Raindrop.io - 簡單漂亮的書籤工具 - 《新 Pin 上線 ＃1》
 date: 2022-01-31
 updated: 2022-01-31
 path: 2022/01/31/raindropio-first-impression/
+description: Raindrop.io 讓加入書籤＆管理書籤這件事情變得非常簡單，甚至有正面的體驗，隨著書籤資料庫慢慢增加，若能有條理地整理，某方面會有一種「自己讀過這麼多文章、懂這麼多東西」的錯覺，整體使用上也很無腦，基本上沒有什麼學習成本，很推薦喜歡到處看文章、存文章的收集囤積整理控們使用看看！免費版就很夠用啦！
 taxonomies:
   categories: 
     - New Pins
