@@ -91,7 +91,26 @@ taxonomies:
 
 2. 看了別人分享的兩者比較文
 
+因為目標明確，所以我都直接搜尋 Hugo vs Zola 之類的文，結果就找到兩篇都是從 Hugo 搬到 Zola 的分享，分別是：[Migrating to Zola - Blag](https://www.xypnox.com/blag/posts/migrating-to-zola/) 以及 [Karan Sharma | Migrating my blog to Zola](https://mrkaran.dev/posts/migrating-to-zola/) ，兩篇文都提到 Zola 相對 Hugo 更簡單一點，而且前者的文章裡面還有比對 Zola 跟 Hugo 實際上產生的網站架構，我就是看了這篇的比較後直接決定，就先選擇 Zola 用用看吧！
+
+---
+
 ## 搬家過程做了什麼事？
+
+決定方向後，就是開始著手進行了。
+
+而我的進行步驟可以分成三個階段：
+
+1. 照著 Zola 官方的 [Getting Started](https://www.getzola.org/documentation/getting-started/overview/) 文件運作一次。在這階段我除了在 mac 上面安裝了 Zola 以外，也學會使用 `zola serve` 這樣的指令，讓我可以直接在 mac 本機的瀏覽器觀看程式碼改變後的效果是什麼。
+
+2. 直接 clone 一份 [Owen 網站的 source code](https://github.com/theowenyoung/blog) 並開始研究它每一個文件的功能是什麼。
+
+3. 開始導入我自己之前的文章，並根據我的需求和想法，調整樣式跟功能。
+
+第一和第二個步驟大概都各花了 1-2 個平日的晚上，但第三個步驟大概花了我整整一個禮拜進行，不過收穫也是最豐富的。
+
+
+
 
 
 ## 搬家後有達到原本期待的目標嗎？
