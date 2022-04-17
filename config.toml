@@ -1,4 +1,4 @@
-base_url = "https://pinchlime.netlify.app"
+base_url = "https://pinchlime.com"
 build_search_index = false
 compile_sass = false
 default_language = "zh-TW"
