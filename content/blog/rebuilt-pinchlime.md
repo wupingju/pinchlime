@@ -17,7 +17,7 @@ taxonomies:
 
 ![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zola-banner_pOklOy.webp)
 
-來跟大家分享以及更新一下，目前看到的這個網站「Pin 起來 ／ Pinchlime.com」，在今天（2022.04.17）進行了一次大改版。
+來跟大家分享以及更新一下，目前看到的這個網站「Pin 起來／Pinchlime.com」，在今天（2022.04.17）進行了一次大改版。
 
 改版前，這個網站是透過 [Wordpress.com](https://wordpress.com/) 運作的，包含網域的託管，以及內容的管理與撰寫，都是在 Wordpress.com 上面進行。
 
@@ -82,7 +82,7 @@ taxonomies:
 
 很快地我把備選的範圍鎖定在 [Hugo](https://gohugo.io/) 以及 [Zola](https://www.getzola.org/) 這兩個方案上面。原因是因為看了 [Jekyll vs Hugo vs Gatsby vs Next vs Zola vs Eleventy](https://mtm.dev/static) 這篇文章的簡單比較後，感覺 Hugo 跟 Zola 是相對更簡單上手，而且也是主打速度的方案。
 
-另一方面也是因為，我看了推友 Owen 的 [迁移博客和Wiki到 Zola](https://www.owenyoung.com/blog/migrate-to-zola/) 後，對 Zola 的印象還不錯，而 Hugo 則是普遍看到幾乎都是好評的選秀，所以就選擇兩個都來研究看看。
+另一方面也是因為，我看了推友 Owen 的 [迁移博客和Wiki到 Zola](https://www.owenyoung.com/blog/migrate-to-zola/) 後，對 Zola 的印象還不錯，而 Hugo 則是普遍看到幾乎都是好評的選項，所以就選擇兩個都來研究看看。
 
 研究了一兩天後，看了好幾篇比較文，決定選擇使用 Zola ，原因有兩個。
 
