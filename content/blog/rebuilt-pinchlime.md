@@ -17,7 +17,7 @@ taxonomies:
 
 ![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zola-banner_pOklOy.webp)
 
-來跟大家分享以及更新一下，目前看到的這個網站「 Pin 起來 ／ Pinchlime.com 」，在今天（2022.04.17）進行了一次大改版。
+來跟大家分享以及更新一下，目前看到的這個網站「Pin 起來 ／ Pinchlime.com」，在今天（2022.04.17）進行了一次大改版。
 
 改版前，這個網站是透過 [Wordpress.com](https://wordpress.com/) 運作的，包含網域的託管，以及內容的管理與撰寫，都是在 Wordpress.com 上面進行。
 
