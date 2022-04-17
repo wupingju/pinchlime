@@ -112,7 +112,7 @@
       name="twitter:image:alt"
       content="{% block ogaltimg %}{{ config.title }}{% endblock ogaltimg %}"
     />
-    {% endif %} {% if config.extra.google_analytics %}
+    {% endif %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JM526KJ2E1"></script>
     <script>
@@ -122,7 +122,6 @@
 
       gtag('config', 'G-JM526KJ2E1');
     </script>
-    {% endif %}
     {% block post_meta %}{% endblock post_meta %}
   </head>
 

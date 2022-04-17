@@ -109,8 +109,15 @@ taxonomies:
 
 第一和第二個步驟大概都各花了 1-2 個平日的晚上，但第三個步驟大概花了我整整一個禮拜進行，不過收穫也是最豐富的。
 
+成果可以看[這張我和 Owen 部落格的對比圖](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/owenblog-pinchlime-comparison_ruMgYD.webp) （因為檔案較大，就不壓縮預覽圖了，可以直接點開看原圖）
 
+左圖是 Owen 的部落格，右圖是 Pin 起來，兩者在 layout 的編排上很相似，我有調整的地方在於：
 
+- 配色、字體
+- 少了左邊的 navbar ，多了首頁的 Logo ，並且[新增了最新文章欄位](/blog/added-latest-section-in-sidebar)
+- 在點到內文後的側邊欄，也加上了「看更多相關文章」以及「看其他最新文章」的欄位
+- 刪除了一些我暫時沒有規劃的 sections ，例如讀書筆記、短想法等等
 
+而在這個過程中，
 
 ## 搬家後有達到原本期待的目標嗎？
