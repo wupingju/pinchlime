@@ -38,18 +38,15 @@
           {% endfor %}
           {% endif %}
           {% endif %}
-          </div>
+        </div>
         
         <div>
           <h1 style="font-size:2rem;">{{ page.title }}</h1>
           <div class="muted">
-            <div>
-              {% if page.date %}{{ trans(key="label_created",lang=lang)}} {{ page.date }}{% endif %}{% if page.updated %} | {{trans(key="label_updated",lang=lang)}} {{ page.updated }} {% endif %}</div>
+            <span>{% block detail_meta_slot %}{% endblock detail_meta_slot %}</span><span>{% if page.date %}{{ trans(key="label_created",lang=lang)}} {{ page.date }}{% endif %}{% if page.updated %} | {{trans(key="label_updated",lang=lang)}} {{ page.updated }} {% endif %}</span>
+          </div>
         </div>
-  
-        </div>
-        {% block detail_meta_slot %}
-        {% endblock detail_meta_slot %}
+
       </header>
       {% endblock detail_meta -%}
       <section>

@@ -56,9 +56,9 @@ paths = "on"
 taxonomies = "on"
 
 [languages.zh-TW]
-build_search_index = false
-description = "介紹生產力工具，以及分享使用心得"
 title = "Pin 起來！"
+description = "介紹生產力工具，以及分享使用心得"
+
 
 [languages.zh-TW.translations]
 keywords = "生產力工具, macOS, 專案管理, 任務管理, PM"

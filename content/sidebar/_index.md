@@ -8,7 +8,7 @@ updated: 2022-04-04
 
 - [關於](/about/)
 - [所有文章](/archive/)
-- [Pin 起來電子報](https://pinchlime.substack.com/)
+- [Pin 起來電子報](/newsletters/)
 - [Pin 起來的工具箱](/toolbox/)
 - [不再 Pin 起來的工具們](/unpinned-toolbox/)
 - [訂閱 RSS](/atom.xml)

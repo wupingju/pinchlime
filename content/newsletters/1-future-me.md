@@ -3,10 +3,10 @@ title: 敢不敢想像五年後的自己？
 date: 2022-02-12
 updated: 2022-02-12
 description: 最近在 IG 限動上面看到不少人在 PO 「敢不敢放上至少五年前的自己」。 這是一個容易用照片來參加的題目，不過我更好奇的是大家怎麼想像五年後的自己。 
-draft: true
+path: newsletters/future-me
+draft: false
 extra:
-  rating: 7
-  author: Test（要這樣設定才能順利 build）
+  issues: 1
 ---
 
 最近在 IG 限動上面看到不少人在 PO 「敢不敢放上至少五年前的自己」。
@@ -20,6 +20,7 @@ extra:
 也有人拿來訂定目標和願景，或者是提醒未來的自己一些應該注意的事，不過我覺得這些事情還是比較適合時時看到，才能追蹤成效。
 
 <!-- more -->
+
 ---
 
 ## Workflow
