@@ -255,6 +255,13 @@ a.muted,
 .flex-1 {
   flex: 1;
 }
+.flex-more{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 2rem;
+}
 .justify-between {
   justify-content: space-between;
 }

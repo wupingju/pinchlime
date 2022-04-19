@@ -13,7 +13,9 @@
       {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
         {{ macro::post_max(page=page) }}   
       {% endfor %} 
- 
-      <h3 class="no-border">{{trans(key="label_all_posts",lang=lang) | markdown(inline=true) | safe}}</h3>
+
+      <div class="flex-more">
+        <h3><a href="/blog/page/2">看更多文章</a></h3>
+      </div>
       </section>
 {% endblock main -%}  
