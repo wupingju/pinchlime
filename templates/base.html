@@ -22,15 +22,6 @@
   itemtype="http://schema.org/Blog"
 >
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JM526KJ2E1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-JM526KJ2E1');
-    </script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta
@@ -121,6 +112,16 @@
       name="twitter:image:alt"
       content="{% block ogaltimg %}{{ config.title }}{% endblock ogaltimg %}"
     />
+    {% endif %}  {% if config.extra.google_analytics %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{config.extra.google_analytics}}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{config.extra.google_analytics}}');
+    </script>
     {% endif %}
     {% block post_meta %}{% endblock post_meta %}
   </head>
