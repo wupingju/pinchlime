@@ -86,6 +86,7 @@
 <h2>{{trans(key="label_table_contents",lang=lang)}}</h2>
 {{ macro::page_toc(toc=page.toc) }}
 <body>
+  {% block newsletter_sidebar_slot %}{% endblock newsletter_sidebar_slot %}
   {% if page.taxonomies %}
   <h2>看更多相關文章</h2>
   <ul class="list-none text-sm">
