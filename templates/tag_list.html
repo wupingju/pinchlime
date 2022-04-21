@@ -1,0 +1,26 @@
+{% extends "base.html" %} 
+{% block title %}{{ config.title }} - Tags{% endblock
+title %}
+{% block main %}
+
+<div class="main-box-block">
+  <div class="page-header">
+    <h1>所有標籤</h1>
+    <p>這邊先簡單依照字母排序各個標籤，之後再來嘗試其他的排版與呈現方式。</p>
+    <br>
+  </div>
+  <ul class="list-none">
+    {% set tags = get_taxonomy(kind="tags",lang=lang) %} {% for tag in tags.items -%}
+    {% set url = get_taxonomy_url(kind="tags",lang=lang, name=tag.name) -%}
+    <li>
+      <a class="no-underline" href="{{ url }}"
+        >{{ tag.name }} ({{ tag.pages | length }})</a
+      >
+    </li>
+    {% endfor %}
+  </ul>
+  <br>
+  <h2 ><a class="no-underline" href="{{lang_prefix_path}}tags/">👉 也可看看根據標籤排序的文章列表</a></h2>
+</div>
+
+{% endblock main %}

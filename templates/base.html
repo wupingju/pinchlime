@@ -168,18 +168,9 @@
             </li>
             {% endfor %} 
           </ul>
-
-          <h2 ><a class="no-underline" href="{{lang_prefix_path}}tags/">{{ trans(key="label_tags",lang=lang) }}</a></h2>
-          <ul class="list-none text-sm">
-            {% set tags = get_taxonomy(kind="tags",lang=lang) %} {% for tag in tags.items -%}
-            {% set url = get_taxonomy_url(kind="tags",lang=lang, name=tag.name) -%}
-            <li class="inline">
-              <a class="no-underline" href="{{ url }}"
-                >{{ tag.name }} ({{ tag.pages | length }})</a
-              >
-            </li>
-            {% endfor %}
-          </ul>
+          <h2 ><a class="no-underline" href="/tag-list/">看本站所有{{ trans(key="label_tags",lang=lang) }}</a></h2>
+          <br>
+          <h2><a href="{{ get_url(path="@/_index.md",lang=lang) }}"> 回到{{trans(key="label_home",lang=lang)}}</a></h2><br>
         </aside>
           {% endblock sidebar %}
 

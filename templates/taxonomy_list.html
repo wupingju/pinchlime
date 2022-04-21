@@ -7,7 +7,7 @@ trans(key="label_categories",lang=lang) }}{% endblock title %} {% block main %}
   <ul class="root-ul">
     {% for category in terms %}
     <li>
-      <a href="{{ category.permalink }}">{{ category.name }}</a> ({{
+      <a class="no-underline" href="{{ category.permalink }}">{{ category.name }}</a> ({{
       category.pages | length }})
       <ul>
         {% for page in category.pages %}
