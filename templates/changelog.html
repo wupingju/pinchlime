@@ -1,0 +1,138 @@
+{% extends "base.html" -%}
+{% block post_meta-%}
+<meta name="title" content="{{ page.title }}">
+<style>
+  .sidebar{
+    display: none;
+  }
+  @media (min-width: 67.5rem) {
+    .sidebar{
+      display: block;
+    }
+  }
+</style>
+{% endblock post_meta -%}
+{% block title %}{{ page.title }} - {{ config.title}}{% endblock title %}
+{% block ogtitle %}{{ page.title }} - {{ config.title}}{% endblock ogtitle %}
+{% block ogdesc %}{% if page.description %} {{ page.description }} {% elif page.summary%} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock ogdesc %}
+{% block description %}{% if page.description %} {{ page.description }} {% elif page.summary%} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock description %}
+{% block ogurl %}{% if page.slug %}{{ config.base_url }}/{{ page.slug }}{% endif %}{% endblock ogurl %}
+{% block ogimg %}{% if page.extra.image %}{{ page.extra.image }}{% endif %}{% endblock ogimg %}
+
+{% block main %}
+      {% block detail_meta -%}
+      <header id="overview">
+        <div class="pt">
+          <span>&gt;&gt;</span>
+          <a href="{{ get_url(path="@/_index.md",lang=lang) }}">{{trans(key="label_home",lang=lang)}}</a>
+          {% if page.taxonomies %}
+          <span class="divider">/</span>
+          <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}">{{
+            page.taxonomies.categories[0] }}</a>
+          
+          {% if page.taxonomies.tags -%}
+          <span class="divider">/</span>
+          {% for tag in page.taxonomies.tags %}
+          <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}{% if
+          loop.index != page.taxonomies.tags | length %},{% endif %}{% endif %}
+          {% endfor %}
+          {% endif %}
+          {% endif %}
+        </div>
+        
+        <div>
+          <h1 style="font-size:2rem;">{{ page.title }}</h1>
+          <div class="muted">
+            <span>{% block detail_meta_slot %}{% endblock detail_meta_slot %}</span><span>{% if page.date %}{{ trans(key="label_created",lang=lang)}} {{ page.date }}{% endif %}{% if page.updated %} | {{trans(key="label_updated",lang=lang)}} {{ page.updated }} {% endif %}</span>
+          </div>
+        </div>
+
+      </header>
+      {% endblock detail_meta -%}
+      <section>
+      
+        <section class="main">
+          <section id="start"></section>
+          <article>
+            {{ page.content | safe }}
+          </article>
+
+          {% if config.extra.email %}
+          <div id="email-comment" class="muted text-sm">
+            <hr class="w-full">
+            {% if config.default_language != lang %}
+            <p>
+              If you have anything want to discuss, feel free to contact me via <a href="mailto:mimir@hey.com?subject={{ "Reply: " ~ page.title | urlencode }}">mail:</a><code>mimir@hey.com</code>
+            </p>
+            {% else %}
+            <p>
+              如果你對於<a href="https://pinchlime.com">本站</a>或本文有任何想討論或分享的，歡迎<a href="mailto:mimir@hey.com?subject={{"回覆："~page.title | urlencode }}">來信</a>到：<code>mimir@hey.com</code> 找我聊聊！
+            </p>
+            {% endif %}
+            
+
+          </div>
+          {% endif %}
+
+        </section>
+        
+       
+      </section>
+{% endblock main%}
+
+{% block sidebar %}
+<aside class="sidebar px {% if page.toc %}{% else %}no-toc{% endif %}">
+{% if page.toc %}
+<body>
+  {% block newsletter_sidebar_slot %}{% endblock newsletter_sidebar_slot %}
+  {% if page.taxonomies %}
+  <h2>看更多相關文章</h2>
+  <ul class="list-none text-sm">
+    <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}">➤&emsp;其他 {{
+      page.taxonomies.categories[0] }} 分類</a><br>      
+    {% if page.taxonomies.tags -%}
+    {% for tag in page.taxonomies.tags %}
+    <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">➤&emsp;其他 {{ tag }} 標籤</a>{% if page.taxonomies.tags | length > 1 %}{% if
+    loop.index != page.taxonomies.tags | length %}<br>{% endif %}{% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endif %}
+  </ul>
+  <br>
+  <br>
+</body>
+
+<h2>看{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+<ul>
+  {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
+  {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+  <li>
+    <a class="no-underline"
+      >{{ macro::post_side(page=page) }}
+  </li>
+  {% endfor %} 
+</ul>
+<h2>看最新電子報</h2>
+<ul>
+  {% set all_blog_pages = get_section(path="newsletters/_index"~file_lang_path~".md") -%}
+  {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+  <li>
+    {{ macro::newsletters_side(page=page) }}
+  </li>
+  {% endfor %} 
+</ul>
+<h2>看更多文章</h2>
+<ul>
+  <li class="no-underline">
+    <a href="/tag-list/">依{{ trans(key="label_tags",lang=lang) }}</a>
+  </li>
+  <li class="no-underline">
+    <a href="/archive/">依時序</a>
+  </li>
+</ul>
+<br>
+<h2><a href="{{ get_url(path="@/_index.md",lang=lang) }}"> 回到{{trans(key="label_home",lang=lang)}}</a></h2><br>
+{% endif %}
+</aside>
+
+{% endblock sidebar %}

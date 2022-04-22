@@ -3,7 +3,8 @@ title: Pin 起來的 Changelog
 path: changelog/
 draft: false
 date: 2022-04-20
-updated: 2022-04-20
+updated: 2022-04-21
+template: changelog.html
 ---
 
 這邊放置 Pin 起來網站的 Changelog。
@@ -20,6 +21,24 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 - 修訂號：表示部落格既有功能有修改內容，例如 css 樣式的調整、既有頁面或段落的連結調整、或者分類類別的調整等。
 
 以下是依時間倒序排列的 changelogs ，歡迎瀏覽！
+
+---
+
+## [1.4.0] - 2022-04-22
+
+### Added
+
+- 在首頁側邊欄上也新增了最新電子報的區塊，抓取最新五篇電子報。
+
+### Changed
+
+- 把首頁側邊欄的最新文章改為 5 篇，以避免太多內容。
+- 把「所有文章歸檔」從常用連結移至下方，跟「所有標籤」整合成為「看更多文章」，並且改成「依標籤」以及「依時序」，讓同性質的內容（完整檢索文章）一起出現。
+- 把 Changelog 這頁右上的「目錄」拿掉，避免內容過多以後側邊欄變得無法閱讀。拿掉的方式很笨，是複製 page.html 變成一份 changelog.html ，然後本頁的 template 設置成 changelog.html。
+
+### Fixed
+
+- 原本在[關於](/about/)頁面中，[Pin 起來的 新Logo](/2022/02/27/the-new-logo-of-pinchlime/) 的連結設錯了，改回正確的內容。
 
 ---
 

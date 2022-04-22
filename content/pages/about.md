@@ -15,7 +15,7 @@ Pin 起來這個部落格當時是先想好中文的名字，覺得很喜歡這�
 
 而 Pinchlime 則是自己自創的單字，它唸起來的感覺有點像中文的 Pin 起來，而字義上也有點類似於 "Punchline" ，不過就是把 Punch 改成了 Pinch ，把 Line 改成了 Lime。
 
-在 [Pin 起來的 新Logo](/2022/02/07/the-new-logo-of-pinchlime/) 這篇裡面也有簡單提到，目前的 Logo 帶有一點 "pin" + "lime" 的意象在裡面。
+在 [Pin 起來的 新Logo](/2022/02/27/the-new-logo-of-pinchlime/) 這篇裡面也有簡單提到，目前的 Logo 帶有一點 "pin" + "lime" 的意象在裡面。
 
 ## 關於 Pin 起來的架設
 

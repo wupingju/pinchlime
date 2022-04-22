@@ -160,7 +160,7 @@
           <h2>{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
           <ul>
             {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
-            {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
+            {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
             <li>
               <a class="no-underline">
                 {{ macro::post_side(page=page) }}
@@ -168,12 +168,27 @@
             </li>
             {% endfor %} 
           </ul>
-          <h2 ><a class="no-underline" href="/tag-list/">看本站所有{{ trans(key="label_tags",lang=lang) }}</a></h2>
-          <br>
+          <h2>最新電子報</h2>
+          <ul>
+            {% set all_blog_pages = get_section(path="newsletters/_index"~file_lang_path~".md") -%}
+            {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+            <li>
+              {{ macro::newsletters_side(page=page) }}
+            </li>
+            {% endfor %} 
+          </ul>
+          <h2>看更多文章</h2>
+          <ul>
+            <li class="no-underline">
+              <a href="/tag-list/">依{{ trans(key="label_tags",lang=lang) }}</a>
+            </li>
+            <li class="no-underline">
+              <a href="/archive/">依時序</a>
+            </li>
+          </ul>
           <h2><a href="{{ get_url(path="@/_index.md",lang=lang) }}"> 回到{{trans(key="label_home",lang=lang)}}</a></h2><br>
         </aside>
           {% endblock sidebar %}
-
       </main>
       {% endblock body_zone -%}
    
