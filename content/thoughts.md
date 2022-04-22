@@ -7,7 +7,7 @@ updated: 2022-04-09
 draft: true
 taxonomies:
   categories:
-    - Misc
+    - Random
   tags:
     - Thoughts
 ---
