@@ -14,9 +14,9 @@
 {% endblock post_meta -%}
 {% block title %}{{ page.title }} - {{ config.title}}{% endblock title %}
 {% block ogtitle %}{{ page.title }} - {{ config.title}}{% endblock ogtitle %}
-{% block ogdesc %}{% if page.description %} {{ page.description }} {% elif page.summary%} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock ogdesc %}
-{% block description %}{% if page.description %} {{ page.description }} {% elif page.summary%} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock description %}
-{% block ogurl %}{% if page.slug %}{{ config.base_url }}/{{ page.slug }} {% elif page.path%}{{ config.base_url }}/{{ page.path }} {% endif %}{% endblock ogurl %}
+{% block ogdesc %}{% if page.description %} {{ page.description }} {% elif page.summary %} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock ogdesc %}
+{% block description %}{% if page.description %} {{ page.description }} {% elif page.summary %} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock description %}
+{% block ogurl %}{% if page.path %}{{ config.base_url }}/{{ page.path }} {% endif %}{% endblock ogurl %}
 {% block ogimg %}{% if page.extra.image %}{{ page.extra.image }}{% endif %}{% endblock ogimg %}
 
 {% block main %}
