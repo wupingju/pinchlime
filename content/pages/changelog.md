@@ -26,6 +26,10 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ## [1.4.1] - 2022-04-23
 
+### Added
+
+- 嘗試透過 Logseq 內建的 Export graph 功能，建立一個靜態的 wiki 架構網站，並且順利部署在 Netlify 上面，也順利設定了子網域 [https://wiki.pinchlime.com](https://wiki.pinchlime.com) ，之後再來慢慢更新。
+
 ### Fixed
 
 - 在 base.html 加上了 og:image 的 width & height ，也增加了一個 `<meta name="twitter:image" />` 的設定，目前看起來在 Twitter 分享時總算有縮圖了！也學到可以透過 Twitter 的 [Card Validator](https://cards-dev.twitter.com/validator) 先預覽連結縮圖。
