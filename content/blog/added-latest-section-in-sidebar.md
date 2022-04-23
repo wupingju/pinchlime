@@ -4,6 +4,7 @@ date: 2022-04-13
 updated: 2022-04-13
 draft: false
 description: 透過這次修改的經驗，更熟悉 Zola 裡面的 base.html 跟 macro.html 是怎麼互動的，覺得很有邏輯，連我這種完全程式外行的人都能改出自己想要的感覺，相當開心！
+path: blog/added-latest-section-in-sidebar
 taxonomies:
   categories: 
     - Pinchlime
