@@ -24,7 +24,20 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
-## [1.4.1] - 2022-04-23
+## [1.6.0] - 2022-04-24
+
+### Added
+
+- 新增了電子報專屬的[「所有電子報歸檔」](/newsletters/archive) 頁面，參考[「所有文章歸檔」](/archive) 的製作方式，依照時序排列發布過的電子報們。
+
+### Changed
+
+- 微調 archive.html ，把[「所有文章歸檔」](/archive)裡面的內容限定在「部落格」的文章，排除掉「電子報」類型的文章。覺得兩者的文體不太一樣，電子報應該可以有自己的歸檔頁面。（微調方式是把 `{% set all_section_pages = get_section(path="_index.md") %}` 改為 `{% set all_section_pages = get_section(path="blog/_index.md") %}` ，另外也把這段往下拉到 {% block main %} 裡面，避免抓到 base.html 的內容。
+
+
+---
+
+## [1.5.0] - 2022-04-23
 
 ### Added
 

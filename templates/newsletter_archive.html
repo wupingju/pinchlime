@@ -11,14 +11,14 @@
 
 {% block main %} 
 <div class="main-box-block">
-{% set all_blog_pages = get_section(path="blog/_index.md") %}
+{% set all_blog_pages = get_section(path="newsletters/_index.md") %}
 
 {% for year, posts in all_blog_pages.pages | group_by(attribute="year") %}
 <h2>{{ year }}</h2>
 
 <ul class="list-none">
   {% for post in posts %}
-  <li>{{ macro::post_min(page=post) }}</li>
+  <li>{{ macro::newsletters_min(page=post) }}</li>
   {% endfor %}
 </ul>
 <hr>
