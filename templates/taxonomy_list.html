@@ -6,21 +6,33 @@
 {% block ogurl %}{{ config.base_url }}/{{ taxonomy.name }}{% endblock ogurl %}
 {% block main %}
 <div class="main-box-block">
-  <div class="page-header">
-    <h1>All {{ taxonomy.name }}</h1>
-  </div>
-  <ul class="root-ul">
-    {% for category in terms %}
-    <li>
-      <a class="no-underline" href="{{ category.permalink }}">{{ category.name }}</a> ({{
-      category.pages | length }})
-      <ul>
-        {% for page in category.pages %}
-        <li>{{ macro::post_min(page=page) }}</li>
-        {% endfor %}
-      </ul>
-    </li>
-    {% endfor %}
-  </ul>
+
+  <header id="overview">
+    <div class="pt">
+      <span>&gt;&gt;</span>
+      <a href="{{ get_url(path="@/_index.md",lang=lang) }}">{{trans(key="label_home",lang=lang)}}</a>
+      {% if term.name -%}
+      <span class="divider"> / </span> {{ term.name }}
+      {% endif -%}
+      </div>
+  </header>
+  <section>
+    <div class="page-header">
+      <h1>All {{ taxonomy.name }}</h1>
+    </div>
+    <ul class="root-ul">
+      {% for category in terms %}
+      <li>
+        <a class="no-underline" href="{{ category.permalink }}">{{ category.name }}</a> ({{
+        category.pages | length }})
+        <ul>
+          {% for page in category.pages %}
+          <li>{{ macro::post_min(page=page) }}</li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
 </div>
 {% endblock main %}

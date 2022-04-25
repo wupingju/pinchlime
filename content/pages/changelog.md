@@ -27,6 +27,12 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ## [1.6.1] - 2022-04-25
 
+### Changed
+
+- 把單一 category 或 tag 的頁面改成只有標題與發布日期。考量點之一是避免同樣的預覽內容重複被搜尋引擎檢索，考量點之二是我覺得透過 categories 或 tags 的連結點進來想看文章的人，如果可以一次看到完整的文章列表，可能可以更快找到「更想看」的內容（而不是依照時序，倒序排列的預覽內容）。
+
+改的方式是把原先 taxonomy_single 採用的 macro 由 post_max 改為 post_min ，並把 macro::paginator 拿掉。
+
 ### Fixed
 
 - 修復了站內每個頁面的 og:url, og:title & og:descriptoon，原先許多頁面並沒有特別設置，或者路徑有誤。以下是目前站內主要的幾種 og:url 路徑：

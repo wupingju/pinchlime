@@ -17,10 +17,18 @@
       </div>
   </header>
   <section>
-    {% if paginator %} {% for page in paginator.pages %} {{
-      macro::post_max(page=page) }} {% endfor %} {{ macro::paginator(ref=paginator,
-      extra=config.extra) }} {% else %} {% for page in section.pages %} {{
-      macro::post_max(page=page) }} {% endfor %} {% endif %}
+    {% if paginator %} 
+    <div class="page-header">
+      <h1> {{ term.name }} </h1>
+    </div>
+    <ul class="root-ul">
+      {% for page in paginator.pages %} 
+      <li>
+        {{ macro::post_min(page=page) }}
+      </li>
+      {% endfor %} 
+    </ul>
+    {% endif %}
   </section>
 </div>
 {% endblock main %}
