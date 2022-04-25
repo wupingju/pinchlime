@@ -1,5 +1,6 @@
 ---
 title: Pin 起來的 Changelog
+description: 這邊放置 Pin 起來網站的 Changelog，主要的內容是描述「這個網站」本身的變化，包含新增、調整、或刪除的內容。
 path: changelog/
 draft: false
 date: 2022-04-20
@@ -21,6 +22,29 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 - 修訂號：表示部落格既有功能有修改內容，例如 css 樣式的調整、既有頁面或段落的連結調整、或者分類類別的調整等。
 
 以下是依時間倒序排列的 changelogs ，歡迎瀏覽！
+
+---
+
+## [1.6.1] - 2022-04-25
+
+### Fixed
+
+- 修復了站內每個頁面的 og:url, og:title & og:descriptoon，原先許多頁面並沒有特別設置，或者路徑有誤。以下是目前站內主要的幾種 og:url 路徑：
+
+```rust
+# Pages 的 og:url ：
+{% block ogurl %}{% if page.path %}{{ config.base_url }}{{ page.path }} {% endif %}{% endblock ogurl %}
+
+# Sections 的 og:url ：
+{% block ogurl %}{{ config.base_url }}{{ section.path }}{% endblock ogurl %}
+
+# Taxonomy List 的 og:url ：
+{% block ogurl %}{{ config.base_url }}/{{ taxonomy.name }}{% endblock ogurl %}
+
+# Taxonomy Single 的 og:url ：
+{% block ogurl %}{{get_taxonomy_url(kind=taxonomy.name,lang=lang, name=term.name)}}{% endblock ogurl %}
+```
+感謝 [@Owen](https://twitter.com/OwenYoungZh) 跟我分享這些錯誤，讓我好好地修復了一下。
 
 ---
 

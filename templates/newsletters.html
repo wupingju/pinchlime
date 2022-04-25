@@ -1,4 +1,9 @@
 {% extends "base.html" -%} 
+{% block title %}{{ config.title }} - {{ section.title }}{% endblock title %}
+{% block ogtitle %}{{ config.title }} - {{ section.title }}{% endblock ogtitle %}
+{% block description %}{{ section.title }}{% endblock description %}
+{% block ogdesc %}{{ section.title }}{% endblock ogdesc %}
+{% block ogurl %}{{ config.base_url }}{{ section.path }}{% endblock ogurl %}
 {% block main -%}
 
 {% if paginator %}
@@ -6,7 +11,7 @@
 {% set_global section_content = section.content %}
 
 {% else %}
-{% set_global newsletters_section = get_section(path="blog/books/_index.md") -%}
+{% set_global newsletters_section = get_section(path="newsletters/_index.md") -%}
 {% set_global section_pages = newsletters_section.pages | sort(attribute="updated") %}
 {% set_global section_pages = section_pages | reverse %}
 {% set_global section_content = newsletters_section.content %}

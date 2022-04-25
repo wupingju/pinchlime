@@ -1,6 +1,14 @@
-{% extends "base.html" -%} {% block main -%} {% set_global file_lang_path = ""
-%} {% if config.default_language != lang %} {% set_global file_lang_path = "." ~
-lang %} {% endif %}
+{% extends "base.html" %} 
+{% block title %}{{ config.title }} - {{ section.title }}{% endblock title %}
+{% block ogtitle %}{{ config.title }} - {{ section.title }}{% endblock ogtitle %}
+{% block description %}{{ section.title }}{% endblock description %}
+{% block ogdesc %}{{ section.title }}{% endblock ogdesc %}
+{% block ogurl %}{{ config.base_url }}{{ section.path }}{% endblock ogurl %}
+{% block main %} 
+{% set_global file_lang_path = "" %} 
+{% if config.default_language != lang %} 
+{% set_global file_lang_path = "." ~ lang %} 
+{% endif %}
 <section>
   <header id="overview">
     <div class="pt">
@@ -16,4 +24,4 @@ lang %} {% endif %}
   extra=config.extra) }} {% else %} {% for page in section.pages %} {{
   macro::post_max(page=page) }} {% endfor %} {% endif %}
 </section>
-{% endblock main -%}
+{% endblock main %}

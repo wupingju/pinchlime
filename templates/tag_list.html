@@ -1,6 +1,9 @@
 {% extends "base.html" %} 
-{% block title %}{{ config.title }} - Tags{% endblock
-title %}
+{% block title %}{{ config.title }} - All tags{% endblock title %}
+{% block ogtitle %}{{ config.title }} - All tags{% endblock ogtitle %}
+{% block description %}All tags{% endblock description %}
+{% block ogdesc %}All tags{% endblock ogdesc %}
+{% block ogurl %}{% if page.path %}{{ config.base_url }}{{ page.path }} {% endif %}{% endblock ogurl %}
 {% block main %}
 
 <div class="main-box-block">
