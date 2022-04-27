@@ -25,6 +25,14 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [1.6.2] - 2022-04-27
+
+### Changed
+
+- 把 config.toml 裡面， tags 跟 categories 兩個 taxonomies 的 feeds 及 paginator 開關都關閉，覺得我的內容沒多到要用類別來訂閱，所以不需要開那麼多 feeds ，而在取消全文預覽後也不需要分頁，讓整個頁面的架構更單純一些。 
+
+---
+
 ## [1.6.1] - 2022-04-25
 
 ### Changed

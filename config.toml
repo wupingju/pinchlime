@@ -6,8 +6,8 @@ description = "介紹生產力工具，以及分享使用心得"
 generate_feed = true
 generate_rss = true
 taxonomies = [
-  {name = "tags", feed = true, paginate_by = 20},
-  {name = "categories", feed = true, paginate_by = 20},
+  {name = "tags"},
+  {name = "categories"},
 ]
 title = "Pinchlime"
 
@@ -92,8 +92,8 @@ generate_rss = true
 highlight_code = true
 smart_punctuation = true
 taxonomies = [
-  {name = "tags", feed = true, paginate_by = 20},
-  {name = "categories", feed = true, paginate_by = 20},
+  {name = "tags"},
+  {name = "categories"},
 ]
 title = "Pinchlime"
 [languages.en.translations]
