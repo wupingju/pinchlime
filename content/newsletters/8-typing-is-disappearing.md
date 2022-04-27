@@ -56,7 +56,7 @@ extra:
 
 ## 新東西分享
 
-本週要分享的新東西是 [上週電子報](/newsletters/a-personal-changelog?s=w)裡面提到的，可以讓人建立自己 changelog 的新創服務 [Polywork](https://www.polywork.com/)
+本週要分享的新東西是 [上週電子報](/newsletters/a-personal-changelog)裡面提到的，可以讓人建立自己 changelog 的新創服務 [Polywork](https://www.polywork.com/)
 
 幾天前收到開通帳號的信件，就註冊來玩玩，目前自己的頁面是： [https://www.polywork.com/wupingju](https://www.polywork.com/wupingju)  
 
