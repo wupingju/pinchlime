@@ -1,4 +1,7 @@
 {% extends "base.html" %} 
+{% block canonical_url %}
+<link rel="canonical" href="{{ config.base_url }}{{ section.path }}" />
+{% endblock canonical_url %}
 {% block title %}{{ config.title }} - {{ section.title }}{% endblock title %}
 {% block ogtitle %}{{ config.title }} - {{ section.title }}{% endblock ogtitle %}
 {% block description %}{{ section.title }}{% endblock description %}

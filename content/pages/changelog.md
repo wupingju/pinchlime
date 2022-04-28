@@ -25,6 +25,15 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [1.6.3] - 2022-04-28
+
+### Fixed
+
+- 在 base.html 增加了一段 `{% block canonical_url %}{% endblock canonical_url %}` ，並且在 section.html 頂端加上這個 block ，把 paginator 的 section 頁面加上 canonical 的標籤。
+
+
+---
+
 ## [1.6.2] - 2022-04-27
 
 ### Changed

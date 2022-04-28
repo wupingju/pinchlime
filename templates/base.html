@@ -33,6 +33,7 @@
     {% if config.generate_rss %} <link rel="alternate"
     type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml") }}">
     {% endif %}
+    {% block canonical_url %}{% endblock canonical_url %}
     <meta
       name="description"
       itemprop="about"
