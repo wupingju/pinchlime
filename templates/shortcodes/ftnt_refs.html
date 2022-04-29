@@ -1,0 +1,6 @@
+{%- set arr_len = idxs | length -%}
+{%- set last_idx = arr_len - 1 -%}
+{%- for i in range(end=arr_len) -%}
+{%- set idx = idxs | nth( n=i ) -%}
+<sup {%- if not no_back_ref %} id="ftntref:{{- idx -}}"{%- endif -%}><a href="#ftnt:{{- idx -}}">{{- idx -}}</a>{%- if i != last_idx -%}, {% endif -%}</sup>
+{%- endfor -%}

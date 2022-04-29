@@ -1,0 +1,6 @@
+{%- set idx_str = idx | as_str -%}
+<p id="ftnt:{{- idx_str -}}"><sup>[{{- idx_str -}}]</sup>&nbsp;{{- body | markdown( inline = true ) | safe -}}
+{%- if not no_back_ref -%}
+&nbsp;<a href="#ftntref:{{- idx_str -}}">&#8617;&#65038;</a>
+{%- endif -%}
+</p>
