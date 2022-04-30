@@ -14,6 +14,7 @@ taxonomies:
     - Netlify
     - Github
     - Markdown
+    - Static Sites
 ---
 
 ![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zola-banner_pOklOy.webp)

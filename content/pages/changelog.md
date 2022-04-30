@@ -23,6 +23,15 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 以下是依時間倒序排列的 changelogs ，歡迎瀏覽！
 
+--- 
+
+## [1.7.0] - 2022-04-30
+
+### Added
+
+- 部落格上線了 footnotes 的功能，具體的說明可以看[部落格新增了 Footnotes 註腳的功能](/blog/added-footnotes-function)這篇文章。
+
+
 ---
 
 ## [1.6.3] - 2022-04-28
