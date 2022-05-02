@@ -234,6 +234,9 @@ a:hover {
   padding-bottom: 1.5rem;
   color: #b3b3b1;
 }
+.footnote-muted {
+  font-size: 1.0rem;
+}
 a.muted,
 .muted:link,
 .muted:visited {

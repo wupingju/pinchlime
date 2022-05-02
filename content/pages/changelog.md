@@ -4,7 +4,7 @@ description: 這邊放置 Pin 起來網站的 Changelog，主要的內容是描�
 path: changelog/
 draft: false
 date: 2022-04-20
-updated: 2022-04-21
+updated: 2022-05-03
 template: changelog.html
 ---
 
@@ -22,6 +22,16 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 - 修訂號：表示部落格既有功能有修改內容，例如 css 樣式的調整、既有頁面或段落的連結調整、或者分類類別的調整等。
 
 以下是依時間倒序排列的 changelogs ，歡迎瀏覽！
+
+--- 
+
+## [1.7.1] - 2022-05-02
+
+### Changed
+
+- 微調註腳的樣式，把字級調小，讓註腳的內容跟本文有一點區別性。調整的方式是：
+1. 在 ftnt.html 這個 shortcode 裡面，<p> 的地方新增一個 p class。
+2. 在 site.css 裡面，定義這個 class 的字級大小。
 
 --- 
 
