@@ -21,19 +21,22 @@ taxonomies:
 
 因此簡單摸索了一下 Raycast ，就發現裡面 Quicklinks 這個功能相當好玩。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-quicklink_vNO8bi.webp)
+
+<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-quicklink_vNO8bi.webp" width = "622" alt="raycast-quicklink" align=center />
+
 
 <!-- more -->
+---
 
 ## Quicklink 可以做什麼？
 
 這個功能乍看之下，是可以預設好要搜尋的網站（例如下圖是預設在 Google 搜尋），此時自己在 Raycast 輸入的字串就會跑到 {Query} 這個位置中，進而可以直接取得搜尋後的內容。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-google-query_9thLA0.webp)
+<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-google-query_9thLA0.webp" width = "768" alt="raycast-quicklink" align=center />
 
 例如我將 Google 搜尋的 quicklink 設定關鍵字為 “gg” ，所以當我在 Raycast 輸入 gg 時，就會跑出一個 [Query] 的格子（如下圖）。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-query-preset_duWafL.webp)
+<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-query-preset_duWafL.webp" width = "768" alt="raycast-quicklink" align=center />
 
 假設我在這邊輸入 Pin 起來，並按下 enter 送出，那麼 Raycast 就會在我設定的瀏覽器，幫我到 Google ，搜尋「Pin 起來」。
 
