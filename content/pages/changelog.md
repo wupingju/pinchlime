@@ -23,6 +23,14 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 以下是依時間倒序排列的 changelogs ，歡迎瀏覽！
 
+---
+
+## [1.7.2] - 2022-05-08
+
+### Changed
+
+- 把 Pin 起來的 wiki page 從 Logseq 改為 Dendron 輸出，網址不變一樣是 [https://wiki.pinchlime.com](https://wiki.pinchlime.com)，但內容則換了。也覺得可以把連結放到 Sidebar 上面了。
+
 --- 
 
 ## [1.7.1] - 2022-05-02
@@ -107,7 +115,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Added
 
-- 嘗試透過 Logseq 內建的 Export graph 功能，建立一個靜態的 wiki 架構網站，並且順利部署在 Netlify 上面，也順利設定了子網域 [https://wiki.pinchlime.com](https://wiki.pinchlime.com) ，之後再來慢慢更新。
+- 嘗試透過 Logseq 內建的 Export graph 功能，建立一個靜態的 wiki 架構網站，並且順利部署在 Netlify 上面，也順利設定了子網域 [https://logseq.pinchlime.com](https://logseq.pinchlime.com) ，之後再來慢慢更新。
 
 ### Fixed
 
