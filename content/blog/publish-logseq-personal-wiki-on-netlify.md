@@ -1,5 +1,5 @@
 ---
-title: 如何透過 Logseq publish 在 Netlify 上建立個人 wiki
+title: 如何透過 Logseq publish 在 Netlify 上建立個人 wiki？
 date: 2022-05-21
 updated: 2022-05-21
 path: blog/publish-logseq-personal-wiki-on-netlify
