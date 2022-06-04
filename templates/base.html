@@ -123,7 +123,22 @@
   </head>
 
   <body>
-    <section id="top"></section>
+    <section id="top">
+      <nav class="navbar-top">
+        <div>
+          <a class="navbar-a" href="{{ config.base_url~lang_prefix_path }}" >
+            <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-no-sub_FzfQ69.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
+            <div class="navbar-name">Pin 起來</div>
+          </a> 
+        </div>
+        <span>&nbsp;&nbsp;&nbsp;</span>
+        <div class="justify-between">
+          <a class="no-underline" href="/blog/">文章</a>&nbsp;
+          <a class="no-underline" href="/newsletters/">電子報</a>&nbsp;
+          <a class="no-underline" href="/archive/">歸檔</a>
+        </div>
+      </nav>
+    </section>
     <section id="root" >
       {% block body_zone -%}
       <main class="body-zone flex justify-between flex-1">
@@ -181,8 +196,7 @@
             <li class="no-underline">
               <a href="/archive/">依時序</a>
             </li>
-          </ul>
-          <h2><a href="{{ get_url(path="@/_index.md",lang=lang) }}"> 回到{{trans(key="label_home",lang=lang)}}</a></h2><br>
+          </ul>          
         </aside>
           {% endblock sidebar %}
       </main>

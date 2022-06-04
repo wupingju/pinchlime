@@ -1,13 +1,7 @@
 {% extends "base.html" -%} 
 {% block main -%}
 
-      <section >
-        <a href="/">
-          <img src="logo.png"alt="The logo of Pinchlime"width="180"height="180"style="display:block; margin:auto;">
-        </a>
-      </section>
       {{ section.content | safe }}
-      <hr class="w-full">
       <section class="articles">
       {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
       {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
