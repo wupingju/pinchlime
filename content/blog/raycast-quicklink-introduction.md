@@ -22,7 +22,7 @@ taxonomies:
 因此簡單摸索了一下 Raycast ，就發現裡面 Quicklinks 這個功能相當好玩。
 
 
-<img loding="lazy" src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-quicklink_vNO8bi.webp" width = "622" height = "878" alt="raycast-quicklink" align=center />
+<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-quicklink_vNO8bi.webp" loading="lazy" width = "622" height = "878" alt="raycast-quicklink" align=center />
 
 
 <!-- more -->
