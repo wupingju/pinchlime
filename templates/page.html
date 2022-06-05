@@ -55,6 +55,16 @@
           <section id="start"></section>
           <article>
             {{ page.content | safe }}
+            {% if page.taxonomies.tags %}
+            <p>
+              {% for tag in page.taxonomies.tags %}
+              <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags",lang=lang, name=tag) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
+              {% if loop.index != page.taxonomies.tags | length %}&nbsp;{% endif %}{% endif %}
+            {% endfor %}
+            </p>
+           
+            {% endif %}
+             <br>
           </article>
 
           {% if config.extra.email %}
