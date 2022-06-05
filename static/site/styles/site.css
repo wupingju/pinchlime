@@ -203,7 +203,9 @@ ul {
 .no-underline {
   text-decoration: none;
 }
-a:link,
+a:link {
+  color: #000000;
+}
 a:visited {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
