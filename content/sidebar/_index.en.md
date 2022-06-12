@@ -7,7 +7,7 @@ updated: 2022-04-04
 ## Links you may need
 
 - [About](/en/about/)
-- [Pinchlime's Wiki](https://wiki.pinchlime.com/)
+- [Pinchlime's notes & snapshots](https://notes.pinchlime.com/)
 - [Pin 起來電子報](https://pinchlime.substack.com/)
 - [Pinchlime's Toolbox](/en/toolbox/)
 - [Unpinned Toolbox](/en/unpinned-toolbox/)
