@@ -66,6 +66,18 @@
             {% endif %}
              <br>
           </article>
+          <hr class="w-full">
+          <h2>Write your comment</h2>
+          <br>
+          <div id="cusdis_thread"
+          data-host="https://comments.pinchlime.com"
+          data-app-id="d39e9f8e-53f2-48bc-a699-980cc0a4b00c"
+          data-page-id="{{ page.path }}"
+          data-page-url="{{ config.base_url }}{{ page.path }}"
+          data-page-title="{{ page.title }}"
+          data-theme="light"
+        ></div>
+        <script async defer src="https://comments.pinchlime.com/js/cusdis.es.js"></script>
 
           {% if config.extra.email %}
           <div id="email-comment" class="muted text-sm">
