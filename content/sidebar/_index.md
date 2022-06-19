@@ -7,7 +7,7 @@ updated: 2022-04-04
 ## 常用連結
 
 - [關於](/about/)
-- [Pin 起來的筆記與想法](https://notes.pinchlime.com/)
+- [Pin 起來的筆記與想法快照](https://notes.pinchlime.com/)
 - [Pin 起來的工具箱](/toolbox/)
 - [不再 Pin 起來的工具們](/unpinned-toolbox/)
 - [Pin 起來的 Changelog](/changelog/)
