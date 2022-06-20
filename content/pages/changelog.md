@@ -25,6 +25,22 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [1.10.0] - 2022-06-19
+
+### Added
+
+- 成功地安裝了網站的評論系統 [Cusdis](https://cusdis.com/) ！目前在每篇文章與電子報底下都可以留言，完全匿名，但會需要由我審核通過才會出現，基本上我的原則是全部都會通過，除非是無意義的灌水或洗版。這部分之後再來訂規則好了，很開心部落格有了這個簡單清爽的留言評論系統。
+
+---
+
+## [1.9.0] - 2022-06-18
+
+### Added
+
+- 網站的數據追蹤系統改為 [umami](https://umami.is/) ，安裝的紀錄可以參考[嘗試安裝 umami 成功](https://notes.pinchlime.com/snapshots/what-i-tried-today/tried-to-install-umami-on-my-websites)這篇文。安裝後也把 Google Analytics 的追蹤碼移除了！
+
+---
+
 ## [1.8.0] - 2022-06-04
 
 ### Added
