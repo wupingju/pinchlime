@@ -80,3 +80,7 @@ taxonomies:
 Logseq 也能快速方便地透過標籤篩選筆記，然後將這些筆記全部丟到側邊欄，再交互拖曳移動編輯，在這過程中也能很輕鬆地建立雙向連結，但我覺得 Logseq 編輯長文字的體驗不太好，這一點就令它引用撰寫的範圍限定在新的「列點筆記」，而難以舒適地組織長文字。
 
 而我現在覺得，或許更好的做法，是**讓 Heptabase 跟 Logseq 各自發揮擅長的地方**，讓表面層的思考交給 Logseq ，而思考後沉澱的內容則放置在 Heptabase ，成為一則一則展開自己生命的原子卡片，這是我嘗試卡片寫作法後暫時的最佳解。
+
+---
+看更多關於 Heptabase 的文：
+- [迅速迭代功能的 Heptabase 已成為我最愛用的知識管理工具](/blog/heptabase-has-already-become-my-favorite-pkm-tool)
