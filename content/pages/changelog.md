@@ -25,6 +25,15 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [1.10.1] - 2022-07-03
+
+### Removed
+
+- 移除了「新 Pin 上線」這個類別的文章，因為我近期發現，這類嚐鮮介紹的內容我大多會直接放在 Pin 起來的想法與筆記裡面的「[What I Found Interesting](https://notes.pinchlime.com/categories/what-i-found-interesting/)」類別裡面。既然這樣，那就把原先的類別簡化一下，把這些都放回 [Tools](/categories/tools/) 類別裡面。
+
+
+---
+
 ## [1.10.0] - 2022-06-19
 
 ### Added

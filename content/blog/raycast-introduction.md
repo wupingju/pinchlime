@@ -1,12 +1,12 @@
 ---
-title: Raycast - 讓你更專注的高效率啟動器 – 《新 Pin 上線 ＃3》
+title: Raycast - 讓你更專注的高效率啟動器
 date: 2022-04-02
 updated: 2022-04-02
 path: 2022/04/02/raycast-introduction/
 description: Raycast 在我短短體驗的心得看來，是個更親人、更好入門，但功能卻不打折的超級啟動器，能減少很多繁瑣的流程，讓自己更專注於完成那些想進行的任務。
 taxonomies:
   categories: 
-    - New Pins
+    - Tools
   tags: 
     - Raycast
     - Launcher
