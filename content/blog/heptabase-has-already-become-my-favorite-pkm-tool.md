@@ -214,5 +214,5 @@ Hi！
 ---
 
 看更多關於 Heptabase 的文：
-- [Heptabase - 透過白板促進思考與學習效率的視覺系筆記工具 - 《新 Pin 上線 ＃2》](/2022/02/27/heptabase-introduction/)
+- [Heptabase 介紹 - 以卡片為基礎的強大知識管理工具](/2022/02/27/heptabase-introduction/)
 - [用 Heptabase 進行卡片寫作的心得](/2022/03/07/implementing-zettelkasten-in-heptabase/)
