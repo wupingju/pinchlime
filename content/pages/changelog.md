@@ -25,6 +25,17 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [1.10.2] - 2022-07-10
+
+### Changed
+
+- 效仿 [Owen 的部落格作法](https://www.owenyoung.com/en/changelog/#2022-07-06-desktop-read-mode)，把部落格的內文區塊區隔開來，製造出類似 reader mode 的效果，讓文章的區塊更好閱讀。
+
+- 對照圖：![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/reader-mode_9FwDHl.webp)
+
+
+---
+
 ## [1.10.1] - 2022-07-03
 
 ### Removed

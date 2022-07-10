@@ -79,7 +79,7 @@ html {
   --colors-primary: #4363bb;
   --colors-divider: rgb(226, 232, 240);
   --colors-primary-light: #8ca0d4;
-  --colors-code-background: #edf0f3;
+  --colors-code-background: rgba(0, 0, 0, 0.08);
   --colors-background: #f2f2f2;
   --colors-secondary: #14213d;
 }
@@ -119,6 +119,19 @@ h3 {
   font-weight: 500;
   position: relative;
 }
+
+.relative {
+  position: relative;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.mb-absolute {
+  margin-bottom: -0.8rem;
+}
+
 .no-border {
   border: none;
 }
@@ -165,11 +178,8 @@ pre > code {
 hr {
   display: block;
   height: 1px;
-  width: 55%;
-  border: 0;
-  border-top: 1px solid var(--colors-divider);
-  margin: 1em 0;
-  padding: 0;
+  width: 100%;
+  border: 0.5px solid var(--colors-divider);
 }
 ul {
   margin-top: 1.4rem;
@@ -264,8 +274,14 @@ a.muted,
 .flex {
   display: flex;
 }
+.flex-3 {
+  flex: 3;
+}
 .flex-1 {
   flex: 1;
+}
+.flex-warp {
+  flex-wrap: wrap;
 }
 .flex-more{
   margin: auto;
@@ -319,9 +335,35 @@ a.muted,
   padding-top: 1.4rem;
   padding-bottom: 1.4rem;
 }
+.py-sm {
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
 .px {
   padding-left: 1.4rem;
   padding-right: 1.4rem;
+}
+.px-sm {
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+.my {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+.my-2 {
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+.px-2xl {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.pr-sm {
+  padding-right: 0.5rem;
+}
+.pl-sm {
+  padding-left: 0.5rem;
 }
 .pt {
   padding-top: 1rem;
@@ -383,14 +425,23 @@ li.inline {
   display: inline-block;
   margin-right: 0.5rem;
 }
+.text-lg {
+  font-size: 1.5rem;
+}
 .text-sm {
   font-size: 1rem;
 }
 .text-sm p {
   font-size: 1rem;
 }
+.pb {
+  padding-bottom: 1.4rem;
+}
 .pb-sm {
   padding-bottom: 0.5rem;
+}
+.p0 {
+  padding: 0;
 }
 .no-toc {
   width: auto;
@@ -404,9 +455,48 @@ li.inline {
   font-size: 1rem;
 }
 
+.display-none {
+  display: none;
+}
+
+.mb {
+  margin-bottom: 1.4rem;
+}
+
+.mb-li {
+  margin-bottom: 1rem;
+}
+
+.mb-lg {
+  margin-bottom: 2.4rem;
+}
+
+.mr {
+  margin-right: 1.4rem;
+}
+
+.mr-sm {
+  margin-right: 0.5rem;
+}
+.main-inner {
+  padding-left: 1.4rem;
+  padding-right:1.4rem;
+}
+
 @media (min-width: 52rem) {
   #root {
     display: flex;
+  }
+  .main-inner{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #fff;
+    padding-top: 2.4rem;
+    padding-bottom: 1.4rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    max-width: 52rem;
+    min-width: 52rem;
+    margin: 0 auto;
   }
   .no-toc {
     width: 20rem;
@@ -418,12 +508,6 @@ li.inline {
   .body-zone {
     flex-direction: row;
   }
-
-  .main-inner {
-    max-width: 51rem;
-    margin: 0 auto;
-  }
-
   .sidebar {
     position: sticky;
     border-top: none;
