@@ -23,6 +23,15 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 以下是依時間倒序排列的 changelogs ，歡迎瀏覽！
 
+
+---
+
+## [1.10.3] - 2022-11-27
+
+### Fixed
+
+- 比照[筆記與想法分站的 v2.2.1 修改方式](https://notes.pinchlime.com/changelog/)，微調 taxonomy_single.html 的排序方式。
+
 ---
 
 ## [1.10.2] - 2022-07-10

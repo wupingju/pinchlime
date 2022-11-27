@@ -21,7 +21,7 @@
       <h1> {{ term.name }} </h1>
     </div>
     <ul class="root-ul">
-      {% for page in term.pages %} 
+      {% for page in term.pages | sort(attribute="date") | reverse %} 
       <li>
         {{ macro::post_min(page=page) }}
       </li>
