@@ -13,6 +13,9 @@ taxonomies:
 
 <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/readwise-reader_7e6hi8.webp" loading="lazy" alt="readwise-reader" align=center />
 
+（_圖來自 [Readwise Reader 官網](https://readwise.io/read)_）
+
+
 幾天前，[Readwise](https://readwise.io/) 宣布他們的最新產品 [Readwise Reader](https://readwise.io/read) 正式進入 public beta 階段，意思是每個人都可以直接註冊，測試使用。
 
 而在這幾天，我自己的 twitter 社群就至少看到十幾篇以上的推薦跟好評感想，幾乎每個人都對這個產品有好感。
