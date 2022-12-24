@@ -94,7 +94,9 @@
     />
     <meta property="og:site_name" content="{{ config.title }}" />
     <meta property="og:type" content="website" />
-    {% if config.extra.image %}
+    {% if page.extra.image %}
+    <meta property="og:image" content="{% block ogimg %}{{ page.extra.image }}{% endblock ogimg %}" />
+    {% else %}
     <meta property="og:image" content="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/og-1200-630_n3S1PT.png" />
     <meta property="og:image:width" content="600"/>
     <meta property="og:image:height" content="600"/>
@@ -103,11 +105,17 @@
     {% if config.extra.twitter_user %}
     <meta name="twitter:site" content="{{ config.extra.twitter_user }}" />
     <meta name="twitter:creator" content="{{ config.extra.twitter_user }}" />
+    {% endif %}
+    {% if page.extra.image %}
+    <meta name="twitter:image" content="{% block ogimg %}{{ page.extra.image }}{% endblock ogimg %}" />
+    <meta
+      name="twitter:image:alt"
+      content="{% block ogaltimg %}{{ config.title }}{% endblock ogaltimg %}" />
+    {% else %}
     <meta name="twitter:image" content="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/og-pinchlime-logo_Huhf2P.png" />
     <meta
       name="twitter:image:alt"
-      content="{% block ogaltimg %}{{ config.title }}{% endblock ogaltimg %}"
-    />
+      content="{% block ogaltimg %}{{ config.title }}{% endblock ogaltimg %}" />
     {% endif %}
     {% block post_meta %}{% endblock post_meta %}
   </head>
