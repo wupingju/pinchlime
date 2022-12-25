@@ -24,7 +24,7 @@ taxonomies:
 
 <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/logseq-publish-demo_li7WwB.webp" width = "768" height = "382" alt="logseq-publish-demo" align=center />
 
-這個頁面是 4 月底到 5 月初我自己的小小嘗試，透過這個嘗試我發現建立「個人 Wiki」有非常多優點，但 Logseq 還有一些不足的地方，因此後來我又找到了 [Dendron](https://www.dendron.so/) 這個工具來建立我自己的個人 wiki ，目前放在 [Pin 起來的 Wiki](https://wiki.pinchlime.com/)。
+這個頁面是 4 月底到 5 月初我自己的小小嘗試，透過這個嘗試我發現建立「個人 Wiki」有非常多優點，但 Logseq 還有一些不足的地方，因此後來我又找到了 [Dendron](https://www.dendron.so/) 這個工具來建立我自己的個人 wiki。（2022.12.25 後記：已關閉）
 
 但 Dendron 更小眾一些，使用起來門檻也比 Logseq 高一些，如果你對 Logseq 有興趣，或者本來就已經是 Logseq 的使用者，也對建立一個個人 wiki 頁面有興趣的話，相信這篇簡單的教學應該還是可以提供一些幫助！
 
