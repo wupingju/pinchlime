@@ -60,8 +60,8 @@ taxonomies:
 11. 全部設定好後可以測試整個流程，若都順利，就會在 Airtable 看到這筆記錄了，沒問題後就按下 Publish ，之後就可以自動享受 Zapier 為你服務了。
 
 
-以上看起來步驟有點多，但一點也不困難，Zappier 的 UI 介面非常直覺好操作，可能需要注意的是 Airtable 這邊的欄位要設定成可以對應 Twitter 資料的格式，例如日期這邊就要調整看看格式，我的設定方式如下，可能還有更好的。
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-6_N9ilRj.webp" loading="lazy" alt="zapier-airtable-6" align=center />
+以上看起來步驟有點多，但一點也不困難，Zappier 的 UI 介面非常直覺好操作，可能需要注意的是 Airtable 這邊的欄位要設定成可以對應 Twitter 資料的格式，例如日期這邊好像就串不太起來，因此我在 Airtable 是先以純文字的方式儲存日期的資訊。
+
 
 ## 後記
 
