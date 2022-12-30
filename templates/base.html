@@ -177,7 +177,7 @@
             </li>
             {% endfor %} 
           </ul>
-          <h2>最新電子報</h2>
+          <h2>{{trans(key="label_new_newsletters_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
           <ul>
             {% set all_blog_pages = get_section(path="newsletters/_index"~file_lang_path~".md") -%}
             {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
@@ -186,13 +186,13 @@
             </li>
             {% endfor %} 
           </ul>
-          <h2>看更多文章</h2>
+          <h2>{{trans(key="label_sorting_articles",lang=lang) | markdown(inline=true) | safe}}</h2>
           <ul>
             <li class="no-underline">
-              <a href="/tag-list/">依{{ trans(key="label_tags",lang=lang) }}</a>
+              <a href="{{lang_prefix_path}}tag-list/">{{ trans(key="label_tags",lang=lang) }}</a>
             </li>
             <li class="no-underline">
-              <a href="/archive/">依時序</a>
+              <a href="{{lang_prefix_path}}archive/">{{ trans(key="label_timeline",lang=lang) }}</a>
             </li>
           </ul>          
         </aside>
