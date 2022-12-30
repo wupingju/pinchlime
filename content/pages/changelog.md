@@ -25,13 +25,19 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [1.10.5] - 2022-12-30
+
+- 今天心血來潮詢問 ChatGPT 一些 css 的問題，就順帶把網站的每篇文章「分開」了，原先每篇文章都會黏在一起，有時比較不好區分不同文章，現在分開後清爽不少！
+
+- 對照圖，左邊是修改後，右邊是修改前：![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/separated-articles_1ybAat.webp)
+
+---
+
 ## [1.10.4] - 2022-12-24
 
 ### Changed
 
 - 根據[這篇紀錄](https://notes.pinchlime.com/snapshots/what-i-tried-today/updated-og-image-settings/)的作法調整了部落格裡對於 og image 的相關設定，讓未來的社群預覽能夠更多變化。
-
-
 
 ---
 
