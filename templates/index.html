@@ -1,6 +1,7 @@
 {% extends "base.html" -%} 
 {% block main -%}
 
+<div class="element-container">
       {{ section.content | safe }}
       <section class="articles">
       {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
@@ -8,8 +9,9 @@
         {{ macro::post_max(page=page) }}   
       {% endfor %} 
 
-      <div class="flex-more">
+        <div class="flex-more">
         <h3><a href="/blog/page/2">看更多文章</a></h3>
-      </div>
+        </div>
       </section>
+  </div>
 {% endblock main -%}  

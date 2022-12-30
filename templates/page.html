@@ -20,6 +20,7 @@
 {% block ogimg %}{% if page.extra.image %}{{ page.extra.image }}{% endif %}{% endblock ogimg %}
 
 {% block main %}
+<div class="element">
       {% block detail_meta -%}
       <header id="overview">
         <div class="pt">
@@ -100,6 +101,7 @@
         
        
       </section>
+</div>
 {% endblock main%}
 
 {% block sidebar %}

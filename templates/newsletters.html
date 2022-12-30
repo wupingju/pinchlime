@@ -19,6 +19,7 @@
 {% set_global section_pages = section_pages | reverse %}
 {% set_global section_content = newsletters_section.content %}
 {% endif %}
+<div class="element">
     <setion>
       {{ section_content | safe}}
     </setion>
@@ -53,4 +54,5 @@
       {{macro::paginator(ref=paginator, extra=config.extra) }}
       {% endif %}
     </section>
+</div>
 {% endblock main -%}

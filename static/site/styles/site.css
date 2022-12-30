@@ -487,19 +487,24 @@ li.inline {
   #root {
     display: flex;
   }
-  .main-inner{
-    padding-left: 4rem;
-    padding-right: 4rem;
+
+  .element-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .element {
+    width: 100%;
     background-color: #fff;
-    padding-top: 2.4rem;
-    padding-bottom: 1.4rem;
+    padding: 2.4rem 4rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
     max-width: 52rem;
-    min-width: 52rem;
+    min-width: 24rem;
     margin: 0 auto;
+    margin-top: 2rem;
   }
   .no-toc {
-    width: 20rem;
+    width: 22rem;
   }
   .main-toc {
     display: none;
@@ -531,5 +536,28 @@ li.inline {
     /* font-weight: 400; */
     padding-bottom: 1rem;
     border: none;
+  }
+}
+@media (max-width: 52rem) {
+  #root {
+    display: flex;
+  }
+  html {
+    font-size: 13px;
+  }
+  .element-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .element {
+    width: 100%;
+    background-color: #fff;
+    padding: 1.2rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    max-width: 36rem;
+    min-width: 24rem;
+    margin: 0 auto;
+    margin-top: 2rem;
   }
 }

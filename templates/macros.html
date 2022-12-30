@@ -1,5 +1,6 @@
 {% macro post_max(page) %}
-<article>
+  <article>
+  <div class="element">
   <h1 style="font-size:2rem;"><a class="no-underline " href="{{ page.permalink }}">{{ page.title }}</a></h1>
   <section class="muted">
     <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time>
@@ -28,10 +29,8 @@
     {% if loop.index != page.taxonomies.tags | length %}&nbsp;{% endif %}{% endif %}
   {% endfor %}
   </p>
- 
   {% endif %}
-   <br>
-  <hr class="w-full">
+</div>
 </article>
 {% endmacro post_max %}
 

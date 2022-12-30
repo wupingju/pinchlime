@@ -5,7 +5,7 @@
 {% block ogdesc %}{{ section.title }}{% endblock ogdesc %}
 {% block ogurl %}{{ config.base_url }}{{ section.path }}{% endblock ogurl %}
 {% block main -%}
-<div class="main-box-block">
+<div class="element">
 {% set all_blog_pages = get_section(path="newsletters/_index.md") %}
 
 {% for year, posts in all_blog_pages.pages | group_by(attribute="year") %}
