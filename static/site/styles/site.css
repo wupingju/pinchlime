@@ -510,13 +510,13 @@ li.inline {
   }
   .sidebar {
     position: sticky;
-    border-top: none;
     top: 60px;
+    height: calc(100vh - 60px);
     z-index: 1;
-    height: 100vh;
-    overflow-y: auto;
     width: 22rem;
+    overflow-y: auto;
   }
+  
   .sidebar ul {
     border-left: 1px solid var(--colors-divider);
     list-style: none;
