@@ -21,6 +21,8 @@ taxonomies:
 
 ---
 
+## Deepcast
+
 於是逛起了內建的 Extension Store，發現比起幾個月前，又多了好多我感興趣的外掛插件。其中一個是 “[Deepcast](https://github.com/raycast/extensions/tree/447cf3a29ef4a3c5d2b3f34d593c00191dc3fe02/extensions/deepcast)”，它可以讓你串接 [DeepL](https://www.deepl.com/) 這個翻譯神器的 API ，然後就可以直接透過 Raycast 直接翻譯剪貼簿的文字，內建有 26 種語言可以翻譯。
 
 我去年寫論文時就是 DeepL 的愛用者，但台灣一直沒辦法註冊（它註冊要認證地址以及該地區發行的信用卡，亞洲目前只有開放日本以及新加坡，[詳細開放地區可看這邊](https://www.deepl.com/pro/select-country)），所以都是透過 DeepL 的官方 mac app 使用免費版，並且有每次翻譯 5000 字元的限制。
