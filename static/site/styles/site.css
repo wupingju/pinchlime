@@ -213,7 +213,9 @@ ul {
 .no-underline {
   text-decoration: none;
 }
-a:link,
+a:link {
+  color: #000000;
+}
 a:visited {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
@@ -418,6 +420,9 @@ a.muted,
   color: #ffffff;
   text-decoration: none;
   padding-left: 12px;
+}
+.navbar-snapshots-top a:link {
+  color: #FFFFFF;
 }
 .navbar-snapshots-top {
   position: fixed;
