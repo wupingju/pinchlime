@@ -6,7 +6,7 @@ path: 2021/02/07/clubhouse-after-50hrs/
 description: 時間跟注意力是稀缺資源，但 Clubhouse 絕非內容的貧瘠之地。
 taxonomies:
   categories: 
-    - Random
+    - Tools
   tags: 
     - Clubhouse
     - Social

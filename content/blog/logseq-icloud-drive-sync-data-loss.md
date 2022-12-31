@@ -6,7 +6,7 @@ path: 2022/02/26/logseq-icloud-drive-sync-data-loss/
 description: 即使可以找回檔案，這件事還是會讓使用者在使用時有著「不安定感」，尤其是如果掉檔案的狀況發生在舊的筆記而不是今天剛記下的每日紀錄，那麼使用者可能根本無從發現檔案消失了，這個疑慮才是最令人擔心的。
 taxonomies:
   categories: 
-    - Random
+    - Tools
   tags: 
     - Logseq
     - iCloud Drive

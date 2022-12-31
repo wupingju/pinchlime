@@ -6,7 +6,7 @@ path: 2020/02/16/imac-27-late2014-rebuild/
 description: 這是一台Late2014的 27吋 5K iMac，我當時購買時，選擇的是1TB的Fusion Drive，我想其中一個問題應該出在這裡，所以如果看到這篇文章的你，要把有Fusion Drive的iMac清空重灌，也許這篇文章可以提供一些不一定用得上的經驗，可以供參考。
 taxonomies:
   categories: 
-    - Random
+    - Tools
   tags: 
     - Mac
 ---

@@ -59,7 +59,7 @@ extra:
 
 完整的內容可以直接看：
 
-[我的閱讀、畫線與註記工作流 - Pin 起來的筆記與想法快照](https://notes.pinchlime.com/notes/workflows/my-highlighting-and-annotating-workflow/)
+[我的閱讀、畫線與註記工作流](/blog/workflows/my-highlighting-and-annotating-workflow/)
 
 透過這個更新版的方法，我可以用 Glasp 達到三件事：
 
@@ -99,7 +99,7 @@ extra:
 
 完整的內容與使用心得請見： 
 
-[嘗試使用 Logseq 上面的 GPT-3 plugin - Pin 起來的筆記與想法快照](https://notes.pinchlime.com/snapshots/what-i-tried-today/tried-to-use-logseq-plugin-gpt3-openai/)
+[嘗試使用 Logseq 上面的 GPT-3 plugin](/snapshots/what-i-tried-today/tried-to-use-logseq-plugin-gpt3-openai/)
 
 對我來說，這個體驗非常有價值，它讓我這個非工程師第一次在新聞以外的地方直接體驗了跟 AI 互動的感覺，也透過自己的方式嘗試理解了 AI 擅長與不擅長的事。
 
