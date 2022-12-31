@@ -39,6 +39,10 @@
 <a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a> <span class="muted text-sm">{{ page.updated }}</span>
 {% endmacro post_min %}
 
+{% macro snapshots_min(page) %}
+<a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a> <span class="muted text-sm">{{ page.updated }}</span>
+{% endmacro post_min %}
+
 {% macro newsletters_min(page) %}
 <span>＃{{page.extra.issues }} </span><a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a> <span class="muted text-sm">{{ page.updated }}</span>
 {% endmacro post_min %}
@@ -46,6 +50,10 @@
 {% macro post_side(page) %}
 <a href="{{ page.permalink }}">{{ page.title }}</a><br>
 {% endmacro post_side %}
+
+{% macro snapshots_side(page) %}
+<a href="{{ page.permalink }}">{{ page.title }}</a><br>
+{% endmacro snapshots_side %}
 
 {% macro newsletters_side(page) %}
 <span>＃{{page.extra.issues }} </span><a href="{{ page.permalink }}">{{ page.title }}</a><br>

@@ -1,0 +1,12 @@
+{% extends "page.html" %}
+{% block section_sidebar_slot %}
+<h2><a href="/snapshots/">看其他 Snapshots</a></h2>
+<ul>
+  {% set all_blog_pages = get_section(path="snapshots/_index"~file_lang_path~".md") -%}
+  {% for page in all_blog_pages.pages | slice(start=0,end=15)  %} 
+  <li>
+    {{ macro::snapshots_side(page=page) }}
+  </li>
+  {% endfor %} 
+</ul>
+{% endblock section_sidebar_slot %}

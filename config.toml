@@ -8,6 +8,7 @@ generate_rss = true
 taxonomies = [
   {name = "tags"},
   {name = "categories"},
+  {name = "kinds"},
 ]
 title = "Pin 起來！"
 
@@ -67,6 +68,7 @@ label_created = "發布於"
 label_home = "首頁"
 label_links = "連結"
 label_new_posts_list_title = "最新文章"
+label_new_snapshots_list_title = "最新 Snapshots"
 label_new_newsletters_list_title = "最新電子報"
 label_notes_title = "以下是我長期維護和更新的[筆記](/categories/notes/)："
 label_published_on = "分類："
@@ -92,6 +94,7 @@ smart_punctuation = true
 taxonomies = [
   {name = "tags"},
   {name = "categories"},
+  {name = "kinds"},
 ]
 title = "Pinchlime"
 [languages.en.translations]
@@ -106,6 +109,7 @@ label_created = "Published"
 label_home = "Home"
 label_links = "Links"
 label_new_posts_list_title = "[Latest](/en/blog/) articles"
+label_new_snapshots_list_title = "Latest snapshots"
 label_new_newsletters_list_title = "Latest newsletters"
 label_notes_title = "Here are the notes I have been [updating and maintaining for a long time](/en/categories/notes/):"
 label_published_on = "on"
