@@ -19,12 +19,15 @@
 {% set_global section_pages = section_pages | reverse %}
 {% set_global section_content = newsletters_section.content %}
 {% endif %}
-<div class="element">
+<div class="element-container">
+  <div class="element">
     <setion>
       {{ section_content | safe}}
     </setion>
+  </div> 
     <section >
       {% for page in section_pages %}
+    <div class="element">
       <article>
         <h1 style="font-size:2rem;"><a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a></h1>
         <div class="muted">
@@ -46,9 +49,8 @@
             <a class="text text-color" href="{{ page.permalink }}#continue-reading"><span>{{ trans(key="label_read_more",lang=lang) }} </span></a>
           </section>
          <div>
-        <hr>
-        <p></p>
       </article>
+    </div>
       {% endfor %} 
       {% if paginator %}
       {{macro::paginator(ref=paginator, extra=config.extra) }}

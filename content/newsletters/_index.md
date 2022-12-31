@@ -14,7 +14,3 @@ page_template: newsletter_page.html
 如果你喜歡這個區塊的電子報們，歡迎你直接在 Substack 上[訂閱電子報](https://pinchlime.substack.com/)，你將會每週收到信。
 
 也歡迎你先看看 [所有電子報歸檔](/newsletters/archive) 的頁面，隨意挑幾期有興趣的標題看看。
-
-
------
-
