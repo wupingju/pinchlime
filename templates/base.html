@@ -122,81 +122,21 @@
 
   <body>
     <section id="top">
-      <nav class="navbar-top">
-        <div>
-          <a class="navbar-a" href="{{ config.base_url~lang_prefix_path }}" >
-            <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-no-sub_FzfQ69.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
-            <div class="navbar-name">Pin 起來</div>
-          </a> 
-        </div>
-        <span>&nbsp;&nbsp;&nbsp;</span>
-        <div class="justify-between">
-          <a class="no-underline" href="/blog/">文章</a>&nbsp;
-          <a class="no-underline" href="/newsletters/">電子報</a>&nbsp;
-          <a class="no-underline" href="/snapshots/">筆記與短想法</a>&nbsp;
-        </div>
-      </nav>
+      {% block nav_bar -%}
+      {% endblock nav_bar %}
     </section>
     <section id="root" >
       {% block body_zone -%}
       <main class="body-zone flex justify-between flex-1">
           <section class="main flex-1 py">
-            <div class="main-inner">
-                  {% block main %}
-                  {% endblock main %}
+            <div>
+              {% block main %}
+              {% endblock main %}
+            </div>
+          </section>
 
-              </div>
-            </section>
-
-          {% block sidebar %}
-          <aside class="sidebar px">
-
-          <h2><a class="no-underline" href="{{lang_prefix_path}}categories/">{{ trans(key="label_categories",lang=lang) }}</h2></a>
-          <ul>
-            {% set categories = get_taxonomy(kind="categories",lang=lang) %} {% for cat in
-            categories.items %}
-            {% set url = get_taxonomy_url(kind="categories",lang=lang, name=cat.name) %}
-            <li>
-              <a class="no-underline" href="{{ url }}"
-                >{{ cat.name }} ({{ cat.pages | length }})</a
-              >
-            </li>
-            {% endfor %}
-          </ul>
-          {% set custom_sidebar = get_section(path="sidebar/_index"~file_lang_path~".md") %} 
-            {{ custom_sidebar.content | safe }}
-
-          <h2>{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
-          <ul>
-            {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
-            {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
-            <li>
-              <a class="no-underline">
-                {{ macro::post_side(page=page) }}
-              </a>
-            </li>
-            {% endfor %} 
-          </ul>
-          <h2>{{trans(key="label_new_newsletters_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
-          <ul>
-            {% set all_blog_pages = get_section(path="newsletters/_index"~file_lang_path~".md") -%}
-            {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
-            <li>
-              {{ macro::newsletters_side(page=page) }}
-            </li>
-            {% endfor %} 
-          </ul>
-          <h2>{{trans(key="label_sorting_articles",lang=lang) | markdown(inline=true) | safe}}</h2>
-          <ul>
-            <li class="no-underline">
-              <a href="{{lang_prefix_path}}tag-list/">{{ trans(key="label_tags",lang=lang) }}</a>
-            </li>
-            <li class="no-underline">
-              <a href="{{lang_prefix_path}}archive/">{{ trans(key="label_timeline",lang=lang) }}</a>
-            </li>
-          </ul>          
-        </aside>
-          {% endblock sidebar %}
+      {% block sidebar %}
+      {% endblock sidebar %}
       </main>
       {% endblock body_zone -%}
    

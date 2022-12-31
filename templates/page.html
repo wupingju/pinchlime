@@ -18,49 +18,75 @@
 {% block description %}{% if page.description %} {{ page.description }} {% elif page.summary %} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock description %}
 {% block ogurl %}{% if page.path %}{{ config.base_url }}{{ page.path }} {% endif %}{% endblock ogurl %}
 {% block ogimg %}{% if page.extra.image %}{{ page.extra.image }}{% endif %}{% endblock ogimg %}
-
+{% block nav_bar -%}
+{% if page.taxonomies.categories %}
+<nav class="navbar-top">
+  <div>
+    <a class="navbar-a" href="{{ config.base_url~lang_prefix_path }}" >
+      <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-no-sub_FzfQ69.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
+      <div class="navbar-name">&nbsp;Pin 起來</div>
+    </a> 
+  </div>
+  <span>&nbsp;&nbsp;&nbsp;</span>
+  <div class="justify-between">
+    <a class="no-underline" href="/blog/">Blog</a>&nbsp;
+    <a class="no-underline" href="/newsletters/">Newsletters</a>&nbsp;
+    <a class="no-underline" href="/snapshots/">Snapshots</a>&nbsp;
+  </div>
+</nav>
+{% else %}
+<nav class="navbar-snapshots-top">
+  <div>
+    <a class="navbar-snapshots-a" style="color: #ffffff" href="{{ config.base_url~lang_prefix_path }}" >
+      <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-02-no-sub-96x96_Bgz9Ey.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
+      <div class="navbar-snapshots-name">&nbsp;Pin 起來</div>
+    </a> 
+  </div>
+  <span>&nbsp;&nbsp;&nbsp;</span>
+  <div class="justify-between">
+    <a class="no-underline" href="/blog/">Blog</a>&nbsp;
+    <a class="no-underline" href="/newsletters/">Newsletters</a>&nbsp;
+    <a class="no-underline" href="/snapshots/">Snapshots</a>&nbsp;
+  </div>
+</nav>
+{% endif %}
+{% endblock nav_bar %}
 {% block main %}
 <div class="element">
       {% block detail_meta -%}
       <header id="overview">
+        {% block breadcrumbs -%}
         <div class="pt">
           <span>&gt;&gt;</span>
-          <a href="{{ get_url(path="@/_index.md",lang=lang) }}">{{trans(key="label_home",lang=lang)}}</a>
+          <a class="category" href="/blog/">Blog</a>
           {% if page.taxonomies.categories %}
           <span class="divider">/</span>
-          <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}">{{
-            page.taxonomies.categories[0] }}</a>
-          
+          <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}"> {{ page.taxonomies.categories[0] }}</a>
           {% if page.taxonomies.tags -%}
           <span class="divider">/</span>
           {% for tag in page.taxonomies.tags %}
-          <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}{% if
-          loop.index != page.taxonomies.tags | length %},{% endif %}{% endif %}
+          <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}{% if loop.index != page.taxonomies.tags | length %},{% endif %}{% endif %}
           {% endfor %}
           {% endif %}
           {% endif %}
           {% if page.taxonomies.kinds %}
           <span class="divider">/</span>
-          <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0],lang=lang) }}">{{
-            page.taxonomies.kinds[0] }}</a>
-          
+          <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0],lang=lang) }}">{{ page.taxonomies.kinds[0] }}</a>    
           {% if page.taxonomies.tags -%}
           <span class="divider">/</span>
           {% for tag in page.taxonomies.tags %}
-          <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}{% if
-          loop.index != page.taxonomies.tags | length %},{% endif %}{% endif %}
+          <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}{% if loop.index != page.taxonomies.tags | length %},{% endif %}{% endif %}
           {% endfor %}
           {% endif %}
           {% endif %}
         </div>
-        
+        {% endblock breadcrumbs %}
         <div>
           <h1 style="font-size:2rem;">{{ page.title }}</h1>
           <div class="muted">
             <span>{% block detail_meta_slot %}{% endblock detail_meta_slot %}</span><span>{% if page.date %}{{ trans(key="label_created",lang=lang)}} {{ page.date }}{% endif %}{% if page.updated %} | {{trans(key="label_updated",lang=lang)}} {{ page.updated }} {% endif %}</span>
           </div>
         </div>
-
       </header>
       {% endblock detail_meta -%}
       <section>
@@ -124,6 +150,7 @@
 {{ macro::page_toc(toc=page.toc) }}
 {% endif %}
 {% block newsletter_sidebar_slot %}{% endblock newsletter_sidebar_slot %}
+{% block section_sidebar_slot %}{% endblock section_sidebar_slot %}
 {% if page.taxonomies.categories %}
 <body>
   <h2>看更多相關文章</h2>
@@ -143,35 +170,7 @@
 <h2>看其他{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
 <ul>
   {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
-  {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
-  <li>
-    <a class="no-underline"
-      >{{ macro::post_side(page=page) }}
-  </li>
-  {% endfor %} 
-</ul>
-<br>
-{% endif %}
-{% if page.taxonomies.kinds %}
-<body>
-  <h2>看更多相關 Snapshots</h2>
-  <ul class="list-none text-sm">
-    <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0],lang=lang) }}">➤&emsp;其他 {{
-      page.taxonomies.kinds[0] }} 分類</a><br>      
-    {% if page.taxonomies.tags -%}
-    {% for tag in page.taxonomies.tags %}
-    <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">➤&emsp;其他 {{ tag }} 標籤</a>{% if page.taxonomies.tags | length > 1 %}{% if
-    loop.index != page.taxonomies.tags | length %}<br>{% endif %}{% endif %}
-    {% endfor %}
-    {% endif %}
-  </ul>
-  <br>
-  <br>
-</body>
-<h2>看其他{{trans(key="label_new_snapshots_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
-<ul>
-  {% set all_blog_pages = get_section(path="snapshots/_index"~file_lang_path~".md") -%}
-  {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+  {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
   <li>
     <a class="no-underline"
       >{{ macro::post_side(page=page) }}

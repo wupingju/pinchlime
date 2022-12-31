@@ -7,6 +7,22 @@
 {% block description %}{{ section.title }}{% endblock description %}
 {% block ogdesc %}{{ section.title }}{% endblock ogdesc %}
 {% block ogurl %}{{ config.base_url }}{{ section.path }}{% endblock ogurl %}
+{% block nav_bar -%}
+<nav class="navbar-top">
+  <div>
+    <a class="navbar-a" href="{{ config.base_url~lang_prefix_path }}" >
+      <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-no-sub_FzfQ69.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
+      <div class="navbar-name">&nbsp;Pin 起來</div>
+    </a> 
+  </div>
+  <span>&nbsp;&nbsp;&nbsp;</span>
+  <div class="justify-between">
+    <a class="no-underline" href="/blog/">Blog</a>&nbsp;
+    <a class="no-underline" href="/newsletters/">Newsletters</a>&nbsp;
+    <a class="no-underline" href="/snapshots/">Snapshots</a>&nbsp;
+  </div>
+</nav>
+{% endblock nav_bar %}
 {% block main %} 
 {% set_global file_lang_path = "" %} 
 {% if config.default_language != lang %} 
@@ -19,3 +35,64 @@
   macro::post_max(page=page) }} {% endfor %} {% endif %}
 </section>
 {% endblock main %}
+{% block sidebar %}
+  <aside class="sidebar px">
+    <h2><a class="no-underline" href="{{lang_prefix_path}}categories/">{{ trans(key="label_categories",lang=lang) }}</h2></a>
+    <ul>
+      {% set categories = get_taxonomy(kind="categories",lang=lang) %} 
+      {% for cat in categories.items %}
+      {% set url = get_taxonomy_url(kind="categories",lang=lang, name=cat.name) %}
+      <li>
+        <a class="no-underline" href="{{ url }}">{{ cat.name }} ({{ cat.pages | length }})</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <h2>{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <ul>
+      {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
+        <li>
+            {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
+            {{ macro::post_side(page=page) }}
+            {% endfor %} 
+            {{trans(key="label_all_posts",lang=lang) | markdown(inline=true) | safe}}
+        </li>
+    </ul>
+    <h2>{{trans(key="label_new_newsletters_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <ul>
+        {% set all_blog_pages = get_section(path="newsletters/_index"~file_lang_path~".md") -%}
+        <li>
+          {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+          {{ macro::newsletters_side(page=page) }}
+          {% endfor %} 
+          {{trans(key="label_all_newsletters",lang=lang) | markdown(inline=true) | safe}}
+        </li>
+    </ul>
+    <h2>{{trans(key="label_new_snapshots_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <ul>
+        {% set all_blog_pages = get_section(path="snapshots/_index"~file_lang_path~".md") -%}
+        <li>
+          {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+          {{ macro::snapshots_side(page=page) }}
+          {% endfor %} 
+          {{trans(key="label_all_snapshots",lang=lang) | markdown(inline=true) | safe}}
+        </li>
+    </ul>
+    <h2>{{trans(key="label_sorting_articles",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <ul>
+        <li class="no-underline">
+          <a href="{{lang_prefix_path}}tag-list/">{{ trans(key="label_tags",lang=lang) }}</a>
+        </li>
+        <li class="no-underline">
+          <a href="{{lang_prefix_path}}archive/">{{ trans(key="label_archive",lang=lang) }}</a>
+        </li>
+        <li class="no-underline">
+          <a href="{{lang_prefix_path}}newsletters/archive/">{{ trans(key="label_newsletter_archive",lang=lang) }}</a>
+        </li>
+        <li class="no-underline">
+          <a href="{{lang_prefix_path}}snapshots/archive/">{{ trans(key="label_snapshot_archive",lang=lang) }}</a>
+        </li>
+    </ul>
+      {% set custom_sidebar = get_section(path="sidebar/_index"~file_lang_path~".md") %} 
+      {{ custom_sidebar.content | safe }}          
+  </aside>
+{% endblock sidebar %}

@@ -30,10 +30,10 @@
 {% set_global section_content = section.content %}
 
 {% else %}
-{% set_global newsletters_section = get_section(path="newsletters/_index.md") -%}
-{% set_global section_pages = newsletters_section.pages | sort(attribute="updated") %}
+{% set_global snapshots_section = get_section(path="snapshots/_index.md") -%}
+{% set_global section_pages = snapshots_section.pages | sort(attribute="updated") %}
 {% set_global section_pages = section_pages | reverse %}
-{% set_global section_content = newsletters_section.content %}
+{% set_global section_content = snapshots_section.content %}
 {% endif %}
 <div class="element-container">
   <div class="element">
@@ -47,11 +47,15 @@
       <article>
         <h1 style="font-size:2rem;"><a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a></h1>
         <div class="muted">
-          <span>第 {{page.extra.issues }} 期</span>
-          <span>｜</span>
-          <time pubdate>發布於 {{ page.date | date(format="%Y-%m-%d") }}</time> 
+          <span>{% if page.date %}{{ trans(key="label_created",lang=lang)}} {{ page.date }}{% endif %}{% if page.updated %} | {{trans(key="label_updated",lang=lang)}} {{ page.updated }} {% endif %}</span> 
+          {% if page.taxonomies.kinds %}
+          <span>｜&emsp;{{trans(key="label_published_on",lang=lang)}}</span>
+          <a class="no-underline" href="{{ get_taxonomy_url(kind="kinds",lang=lang, name=page.taxonomies.kinds[0]) }}">
+          {{ page.taxonomies.kinds[0] }}
+          </a> 
+        {% endif %}
         </div>
-        <div>{{ page.summary | safe }}</div>
+        <div>{{ page.content | safe }}</div>
         {% if page.taxonomies.tags %}
         <p>
           {% for tag in page.taxonomies.tags %}
@@ -60,11 +64,7 @@
           {% endfor %}
         </p>
         {% endif %}
-        <div class="muted">
-          <section>
-            <a class="text text-color" href="{{ page.permalink }}#continue-reading"><span>{{ trans(key="label_read_more",lang=lang) }} </span></a>
-          </section>
-         <div>
+        <p></p>
       </article>
     </div>
       {% endfor %} 
@@ -76,14 +76,24 @@
 {% endblock main -%}
 {% block sidebar %}
   <aside class="sidebar px">
-    <h2>{{trans(key="label_new_newsletters_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <h2><a class="no-underline" href="{{lang_prefix_path}}kinds/">{{ trans(key="label_kinds",lang=lang) }}</h2></a>
     <ul>
-        {% set all_blog_pages = get_section(path="newsletters/_index"~file_lang_path~".md") -%}
+      {% set kinds = get_taxonomy(kind="kinds",lang=lang) %} 
+      {% for cat in kinds.items %}
+      {% set url = get_taxonomy_url(kind="kinds",lang=lang, name=cat.name) %}
+      <li>
+        <a class="no-underline" href="{{ url }}">{{ cat.name }} ({{ cat.pages | length }})</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <h2>{{trans(key="label_new_snapshots_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <ul>
+        {% set all_blog_pages = get_section(path="snapshots/_index"~file_lang_path~".md") -%}
         <li>
-          {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
-          {{ macro::newsletters_side(page=page) }}
+          {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+          {{ macro::snapshots_side(page=page) }}
           {% endfor %} 
-          {{trans(key="label_all_newsletters",lang=lang) | markdown(inline=true) | safe}}
+          {{trans(key="label_all_snapshots",lang=lang) | markdown(inline=true) | safe}}
         </li>
     </ul>
     <h2>{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
@@ -96,14 +106,14 @@
             {{trans(key="label_all_posts",lang=lang) | markdown(inline=true) | safe}}
         </li>
     </ul>
-    <h2>{{trans(key="label_new_snapshots_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <h2>{{trans(key="label_new_newsletters_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
     <ul>
-        {% set all_blog_pages = get_section(path="snapshots/_index"~file_lang_path~".md") -%}
+        {% set all_blog_pages = get_section(path="newsletters/_index"~file_lang_path~".md") -%}
         <li>
-          {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
-          {{ macro::snapshots_side(page=page) }}
+          {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
+          {{ macro::newsletters_side(page=page) }}
           {% endfor %} 
-          {{trans(key="label_all_snapshots",lang=lang) | markdown(inline=true) | safe}}
+          {{trans(key="label_all_newsletters",lang=lang) | markdown(inline=true) | safe}}
         </li>
     </ul>
     <h2>{{trans(key="label_sorting_articles",lang=lang) | markdown(inline=true) | safe}}</h2>
