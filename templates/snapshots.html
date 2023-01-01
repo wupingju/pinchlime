@@ -12,11 +12,11 @@
   <div>
     <a class="navbar-snapshots-a" style="color: #ffffff" href="{{ config.base_url~lang_prefix_path }}" >
       <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-02-no-sub-96x96_Bgz9Ey.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
-      <div class="navbar-snapshots-name">&nbsp;Pin 起來</div>
+      <span class="navbar-snapshots-name">Pin 起來</span>
     </a> 
   </div>
   <span>&nbsp;&nbsp;&nbsp;</span>
-  <div class="justify-between">
+  <div class="navbar-snapshots-name">
     <a class="no-underline" href="/blog/">Blog</a>&nbsp;
     <a class="no-underline" href="/newsletters/">Newsletters</a>&nbsp;
     <a class="no-underline" href="/snapshots/">Snapshots</a>&nbsp;
@@ -45,7 +45,7 @@
       {% for page in section_pages %}
     <div class="element">
       <article>
-        <h1 style="font-size:2rem;"><a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a></h1>
+        <h1><a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a></h1>
         <div class="muted">
           <span>{% if page.date %}{{ trans(key="label_created",lang=lang)}} {{ page.date }}{% endif %}{% if page.updated %} | {{trans(key="label_updated",lang=lang)}} {{ page.updated }} {% endif %}</span> 
           {% if page.taxonomies.kinds %}

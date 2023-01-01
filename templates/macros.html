@@ -1,7 +1,7 @@
 {% macro post_max(page) %}
   <article>
   <div class="element">
-  <h1 style="font-size:2rem;"><a class="no-underline " href="{{ page.permalink }}">{{ page.title }}</a></h1>
+  <h1><a class="no-underline " href="{{ page.permalink }}">{{ page.title }}</a></h1>
   <section class="muted">
     <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time>
     {% if page.taxonomies.categories %}

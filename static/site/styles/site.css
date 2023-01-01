@@ -96,6 +96,7 @@ body {
   padding-top: 60px;
 }
 h1 {
+  font-size: 1.6rem;
   padding-top: 1.0rem;
   padding-bottom: 0.2rem;
   margin-bottom: 0.2rem;
@@ -104,6 +105,7 @@ h1 {
   position: relative;
 }
 h2 {
+  font-size: 1.5rem;
   padding-top: 1.4rem;
   padding-bottom: 0.4rem;
   margin-bottom: 0.2rem;
@@ -112,6 +114,7 @@ h2 {
   position: relative;
 }
 h3 {
+  font-size: 1.3rem;
   padding-top: 1.4rem;
   padding-bottom: 0.4rem;
   margin-bottom: 0.2rem;
@@ -136,15 +139,6 @@ h3 {
   border: none;
 }
 
-h1 {
-  font-size: 1.625rem;
-}
-h2 {
-  font-size: 1.5rem;
-}
-h3 {
-  font-size: 1.3rem;
-}
 pre {
   color: rgb(57, 58, 52);
   background-color: rgb(246, 248, 250);
@@ -372,13 +366,10 @@ a.muted,
 .pl {
   padding-left: 1.4rem;
 }
-.nvabar-name {
+.navbar-name {
   display: inline-block;
-  font-size: 16px;
-  line-height: 24px;
-  padding-left: 8px;
+  font-size: 15px;
   position: relative;
-  top: -1.5px;
   vertical-align: middle;
   color: #5f6368;
   white-space: nowrap;
@@ -388,7 +379,6 @@ a.muted,
   align-items: center;
   color: #003c6d;
   text-decoration: none;
-  padding-left: 12px;
 }
 .navbar-top {
   position: fixed;
@@ -403,15 +393,12 @@ a.muted,
   z-index: 1100;
   background-color: #f2f2f2;
 }
-.nvabar-snapshots-name {
+.navbar-snapshots-name {
   display: inline-block;
-  font-size: 16px;
-  line-height: 24px;
-  padding-left: 8px;
+  font-size: 15px;
   position: relative;
-  top: -1.5px;
   vertical-align: middle;
-  color: #5f6368;
+  color: #ffffff;
   white-space: nowrap;
 }
 .navbar-snapshots-a {
@@ -419,7 +406,6 @@ a.muted,
   align-items: center;
   color: #ffffff;
   text-decoration: none;
-  padding-left: 12px;
 }
 .navbar-snapshots-top a:link {
   color: #FFFFFF;
@@ -521,7 +507,6 @@ li.inline {
   #root {
     display: flex;
   }
-
   .element-container {
     width: 100%;
     height: auto;
@@ -535,7 +520,7 @@ li.inline {
     max-width: 52rem;
     min-width: 24rem;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-bottom: 2.5rem;
   }
   .no-toc {
     width: 22rem;
@@ -576,8 +561,17 @@ li.inline {
   #root {
     display: flex;
   }
+  .navbar-name {
+    font-size: 12px;
+  }
+  .navbar-snapshots-name {
+    font-size: 12px;
+  }
   html {
-    font-size: 13px;
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 1.4rem;
   }
   .element-container {
     width: 100%;
@@ -585,13 +579,14 @@ li.inline {
   }
   
   .element {
-    width: 100%;
+    width: 90%;
     background-color: #fff;
     padding: 1.2rem 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
     max-width: 36rem;
-    min-width: 24rem;
+    min-width: 20rem;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: -0.5rem;
+    margin-bottom: 2.5rem;
   }
 }

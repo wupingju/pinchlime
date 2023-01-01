@@ -42,7 +42,7 @@
         </div>
         
         <div>
-          <h1 style="font-size:2rem;">{{ page.title }}</h1>
+          <h1>{{ page.title }}</h1>
           <div class="muted">
             <span>{% block detail_meta_slot %}{% endblock detail_meta_slot %}</span><span>{% if page.date %}{{ trans(key="label_created",lang=lang)}} {{ page.date }}{% endif %}{% if page.updated %} | {{trans(key="label_updated",lang=lang)}} {{ page.updated }} {% endif %}</span>
           </div>
