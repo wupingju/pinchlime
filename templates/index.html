@@ -17,18 +17,24 @@
 {% endblock nav_bar %}
 {% block main -%}
 <div class="element-container">
-      {{ section.content | safe }}
-      <section class="articles">
-      {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
-      {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
-        {{ macro::post_max(page=page) }}   
-      {% endfor %} 
-
-        <div class="flex-more">
-        <h3><a href="/blog/page/2">看更多文章</a></h3>
-        </div>
-      </section>
+  <div class="element">
+    <section>
+    {{ section.content | safe }}
+    </section>
+    <hr class="w-full">
+    <h2>也歡迎你留言</h2>
+    <br>
+    <div id="cusdis_thread"
+    data-host="https://comments.pinchlime.com"
+    data-app-id="d39e9f8e-53f2-48bc-a699-980cc0a4b00c"
+    data-page-id="{{ config.base_url }}"
+    data-page-url="{{ config.base_url }}"
+    data-page-title="{{ config.title }}"
+    data-theme="light"
+  ></div>
+  <script async defer src="https://comments.pinchlime.com/js/cusdis.es.js"></script>
   </div>
+</div>
 {% endblock main -%}  
 {% block sidebar %}
   <aside class="sidebar px">
