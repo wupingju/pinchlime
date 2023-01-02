@@ -2,7 +2,7 @@
 title: Heptabase Web 版本可以多做到什麼事？
 date: 2023-01-02
 updated: 2023-01-02
-description: 如果鑄幣稅代幣本身就是對應穩定幣的價值支撐，那麼就有可能會讓穩定幣的「穩定效果」受到負面影響，因為鑄幣稅代幣的流通性跟需求若容易觀測，那就會讓市場處於悲觀情緒時，更難逃離悲觀的賣壓漩渦。
+description: 雖然目前還沒有針對 Mobile 或 Pad 版本的顯示優化，但 Web 版上線後已經可以比原先多做好多事情
 path: snapshots/what/what-can-i-achieve-by-heptabase-web-version
 taxonomies:
   kinds: 
