@@ -1,7 +1,7 @@
 ---
 title: Clubhouse 的封面頭像都是誰？
 date: 2021-02-11
-updated: 2021-02-11
+updated: 2023-01-02
 path: 2021/02/12/clubhouse-icon-faces/
 description: 重點不在於讚數跟追蹤數，而在於透過你的聲音，產生的人與人之間真實的連結與對話。
 taxonomies:
@@ -113,7 +113,7 @@ Erika 將自己描述為「一名生活在巴黎的驕傲多明尼加人」，�
 ---
 
 參考資料：  
-[1] [Invite-only chat app Clubhouse, which Elon Musk used over the weekend, says it plans to open its doors to everyone as soon as possible](https://www.businessinsider.com/clubhouse-social-network-ceo-interview-public-launch-invites-elon-musk-2021–2)
+[1] Invite-only chat app Clubhouse, which Elon Musk used over the weekend, says it plans to open its doors to everyone as soon as possible - Business Insider
 
 [2] [Who Is Bomani X, The New Face Of Clubhouse](https://bosslocks.org/articles/Who-is-Bomani-x-clubhouse-app)
 

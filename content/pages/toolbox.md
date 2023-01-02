@@ -2,7 +2,7 @@
 title: Pin 起來的工具箱
 path: toolbox/
 date: 2021-11-14
-updated: 2022-04-02
+updated: 2023-01-02
 description: 本頁面介紹我自己常用的軟體及服務等工具，內容涵蓋知識管理、任務與專案管理、文字編輯器以及其他各種好用的服務與工具，其中有許多都大幅地影響我的工作、生活以及是思考方式，真心誠意分享給大家！
 ---
 
@@ -452,4 +452,4 @@ Timing 可以自定義不同 app 或不同網站的生產力分數，一開始�
 
 最後特別感謝，對本系列文有所啟發的網站們：
 
-[brettterpstra.com](https://brettterpstra.com/2019/06/19/the-top-20-apps-not-in-my-dock/)、[蓋索林 Gasolin](https://blog.gasolin.idv.tw/2019/03/07/tooling-in-2019-Mar/)、[星箭廣播](https://podcast.starrocket.io/)
+[brettterpstra.com](https://brettterpstra.com/2019/06/19/the-top-20-apps-not-in-my-dock/)、[蓋索林 Gasolin](https://blog.gasolin.idv.tw/tools/tooling-in-2019-Mar)、[星箭廣播](https://podcast.starrocket.io/)

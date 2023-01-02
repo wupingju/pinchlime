@@ -4,7 +4,7 @@ description: 這邊放置 Pin 起來網站的 Changelog，主要的內容是描�
 path: changelog/
 draft: false
 date: 2022-04-20
-updated: 2023-01-01
+updated: 2023-01-02
 template: changelog.html
 ---
 
@@ -52,7 +52,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Changed
 
-- 根據[這篇紀錄](https://notes.pinchlime.com/snapshots/what-i-tried-today/updated-og-image-settings/)的作法調整了部落格裡對於 og image 的相關設定，讓未來的社群預覽能夠更多變化。
+- 根據[這篇紀錄](/snapshots/what-i-tried-today/updated-og-image-settings/)的作法調整了部落格裡對於 og image 的相關設定，讓未來的社群預覽能夠更多變化。
 
 ---
 
@@ -60,7 +60,20 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Fixed
 
-- 比照[筆記與想法分站的 v2.2.1 修改方式](https://notes.pinchlime.com/changelog/)，微調 taxonomy_single.html 的排序方式。
+- 微調 taxonomy_single.html 的排序方式。
+
+今天在上傳新文章後發現在「清單檢視」時，文章的順序有點混亂，好像不是依照倒時序排列。找了一下以後發現找不太到原因（我只知道那一頁是由哪個檔案處理，但不知道為何無法正常排序）。我猜想可能是某種預設的排序方式，但可能在滿足某些條件的狀況下，排序會變。
+- 不過我試圖從既有的程式碼裡面挖掘可能的解方，最後測試成功，解決方式是：
+
+```
+把原先在 taxonomy_single.html 的
+{% for page in term.pages %} 
+增加了一段，變成：
+{% for page in term.pages | sort(attribute="date") | reverse %} 
+```
+這樣就好了！
+
+目前看起來，各個頁面都可以依照發布日期正常倒序排列了！
 
 ---
 
@@ -79,7 +92,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Removed
 
-- 移除了「新 Pin 上線」這個類別的文章，因為我近期發現，這類嚐鮮介紹的內容我大多會直接放在 Pin 起來的想法與筆記裡面的「[What I Found Interesting](https://notes.pinchlime.com/categories/what-i-found-interesting/)」類別裡面。既然這樣，那就把原先的類別簡化一下，把這些都放回 [Tools](/categories/tools/) 類別裡面。
+- 移除了「新 Pin 上線」這個類別的文章，因為我近期發現，這類嚐鮮介紹的內容我大多會直接放在 Snapshot 裡面的「[What I Found Interesting](/kinds/what-i-found-interesting/)」類別裡面。既然這樣，那就把原先的類別簡化一下，把這些都放回 [Tools](/categories/tools/) 類別裡面。
 
 
 ---
@@ -96,7 +109,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Added
 
-- 網站的數據追蹤系統改為 [umami](https://umami.is/) ，安裝的紀錄可以參考[嘗試安裝 umami 成功](https://notes.pinchlime.com/snapshots/what-i-tried-today/tried-to-install-umami-on-my-websites)這篇文。安裝後也把 Google Analytics 的追蹤碼移除了！
+- 網站的數據追蹤系統改為 [umami](https://umami.is/) ，安裝的紀錄可以參考[嘗試安裝 umami 成功](/snapshots/what-i-tried-today/tried-to-install-umami-on-my-websites)這篇文。安裝後也把 Google Analytics 的追蹤碼移除了！
 
 ---
 
@@ -118,7 +131,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Changed
 
-- 把 Pin 起來的 wiki page 從 Logseq 改為 Dendron 輸出，網址不變一樣是 [https://wiki.pinchlime.com](https://wiki.pinchlime.com)，但內容則換了。也覺得可以把連結放到 Sidebar 上面了。（2022.12.25 後記，此網址已關閉）
+- 把 Pin 起來的 wiki page 從 Logseq 改為 Dendron 輸出，網址不變一樣是 https://wiki.pinchlime.com （2023.01.02 更新，目前經過兩次迭代，個人 wiki 的內容已經都變成站上的 [Snapshots](/snapshots) 專區的內容了），但內容則換了。也覺得可以把連結放到 Sidebar 上面了。
 
 --- 
 

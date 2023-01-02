@@ -1,7 +1,7 @@
 ---
 title: HEY! Email 原來可以這樣用
 date: 2021-03-14
-updated: 2021-03-14
+updated: 2023-01-02
 path: 2021/03/14/hey-email-introduction/
 description: HEY 認為，Email 本該是寶藏，但近年來卻讓人失望，因此他們決定重新設計一套圍繞著 Email 的工作流程。
 taxonomies:
@@ -186,5 +186,5 @@ Spy Blocking，來源：[Hey.com](https://hey.com/spy-trackers/)
 
 - [《星箭廣播》65 集——Hey，Email 還能有什麼新花樣？](https://blog.starrocket.io/posts/srp-ep65-hey-a-new-and-innovative-email-service-created-by-basecamp/)（這集 Podcast 很值得聽）
 - [How we acquired HEY.com](https://m.signalvnoise.com/how-we-acquired-hey-com/)
-- [Hey.com：如果你没有观点，你就不值得关注](https://pmthinking.com/post/263)
+- Hey.com：如果你没有观点，你就不值得关注 - 产品沉思录 ProductThinking
 - [HEY 試用心得與我的信箱管理](https://bugtender.com/blog/hey)

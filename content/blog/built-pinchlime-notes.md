@@ -1,7 +1,7 @@
 ---
 title: 透過 Zola 建立了新的「筆記與想法快照」子網站
 date: 2022-06-19
-updated: 2022-06-19
+updated: 2023-01-02
 path: blog/built-pinchlime-notes
 description: 我目前對於這個子網站非常滿意，它在各方面的優點，讓我能夠大幅縮短「輸入->處理->輸出」這個流程需要的時間，進而增加完成整個循環的效率，最終的結果是我能夠順利地累積更多自己的想法，並且公開分享到網路上。
 taxonomies:
@@ -55,7 +55,7 @@ taxonomies:
 
 ## Pin 起來的筆記與想法快照
 
-在建立的過程中，我重新思考了一個問題是：[我真正想要的好像不是「個人 wiki」](https://notes.pinchlime.com/snapshots/random/what-i-truly-want-is-not-a-personal-wiki/)。
+在建立的過程中，我重新思考了一個問題是：[我真正想要的好像不是「個人 wiki」](/snapshots/random/what-i-truly-want-is-not-a-personal-wiki/)。
 
 因為 wiki 感覺更像是一個「知識系統」或「知識社群」，但對我來說我更在意的是我自己的「想法」以及基於想法產生的「內容」。
 
