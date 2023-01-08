@@ -8,7 +8,7 @@ taxonomies:
   categories: 
     - Tools
   tags: 
-    - Newsletter
+    - Newsletters
     - Revue
     - Twitter
 ---

@@ -8,7 +8,7 @@ taxonomies:
   kinds: 
     - Daily Why
   tags: 
-    - Technical Documents
+    - Documentation
 ---
 
 - 今天在透過 Dendron 的官方文件學習 publish 功能時，走了不少彎路，一直卡在一個 bug 裡面，後來我幾乎是逐步驟測試，才發現出現問題的步驟是什麼。

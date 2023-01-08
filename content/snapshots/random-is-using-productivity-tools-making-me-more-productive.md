@@ -9,6 +9,7 @@ taxonomies:
     - Random Thoughts
   tags: 
     - Productivity Tools
+    - Efficiency
 ---
 
 這好像是個很常見到的質疑：
