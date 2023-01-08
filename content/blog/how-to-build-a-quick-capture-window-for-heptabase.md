@@ -35,8 +35,7 @@ taxonomies:
 2. Show Heptabase （把它拉到最前面的視窗）
 3. 設定 Resize ，我是用「Resize Front Window to Pixels」的功能，設定為寬 480px，高 720px。
 4. 移動到畫面右下角，我是用「Move Front Window to Position」這個 action 去設定的。
-5. 模擬鍵盤按下在 BetterTouch Tool 自訂的「Pin window」熱鍵
-6. 最後為整串的 Keyboard Maestro 腳本設定一個熱鍵，我是設定為很容易按到的 F2。
+5. 最後為整串的 Keyboard Maestro 腳本設定一個熱鍵，我是設定為很容易按到的 F2。
 
 這樣做的效果是，我在任何地方按下 F2 後，就會跑完上述一連串的流程，然後出現一個 Heptabase 的縮小版輸入視窗，鎖定在今天的 Journal 頁面，可以讓自己快速輸入想法。輸入後就可以把它關閉，而不會打擾原本的工作流。
 
