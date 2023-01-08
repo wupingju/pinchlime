@@ -9,6 +9,7 @@ taxonomies:
     - Daily Why
   tags: 
     - Mastodon
+    - Twitter
 ---
 
 我一個月前曾在 [為何我對 Mastodon 等「推特替代品」暫時沒興趣？](/snapshots/why/why-am-i-not-interested-in-twitter-alternatives-like-mastodon-for-now)這篇裡面提到：
