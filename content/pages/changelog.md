@@ -36,7 +36,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 ## [2.0.0] - 2022-12-31
 
 - 今天一個起心動念，想把筆記與想法的子網站搬回主網站這邊，就開始動工。經過一整個下午與晚上的調整與導入後，完成了全新的 2.0 版本，把內容分成三個區塊： Blog, Newsletters, Snapshots。
-- 我把搬家的紀錄跟簡單心得放在這篇文章：[我把筆記與想法快照的內容都搬回 Pin 起來主網站了](/blog/migrated-notes-and-snapshots-back-to-this-site)
+- 我把搬家的紀錄跟簡單心得放在這篇文章：[我把筆記與想法快照的內容都搬回 Pin 起來主網站了](/blog/migrated-notes-and-snapshots-back-to-the-main-site)
 
 ---
 
