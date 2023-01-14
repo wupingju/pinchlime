@@ -6,3 +6,10 @@
     public,
     max-age=0,
     must-revalidate'''
+
+[build]
+    publish = "public/"
+    command = "zola build && npx pagefind --source public"
+
+    [build.environment]
+         ZOLA_VERSION = "0.16.0"

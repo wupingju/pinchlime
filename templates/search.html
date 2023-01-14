@@ -1,0 +1,137 @@
+{% extends "base.html" -%}
+{% block post_meta-%}
+<meta name="title" content="{{ page.title }}">
+<style>
+  .sidebar{
+    display: block;
+  }
+  @media (min-width: 52rem) {
+    .sidebar{
+      display: block;
+    }
+  }
+</style>
+{% endblock post_meta -%}
+{% block title %}{{ page.title }} - {{ config.title}}{% endblock title %}
+{% block ogtitle %}{{ page.title }} - {{ config.title}}{% endblock ogtitle %}
+{% block ogdesc %}{% if page.description %} {{ page.description }} {% elif page.summary%} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock ogdesc %}
+{% block description %}{% if page.description %} {{ page.description }} {% elif page.summary%} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock description %}
+{% block ogurl %}{% if page.path %}{{ config.base_url }}{{ page.path }} {% endif %}{% endblock ogurl %}
+{% block ogimg %}{% if page.extra.image %}{{ page.extra.image }}{% endif %}{% endblock ogimg %}
+{% block nav_bar -%}
+<nav class="navbar-snapshots-top">
+  <div>
+    <a class="navbar-snapshots-a" style="color: #ffffff" href="{{ config.base_url~lang_prefix_path }}" >
+      <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-02-no-sub-96x96_Bgz9Ey.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
+      <span class="navbar-snapshots-name">Pin 起來</span>
+    </a> 
+  </div>
+  <span>&nbsp;&nbsp;&nbsp;</span>
+  <div class="navbar-snapshots-name">
+    <a class="no-underline" href="/blog/">Blog</a>&nbsp;
+    <a class="no-underline" href="/newsletters/">Newsletters</a>&nbsp;
+    <a class="no-underline" href="/snapshots/">Snapshots</a>&nbsp;
+    <a class="no-underline" href="/search/">Search</a>
+  </div>
+  
+</nav>
+{% endblock nav_bar %}
+{% block main %}
+<div class="element">
+      <section>
+      
+        <section class="main">
+          <section id="start"></section>
+          <article>
+            {{ page.content | safe }}
+          </article>
+          <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+          <script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+            <div id ="search"></div>
+            <script>
+                window.addEventListener('DOMContentLoaded', (event) => {
+                    new PagefindUI({ element: "#search" });
+                });
+            </script>
+          <div>
+            <p>
+                &nbsp;
+            </p>
+            <p class="muted text-sm">
+                目前這個網站是透過 <a href="https://pagefind.app/">Pagefind</a> 進行搜尋，搜尋英文應該沒什麼問題，若要搜尋中文，建議把詞彙拆成最多兩個字一組，再用<code>"</code>符號包圍它。<br>
+                例如若要搜尋「專案管理」或「工作流」，可以搜尋<code>"專案 管理"</code>和<code>"工作 流"</code>，可能會有較好的搜尋成效！
+            </p>
+          </div>
+          <hr class="w-full">
+          <h2>Write your comment</h2>
+          <br>
+          <div id="cusdis_thread"
+          data-host="https://comments.pinchlime.com"
+          data-app-id="d39e9f8e-53f2-48bc-a699-980cc0a4b00c"
+          data-page-id="{{ page.path }}"
+          data-page-url="{{ config.base_url }}{{ page.path }}"
+          data-page-title="{{ page.title }}"
+          data-theme="light">
+          </div>
+        <script async defer src="https://comments.pinchlime.com/js/cusdis.es.js"></script>
+        <p class="muted text-sm">
+            如果你對於搜尋結果不太滿意，歡迎留言跟我分享，或者來信到<code>mimir@hey.com</code> 告訴我你的想法。
+        </p>
+        </section>
+        
+       
+      </section>
+</div>
+{% endblock main%}
+
+{% block sidebar %}
+  <aside class="sidebar px">
+    <h2>{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <ul>
+      {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
+        <li>
+            {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+            {{ macro::post_side(page=page) }}
+            {% endfor %} 
+            {{trans(key="label_all_posts",lang=lang) | markdown(inline=true) | safe}}
+        </li>
+    </ul>
+    <h2>{{trans(key="label_new_newsletters_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <ul>
+        {% set all_blog_pages = get_section(path="newsletters/_index"~file_lang_path~".md") -%}
+        <li>
+          {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+          {{ macro::newsletters_side(page=page) }}
+          {% endfor %} 
+          {{trans(key="label_all_newsletters",lang=lang) | markdown(inline=true) | safe}}
+        </li>
+    </ul>
+    <h2>{{trans(key="label_new_snapshots_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <ul>
+        {% set all_blog_pages = get_section(path="snapshots/_index"~file_lang_path~".md") -%}
+        <li>
+          {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+          {{ macro::snapshots_side(page=page) }}
+          {% endfor %} 
+          {{trans(key="label_all_snapshots",lang=lang) | markdown(inline=true) | safe}}
+        </li>
+    </ul>
+    <h2>{{trans(key="label_sorting_articles",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <ul>
+        <li class="no-underline">
+          <a href="{{lang_prefix_path}}tag-list/">{{ trans(key="label_tags",lang=lang) }}</a>
+        </li>
+        <li class="no-underline">
+          <a href="{{lang_prefix_path}}archive/">{{ trans(key="label_archive",lang=lang) }}</a>
+        </li>
+        <li class="no-underline">
+          <a href="{{lang_prefix_path}}newsletters/archive/">{{ trans(key="label_newsletter_archive",lang=lang) }}</a>
+        </li>
+        <li class="no-underline">
+          <a href="{{lang_prefix_path}}snapshots/archive/">{{ trans(key="label_snapshot_archive",lang=lang) }}</a>
+        </li>
+    </ul>
+      {% set custom_sidebar = get_section(path="sidebar/_index"~file_lang_path~".md") %} 
+      {{ custom_sidebar.content | safe }}          
+  </aside>
+{% endblock sidebar %}
