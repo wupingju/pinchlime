@@ -29,13 +29,15 @@
 <span>第 {{page.extra.issues }} 期 ｜</span>
 {% endblock detail_meta_slot -%}
 {% block newsletter_sidebar_slot %}
+<div class="sidebar-element">
 <h2>看其他<span style="text-decoration:underline;"><a href="/newsletters/">電子報</a></span></h2>
 <ul>
   {% set all_blog_pages = get_section(path="newsletters/_index"~file_lang_path~".md") -%}
   {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
-  <li>
+  <li class="no-underline">
     {{ macro::newsletters_side(page=page) }}
   </li>
   {% endfor %} 
 </ul>
+</div>
 {% endblock newsletter_sidebar_slot %}

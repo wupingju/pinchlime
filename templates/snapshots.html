@@ -60,7 +60,8 @@
 </div>
 {% endblock main -%}
 {% block sidebar %}
-  <aside class="sidebar px">
+  <aside class="sidebar">
+    <div class="sidebar-element">
     <h2><a class="no-underline" href="{{lang_prefix_path}}kinds/">{{ trans(key="label_kinds",lang=lang) }}</h2></a>
     <ul>
       {% set kinds = get_taxonomy(kind="kinds",lang=lang) %} 
@@ -71,36 +72,50 @@
       </li>
       {% endfor %}
     </ul>
+    </div>
+    <div class="sidebar-element">
     <h2>{{trans(key="label_new_snapshots_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
     <ul>
         {% set all_blog_pages = get_section(path="snapshots/_index"~file_lang_path~".md") -%}
-        <li>
           {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+          <li class="no-underline">
           {{ macro::snapshots_side(page=page) }}
+          </li>
           {% endfor %} 
+          <li class="no-underline">
           {{trans(key="label_all_snapshots",lang=lang) | markdown(inline=true) | safe}}
-        </li>
+          </li>
     </ul>
+    </div>
+    <div class="sidebar-element">
     <h2>{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
     <ul>
       {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
-        <li>
-            {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
-            {{ macro::post_side(page=page) }}
-            {% endfor %} 
-            {{trans(key="label_all_posts",lang=lang) | markdown(inline=true) | safe}}
+        {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
+        <li class="no-underline">
+        {{ macro::post_side(page=page) }}
+        </li>
+        {% endfor %} 
+        <li class="no-underline">
+        {{trans(key="label_all_posts",lang=lang) | markdown(inline=true) | safe}}
         </li>
     </ul>
+    </div>
+    <div class="sidebar-element">
     <h2>{{trans(key="label_new_newsletters_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
     <ul>
         {% set all_blog_pages = get_section(path="newsletters/_index"~file_lang_path~".md") -%}
-        <li>
-          {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
-          {{ macro::newsletters_side(page=page) }}
-          {% endfor %} 
-          {{trans(key="label_all_newsletters",lang=lang) | markdown(inline=true) | safe}}
+        {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
+        <li class="no-underline">
+        {{ macro::newsletters_side(page=page) }}
+        </li>
+        {% endfor %} 
+        <li class="no-underline">
+        {{trans(key="label_all_newsletters",lang=lang) | markdown(inline=true) | safe}}
         </li>
     </ul>
+    </div>
+    <div class="sidebar-element">
     <h2>{{trans(key="label_sorting_articles",lang=lang) | markdown(inline=true) | safe}}</h2>
     <ul>
         <li class="no-underline">
@@ -116,7 +131,10 @@
           <a href="{{lang_prefix_path}}snapshots/archive/">{{ trans(key="label_snapshot_archive",lang=lang) }}</a>
         </li>
     </ul>
+    </div>
+    <div class="sidebar-element">
       {% set custom_sidebar = get_section(path="sidebar/_index"~file_lang_path~".md") %} 
-      {{ custom_sidebar.content | safe }}          
+      {{ custom_sidebar.content | safe }}  
+    </div>        
   </aside>
 {% endblock sidebar %}

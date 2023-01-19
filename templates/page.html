@@ -75,7 +75,7 @@
              <br>
           </article>
           <hr class="w-full">
-          <h2>Write your comment</h2>
+          <h3>Write your comment</h2>
           <br>
           <div id="cusdis_thread"
           data-host="https://comments.pinchlime.com"
@@ -112,40 +112,46 @@
 {% endblock main%}
 
 {% block sidebar %}
-<aside class="sidebar px {% if page.toc %}{% else %}no-toc{% endif %}">
+<aside class="sidebar">
 {% if page.toc %}
+<div class="sidebar-element">
 <h2>{{trans(key="label_table_contents",lang=lang)}}</h2>
 {{ macro::page_toc(toc=page.toc) }}
+</div>
 {% endif %}
 {% block newsletter_sidebar_slot %}{% endblock newsletter_sidebar_slot %}
 {% block section_sidebar_slot %}{% endblock section_sidebar_slot %}
 {% if page.taxonomies.categories %}
 <body>
+  <div class="sidebar-element">
   <h2>看更多相關文章</h2>
-  <ul class="list-none text-sm">
+  <ul>
+    <li class="no-underline">
     <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}">➤&emsp;其他 {{
       page.taxonomies.categories[0] }} 分類</a><br>      
+    </li>
     {% if page.taxonomies.tags -%}
     {% for tag in page.taxonomies.tags %}
+    <li class="no-underline">
     <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">➤&emsp;其他 {{ tag }} 標籤</a>{% if page.taxonomies.tags | length > 1 %}{% if
     loop.index != page.taxonomies.tags | length %}<br>{% endif %}{% endif %}
+    </li>
     {% endfor %}
     {% endif %}
   </ul>
-  <br>
-  <br>
-</body>
-<h2>看其他{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
-<ul>
-  {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
-  {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
-  <li>
-    <a class="no-underline"
-      >{{ macro::post_side(page=page) }}
-  </li>
-  {% endfor %} 
-</ul>
-<br>
+  </div>
+  </body>
+  <div class="sidebar-element">
+  <h2>看其他{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+  <ul>
+    {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
+    {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
+    <li class="no-underline">
+      {{ macro::post_side(page=page) }}
+    </li>
+    {% endfor %} 
+  </ul>
+  </div>
 {% endif %}
 </aside>
 
