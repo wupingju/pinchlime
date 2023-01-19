@@ -4,7 +4,7 @@ description: 這邊放置 Pin 起來網站的 Changelog，主要的內容是描�
 path: changelog/
 draft: false
 date: 2022-04-20
-updated: 2023-01-14
+updated: 2023-01-19
 template: changelog.html
 ---
 
@@ -25,7 +25,29 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [2.1.2] - 2023-01-19
+
+### Changed
+
+- 大幅修改了網站的 css 設定，主要調整的項目有：
+    - 側邊欄也改為一個一個獨立的區塊，並且拉大各項目的間距，看起來不會那麼擠了
+    - H2 標題增加更顯眼的樣式、 H3 標題增加粗體
+    - 更換英文字型，由原本的 Menlo 改為 Inter ，我很喜歡 Menlo ，但感覺這個字體讀起來有點距離感、生硬感，希望內容可以更親切一點。
+    - Header 統一改為我好像更喜歡的深藍色版本
+    - Quote 的文字增加底色，更好區別樣式
+
+以下是兩張前後對比圖，左邊都是舊版，右邊是新版～
+![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/css-change-230119-1_7g2pJ1.webp)
+
+
+![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/css-change-230119-2_C3S2BG.webp)
+
+
+---
+
 ## [2.1.1] - 2023-01-18
+
+### Changed
 
 - 把 tags, categories, kinds 三種類型的項目都打開 RSS 單獨訂閱的功能，在該項目後面加上 `atom.xml` 就可以了。例如可以透過 [https://pinchlime.com/tags/heptabase/atom.xml](https://pinchlime.com/tags/heptabase/atom.xml) 訂閱 Heptabase 這個 tag 的文章。
 
@@ -34,12 +56,16 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ## [2.1.0] - 2023-01-14
 
+### Added
+
 - 網站新增了「[搜尋](/search)」的功能！
     - 相關心得與步驟可以參考這篇文章：[如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能](/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind)
 
 ---
 
 ## [2.0.1] - 2023-01-01
+
+### Changed
 
 - 把昨天沒來得及處理完的一些跑版問題處理完，現在手機上 header 也能正常顯示了。
 - 也把之前不知為何固定鎖死的 h1 font-size 調整為可變化的設定。
@@ -49,12 +75,16 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ## [2.0.0] - 2022-12-31
 
+### Added
+
 - 今天一個起心動念，想把筆記與想法的子網站搬回主網站這邊，就開始動工。經過一整個下午與晚上的調整與導入後，完成了全新的 2.0 版本，把內容分成三個區塊： Blog, Newsletters, Snapshots。
 - 我把搬家的紀錄跟簡單心得放在這篇文章：[我把筆記與想法快照的內容都搬回 Pin 起來主網站了](/blog/migrated-notes-and-snapshots-back-to-the-main-site)
 
 ---
 
 ## [1.10.5] - 2022-12-30
+
+### Changed
 
 - 今天心血來潮詢問 ChatGPT 一些 css 的問題，就順帶把網站的每篇文章「分開」了，原先每篇文章都會黏在一起，有時比較不好區分不同文章，現在分開後清爽不少！
 
