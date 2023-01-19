@@ -18,41 +18,7 @@
 {% block description %}{% if page.description %} {{ page.description }} {% elif page.summary %} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock description %}
 {% block ogurl %}{% if page.path %}{{ config.base_url }}{{ page.path }} {% endif %}{% endblock ogurl %}
 {% block ogimg %}{% if page.extra.image %}{{ page.extra.image }}{% endif %}{% endblock ogimg %}
-{% block nav_bar -%}
-{% if page.taxonomies.categories %}
-<nav class="navbar-top">
-  <div>
-    <a class="navbar-a" href="{{ config.base_url~lang_prefix_path }}" >
-      <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-no-sub_FzfQ69.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
-      <span class="navbar-name">Pin 起來</span>
-    </a> 
-  </div>
-  <span>&nbsp;&nbsp;&nbsp;</span>
-  <div class="navbar-name">
-    <a class="no-underline" href="/blog/">Blog</a>&nbsp;
-    <a class="no-underline" href="/newsletters/">Newsletters</a>&nbsp;
-    <a class="no-underline" href="/snapshots/">Snapshots</a>&nbsp;
-    <a class="no-underline" href="/search/">Search</a>
-  </div>
-</nav>
-{% else %}
-<nav class="navbar-snapshots-top">
-  <div>
-    <a class="navbar-snapshots-a" style="color: #ffffff" href="{{ config.base_url~lang_prefix_path }}" >
-      <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-02-no-sub-96x96_Bgz9Ey.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
-      <span class="navbar-snapshots-name">Pin 起來</span>
-    </a> 
-  </div>
-  <span>&nbsp;&nbsp;&nbsp;</span>
-  <div class="navbar-snapshots-name">
-    <a class="no-underline" href="/blog/">Blog</a>&nbsp;
-    <a class="no-underline" href="/newsletters/">Newsletters</a>&nbsp;
-    <a class="no-underline" href="/snapshots/">Snapshots</a>&nbsp;
-    <a class="no-underline" href="/search/">Search</a>
-  </div>
-</nav>
-{% endif %}
-{% endblock nav_bar %}
+
 {% block main %}
 <div class="element">
       {% block detail_meta -%}
