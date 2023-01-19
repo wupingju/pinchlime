@@ -195,7 +195,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Fixed
 
-- 修復了站內每個頁面的 og:url, og:title & og:descriptoon，原先許多頁面並沒有特別設置，或者路徑有誤。以下是目前站內主要的幾種 og:url 路徑：
+- 修復了站內每個頁面的 og:url, og:title & og:description，原先許多頁面並沒有特別設置，或者路徑有誤。以下是目前站內主要的幾種 og:url 路徑：
 
 ```rust
 # Pages 的 og:url ：
