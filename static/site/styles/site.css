@@ -642,4 +642,8 @@ li.inline {
     padding-bottom: 1rem;
     border: none;
   }
+  .menu-button {
+    text-decoration: none;
+    margin-left: 0.4rem;
+  }
 }
