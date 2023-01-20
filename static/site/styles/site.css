@@ -381,46 +381,19 @@ a.muted,
   font-size: 15px;
   position: relative;
   vertical-align: middle;
-  color: #5f6368;
+  color: #ffffff;
   white-space: nowrap;
 }
 .navbar-a {
   display: flex;
   align-items: center;
-  color: #003c6d;
-  text-decoration: none;
-}
-.navbar-top {
-  position: fixed;
-  display: flex;
-  flex-direction: row;
-  height: 52px;
-  width: calc(100% - 16px);
-  padding: 1rem;
-  align-items: center;
-  border-bottom: 3px solid #e9edf0;
-  color: #5f6368;
-  z-index: 1100;
-  background-color: #f2f2f2;
-}
-.navbar-snapshots-name {
-  display: inline-block;
-  font-size: 15px;
-  position: relative;
-  vertical-align: middle;
-  color: #ffffff;
-  white-space: nowrap;
-}
-.navbar-snapshots-a {
-  display: flex;
-  align-items: center;
   color: #ffffff;
   text-decoration: none;
 }
-.navbar-snapshots-top a:link {
+.navbar-top a:link {
   color: #FFFFFF;
 }
-.navbar-snapshots-top {
+.navbar-top {
   position: fixed;
   display: flex;
   flex-direction: row;
