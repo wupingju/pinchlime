@@ -393,18 +393,23 @@ a.muted,
 .navbar-top a:link {
   color: #FFFFFF;
 }
+.nav-container {
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  flex-direction: row;
+  padding: 1rem;
+}
 .navbar-top {
   position: fixed;
-  display: flex;
-  flex-direction: row;
-  height: 52px;
   width: 100%;
-  padding: 1rem;
-  align-items: center;
   border-bottom: 3px solid #e9edf0;
   color: #FFFFFF;
-  z-index: 1100;
   background-color: #003C6D;
+  z-index: 1100;
 }
 article {
   padding-bottom: 0.2rem;
@@ -559,10 +564,7 @@ li.inline {
     display: flex;
   }
   .navbar-name {
-    font-size: 11px;
-  }
-  .navbar-snapshots-name {
-    font-size: 11px;
+    font-size: 12px;
   }
   html {
     font-size: 12px;
@@ -617,6 +619,7 @@ li.inline {
   }
   .menu-button {
     text-decoration: none;
-    margin-left: 0.4rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
   }
 }
