@@ -82,8 +82,8 @@
 {% endmacro page_toc %}
 
 {% macro paginator(ref, extra) %}
-<div class="pagination py">
-  <ul class="list-none flex justify-between">
+<div class="element" style="background: none; box-shadow:none;"">
+  <ul class="list-none flex justify-between" style="max-width: 50rem;">
     {% if ref.current_index != 1 %}
       <li><a class="no-underline" href="{{ ref.first }}">&larrb;</a></li>
     {% else %}
