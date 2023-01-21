@@ -13,7 +13,7 @@ taxonomies:
 ---
 
 
-前一步驟：[透過Heptabase製作閱讀筆記卡片](/blog/workflows/create-literature-cards-through-Heptabase)
+前一步驟：[透過Heptabase製作閱讀筆記卡片](@/blog/workflows-create-literature-cards-through-Heptabase.md)
 
 此一步驟：
 在註解區，透過 Tiago Forte 提出的漸進式總結方法，註記相關資訊。

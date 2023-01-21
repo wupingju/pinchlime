@@ -9,7 +9,7 @@ extra:
   issues: 7
 ---
 
-[兩週前在電子報裡分享](/newsletters/what-is-the-best-tool)了來自[科技創業週報](https://blog.starrocket.io/star-rocket-newsletter/)／[星箭廣播](https://podcast.starrocket.io/)團隊寫的關於 changelog 的兩篇文章，當時這個想法就在心中悄悄地萌芽。
+[兩週前在電子報裡分享](@/newsletters/5-what-is-the-best-tool.md)了來自[科技創業週報](https://blog.starrocket.io/star-rocket-newsletter/)／[星箭廣播](https://podcast.starrocket.io/)團隊寫的關於 changelog 的兩篇文章，當時這個想法就在心中悄悄地萌芽。
 
 這兩天再回頭看了一下兩篇文，認真的做了筆記，也有更多想法冒出來，就來分享一下。
 
@@ -42,7 +42,7 @@ extra:
 
 ## Workflow
 
-今天順著上週介紹的[閱讀輸入 workflow](/newsletters/ignorance-management)，繼續來介紹下一階段的**資訊處理 workflow**，或者說我怎麼將一篇文章的畫線與速記，處理製作成 Literature notes 以及 Permanent notes。
+今天順著上週介紹的[閱讀輸入 workflow](@/newsletters/6-ignorance-management.md)，繼續來介紹下一階段的**資訊處理 workflow**，或者說我怎麼將一篇文章的畫線與速記，處理製作成 Literature notes 以及 Permanent notes。
 
 這樣的處理流程也是最近才慢慢固定下來的，但運作了一陣子後覺得非常流暢，簡單來說步驟如下：
 

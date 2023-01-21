@@ -18,7 +18,7 @@ taxonomies:
 - 電子報可以直達收信者的小天地 （Ｘ）
 - 電子報的優點是可以直達收信者的信箱 （Ｏ）
 前者的描述比較像是一個客觀描述，後者則是主觀的論點。
-換句話說，[Evergreen notes 的命名必須是主觀的論點](/blog/evergreen/the-naming-of-evergreen-notes-must-be-a-subjective-argument)
+換句話說，[Evergreen notes 的命名必須是主觀的論點](@/blog/evergreen-the-naming-of-evergreen-notes-must-be-a-subjective-argument.md)
 
 內含價值判斷或比較，例如：
 - 持續運動的好處（Ｘ）

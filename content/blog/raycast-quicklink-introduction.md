@@ -13,7 +13,7 @@ taxonomies:
     - Workflows
 ---
 
-今天要繼續來分享一下，前幾天 [初次介紹 Raycast](/2022/04/02/raycast-introduction/) 時沒有特別留意＆著墨的功能 Quicklink。
+今天要繼續來分享一下，前幾天 [初次介紹 Raycast](@/blog/raycast-introduction.md) 時沒有特別留意＆著墨的功能 Quicklink。
 
 先前情提要一下，我原先主要是透過 Apple notes 紀錄我的工時 （[關於紀錄工時的好處請看這篇](https://pinchlime.substack.com/p/record-your-work-hours?s=w)），用法很簡單，就是每天開啟一則 note ，然後做完什麼事就記上去對應的時間跟事情，例如「0930–0945 安排今日待辦工作」。
 

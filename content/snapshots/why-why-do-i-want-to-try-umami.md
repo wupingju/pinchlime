@@ -32,7 +32,3 @@ taxonomies:
 因此如果要回答這個 why ，答案應該是： Google Analytics 的功能太多太複雜，使用起來很臃腫，我用不到這麼多功能，因此想嘗試別的方案，而 umami 不僅看起來簡單夠用，也夠便宜，所以我想嘗試看看。
 
 至於隱私也是一個考量，如果可以，我只想知道大家在我的內容上的瀏覽時間以及次數，這對我來講是判斷哪些內容對大家有價值的方式之一。
-
----
-Backlinks:
-- [嘗試安裝 umami 成功](/snapshots/what-i-tried-today/tried-to-install-umami-on-my-websites)

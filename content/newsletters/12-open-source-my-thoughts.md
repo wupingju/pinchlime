@@ -89,7 +89,7 @@ extra:
 
 本期想推薦的文章，是兩篇跟今天主題 "Open source 自己的想法" 相關的文章，或者可以說是這期想法的由來。
 
-第一篇是之前在 [寫部落格對我的影響](/newsletters/the-impact-of-blogging) 這期裡面推薦過的 swyx 寫的 [Digital Garden Terms of Service](https://www.swyx.io/digital-garden-tos)。
+第一篇是之前在 [寫部落格對我的影響](@/newsletters/9-the-impact-of-blogging.md) 這期裡面推薦過的 swyx 寫的 [Digital Garden Terms of Service](https://www.swyx.io/digital-garden-tos)。
 
 這邊的 Digital Garden ，指的是個人在網路上維護的小小空間，可能是部落格，或者是透過 Notion, Logseq, Obsidian 等知識管理軟體公布的個人筆記頁面。
 

@@ -19,6 +19,6 @@ updated: 2022-07-30
 
 詳情可以參考：
 
-[一見鐘情的 Logseq – Pin 起來！](/2021/12/04/first-impression-of-logseq/)
+[一見鐘情的 Logseq – Pin 起來！](@/blog/first-impression-of-logseq.md)
 
-[嘗試把 Logseq 當成 Workflowy 使用的心得](/2022/02/01/logseq-workflowy-comparison/)
+[嘗試把 Logseq 當成 Workflowy 使用的心得](@/blog/logseq-workflowy-comparison.md)

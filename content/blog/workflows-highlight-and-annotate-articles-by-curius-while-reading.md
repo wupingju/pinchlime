@@ -14,7 +14,7 @@ taxonomies:
     - Archived
 ---
 
-（本則 Workflow 已有更新版：[我的閱讀、畫線與註記工作流](/blog/workflows/my-highlighting-and-annotating-workflow)）
+（本則 Workflow 已有更新版：[我的閱讀、畫線與註記工作流](@/blog/workflows-my-highlighting-and-annotating-workflow.md)）
 
 我的資訊處理第一步驟是：閱讀、畫線、註記
 

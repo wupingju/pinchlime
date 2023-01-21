@@ -112,3 +112,17 @@
   </ul>
 </div>
 {% endmacro paginator %}
+{% macro backlink(pages) %}
+{% if pages and pages | length >0 %}
+  <section class="backlinks ">
+    <h3>Links to this page ({{ pages | length }})</h3>
+    <ul>
+      {% for page in pages %}
+        <li>
+          <a href="{{ page.permalink }}">{{ page.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}
+{% endmacro backlink %}

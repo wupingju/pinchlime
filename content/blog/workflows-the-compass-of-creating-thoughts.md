@@ -13,7 +13,7 @@ taxonomies:
 
 Version: 1.0
 
-簡介：聯想羅盤是我參考 5/17 介紹的 [The Compass of Zettelkasten Thinking](/snapshots/what-i-found-interesting/the-compass-of-zettelkasten-thinking) 建立的小小 workflow ，透過 Heptabase 的視覺化筆記來實現，使用方式是把需要的卡片放在正中央，此時就開始根據聯想羅盤的東西南北四個方位開始思考新的想法。
+簡介：聯想羅盤是我參考 5/17 介紹的 [The Compass of Zettelkasten Thinking](@/snapshots/found-the-compass-of-zettelkasten-thinking.md) 建立的小小 workflow ，透過 Heptabase 的視覺化筆記來實現，使用方式是把需要的卡片放在正中央，此時就開始根據聯想羅盤的東西南北四個方位開始思考新的想法。
 
 * 中間：放置想法本身
 * 北方：這個想法從哪兒來？

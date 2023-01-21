@@ -20,7 +20,3 @@ taxonomies:
 還有一個是 Logseq 的 block embed 功能我也沒有特別信任，之前就發生過錯誤，不知為何過一陣子回去看某則筆記後，發現讀不到 embed 的東西，但又因為整串 embed 資訊是一串亂碼，導致我根本不知道我 embed 了什麼東西，結果那則筆記也失去它的意義。
 
 綜合以上幾點，自從 Heptabase 出現後，我就感覺 Logseq 蠻難作為第二大腦的儲放地點，最多最多只能當作想法隨意萌芽迸發的地方，而一但有了某種固定的結構，就適合放到 Heptabase 裡面當作我的原子筆記。
-
----
-Backlinks: 
-- [結構化與去結構化的筆記工具優劣](/snapshots/random/pros-and-cons-of-structured-and-destructured-note-taking-tools)

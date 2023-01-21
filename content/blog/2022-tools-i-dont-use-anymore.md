@@ -11,14 +11,14 @@ taxonomies:
     - Productivity Tools
 ---
 
-在前一篇 [2022 年度回顧 - 不成熟的隻字片語也有價值](/blog/2022-yearly-review) 裡面提到，我的工具組合越來越精簡，因此這篇也想記錄一下，在 2022 年底，有哪些工具我已經幾乎不再使用了，以及為什麼。
+在前一篇 [2022 年度回顧 - 不成熟的隻字片語也有價值](@/blog/2022-yearly-review.md) 裡面提到，我的工具組合越來越精簡，因此這篇也想記錄一下，在 2022 年底，有哪些工具我已經幾乎不再使用了，以及為什麼。
 
 <!-- more -->
 ---
 
 ## DEVONthink
 
-雖然寫出來有點不捨，但事實是我真的沒有在用[以前非常推薦的 DEVONthink](/2021/01/24/devonthink3-introduction/) 了。關鍵的原因可能有幾個：
+雖然寫出來有點不捨，但事實是我真的沒有在用[以前非常推薦的 DEVONthink](@/blog/devonthink3-introduction.md) 了。關鍵的原因可能有幾個：
 
 1. 「所有文件與想法歸檔」這個定位被 Heptabase 取代，我不需要、也找不到理由，分兩個地方儲存所有資料。
 
@@ -34,7 +34,7 @@ taxonomies:
 
 ## Logseq
 
-大約從 2022 下半年開始，我就不再使用 Logseq 了，核心原因也是因為 Heptabase 的出現。[隨著 Heptabase 的迅速發展](/blog/heptabase-has-already-become-my-favorite-pkm-tool/)，它逐漸具備我在知識管理上期待的各項功能，
+大約從 2022 下半年開始，我就不再使用 Logseq 了，核心原因也是因為 Heptabase 的出現。[隨著 Heptabase 的迅速發展](@/blog/heptabase-has-already-become-my-favorite-pkm-tool.md)，它逐漸具備我在知識管理上期待的各項功能，
 
 原先我在 Logseq 主要會透過 Journals 的介面每日速記想法，不過隨著想法逐漸累積，我發現 Logseq 沒有辦法讓我全心投入，因為它的介面讓我難以迅速「鳥瞰」過往的各種想法，我只知道我持續在記東西，但不容易一次看到過往的所有想法。
 

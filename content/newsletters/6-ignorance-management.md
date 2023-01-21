@@ -49,7 +49,7 @@ extra:
 
 今天來介紹我近期運作地越來越穩定的**閱讀輸入 Workflow**。
 
-主要是由[上週的電子報](/newsletters/what-is-the-best-tool)介紹過的 [Curius](https://curius.app/) 以及之前曾[在部落格介紹過](/2022/01/31/raindropio-first-impression/)的 [Raindrop](https://raindrop.io/)組成的。
+主要是由[上週的電子報](@/newsletters/5-what-is-the-best-tool.md)介紹過的 [Curius](https://curius.app/) 以及之前曾[在部落格介紹過](@/blog/raindropio-first-impression.md)的 [Raindrop](https://raindrop.io/)組成的。
 
 具體的流程是這樣的：
 
@@ -71,7 +71,7 @@ extra:
 
 ## 推薦文章
 
-[兩週前的電子報](/newsletters/record-your-work-hours)曾經推薦過兩篇關於 Zettelkasten 卡片筆記法／卡片寫作法的好文，本次再來推薦三篇也相當讚的 Zettelkasten 文章。（不好意思啦，這是我最近興趣所在，所以有時間都先閱讀這些，以後再來分享其他的）
+[兩週前的電子報](@/newsletters/4-record-your-work-hours.md)曾經推薦過兩篇關於 Zettelkasten 卡片筆記法／卡片寫作法的好文，本次再來推薦三篇也相當讚的 Zettelkasten 文章。（不好意思啦，這是我最近興趣所在，所以有時間都先閱讀這些，以後再來分享其他的）
 
 1. [風靡歐美的卡片盒筆記法是什麼？12個法則和重點整理](https://readingoutpost.com/smart-notes/)
 2. [正確使用卡片盒筆記法（Zettelkasten）的六個關鍵步驟](https://readingoutpost.com/zettelkasten-6-steps/)

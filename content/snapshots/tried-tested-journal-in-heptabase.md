@@ -37,4 +37,4 @@ taxonomies:
 
 * 後來發現，在白板中也可以打開 journals 的視窗，變成是可以把 Journal 裡面記下來的東西傾倒到白板，我還蠻喜歡這樣的設計，也很直覺，但缺點是傾倒時會直接消失在 Journal 的欄位裡面，我比較希望可以留著。
 
-* 後記： 在 2022-06-08 時的[測試 Heptabase Journal 的「拖曳到白板」功能](/snapshots/what-i-tried-today/tested-heptabase-journal-dragging-to-whiteboard) 這篇裡面就可以保留拖曳的內容了。
+* 後記： 在 2022-06-08 時的[測試 Heptabase Journal 的「拖曳到白板」功能](@/snapshots/tried-tested-heptabase-journal-dragging-to-whiteboard.md) 這篇裡面就可以保留拖曳的內容了。

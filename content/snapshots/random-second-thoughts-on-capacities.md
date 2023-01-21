@@ -20,7 +20,7 @@ taxonomies:
 
 那麼，我可以在目前的哪個軟體做到類似的效果嗎？
 
-看起來在 [Heptabase 0.225.0 版本更新](https://pinchlime.com/blog/the-benefits-of-putting-journals-on-whiteboards-in-heptabase/)後，可以做到差不多的效果，只要我把 journal 的內容好好收錄整理，就可以在平鋪的白板上一次看到近期紀錄的內容。
+看起來在 [Heptabase 0.225.0 版本更新](@/blog/the-benefits-of-putting-journals-on-whiteboards-in-heptabase.md)後，可以做到差不多的效果，只要我把 journal 的內容好好收錄整理，就可以在平鋪的白板上一次看到近期紀錄的內容。
 
 不過，capacities 感覺更像是前期的 process 收錄箱，因為我也不想要把一堆無用的連結資訊塞到 Heptabase 裏面，那或許他真正可以替代的是 Raindrop？
 

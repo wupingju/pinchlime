@@ -55,11 +55,11 @@ extra:
 
 ## Workflow
 
-今天要分享的 workflow 是我的閱讀、畫線與註解工作流。我曾在「[便利商店沒賣什麼東西？](/newsletters/ignorance-management)」這期電子報分享過類似的工作流，但最近更新了！
+今天要分享的 workflow 是我的閱讀、畫線與註解工作流。我曾在「[便利商店沒賣什麼東西？](@/newsletters/6-ignorance-management.md)」這期電子報分享過類似的工作流，但最近更新了！
 
 完整的內容可以直接看：
 
-[我的閱讀、畫線與註記工作流](/blog/workflows/my-highlighting-and-annotating-workflow/)
+[我的閱讀、畫線與註記工作流](@/blog/workflows-my-highlighting-and-annotating-workflow.md)
 
 透過這個更新版的方法，我可以用 Glasp 達到三件事：
 
@@ -99,7 +99,7 @@ extra:
 
 完整的內容與使用心得請見： 
 
-[嘗試使用 Logseq 上面的 GPT-3 plugin](/snapshots/what-i-tried-today/tried-to-use-logseq-plugin-gpt3-openai/)
+[嘗試使用 Logseq 上面的 GPT-3 plugin](@/snapshots/tried-tried-to-use-logseq-plugin-gpt3-openai.md)
 
 對我來說，這個體驗非常有價值，它讓我這個非工程師第一次在新聞以外的地方直接體驗了跟 AI 互動的感覺，也透過自己的方式嘗試理解了 AI 擅長與不擅長的事。
 
@@ -111,8 +111,8 @@ extra:
 
 本篇電子報的某些段落開始直接引用我在新的子網站 「[Pin 起來的筆記與想法快照](https://notes.pinchlime.com)」 寫的內容，關於這個子網站的建立動機和方法，可以參考這篇部落格的紀錄：
 
-連結：[透過 Zola 建立了新的「筆記與想法快照」子網站](https://pinchlime.com/blog/built-pinchlime-notes/) 
+連結：[透過 Zola 建立了新的「筆記與想法快照」子網站](@/blog/built-pinchlime-notes.md) 
 
 另外，我這禮拜也寫了一篇文章分享近期 Heptabase 的重要更新，以及為什麼我決定 all-in Heptabase 、我現在拿 Heptabase 來做什麼。也歡迎你參考閱讀！
 
-連結：[迅速迭代功能的 Heptabase 已成為我最愛用的知識管理工具](https://pinchlime.com/blog/heptabase-has-already-become-my-favorite-pkm-tool/)
+連結：[迅速迭代功能的 Heptabase 已成為我最愛用的知識管理工具](@/blog/heptabase-has-already-become-my-favorite-pkm-tool.md)

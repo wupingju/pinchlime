@@ -51,7 +51,7 @@ extra:
 
 ## 推薦文章
 
-這次要推薦的是兩篇與 Zettelkasten 卡片筆記法相關的文章。最近一兩週開始大量使用[我曾介紹過](https://pinchlime.com/2022/02/27/heptabase-introduction/) 的 [Heptabase](https://heptabase.com/) 來進行卡片寫作，一方面是 Heptabase 在近期的更新後，這方面的功能越來越齊全。另一方面是從過年的連假以及這次 228 的連假，我也慢慢的把過去一兩年各種雜亂的筆記好好整理了一番。這時剛好看到兩篇寫的不錯的文章，推薦給大家：
+這次要推薦的是兩篇與 Zettelkasten 卡片筆記法相關的文章。最近一兩週開始大量使用[我曾介紹過](@/blog/heptabase-introduction.md) 的 [Heptabase](https://heptabase.com/) 來進行卡片寫作，一方面是 Heptabase 在近期的更新後，這方面的功能越來越齊全。另一方面是從過年的連假以及這次 228 的連假，我也慢慢的把過去一兩年各種雜亂的筆記好好整理了一番。這時剛好看到兩篇寫的不錯的文章，推薦給大家：
 
 1. [如何高效实践卡片式写作？](https://sspai.com/post/59109)
 2. [Zettelkasten卡片盒知识管理实践和反思](https://mirror.xyz/cryptolunatic.eth/DkLDouK1wVNlGb_WNw-cjnnMh3JzCQgC9F1cWP6JoL4)

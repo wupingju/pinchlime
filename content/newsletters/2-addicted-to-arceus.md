@@ -32,7 +32,7 @@ extra:
 
 ## Workflow
 
-[上週電子報](/newsletters/future-me)分享了透過 [Keyboard Maestro](https://www.keyboardmaestro.com/main/) 這個工具來撰寫電子報的工作流程，本週繼續分享透過 Keyboard Maestro 製作的「快速啟動器」。
+[上週電子報](@/newsletters/1-future-me.md)分享了透過 [Keyboard Maestro](https://www.keyboardmaestro.com/main/) 這個工具來撰寫電子報的工作流程，本週繼續分享透過 Keyboard Maestro 製作的「快速啟動器」。
 
 Keyboard Maestro 有個蠻特別的功能叫做 Conflict Palette ，簡單的概念是，假設不同自訂腳本被安排了同一個熱鍵，因為無法判定使用者想要哪一個，所以 Keyboard Maestro 就會挑出一個清單讓使用者選取。
 

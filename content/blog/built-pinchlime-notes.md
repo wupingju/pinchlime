@@ -30,7 +30,7 @@ taxonomies:
 
 ## 為何要建立 Pin 起來的筆記與想法快照
 
-我在 [Open Source 自己的想法](/newsletters/open-source-my-thoughts)這期電子報裡面有簡單分享過一些「把自己的原子想法開源」的概念，對我來說這麼做有兩個重要的好處：
+我在 [Open Source 自己的想法](@/newsletters/12-open-source-my-thoughts.md)這期電子報裡面有簡單分享過一些「把自己的原子想法開源」的概念，對我來說這麼做有兩個重要的好處：
 
 1. 我能產出更好的想法與內容
 2. 別人更能理解我的想法與內容
@@ -55,7 +55,7 @@ taxonomies:
 
 ## Pin 起來的筆記與想法快照
 
-在建立的過程中，我重新思考了一個問題是：[我真正想要的好像不是「個人 wiki」](/snapshots/random/what-i-truly-want-is-not-a-personal-wiki/)。
+在建立的過程中，我重新思考了一個問題是：[我真正想要的好像不是「個人 wiki」](@/snapshots/random-what-i-truly-want-is-not-a-personal-wiki.md)。
 
 因為 wiki 感覺更像是一個「知識系統」或「知識社群」，但對我來說我更在意的是我自己的「想法」以及基於想法產生的「內容」。
 
@@ -85,7 +85,7 @@ Snapshots
 
 ## 我如何架設這個子網站？
 
-整體來說，架設方式與[Pin 起來改版了！從 Wordpress 搬家到 Zola！](/blog/rebuilt-pinchlime/) 這篇裡面提到的作法大致上都相同，我只有調整了導覽列的顏色和背景的顏色以做出區別，也調整了一下首頁的呈現方式（目前會放置固定的導覽內容，而不是像部落格一樣會自動放上最新消息）、調整了側邊欄的內容等等。
+整體來說，架設方式與[Pin 起來改版了！從 Wordpress 搬家到 Zola！](@/blog/rebuilt-pinchlime.md) 這篇裡面提到的作法大致上都相同，我只有調整了導覽列的顏色和背景的顏色以做出區別，也調整了一下首頁的呈現方式（目前會放置固定的導覽內容，而不是像部落格一樣會自動放上最新消息）、調整了側邊欄的內容等等。
 
 如果要簡單描述的話，整個架設的方式是：
 

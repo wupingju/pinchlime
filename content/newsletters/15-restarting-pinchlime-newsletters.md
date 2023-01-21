@@ -12,7 +12,7 @@ Hi 大家好，這裡是 [Pin起來電子報](https://pinchlime.substack.com/) �
 
 因為你過去曾訂閱過這份電子報，因此現在你收到了這封信，若你已經完全忘記這回事，歡迎隨意看看，或者置之不理與退訂，都沒問題。
 
-想先分享一下，雖然過去半年多來都沒有更新電子報，但一直將這件事放在心上，也仍然想要繼續更新。但為了避免過沒多久又停擺，在啟動復更前，我也仔細思考了一下「[我為什麼還是想寫電子報？](/snapshots/why/why-do-i-still-want-to-write-newsletters/)」，而在思考後我也想了一下是否該調整電子報的內容架構方式，結論是：要，並且要想辦法「[讓寫電子報變成是為自己服務的事](/snapshots/random/let-the-writing-of-the-newsletter-become-a-matter-of-service-to-yourself/)」。
+想先分享一下，雖然過去半年多來都沒有更新電子報，但一直將這件事放在心上，也仍然想要繼續更新。但為了避免過沒多久又停擺，在啟動復更前，我也仔細思考了一下「[我為什麼還是想寫電子報？](@/snapshots/why-why-do-i-still-want-to-write-newsletters.md)」，而在思考後我也想了一下是否該調整電子報的內容架構方式，結論是：要，並且要想辦法「[讓寫電子報變成是為自己服務的事](@/snapshots/random-let-the-writing-of-the-newsletter-become-a-matter-of-service-to-yourself.md)」。
 
 總之，接下來的電子報會改為以網路文章與推文串的選讀為主，並且每篇文章會搭配三個問題或一個短想法。這些問題分別是：
 

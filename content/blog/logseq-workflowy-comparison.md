@@ -21,9 +21,9 @@ taxonomies:
 
 ## 前情提要
 
-大概去年 11 月底開始使用 Logseq ，一用就覺得[一見鐘情](/2021/12/04/first-impression-of-logseq/)，漸漸地不再用[原本也很喜歡的Obsidian](/2021/04/05/my-favorite-obsidian/)。不過因為有在兩台電腦上同步使用的需求，但 [Logseq 透過 iCloud Drive 同步會有掉檔案的問題](/2022/02/26/logseq-icloud-drive-sync-data-loss/)，所以在12月決定先不在工作上使用，只在 iMac 上單機使用。
+大概去年 11 月底開始使用 Logseq ，一用就覺得[一見鐘情](@/blog/first-impression-of-logseq.md)，漸漸地不再用[原本也很喜歡的Obsidian](@/blog/my-favorite-obsidian.md)。不過因為有在兩台電腦上同步使用的需求，但 [Logseq 透過 iCloud Drive 同步會有掉檔案的問題](@/blog/logseq-icloud-drive-sync-data-loss.md)，所以在12月決定先不在工作上使用，只在 iMac 上單機使用。
 
-為了替代 Logseq ，我 12 月到 1 月之間都透過 [Craft](https://craft.do) 來記錄工作上的會議紀錄和專案資訊，但卻逐漸發現一些問題，最後還是決定回到 [Workflowy](http://workflowy.com/) 這個已經用了好幾年的最愛軟體之一。用了以後發現非常順手（可參考拙作：[Workflowy 的雙向連結、鏡像以及看板功能](/2022/01/25/workflowy-backlinks-mirror-board/)），幾乎可以解決我90%的工作記錄及追蹤需求（不包含任務＆專案管理）。而在過年前忙於工作，稀少的空閒時間大多都花在新玩具 [Heptabase](https://heptabase.com) 上面，Logseq 一度疏於整理。
+為了替代 Logseq ，我 12 月到 1 月之間都透過 [Craft](https://craft.do) 來記錄工作上的會議紀錄和專案資訊，但卻逐漸發現一些問題，最後還是決定回到 [Workflowy](http://workflowy.com/) 這個已經用了好幾年的最愛軟體之一。用了以後發現非常順手（可參考拙作：[Workflowy 的雙向連結、鏡像以及看板功能](@/blog/workflowy-backlinks-mirror-board.md)），幾乎可以解決我90%的工作記錄及追蹤需求（不包含任務＆專案管理）。而在過年前忙於工作，稀少的空閒時間大多都花在新玩具 [Heptabase](https://heptabase.com) 上面，Logseq 一度疏於整理。
 
 但趁著今年過年相對比較有空的假期，好好地思考了 Logseq 目前在我工作流中的定位，也整理了一下在 Logseq 上面累積了兩個多月的筆記，好像有一些階段性的心得可以分享一下。
 
@@ -82,7 +82,7 @@ taxonomies:
 
 - 兩者都可說是無限層級的大綱軟體，有助於快速進行階層化、具有邏輯性的思考。
 - 鍵盤操作都相當順暢，體驗很好。（像是游標即使在句子中間任何一點，按 Tab 都可以整段直接縮排。）
-- 反向連結的顯示都很完整，這點的意思是，從任何一個連結點進去後，視窗下方的反向連結區域可以顯示完整的內文，而不僅僅是「哪個文件連到這個文件」而已。這在思考和編輯上的優點非常多，可以方便引用、甚至直接搬移內容。如下圖，左邊是 Logseq 官網的 FAQ 內容，反向連結的內容就在下方的 "Linked References" 處，可以直接閱覽及編輯，而右邊是我之前製作的 [Workflowy Demo](/2022/01/25/workflowy-backlinks-mirror-board/)，反向連結的內容會顯示在下方的 "Backlinks"處，也是可以直接閱覽跟編輯。
+- 反向連結的顯示都很完整，這點的意思是，從任何一個連結點進去後，視窗下方的反向連結區域可以顯示完整的內文，而不僅僅是「哪個文件連到這個文件」而已。這在思考和編輯上的優點非常多，可以方便引用、甚至直接搬移內容。如下圖，左邊是 Logseq 官網的 FAQ 內容，反向連結的內容就在下方的 "Linked References" 處，可以直接閱覽及編輯，而右邊是我之前製作的 [Workflowy Demo](@/blog/workflowy-backlinks-mirror-board.md)，反向連結的內容會顯示在下方的 "Backlinks"處，也是可以直接閱覽跟編輯。
 
 ![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-logseq-backlinks_pdScRU.webp)
 

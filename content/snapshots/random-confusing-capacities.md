@@ -24,7 +24,3 @@ taxonomies:
 4. 只有講「你可以怎麼做」，但好像沒有特別說「我們覺得怎樣做最好」（缺乏產品哲學）
 
 5. 看了一下[產品哲學](https://capacities.io/about/manifesto)頁面，發現是有提到一些理念，但我好像沒有從產品的功能面向觀察到這些目的。以上都是未使用過純看的感覺，有機會再來補充。
-
----
-Backlinks:
-- [再看了一次 Capacities 的想法](/snapshots/random/second-thoughts-on-capacities)

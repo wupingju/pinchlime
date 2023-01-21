@@ -48,7 +48,7 @@ extra:
 
 我的 Logseq 每日紀錄模板 v1.0
 
-這幾個禮拜，在[受不了 Workflowy 的注音](/2022/02/26/workflowy-logseq-roam-remnote-zhuyin-input-method-comparison/)後，我又把工作上的紀錄也拉回了 Logseq 進行，也逐漸穩定下來。
+這幾個禮拜，在[受不了 Workflowy 的注音](@/blog/workflowy-logseq-roam-remnote-zhuyin-input-method-comparison.md)後，我又把工作上的紀錄也拉回了 Logseq 進行，也逐漸穩定下來。
 
 目前的運用方式是這樣的，每天會在當天的 Journal 欄位，新增已經預設好的模板，這個模板會直接列出 [[Inbox]], [[TODO]], [[Doing]], [[Archived]] 等依照「狀態」區分的項目，每天第一件做的事情，就是把昨天未完成的 TODO 拉到今天的欄位中，並且一件一件把它移到 Doing 開始處理。此時若出現了一件新的事情，或者臨時有任何想法、跟同事有什麼有意義的討論，都快速記到 Inbox 裡面。
 

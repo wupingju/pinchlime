@@ -12,7 +12,7 @@ taxonomies:
     - iCloud Drive
 ---
 
-之前在 [嘗試把 Logseq 當成 Workflowy 使用的心得](/2022/02/01/logseq-workflowy-comparison/) 這篇文裡面提到，在我開始使用 Logseq 之後，曾經一度直接把它用在工作情境上面記錄，但卻因為發現同步時會有掉檔案的問題，所以就改用 Craft ＆ Workflowy 來處理工作上的需求。
+之前在 [嘗試把 Logseq 當成 Workflowy 使用的心得](@/blog/logseq-workflowy-comparison.md) 這篇文裡面提到，在我開始使用 Logseq 之後，曾經一度直接把它用在工作情境上面記錄，但卻因為發現同步時會有掉檔案的問題，所以就改用 Craft ＆ Workflowy 來處理工作上的需求。
 
 這篇文就來分享一下這個「掉檔案」的問題是怎麼回事。
 

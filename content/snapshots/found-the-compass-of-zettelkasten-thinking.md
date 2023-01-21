@@ -31,10 +31,3 @@ taxonomies:
 但這個方法有提到，每個 idea 產生的各個方向，都可以再產生更多 idea ，以及他們各自的東西南北（通常是東西南），所以感覺可能更適合用 Outliner 來進行。
 
 不過接下來的問題是，我的羅盤四個方向會是哪些問題？
-
-
----
-
-Backlinks:
-- [如何從一個點子產生更多點子？](/snapshots/how/how-to-generate-more-ideas-from-one-idea)
-- [聯想羅盤](/blog/workflows/the-compass-of-creating-thoughts)

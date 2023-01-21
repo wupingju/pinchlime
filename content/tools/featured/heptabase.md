@@ -22,8 +22,8 @@ updated: 2022-07-30
 
 更詳細的介紹請見：
 
-[Heptabase – 透過白板促進思考與學習效率的視覺系筆記工具 - 新 Pin 上線 #2](/2022/02/27/heptabase-introduction/)
+[Heptabase – 透過白板促進思考與學習效率的視覺系筆記工具 - 新 Pin 上線 #2](@/blog/heptabase-introduction.md)
 
-[用 Heptabase 進行卡片寫作的心得](/2022/03/07/implementing-zettelkasten-in-heptabase/)
+[用 Heptabase 進行卡片寫作的心得](@/blog/implementing-zettelkasten-in-heptabase.md)
 
   

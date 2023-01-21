@@ -117,7 +117,7 @@ taxonomies:
 左圖是 Owen 的部落格，右圖是 Pin 起來，兩者在 layout 的編排上很相似，我有調整的地方在於：
 
 - 配色、字體
-- 少了左邊的 navbar ，多了首頁的 Logo ，並且[新增了最新文章欄位](/blog/added-latest-section-in-sidebar)
+- 少了左邊的 navbar ，多了首頁的 Logo ，並且[新增了最新文章欄位](@/blog/added-latest-section-in-sidebar.md)
 - 在點到內文後的側邊欄，也加上了「看更多相關文章」以及「看其他最新文章」的欄位
 - 刪除了一些我暫時沒有規劃的 sections ，例如讀書筆記、短想法等等
 

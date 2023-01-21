@@ -13,7 +13,7 @@ taxonomies:
 ---
 
 
-自從 [4 月安裝 Raycast](/2022/04/02/raycast-introduction/) 以來，一直沒有好好地發揮他完整的能力，只有用到一些基本款的功能，例如字典查詢、應用程式快速啟動、檔案查找、計算機、視窗管理等等。
+自從 [4 月安裝 Raycast](@/blog/raycast-introduction.md) 以來，一直沒有好好地發揮他完整的能力，只有用到一些基本款的功能，例如字典查詢、應用程式快速啟動、檔案查找、計算機、視窗管理等等。
 
 不過上週 Raycast 推出 [Raycast Wrapped 2022](https://twitter.com/raycastapp/status/1603404709573828609) 這個活動後，看到好多人在分享自己使用 Raycast 的數據，覺得好像該來重新花點力氣玩玩看。
 

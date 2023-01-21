@@ -12,7 +12,7 @@ taxonomies:
     - Failed Experiences
 ---
 
-之前曾經有提過想試試看[輕量的評論系統 Cusdis](/snapshots/what-i-found-interesting/lightweight-comment-system-cusdis)，今天突然有股動力實作，就照著 [轻量级开源免费博客评论系统解决方案 （Cusdis \+ Railway） · Pseudoyu](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/) 這篇的說明開始架設。
+之前曾經有提過想試試看[輕量的評論系統 Cusdis](@/snapshots/found-lightweight-comment-system-cusdis.md)，今天突然有股動力實作，就照著 [轻量级开源免费博客评论系统解决方案 （Cusdis \+ Railway） · Pseudoyu](https://www.pseudoyu.com/zh/2022/05/24/free_and_lightweight_blog_comment_system_using_cusdis_and_railway/) 這篇的說明開始架設。
 
 第一步註冊 Railway 帳號並部署 Cusdis ，沒問題。
 
@@ -29,7 +29,3 @@ Access to script at 'https://cusdis-production-54de.up.railway.app/js/iframe.umd
 嘗試研究了一下，發現這好像是我看不太懂，也不知道該怎麼解決的 CORS 問題。所以只好先放棄了！
 
 還是先維持目前的 email 評論方式吧！
-
----
-Backlinks:
-- [嘗試安裝 umami 成功](/snapshots/what-i-tried-today/tried-to-install-umami-on-my-websites)

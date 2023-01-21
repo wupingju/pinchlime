@@ -29,7 +29,7 @@ extra:
 
 鍵盤除了打字，還有很重要的一個功能是能夠提高專注力，這倚賴的是透過各種快捷鍵讓目前正在執行的任務情境能夠連續。
 
-所以今天就來分享一下昨天剛寫的 [Raycast – 讓你更專注的高效率啟動器](/2022/04/02/raycast-introduction/) ，詳細的 workflow 都在文章裡頭。
+所以今天就來分享一下昨天剛寫的 [Raycast – 讓你更專注的高效率啟動器](@/blog/raycast-introduction.md) ，詳細的 workflow 都在文章裡頭。
 
 我很習慣透過 Alfred 或 Raycast 這類啟動器（Launcher）來快速查找檔案、切換應用程式、直接搜尋特定網站、或者串接其他應用程式及服務。這樣的習慣在無形之中帶來的好處是，我在工作中或者在閱讀時，很容易進入 “flow” 的狀態，這概念有點難描述，或許可以理解為，每當我想要執行一項任務時，當我開始做，下一個回神過來的時候就是做完了，中間不會跑到其他視窗、其他軟體上面。
 
@@ -56,7 +56,7 @@ extra:
 
 ## 新東西分享
 
-本週要分享的新東西是 [上週電子報](/newsletters/a-personal-changelog)裡面提到的，可以讓人建立自己 changelog 的新創服務 [Polywork](https://www.polywork.com/)
+本週要分享的新東西是 [上週電子報](@/newsletters/7-a-personal-changelog.md)裡面提到的，可以讓人建立自己 changelog 的新創服務 [Polywork](https://www.polywork.com/)
 
 幾天前收到開通帳號的信件，就註冊來玩玩，目前自己的頁面是： [https://www.polywork.com/wupingju](https://www.polywork.com/wupingju)  
 

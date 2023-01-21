@@ -35,7 +35,7 @@ taxonomies:
 
 * 先前我寫電子報與分享的動機並不明確，因此這件事情就被我放置在一旁不去處理，即使有時間，也會拿來做其他我更有動機去做的事，例如研究新工具、改一改自己的網站之類的。
 
-* 雖然我在先前 2022 寫的這篇「[為何我要寫電子報](/snapshots/why/why-do-i-want-to-write-newsletters/)」裡面有回答幾個動機，但我現在再來看這篇，這些都不是足夠吸引我持續寫的動機，因為我已經不會卡在「產出內容」這件事，我也沒有強烈的經營個人品牌的想法。
+* 雖然我在先前 2022 寫的這篇「[為何我要寫電子報](@/snapshots/why-why-do-i-want-to-write-newsletters.md)」裡面有回答幾個動機，但我現在再來看這篇，這些都不是足夠吸引我持續寫的動機，因為我已經不會卡在「產出內容」這件事，我也沒有強烈的經營個人品牌的想法。
 
 * 如果順著這個思路想，結論就是，我沒有什麼真正的強烈動機，支持我持續寫電子報。
 
@@ -50,4 +50,4 @@ taxonomies:
 
 而這兩個禮拜，我好像想到一些改變的方向了！
 
--> [讓寫電子報變成是為自己服務的事](/snapshots/random/let-the-writing-of-the-newsletter-become-a-matter-of-service-to-yourself)
+-> [讓寫電子報變成是為自己服務的事](@/snapshots/random-let-the-writing-of-the-newsletter-become-a-matter-of-service-to-yourself.md)

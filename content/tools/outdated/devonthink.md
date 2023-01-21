@@ -21,4 +21,4 @@ updated: 2022-07-30
 3. 將所有我重視的資訊全部儲存在 DEVONthink 的資料庫中。
 4. 透過 DEVONthink 的 RSS 訂閱功能訂閱最想保存的 feeds。
 
-比較詳細的介紹請見：[DEVONthink 3 的基本介紹](/2021/01/24/devonthink3-introduction/)
+比較詳細的介紹請見：[DEVONthink 3 的基本介紹](@/blog/devonthink3-introduction.md)

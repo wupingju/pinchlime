@@ -12,7 +12,7 @@ taxonomies:
     - AI
 ---
 
-接續昨天的 [嘗試使用 Logseq 上面的 GPT-3 plugin](/snapshots/what-i-tried-today/tried-to-use-logseq-plugin-gpt3-openai)
+接續昨天的 [嘗試使用 Logseq 上面的 GPT-3 plugin](@/snapshots/tried-tried-to-use-logseq-plugin-gpt3-openai.md)
 
 這兩天玩下來，我覺得 GPT-3 擅長：
 

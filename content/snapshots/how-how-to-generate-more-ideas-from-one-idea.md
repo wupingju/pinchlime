@@ -18,6 +18,6 @@ taxonomies:
 - Do any connections work, or do some work better than others? 
 - Should I categorize the connections?
 
-對於如何解決這個問題，作者提出的方法是 5/17 分享過的 [The Compass of Zettelkasten Thinking](/snapshots/what-i-found-interesting/the-compass-of-zettelkasten-thinking)
+對於如何解決這個問題，作者提出的方法是 5/17 分享過的 [The Compass of Zettelkasten Thinking](@/snapshots/found-the-compass-of-zettelkasten-thinking.md)
 
 我雖然沒有對他的問題特別有感，但覺得根據自己的狀況調整一下，應該就可以得出不錯的做法。 

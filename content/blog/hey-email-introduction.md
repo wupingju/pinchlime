@@ -160,7 +160,7 @@ Spy Blocking，來源：[Hey.com](https://hey.com/spy-trackers/)
 
 ## HEY 適合誰？
 
-跟上一次寫的 [DEVONthink 3 介紹](/2021/01/24/devonthink3-introduction/) 一樣，我覺得 HEY 也不適合所有人。
+跟上一次寫的 [DEVONthink 3 介紹](@/blog/devonthink3-introduction.md) 一樣，我覺得 HEY 也不適合所有人。
 
 首先第一個原因當然是價錢，一年 99 美金真的不便宜，如果沒有很常在跟 Email 打交道、或者沒有那麼在意上面提到的那些問題的人，應該是沒有需要特別花錢辦這個東西。
 

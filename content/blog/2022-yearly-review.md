@@ -13,7 +13,7 @@ extra:
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/2022-review-1200_iTja5i.webp
 ---
 
-三年多前曾經寫過一篇「[2018 年生產力回顧](/2019/02/11/2018-productivity-review/)」，也是這個部落格經歷幾次搬遷後留下來的第一篇文章。
+三年多前曾經寫過一篇「[2018 年生產力回顧](@/blog/2018-productivity-review.md)」，也是這個部落格經歷幾次搬遷後留下來的第一篇文章。
 
 三年多過去，使用的工具幾乎換了一大輪，接觸了各種不同的新軟體與服務，並逐漸建立自己的工作流，好像很值得記錄一下自己這一年的各種經驗。以下就直接開始！
 
@@ -26,13 +26,13 @@ extra:
 
 ## 更精簡的知識管理工具組合
 
-2022 年最關鍵的變化是開始使用 Heptabase ，[快速成長與迭代的 Heptabase](/blog/heptabase-has-already-become-my-favorite-pkm-tool/) 漸漸在各層面替代了我好幾樣不同類型的工具。
+2022 年最關鍵的變化是開始使用 Heptabase ，[快速成長與迭代的 Heptabase](@/blog/heptabase-has-already-become-my-favorite-pkm-tool.md) 漸漸在各層面替代了我好幾樣不同類型的工具。
 
 例如，記下閃念想法的部分替代了 Drafts 與 Logseq，整理與思考想法的部分替代了 Workflowy，寫長文字的部分替代了 Obsidian 與 iA Writer，作為所有想法歸檔之處的部分替代了 DEVONthink。
 
 這帶來的好處是，屬於我自己的想法，都可以灌進 Heptabase 就好，想找的時候，也只要從 Heptabase 找就好，不用再去分不同的地方。
 
-而在閱讀、註解與處理方面，年底開始使用[非常令人驚喜的 Readwise Reader ](/blog/readwise-reader-introduction/)，這也直接讓我選擇明年不再續約 Inoreader、不再需要使用 Raindrop，也不再需要透過 Glasp 進行網頁註記畫線。
+而在閱讀、註解與處理方面，年底開始使用[非常令人驚喜的 Readwise Reader ](@/blog/readwise-reader-introduction.md)，這也直接讓我選擇明年不再續約 Inoreader、不再需要使用 Raindrop，也不再需要透過 Glasp 進行網頁註記畫線。
 
 Heptabase 與 Readwise Reader 這兩個工具幾乎包辦了我從收集、處理、整理、輸出的知識管理流程，兩者之間還可以直接對接，Readwise Reader 畫線與註解的內容可以直接從 Heptabase 中讀取導入，非常方便。
 
@@ -42,9 +42,9 @@ Heptabase 與 Readwise Reader 這兩個工具幾乎包辦了我從收集、處�
 
 ## 更積極地對外分享
 
-而在知識管理的另一個階段「分享」方面，今年我接觸到 Zola 這個靜態網站產生器，並且在 4 月[把部落格從 Wordpress.com 搬走](/blog/rebuilt-pinchlime/)，取而代之的是目前這個透過 Zola 蓋的，非常輕便、且檔案都在自己本機、完全免費的架站方式。
+而在知識管理的另一個階段「分享」方面，今年我接觸到 Zola 這個靜態網站產生器，並且在 4 月[把部落格從 Wordpress.com 搬走](@/blog/rebuilt-pinchlime.md)，取而代之的是目前這個透過 Zola 蓋的，非常輕便、且檔案都在自己本機、完全免費的架站方式。
 
-在 6 月時，我也透過類似的流程，建立了一個[放置筆記與想法快照的子網站](/blog/built-pinchlime-notes/)，在建好這兩個網站後，我分享輸出的意願更高、阻力更低、速度也更快，這帶來的是更多更多的分享內容。
+在 6 月時，我也透過類似的流程，建立了一個[放置筆記與想法快照的子網站](@/blog/built-pinchlime-notes.md)，在建好這兩個網站後，我分享輸出的意願更高、阻力更低、速度也更快，這帶來的是更多更多的分享內容。
 
 今年度這個部落格已經發布了超過 20 篇文章，[想法與快照的子網站](https://notes.pinchlime.com/)也更新了超過 50 篇的短想法，我覺得一個好的流程真的能夠大幅促進輸出的效率，甚至會期待分享、會因為分享而感到滿足。
 

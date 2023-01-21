@@ -12,7 +12,7 @@ taxonomies:
     - Google Analytics
 ---
 
-因為稍早[嘗試安裝 Cusdis 但失敗](/snapshots/what-i-tried-today/tried-to-install-cusdis-but-failed)，想說一鼓作氣再來試試另一個之前[曾提過的 umami](/snapshots/why/why-do-i-want-to-try-umami)。
+因為稍早[嘗試安裝 Cusdis 但失敗](@/snapshots/tried-tried-to-install-cusdis-but-failed.md)，想說一鼓作氣再來試試另一個之前[曾提過的 umami](@/snapshots/why-why-do-i-want-to-try-umami.md)。
 
 這次參考的是 [搭建 umami 收集个人网站统计数据 | Reorx’s Forge](https://reorx.com/blog/deploy-umami-for-personal-website/) 這篇文章，架設過程蠻順利的，基本上是完全照著 Reorx 提供的步驟做就成功了，只有幾個地方與原文稍有不同（或需要補充）：
 

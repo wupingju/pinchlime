@@ -20,7 +20,3 @@ taxonomies:
 另一個訣竅是，不要怕竄改作者的意思，總之用自己的話寫就對了，反正 Literature notes 沒有要輸出用，輸出時的嚴謹性可以輸出時再控管處理。
 
 當我寫完 Literature notes 時，會趁著記憶猶新，從剛剛寫完的筆記裡面，挑一兩個疑問或論點出來發展成自己的 Evergreen notes。
-
----
-Backlinks:
-- [透過 Heptabase 製作文獻卡片](/blog/workflows/create-literature-cards-through-Heptabase)

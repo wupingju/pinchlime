@@ -17,7 +17,7 @@ taxonomies:
 
 一開始會棄 Obsidian 朝向 Workflowy 跟 Logseq 是因為，我在 Obsidian 裡面實踐 MOC 的形式是 top-down 的方式，但那讓內容太難增生，每次產生想法都在想這個該放哪，久而久之就壓力很大，覺得無法順利進行。
 
-後來到 Workflowy 及 Logseq 後的確感到了無壓力的輸入體驗，但累積久了卻發現 Logseq 讓我無法全心投入（見[我為何無法全心投入 Logseq](/snapshots/why/why-cant-i-commit-to-logseq) ），現在想起來可能是因為 Logseq 提倡的「去結構化」，也就是沒有資料夾，單純倚賴連結的架構。
+後來到 Workflowy 及 Logseq 後的確感到了無壓力的輸入體驗，但累積久了卻發現 Logseq 讓我無法全心投入（見[我為何無法全心投入 Logseq](@/snapshots/why-why-cant-i-commit-to-logseq.md) ），現在想起來可能是因為 Logseq 提倡的「去結構化」，也就是沒有資料夾，單純倚賴連結的架構。
 
 在讀了[發現問題思考法](https://www.books.com.tw/products/0010836908)後，察覺到「分」跟「連」的意義，覺得 Logseq 這類工具擅長連，但不擅長分。
 

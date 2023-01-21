@@ -71,7 +71,3 @@ Q: How to increase productivity?
 >   9. Keep a positive outlook and avoid getting overwhelmed.
 >  10. Stay motivated by setting yourself new challenges and goals.
 
----
-Backlinks:
-- [GPT-3 擅長回答什麼問題？](/snapshots/what/what-kind-of-questions-are-gpt3-good-at-answering)
-- [Metaphor - 類 GPT-3 的新搜尋引擎](/snapshots/what-i-found-interesting/metaphor-search-engine)

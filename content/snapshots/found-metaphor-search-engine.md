@@ -20,7 +20,7 @@ taxonomies:
 
 我實際測試後，發現… 還找不到 Heptabase 的資料 XD ，而以其他生產力工具帶入，得到的答案也似乎不到特別厲害。不過若要找的是比較大眾一點的東西或工具，好像內容就還蠻豐富的。
 
-我在使用的過程中，好像有產生[之前在 Logseq 上面測試使用 GPT-3](/snapshots/what-i-tried-today/tried-to-use-logseq-plugin-gpt3-openai) 類似的感受，就是，我好像不知道該拿來測什麼、我不知道怎樣與這些全新的 AI 工具互動。但隱約覺得這好像是接下來幾年很重要的一種能力呢！ 
+我在使用的過程中，好像有產生[之前在 Logseq 上面測試使用 GPT-3](@/snapshots/tried-tried-to-use-logseq-plugin-gpt3-openai.md) 類似的感受，就是，我好像不知道該拿來測什麼、我不知道怎樣與這些全新的 AI 工具互動。但隱約覺得這好像是接下來幾年很重要的一種能力呢！ 
 
 
 最後放一下 Metaphor discord 裡面介紹 Metaphor 是什麼的文字：

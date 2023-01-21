@@ -32,7 +32,3 @@ taxonomies:
 整個流程進行完畢後，可以快速透過顏色區分不同類型的註記，以及「屬於我自己的想法」，接著就可以把這些內容放到我的 Heptabase 裏面整理與連結。
 
 這整個流程需要的工具，是一個能夠「邊閱讀邊畫線」的工具，以及可以在「畫線時寫下註解」的工具，顏色方面則是多多益善，但也未必要有，可以以自己習慣的工具為主。
-
----
-Backlinks:
-- [透過 Heptabase 製作閱讀筆記卡片](/blog/workflows/create-literature-cards-through-Heptabase)

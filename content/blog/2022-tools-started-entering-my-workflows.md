@@ -11,7 +11,7 @@ taxonomies:
     - Productivity Tools
 ---
 
-上週分享了一篇 [2022 年我不再使用的工具 ](https://pinchlime.com/blog/2022-tools-i-dont-use-anymore/)，今天來分享那些 2022 年開始成為我工作流一部份的好工具。
+上週分享了一篇 [2022 年我不再使用的工具 ](@/blog/2022-tools-i-dont-use-anymore.md)，今天來分享那些 2022 年開始成為我工作流一部份的好工具。
 
 裡面主要包含的是「2022 年才開始進入工作流」的工具們，所以時間不是依照產品的推出時間來分，可能有一些是大家耳熟能詳的成熟工具，也可能有一些是 2022 才推出的新工具。
 
@@ -66,7 +66,7 @@ taxonomies:
 
 定位：收集＆吸收、歸檔＆回顧
 
-在 2022 年 12 月才開始使用的 [Readwise Reader](https://readwise.io/read) ，很快就讓我買單，主要的介紹可以看 [合理，且處處是驚喜的 Readwise Reader](/blog/readwise-reader-introduction/) 這篇。
+在 2022 年 12 月才開始使用的 [Readwise Reader](https://readwise.io/read) ，很快就讓我買單，主要的介紹可以看 [合理，且處處是驚喜的 Readwise Reader](@/blog/readwise-reader-introduction.md) 這篇。
 
 我最喜歡 Reader 的地方是它能夠讓我快速存下想讀的文章、並且隨時都可以接上閱讀的狀態，例如：
 
@@ -127,7 +127,7 @@ taxonomies:
 
 定位：處理＆輸出
 
-[Zola](https://www.getzola.org/) 是我在 2022 年 4 月左右接觸到的「靜態網站產生器」，它由 Rust 這個程式語言寫成，特點是非常快。目前這個網站就是透過 Zola 建構的，相關的介紹可以看 [Pin 起來改版了！從 Wordpress 搬家到 Zola！](/blog/rebuilt-pinchlime/) 或者是網站裡面的 [Zola 標籤](/tags/zola/) 。
+[Zola](https://www.getzola.org/) 是我在 2022 年 4 月左右接觸到的「靜態網站產生器」，它由 Rust 這個程式語言寫成，特點是非常快。目前這個網站就是透過 Zola 建構的，相關的介紹可以看 [Pin 起來改版了！從 Wordpress 搬家到 Zola！](@/blog/rebuilt-pinchlime.md) 或者是網站裡面的 [Zola 標籤](/tags/zola/) 。
 
 如果從現在 2023 年 1 月回頭看，當時搬家的這個決定，可以說是改變了我後來有做的、想做的許多事。這個好的系統讓我更願意分享、也更容易分享，雖然上手門檻對我這種毫無程式基礎的人來說有一點點高，但真的非常推薦使用。
 
@@ -236,7 +236,7 @@ taxonomies:
 
 [Raycast](https://www.raycast.com/) 大概是我在 2022 年 3 月左右開始使用的工具，一開始是聽了不少人推薦介紹，好像是個厲害的 Alfred 替代品，結果用了以後發現真的很好用，就整個轉而使用 Raycast 了。
 
-簡單的介紹可以看 4 月寫的 [Raycast - 讓你更專注的高效率啟動器](/2022/04/02/raycast-introduction/) ，不過經過快一年， Raycast 又有許多變化與更新，好用的插件也更多了，我打算今年再花一些時間好好練習如何透過 Raycast 讓自己更有效率。
+簡單的介紹可以看 4 月寫的 [Raycast - 讓你更專注的高效率啟動器](@/blog/raycast-introduction.md) ，不過經過快一年， Raycast 又有許多變化與更新，好用的插件也更多了，我打算今年再花一些時間好好練習如何透過 Raycast 讓自己更有效率。
 
 對我來說，使用 Raycast 的最大好處是能夠促進自己的專注，尤其我的工作需要面對非常頻繁的「情境切換」，Raycast 能夠讓我在切換情境時比較不會迷失或分心，進而更容易達成心流的狀態，習慣以後會完全感覺不到 Raycast 的存在，它很自然地就幫你把事情完成了。
 

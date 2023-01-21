@@ -12,7 +12,7 @@ taxonomies:
     - Changelog
 ---
 
-今天在更新某個 workflow 時，又遇到了[更新卡片內容的最佳實踐方式是？](/snapshots/random/what-is-the-best-practice-for-updating-card-content)這裡面提過的問題，我不太知道該怎麼更新卡片最好。這時我嘗試詢問自己，為何我那麼在意「卡片的變化歷程」。
+今天在更新某個 workflow 時，又遇到了[更新卡片內容的最佳實踐方式是？](@/snapshots/random-what-is-the-best-practice-for-updating-card-content.md)這裡面提過的問題，我不太知道該怎麼更新卡片最好。這時我嘗試詢問自己，為何我那麼在意「卡片的變化歷程」。
 
 答案可能是恐懼「失去」？覺得過去的想法應該要被留住。
 
