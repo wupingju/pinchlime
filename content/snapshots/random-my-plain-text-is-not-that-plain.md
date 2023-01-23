@@ -1,7 +1,6 @@
 ---
 title: 我的純文字沒那麼純
 date: 2022-05-27
-updated: 2022-05-27
 description: 我覺得「沒那麼純」或許才是最好的方案，因為太純文字的話，就少了連接的便利性、少了排版架構的可視性、或者是拖曳的可互動性。
 path: snapshots/random/my-plain-text-is-not-that-plain
 taxonomies:

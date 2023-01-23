@@ -1,7 +1,6 @@
 ---
 title: 為什麼我總是離不開會讓我過載的 OmniFocus？
 date: 2022-11-13
-updated: 2022-11-13
 description: 為什麼系統崩潰這麼多次，我卻總是仍想好好整理乾淨，再重新開始？
 path: snapshots/why/why-cant-i-leave-omnifocus
 taxonomies:

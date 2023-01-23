@@ -1,7 +1,6 @@
 ---
 title: 怎樣程度的抱怨最剛好？
 date: 2022-05-28
-updated: 2022-05-28
 description: 抱怨的對象必須限定在「理解自己不滿」、「有類似不滿」或「可能被自己說服產生類似不滿」的人身上。
 path: snapshots/random/what-is-the-appropriate-level-of-complaining
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: Dendron 跟 Zola 哪個好？
 date: 2022-06-04
-updated: 2022-06-04
 description: 既然 Dendron 在實踐習慣這一環已經不需要了，那在 Publish 這環是否也有必要維持呢？ 
 path: snapshots/random/dendron-or-zola
 draft: false

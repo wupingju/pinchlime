@@ -1,7 +1,6 @@
 ---
 title: 硬體冷錢包真的好難普及
 date: 2022-11-21
-updated: 2022-11-21
 description: 哇，實在好難，我完全沒有把握教會我爸媽這種東西。（我覺得我爸媽都可以懂的東西一定就有 mass adoption 的潛力，例如 LINE 以及 Pokemon Go ）
 path: snapshots/random/cold-wallets-are-really-hard-to-popularize
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 專案文件應該寫清楚需求與限制
 date: 2022-05-27
-updated: 2022-05-27
 description: 把需求與限制釐清，再透過良好的審視與討論流程，就能讓大家好好地討論，進而有效率地往下推進專案。
 path: blog/evergreen/the-project-documentation-should-clearly-state-the-requirements-and-limitations
 taxonomies:

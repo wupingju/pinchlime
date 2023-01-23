@@ -1,7 +1,6 @@
 ---
 title: 當我在做筆記時該用「placeholder」嗎？
 date: 2023-01-12
-updated: 2023-01-12
 description: 當時還不懂得如何整理、如何補充、如何灌溉這些筆記，因此過一陣子就發現，空有標題的空白頁面非常多，但真正產出的心得或內容卻沒多少，系統就崩潰了。
 path: snapshots/random/should-i-use-placeholders-when-i-am-taking-notes
 taxonomies:

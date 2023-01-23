@@ -1,7 +1,6 @@
 ---
 title: 關於 Heptabase 側邊瀏覽器的想法
 date: 2023-01-18
-updated: 2023-01-18
 description: 我開始感覺 Hepta 對於各種主打生產力的新創瀏覽器來說，有類似降維打擊的效果
 path: snapshots/random/thoughts-about-heptabase-side-panel-browser
 taxonomies:

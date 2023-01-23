@@ -1,7 +1,6 @@
 ---
 title: 開始使用 Beta 版的 Umami Cloud
 date: 2023-01-01
-updated: 2023-01-01
 path: blog/started-using-umami-cloud
 description: 設定超級無敵簡單，只要輸入要追蹤的網域，就會給你一段程式碼，只要把這段程式碼放到網頁的 <head> 區塊就可以開始追蹤了。Heptabase 裡面處理與輸出。
 taxonomies:

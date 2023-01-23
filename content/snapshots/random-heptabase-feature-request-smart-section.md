@@ -1,7 +1,6 @@
 ---
 title: 我想要的 Heptabase 功能 - Smart Section
 date: 2022-12-30
-updated: 2022-12-30
 description: 我想透過 section 來實現的原因是，它是一個視覺上聚焦的方式，著重呈現卡片之間的群組關係，但它不會重複影響卡片庫或白板的內容。
 path: snapshots/random/heptabase-feature-request-smart-section
 taxonomies:

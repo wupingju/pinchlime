@@ -1,7 +1,6 @@
 ---
 title: 工作流程的標準化有助於提高效率
 date: 2022-05-25
-updated: 2022-05-25
 description: 標準化後，更好紀錄單位工時，這讓每個流程的成本以及預估時程都更容易計算，進而可以做出更精準的專案排程與成本規劃，這能提高公司整體資源運用的效率。
 path: blog/evergreen/standardized-workflows-help-improve-efficiency
 taxonomies:

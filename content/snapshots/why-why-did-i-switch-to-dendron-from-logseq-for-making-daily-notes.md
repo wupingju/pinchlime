@@ -1,7 +1,6 @@
 ---
 title: 為何我開始更喜歡用 Dendron 而非 Logseq 紀錄 daily notes？
 date: 2022-05-15
-updated: 2022-05-15
 description: 目前為止 Dendron 的層級化體系好像讓我對自己紀錄的內容更有掌握一些。
 path: snapshots/why/why-did-i-switch-to-dendron-from-logseq-for-making-daily-notes
 taxonomies:

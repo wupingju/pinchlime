@@ -1,7 +1,6 @@
 ---
 title: 反向連結必須要提供充分的上下文語境
 date: 2022-06-03
-updated: 2022-06-03
 description: 充分的上下文資訊，能夠讓未來的自己在看到該反向連結時，很快進入情境，理解「為什麼我當時記下這條？他的語境是什麼？
 path: blog/evergreen/backlinks-must-provide-adequate-contextualization
 taxonomies:

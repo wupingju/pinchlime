@@ -1,7 +1,6 @@
 ---
 title: GPT-3 擅長回答什麼問題？
 date: 2022-06-16
-updated: 2022-06-16
 description: 這些 GPT-3 自認不擅長的問題，好像也是人類相對比較有能力去回答的問題？
 path: snapshots/what/what-kind-of-questions-are-gpt3-good-at-answering
 taxonomies:

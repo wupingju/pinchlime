@@ -1,7 +1,6 @@
 ---
 title: 嘗試安裝 umami 成功
 date: 2022-06-19
-updated: 2022-06-19
 description: 完成後所有數據都可以很直觀地透過 umami 看到，現在我對它非常滿意！如果過一個禮拜沒什麼大問題，應該就會把 Google Analytics 的追蹤碼移除了！
 path: snapshots/what-i-tried-today/tried-to-install-umami-on-my-websites
 taxonomies:

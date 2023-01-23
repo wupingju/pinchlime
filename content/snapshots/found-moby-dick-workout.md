@@ -1,7 +1,6 @@
 ---
 title: Moby Dick Workout
 date: 2022-05-22
-updated: 2022-05-22
 description: Moby Dick 是白鯨記，而 Grossjean 這個測試方法，就是拿白鯨記的完整文字檔，來測試筆記軟體或文字編輯器的效能。
 path: snapshots/what-i-found-interesting/moby-dick-workout
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 關於 Eugene Wei 寫的一小段話
 date: 2022-04-24
-updated: 2022-04-24
 description: 我也常常因為看到過去寫的東西而覺得有點尷尬，但又會覺得，那就是曾經的我，也是為了變成現在的我而必經的我。
 path: snapshots/random/a-short-quote-from-Eugene-Wei
 taxonomies:

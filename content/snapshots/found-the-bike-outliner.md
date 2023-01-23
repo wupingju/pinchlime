@@ -1,7 +1,6 @@
 ---
 title: 極簡的大綱編輯器 Bike
 date: 2022-05-18
-updated: 2022-05-18
 description: 晚上下載來試用看看，確實打字的感覺蠻好，但目前功能還太少，真的是太 Raw 。
 path: snapshots/what-i-found-interesting/the-bike-outliner
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 為何我不在部落格上面放評論系統？
 date: 2022-05-22
-updated: 2022-05-22
 description: 自從轉換到 Zola 後，我不再放置評論系統了，為什麼？
 path: snapshots/why/why-dont-i-put-a-comment-system-on-my-blog
 taxonomies:

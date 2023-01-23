@@ -1,7 +1,6 @@
 ---
 title: 在 Raycast 裡直接使用 DeepL 翻譯 
 date: 2022-12-21
-updated: 2022-12-21
 path: blog/tried-to-use-raycast-extension-deepcast
 description: 我覺得翻譯得很精準也堪用，頂多微調幾個字就可以使用了。
 taxonomies:

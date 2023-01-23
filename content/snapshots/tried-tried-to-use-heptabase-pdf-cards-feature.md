@@ -1,7 +1,6 @@
 ---
 title: 嘗試使用 Heptabase 新更新的 PDF 卡片功能
 date: 2022-12-04
-updated: 2022-12-04
 description: 以「拆成卡片」以及「重組卡片」的體驗來說，我覺得 Hepta 具有很大的優勢。
 path: snapshots/what-i-tried-today/tried-to-use-heptabase-pdf-cards-feature
 taxonomies:

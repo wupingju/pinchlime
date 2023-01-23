@@ -1,7 +1,6 @@
 ---
 title: 由下而上建立關聯性的關鍵字索引比單純建立雙向連結更有價值
 date: 2022-05-27
-updated: 2022-05-27
 description: 維護的重點在於「由下而上」建構內容。意思是逐步建立關鍵字、擴張不同關鍵字，持續加入卡片，幫卡片們建立連結。
 path: blog/evergreen/building-a-bottom-up-index-of-relevant-keywords-is-more-valuable-than-simply-building-two-way-links
 taxonomies:

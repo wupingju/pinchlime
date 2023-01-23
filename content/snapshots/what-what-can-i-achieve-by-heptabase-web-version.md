@@ -1,7 +1,6 @@
 ---
 title: Heptabase Web 版本可以多做到什麼事？
 date: 2023-01-02
-updated: 2023-01-02
 description: 雖然目前還沒有針對 Mobile 或 Pad 版本的顯示優化，但 Web 版上線後已經可以比原先多做好多事情
 path: snapshots/what/what-can-i-achieve-by-heptabase-web-version
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 測試使用 Capacities
 date: 2022-11-26
-updated: 2022-11-26
 description: 其中我最被吸引的是「Time is a fundamental dimension」這個概念。 據我目前的理解，應該是每則紀錄的內容都會自帶時間戳，並且展示在該日的概覽介面。這個概念是我目前想使用 Capacities 的核心原因，期待它的表現。
 path: snapshots/what-i-tried-today/tried-to-use-capacities
 taxonomies:

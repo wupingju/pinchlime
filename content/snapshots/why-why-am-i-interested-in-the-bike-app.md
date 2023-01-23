@@ -1,7 +1,6 @@
 ---
 title: 為何我對 Bike 這個 app 有興趣？
 date: 2022-05-18
-updated: 2022-05-18
 description: 這好像可以歸納出幾個我喜歡的元素：1. 迅速 2. 純文字 3. 文件完整 4. native app
 path: snapshots/why/why-am-i-interested-in-the-bike-app
 taxonomies:

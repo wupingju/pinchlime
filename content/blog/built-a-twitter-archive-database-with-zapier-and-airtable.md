@@ -1,7 +1,6 @@
 ---
 title: 透過 Zapier 與 Airtable 建立自己的 Twitter 備份資料庫
 date: 2022-12-28
-updated: 2022-12-28
 path: blog/built-a-twitter-archive-database-with-zapier-and-airtable
 description: 未來我不僅能夠同步紀錄 Twitter 備份，也可以依照規則，自動推送我想要的資料給我。
 taxonomies:

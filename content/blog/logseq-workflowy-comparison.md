@@ -1,7 +1,6 @@
 ---
 title: 嘗試把 Logseq 當成 Workflowy 使用的心得
 date: 2022-02-01
-updated: 2022-02-01
 path: 2022/02/01/logseq-workflowy-comparison/
 description: Workflowy是隊伍中的明星球員，而Logseq 則是令人期待的潛力新秀。許多 Logseq 的「缺點」似乎都只是暫時的，甚至不算是什麼明顯的缺點，而 Logseq 的一些優點則是非常吸引人認真投入與累積筆記。
 taxonomies:

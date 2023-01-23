@@ -1,7 +1,6 @@
 ---
 title: 嘗試透過 Airtable + MenubarX 建立一個個人的 Twitter CRM 系統
 date: 2022-07-12
-updated: 2022-07-12
 description: 實際組合起來以後，覺得好像還蠻不錯的，雖然感覺過一陣子又會有別的方案，但現在先這樣測試看看也很好！
 path: snapshots/what-i-tried-today/tried-to-build-a-personal-twitter-crm-system-through-airtable-and-menubarx
 taxonomies:

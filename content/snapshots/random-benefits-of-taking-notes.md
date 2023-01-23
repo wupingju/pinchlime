@@ -1,7 +1,6 @@
 ---
 title: 寫筆記的好處
 date: 2020-10-17
-updated: 2020-10-17
 path: 2020/10/17/benefits-of-taking-notes/
 description: 而現在再回來從頭看過，會發現這些影響我的工具、方法論、還有各種自己才能理解的一些堅持，都透過之前的筆記，跟現在的我串在一起了。
 taxonomies:

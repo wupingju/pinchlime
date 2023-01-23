@@ -1,7 +1,6 @@
 ---
 title: 平鋪畫面的卡片軟體 Gingko
 date: 2022-07-02
-updated: 2022-07-02
 description: 總體來說我蠻喜歡這個 app 的理念，也希望未來 Heptabase 能夠加入這樣的卡片用法，可能是可以建立這種卡片樹，然後就可以手動添加對應的卡片進來。
 path: snapshots/what-i-found-interesting/gingko-app
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 為何有時候問不出為什麼？
 date: 2022-05-26
-updated: 2022-05-26
 description: 。可能的原因是：更新速度太頻繁，目前每天都要問一個，可能太密集。我的 input 太少，在既有 routine 工作裡面沒有發現太多「為什麼」（有的則是涉及到個人或特定的事，無法公開）
 path: snapshots/why/why-is-it-sometimes-hard-to-ask-why
 taxonomies:

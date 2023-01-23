@@ -1,7 +1,6 @@
 ---
 title: 為何我對 Mastodon 產生興趣了？
 date: 2022-12-19
-updated: 2022-12-19
 description: 雖然 Twitter 這篇公告很快就下架，但信任的摧毀通常只在一瞬間，我不太喜歡 Twitter 這樣的決定，因此看到這個規定後就覺得，是時候該新找地方待了，而最有機會的替代方案就是 Mastodon。
 path: snapshots/why/why-am-i-finally-interested-in-mastodon
 taxonomies:

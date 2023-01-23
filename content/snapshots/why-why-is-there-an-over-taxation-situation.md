@@ -1,7 +1,6 @@
 ---
 title: 為何會有稅收超徵的狀況出現？
 date: 2023-01-04
-updated: 2023-01-04
 description: 我覺得裡面更根本性的問題是，沒有任何機制去鼓勵、去獎勵能夠精準因應變化的人，整個體系環環相扣，要改動什麼都太難了。
 path: snapshots/why/why-is-there-an-over-taxation-situation
 taxonomies:

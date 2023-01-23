@@ -1,7 +1,6 @@
 ---
 title: 選擇 Second Brain 的標準
 date: 2022-04-24
-updated: 2022-04-24
 description: 我的話應該是：Markdown based, Outliner, Bidirectional Linking, Daily Journal mode, Mobile app, (Nice to have) Publish
 path: snapshots/random/Criteria-for-choosing-Second-Brain-tools
 taxonomies:

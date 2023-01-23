@@ -1,7 +1,6 @@
 ---
 title: 嘗試透過 ChatGPT 改部落格的 CSS 樣式
 date: 2022-12-30
-updated: 2022-12-30
 description: 這好像是用過幾次 ChatGPT 後最直接的感受：它帶給我更多的可能性與想像。甚至會為了想好好利用它，先再去多學一些基礎知識。
 path: snapshots/what-i-tried-today/tried-to-change-css-style-via-chatgpt
 taxonomies:

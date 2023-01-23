@@ -1,7 +1,6 @@
 ---
 title: 為何我要寫電子報？
 date: 2022-05-16
-updated: 2023-01-02
 description: 電子報是一直以來都想嘗試的發送形式，對我來說，非即時的、一對一的電子信件這種東西，一直都很吸引人。
 path: snapshots/why/why-do-i-want-to-write-newsletters
 taxonomies:

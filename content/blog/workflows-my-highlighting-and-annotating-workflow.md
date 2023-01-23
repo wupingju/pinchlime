@@ -1,7 +1,6 @@
 ---
 title: 我的閱讀、畫線與註記工作流
 date: 2022-06-25
-updated: 2022-06-25
 description: 我在瀏覽器打開一篇文章後，我會邊閱讀邊 highlight 畫線，此時我會使用 Glasp 提供的四種顏色來區分不同的內容，讓不同的顏色作為最初步的分類方式，也作為我的想法觸發媒介。
 path: blog/workflows/my-highlighting-and-annotating-workflow
 taxonomies:

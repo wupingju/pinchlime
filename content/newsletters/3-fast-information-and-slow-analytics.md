@@ -1,7 +1,6 @@
 ---
 title: 快資訊與慢分析
 date: 2022-02-27
-updated: 2022-02-27
 description: 對我來說，快資訊的處理也該快，快速掃讀、留下印象就好，此時或許也會有些「快分析」，可以大致上看看就好，這可以讓自己建立一個初步的篩選器，來篩出哪些快資訊可能是好的、哪些是不好的。
 draft: false
 path: newsletters/fast-information-and-slow-analytics

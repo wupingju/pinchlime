@@ -1,7 +1,6 @@
 ---
 title: 屬於自己的 changelog
 date: 2022-03-27
-updated: 2022-03-27
 description: 如果說產品的 changelog 是為了紀錄與呈現各版本之間的演進差異，讓使用者明瞭產品改了什麼以及為什麼要改，也讓開發者能夠對於產品有共同記憶，在一樣的基礎上溝通與開發。那屬於個人的 changelog 或許也可以如法炮製，讓自己清楚明瞭不同時間點的自己有了哪些變化以及為什麼會產生這些變化。
 draft: false
 path: newsletters/a-personal-changelog

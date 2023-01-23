@@ -1,7 +1,6 @@
 ---
 title: 為何老師不喜歡學生引用 wiki 上的資料？
 date: 2022-05-14
-updated: 2022-05-14
 description: 「不能抄 wiki 」是合理的要求，但更好的做法是說明「該怎麼透過好找的 wiki ，去找到更多更有價值的資料，進而寫出自己的東西」
 path: snapshots/why/why-dont-teachers-like-students-to-cite-information-from-wiki
 taxonomies:

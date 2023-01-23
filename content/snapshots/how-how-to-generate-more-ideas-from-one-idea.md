@@ -1,7 +1,6 @@
 ---
 title: 如何從一個點子產生更多點子？
 date: 2022-05-22
-updated: 2022-05-22
 description: 
 path: snapshots/how/how-to-generate-more-ideas-from-one-idea
 taxonomies:

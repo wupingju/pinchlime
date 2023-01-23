@@ -1,7 +1,6 @@
 ---
 title: 電子報的優點是可以直達收信者的信箱
 date: 2022-05-17
-updated: 2022-05-17
 description: 若能直達收信者的信箱，就更容易佔有收信者的注意力。
 path: blog/evergreen/one-advantage-of-newsletters-is-it-can-reach-recipient-directly
 taxonomies:

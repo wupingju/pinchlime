@@ -1,7 +1,6 @@
 ---
 title: Workflowy, Logseq, Roam Research, RemNote 的注音輸入比較
 date: 2022-02-26
-updated: 2022-02-26
 path: 2022/02/26/workflowy-logseq-roam-remnote-zhuyin-input-method-comparison/
 description: 如果仰賴注音輸入啟動雙向連結，建議用 Logseq 或 Roam Research。
 taxonomies:

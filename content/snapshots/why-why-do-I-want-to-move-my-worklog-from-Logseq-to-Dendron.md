@@ -1,7 +1,6 @@
 ---
 title: 為何我想把工作記錄由 Logseq 移到 Dendron？
 date: 2022-06-02
-updated: 2022-06-02
 description: Logseq 缺乏文件夾的架構，讓我在資料多了以後，必須更仰賴雙向連結，而無法 top-down 式的查找資料
 path: snapshots/why/why-do-I-want-to-move-my-worklog-from-logseq-to-dendron
 draft: false

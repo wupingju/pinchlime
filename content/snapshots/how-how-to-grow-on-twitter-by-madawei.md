@@ -1,7 +1,6 @@
 ---
 title: 如何讓 Twitter 增長？ by madawei
 date: 2022-05-04
-updated: 2022-05-04
 description: 
 path: snapshots/how/how-to-grow-on-twitter-by-madawei
 taxonomies:

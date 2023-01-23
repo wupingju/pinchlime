@@ -1,7 +1,6 @@
 ---
 title: The Compass of Zettelkasten Thinking
 date: 2022-05-17
-updated: 2022-05-17
 description: 我看到這個方法時，我直覺就想到，好像可以透過 Heptabase 來做這件事，透過視覺的方向關係可以很快給出東西南北的方向。
 path: snapshots/what-i-found-interesting/the-compass-of-zettelkasten-thinking
 taxonomies:

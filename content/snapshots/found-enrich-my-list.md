@@ -1,7 +1,6 @@
 ---
 title: Enrich My List
 date: 2022-05-16
-updated: 2022-05-16
 description: 該服務的概念很簡單，你給他一份 email list ，他給你「這些人」的名字、Twitter 及 LinkedIn 帳號，以及對方的追蹤者數量等，讓使用者更了解自己既有的 email list 。
 path: snapshots/what-i-found-interesting/enrich-my-list
 taxonomies:

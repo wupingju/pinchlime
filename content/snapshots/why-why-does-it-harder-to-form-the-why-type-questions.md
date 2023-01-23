@@ -1,7 +1,6 @@
 ---
 title: 為何「為什麼」比其他類型的問題都還難產生？
 date: 2022-05-31
-updated: 2022-05-31
 description: 這樣複合的狀況需要花更多力氣去觀察，也更難回答一些，而這個「更難回答」因為可能要花很多力氣，就會讓我潛意識傾向尋找「比較好回答」的 why 問題
 path: snapshots/why/why-does-it-harder-to-form-the-why-type-questions
 taxonomies:

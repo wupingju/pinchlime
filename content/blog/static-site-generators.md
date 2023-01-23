@@ -1,7 +1,6 @@
 ---
 title: 什麼是靜態網站產生器（Static Site Generator）
 date: 2022-05-02
-updated: 2022-05-02
 draft: true
 path: blog/static-site-generators
 description: 

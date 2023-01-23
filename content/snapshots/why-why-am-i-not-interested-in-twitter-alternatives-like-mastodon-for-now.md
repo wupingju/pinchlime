@@ -1,7 +1,6 @@
 ---
 title: 為何我對 Mastodon 等「推特替代品」暫時沒興趣？
 date: 2022-11-19
-updated: 2022-11-19
 description: Mastodon 去中心化的架構，讓我感覺有點…不安定？或者說，不適應；又或者說，會有選擇障礙？我不知道我該在哪個地方經營、PO 文、與其他人交流。
 path: snapshots/why/why-am-i-not-interested-in-twitter-alternatives-like-mastodon-for-now
 taxonomies:

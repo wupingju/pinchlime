@@ -1,7 +1,6 @@
 ---
 title: 為何我想要看到卡片的變化歷程？
 date: 2022-06-25
-updated: 2022-06-25
 description: 這樣的恐懼，可能是某種損失趨避的心理，會希望自己盡量握有許多足以進行思考和決策的籌碼。
 path: snapshots/why/why-i-want-to-see-the-changelog-of-cards
 taxonomies:

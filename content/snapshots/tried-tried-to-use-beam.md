@@ -1,7 +1,6 @@
 ---
 title: 嘗試了 Beam 這個工具
 date: 2022-06-10
-updated: 2022-06-10
 description: 在試用的過程中也讓我思考，我真的有需要這個「瀏覽→擷取」的 workflow 嗎？目前「瀏覽 → 畫線 → 寫筆記 → 擷取」的流程用起來有什麼不好嗎？
 path: snapshots/what-i-tried-today/tried-to-use-beam
 taxonomies:

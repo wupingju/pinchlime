@@ -1,7 +1,6 @@
 ---
 title: 如何透過 Logseq publish 在 Netlify 上建立個人 wiki？
 date: 2022-05-21
-updated: 2022-05-21
 path: blog/publish-logseq-personal-wiki-on-netlify
 description: 本文介紹如何將自己的 Logseq graph 透過內建的 publish / export 功能，直接發布到網站上，藉此建立一個「個人 Wiki」頁面，或者也可以稱它為 Digital Garden。
 taxonomies:

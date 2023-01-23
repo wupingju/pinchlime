@@ -1,7 +1,6 @@
 ---
 title: 為何 Freddy 認為 SOP 是重要的？
 date: 2022-05-24
-updated: 2022-05-24
 description: 透過結構化所知道的做事方法、態度，以及對於工作流程的洞察與拆解，可以大幅度槓桿團隊的生產力，把時間和注意力留給更有價值的事情。
 path: snapshots/why/why-does-Freddy-think-SOP-is-important
 taxonomies:

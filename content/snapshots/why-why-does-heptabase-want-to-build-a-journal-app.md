@@ -1,7 +1,6 @@
 ---
 title: 為何 Heptabase 要建立 Journal app？
 date: 2022-06-05
-updated: 2022-06-05
 description: 這樣想來，Journal 的概念比 “Timeline” 更適合在「累積」為主的系統裡面，畢竟社群的 timeline 是鼓勵大家想到就發，發了就不去管。
 path: snapshots/why/why-does-heptabase-want-to-build-a-journal-app
 draft: false

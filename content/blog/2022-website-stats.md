@@ -1,7 +1,6 @@
 ---
 title: 趁著關閉 Umami 自架版本的同時來記錄一下 Pin 起來 2022 的流量
 date: 2023-01-09
-updated: 2023-01-09
 description: 覺得整體表現比我想像中的還好，因為我 7 到 11 月幾乎都沒在 PO 文，所以應該都是靠先前的幾篇文章撐起流量的。
 path: blog/2022-website-stats
 taxonomies:

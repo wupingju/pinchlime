@@ -1,7 +1,6 @@
 ---
 title: 嘗試開始使用 Bike
 date: 2022-05-20
-updated: 2022-05-20
 description: 最直接的體驗是： Bike 真的是快，用起來很絲滑順暢，有很好的體驗。
 path: snapshots/what-i-tried-today/tried-to-start-using-the-bike-app
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 產品的功能不是越多越好
 date: 2022-05-27
-updated: 2022-05-27
 description: Wordle 捨棄了複雜的通關、等級、不同玩法的可能性，專注於把核心的功能（玩法）做好，配合好的分享機制設定，讓成癮用戶時常有動力分享，讓未成癮用戶能時常看到分享，進而被勾起遊玩的慾望。
 path: blog/evergreen/not-the-more-features-of-the-product-the-better
 taxonomies:

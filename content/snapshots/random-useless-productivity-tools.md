@@ -1,7 +1,6 @@
 ---
 title: 一忙起來，什麼生產力工具都沒用
 date: 2022-11-02
-updated: 2022-11-02
 description: 當心神完全被工作佔據、耗盡，真的是很難再用任何方法、流程或工具，讓自己在工作以外的時間持續吸收、持續產出。
 path: snapshots/random/useless-productivity-tools
 taxonomies:

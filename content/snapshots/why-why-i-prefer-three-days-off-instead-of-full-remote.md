@@ -1,7 +1,6 @@
 ---
 title: 為何我更偏好週休三日（而非工作五天但全遠端）
 date: 2022-06-09
-updated: 2022-06-09
 description: 而即使完全不能遠端，我還是更想要週休三日，因為那真的會有「多出一天」的感覺，那一天是完全自由的，是可以盡情揮霍、浪費的。
 path: snapshots/why/why-i-prefer-three-days-off-instead-of-full-remote
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 測試 Heptabase Journal 的「拖曳到白板」功能
 date: 2022-06-08
-updated: 2022-06-08
 description: 整體來說，我很喜歡這次的小更新，設計上很直覺也合理，期待後續有更多隨之產生的 workflow
 path: snapshots/what-i-tried-today/tested-heptabase-journal-dragging-to-whiteboard
 draft: false

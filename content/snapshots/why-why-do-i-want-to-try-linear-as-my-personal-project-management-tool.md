@@ -1,7 +1,6 @@
 ---
 title: 為何我想嘗試看看 Linear 作為個人專案管理的工具？
 date: 2023-01-06
-updated: 2023-01-06
 description: 一直以來好像沒有花很多力氣在「個人專案管理」上面，無論是學習東西、長期性的累積，常常都是比較隨機性地進行，某個時段對某件事比較有熱情，就會投注大量時間與專注力，但熱情一旦消逝或移轉，也會離開得很快。
 path: snapshots/why/why-do-i-want-to-try-linear-as-my-personal-project-management-tool
 taxonomies:

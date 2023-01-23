@@ -1,7 +1,6 @@
 ---
 title: 為什麼我要在部落格上放電子報的備份？
 date: 2022-05-23
-updated: 2022-05-23
 description: 為什麼我會想這樣做？最直接的原因是，SEO。
 path: snapshots/why/why-do-i-want-to-post-backups-of-my-newsletters-on-my-blog
 taxonomies:

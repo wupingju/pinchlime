@@ -1,7 +1,6 @@
 ---
 title: 連結想法的關鍵也許是 Zettelkasten 的編碼系統？
 date: 2022-06-26
-updated: 2022-06-26
 description: 編碼這件事情就是在強迫自己釐清每則筆記之間的關係，甚至應該說，釐清「新筆記」與「卡片盒裡的既有筆記」之間的關係，這樣的關係是基於上下文脈絡的、也是排他獨立的。
 path: snapshots/random/the-key-point-of-linking-ideas-may-be-zettelkasten-naming-system
 taxonomies:

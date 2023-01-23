@@ -1,7 +1,6 @@
 ---
 title: 部落格加上了 Backlinks 的功能
 date: 2023-01-20
-updated: 2023-01-20
 description: 自動 backlinks 是我一直很想要放在網站上的功能，它能夠讓讀者更有機會在站內穿梭瀏覽，甚至是發現其他相關的、可能有興趣的內容。
 path: blog/supported-backlinks
 taxonomies:

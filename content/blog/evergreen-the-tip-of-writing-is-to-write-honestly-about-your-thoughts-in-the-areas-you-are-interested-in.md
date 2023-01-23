@@ -1,7 +1,6 @@
 ---
 title: 寫作的訣竅是對自己有興趣的領域真誠地寫下自己的想法
 date: 2022-06-13
-updated: 2022-06-13
 description: 這些想法不僅對自己有價值，也可能對其他人產生價值，因為總有跟自己類似興趣的人，可能曾有過類似的疑問或思考，而自己寫下來了，讓對方產生共鳴。
 path: blog/evergreen/the-tip-of-writing-is-to-write-honestly-about-your-thoughts-in-the-areas-you-are-interested-in
 taxonomies:

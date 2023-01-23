@@ -1,7 +1,6 @@
 ---
 title: 為什麼我想嘗試 umami ？
 date: 2022-05-20
-updated: 2022-05-20
 description: Google Analytics 的功能太多太複雜，使用起來很臃腫，我用不到這麼多功能，因此想嘗試別的方案，而 umami 不僅看起來簡單夠用，也夠便宜，所以我想嘗試看看。
 path: snapshots/why/why-do-i-want-to-try-umami
 taxonomies:

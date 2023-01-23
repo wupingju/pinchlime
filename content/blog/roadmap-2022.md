@@ -1,7 +1,6 @@
 ---
 title: Pin 起來的 Roadmap 2022
 date: 2022-02-12
-updated: 2022-02-12
 path: 2022/02/12/roadmap-2022/
 description: 隨著這一年多來對於專案管理、或者是寫作、或者是經營 side projects 這些事情都有了更多的想法，2022 年的 roadmap ，有了一些新的規劃。
 taxonomies:

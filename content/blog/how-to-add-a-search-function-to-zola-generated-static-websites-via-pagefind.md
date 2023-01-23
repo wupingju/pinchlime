@@ -1,7 +1,6 @@
 ---
 title: 如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能
 date: 2023-01-14
-updated: 2023-01-14
 description: 在經歷過多次失敗後，我想到，何不問問 ChatGPT 呢？
 path: blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind
 taxonomies:

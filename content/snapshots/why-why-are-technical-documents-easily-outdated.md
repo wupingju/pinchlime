@@ -1,7 +1,6 @@
 ---
 title: 為何技術文件很容易過時？
 date: 2022-05-07
-updated: 2022-05-07
 description: 我還沒有維護過面向客戶的技術文件，所以不確定這件事的**本質原因**可能會是什麼。表層的原因可能是資源不足，或者覺得這件事沒那麼重要，但流程上是否有改善的空間？現行的工具有沒有適合拿來處理這個問題的？
 path: snapshots/why/why-are-technical-documents-easily-outdated
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 透過 Raycast 檢索 Raindrop 的書籤
 date: 2022-05-27
-updated: 2022-05-27
 description: 因此我把我寫過的電子報以及 blog post 都存到 Raindrop.io 裡面，並且透過 Raycast 的 extension 來取用。
 path: blog/workflows/retrieve-raindrop-bookmarks-via-raycast
 taxonomies:

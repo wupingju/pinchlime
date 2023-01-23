@@ -1,7 +1,6 @@
 ---
 title: 為何我想為網站加上搜索功能？
 date: 2023-01-10
-updated: 2023-01-10
 description: 我覺得好像是想讓瀏覽的人有更多機會接觸他想看到的內容，無論是什麼，只要搜尋當下有某個念頭，而我又正好寫過相關的東西，相信那樣的體驗一定會很不錯。
 path: snapshots/why/why-do-i-want-to-implement-search-function-in-this-site
 taxonomies:

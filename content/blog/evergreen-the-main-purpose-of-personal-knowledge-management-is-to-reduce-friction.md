@@ -1,7 +1,6 @@
 ---
 title: 知識管理工作流的核心目標是降低摩擦力
 date: 2022-11-27
-updated: 2022-11-27
 description: 好的知識管理工具與生產力工具，通常都能夠降低人們在做某件事的摩擦力。
 path: blog/evergreen/the-main-purpose-of-personal-knowledge-management-is-to-reduce-friction
 taxonomies:

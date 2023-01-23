@@ -1,7 +1,6 @@
 ---
 title: Facebook 臉書糟糕的新版外觀及 UI 及一切
 date: 2020-09-05
-updated: 2020-09-05
 path: 2020/09/06/quit-facebook-1/
 description: 9月初台灣這波臉書大改版，真的是糟糕透頂，也讓我終於下定決心，要開始啟動放在抽屜很久的離開臉書計畫。
 taxonomies:

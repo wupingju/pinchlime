@@ -1,7 +1,6 @@
 ---
 title: 打字速度快的好處是想法能更快從腦中卸載成為想法快照
 date: 2022-05-27
-updated: 2022-05-27
 description: 打更快代表更容易形成草稿，也更容易編輯成可以輸出的文字，而輸出頻率增加就更容易收到回饋，此時自己的想法就會更完善，也會產生更多靈感，從而形成一個正面的循環。
 path: blog/evergreen/the-advantage-of-fast-typing-is-that-ideas-can-be-unloaded-from-the-brain-more-quickly-as-a-snapshot-of-ideas
 taxonomies:

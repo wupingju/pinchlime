@@ -1,7 +1,6 @@
 ---
 title: 生產力就是在對的時間進行對的活動
 date: 2022-06-14
-updated: 2022-06-14
 description: 如果生活中這樣的情境佔了大多數，那麼自己應該很少覺得自己在浪費時間，因為大多數的時間都在執行最適合的任務。
 path: blog/evergreen/productivity-is-about-doing-the-right-activity-at-the-right-time
 taxonomies:

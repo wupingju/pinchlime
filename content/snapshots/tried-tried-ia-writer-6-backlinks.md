@@ -1,7 +1,6 @@
 ---
 title: 嘗試了 iA Writer 6 的 backlinks
 date: 2022-06-17
-updated: 2022-06-17
 description: 整體感覺起來，雖然這個 wiki-links 功能是一次重大的改版，但好像沒有很確定 iA Writer 的開發者們是怎麼看待這個功能，或怎麼期待用戶使用這個功能。這讓我有些小失望，也可能我根本不算是這個 app 主打的用戶吧！
 path: snapshots/what-i-tried-today/tried-ia-writer-6-backlinks
 taxonomies:

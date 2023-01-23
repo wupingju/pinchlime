@@ -1,7 +1,6 @@
 ---
 title: 越用越喜歡的 Obsidian
 date: 2021-04-05
-updated: 2021-04-05
 path: 2021/04/05/my-favorite-obsidian/
 description: 如果把任何資訊處理的過程，切分成「收集」、「處理」、「輸出」、「歸檔」四個階段好了，Obsidian 在我的流程裡，四個階段都可以湊上一腳。
 taxonomies:

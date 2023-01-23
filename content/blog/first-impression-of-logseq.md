@@ -1,7 +1,6 @@
 ---
 title: 一見鐘情的 Logseq
 date: 2021-12-04
-updated: 2021-12-04
 path: 2021/12/04/first-impression-of-logseq/
 description: Logseq 跟 Workflowy 一樣是一個無限層級的大綱軟體；它也有著和 RoamResearch 類似，以每日記錄為核心，並且有雙向連結加上「block reference」的功能；另外，它與 Obsidian 一樣主打著「Local First」，以及以 markdown 格式為核心的訴求。
 taxonomies:

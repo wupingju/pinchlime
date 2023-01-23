@@ -1,7 +1,6 @@
 ---
 title: 每天問一個問題的過程，是很好的對於設定問題意識的練習
 date: 2022-05-12
-updated: 2022-05-12
 description: 我似乎感覺到每日這樣練習問 why ，雖然有時會卡住，但好像真的有機會慢慢進步。
 path: snapshots/random/the-benefits-of-asking-a-question-every-day
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 為何我喜歡逛 Heptabase 的 discord？
 date: 2022-05-30
-updated: 2022-05-30
 description: 這裡有我欣賞的人，會發表我認同與有收穫的觀點，並能接觸到我有興趣的主題與討論
 path: snapshots/why/why-i-like-the-discord-of-heptabase
 taxonomies:

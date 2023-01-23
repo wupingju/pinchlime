@@ -1,7 +1,6 @@
 ---
 title: 這是一篇在手機上發的文
 date: 2022-04-15
-updated: 2022-04-15
 draft: true
 taxonomies:
   categories: 

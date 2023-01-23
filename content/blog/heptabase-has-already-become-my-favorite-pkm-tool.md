@@ -1,7 +1,6 @@
 ---
 title: 迅速迭代功能的 Heptabase 已成為我最愛用的知識管理工具
 date: 2022-06-21
-updated: 2022-06-21
 path: blog/heptabase-has-already-become-my-favorite-pkm-tool
 description: 目前的 Heptabase 已經不單純是個「有潛力的工具」，而是已經可以承載複雜知識管理任務的產品了。甚至可以說，它目前就是所有選擇裡面最符合我需求的、最棒的工具。
 taxonomies:

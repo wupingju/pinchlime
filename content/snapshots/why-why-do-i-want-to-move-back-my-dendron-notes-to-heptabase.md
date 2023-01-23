@@ -1,7 +1,6 @@
 ---
 title: 為何我要把 Dendron 的 notes 搬回 Heptabase？
 date: 2022-05-28
-updated: 2022-05-28
 description: 這兩個功能都是基於 Heptabase 的空間屬性，覺得更有助於建立連結以及進行聯想，因此在有層級化白板後，就決定這樣做了。
 path: snapshots/why/why-do-i-want-to-move-back-my-dendron-notes-to-heptabase
 taxonomies:

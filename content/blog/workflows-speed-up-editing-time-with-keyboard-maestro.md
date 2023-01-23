@@ -1,7 +1,6 @@
 ---
 title: 利用 Keyboard Maestro 加快 PO 文的速度
 date: 2023-01-09
-updated: 2023-01-09
 description: 整個流程包含輸入，大概只要花不到 30 秒，我只要再把我在 Heptabase 寫好的文字貼上、做些簡單編輯就好
 path: blog/workflows/speed-up-editing-time-with-keyboard-maestro
 taxonomies:

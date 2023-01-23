@@ -1,7 +1,6 @@
 ---
 title: 硬體金屬冷錢包的壓力測試評比
 date: 2022-11-19
-updated: 2022-11-19
 description: 這類錢包通常以不鏽鋼等金屬製成，比起電子的硬體錢包來說，更防水、防火、防外力擠壓（地震崩塌等）。
 path: snapshots/what-i-found-interesting/jameson-lopps-metal-bitcoin-seed-storage-reviews
 taxonomies:

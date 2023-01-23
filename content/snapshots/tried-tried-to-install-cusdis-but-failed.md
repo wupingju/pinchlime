@@ -1,7 +1,6 @@
 ---
 title: 嘗試安裝 Cusdis 但失敗
 date: 2022-06-18
-updated: 2022-06-18
 description: 嘗試研究了一下，發現這好像是我看不太懂，也不知道該怎麼解決的 CORS 問題。所以只好先放棄了！
 path: snapshots/what-i-tried-today/tried-to-install-cusdis-but-failed
 taxonomies:

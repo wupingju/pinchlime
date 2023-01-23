@@ -1,7 +1,6 @@
 ---
 title: 為什麼我一直在換工具？
 date: 2022-05-09
-updated: 2022-05-09
 description: 因為我對不同工具的差異點，以及他們嘗試提出的解決方案很感興趣。每次讓我想嘗試的工具，都有在某一方面解決我之前無法被解決的需求。
 path: snapshots/why/why-do-I-keep-changing-tools
 taxonomies:

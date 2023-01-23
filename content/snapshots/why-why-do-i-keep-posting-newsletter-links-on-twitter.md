@@ -1,7 +1,6 @@
 ---
 title: 為何我都寄出電子報了還是會貼公開連結到 Twitter 上？
 date: 2022-05-17
-updated: 2022-05-17
 description: 小結論：優點大於缺點，且每次貼出連結後的一天內都能收到新的讀者，代表此方法應該算有效，可以繼續實施。
 path: snapshots/why/why-do-i-keep-posting-newsletter-links-on-twitter
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 便利商店沒賣什麼東西？
 date: 2022-03-20
-updated: 2022-03-20
 description: 若要開拓「知」的範圍，就必須有意識地察覺與探索「未知的未知」領域。
 draft: false
 path: newsletters/ignorance-management

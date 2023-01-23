@@ -1,7 +1,6 @@
 ---
 title: Mess with DNS
 date: 2022-04-23
-updated: 2022-04-23
 description: 隨機分配給使用者一個 domain ，然後使用者就可以照著旁邊的指示去增加 A record 與 CNAME record ，進而了解這些設定是怎麼運作的。
 path: snapshots/what-i-found-interesting/mess-with-dns
 taxonomies:

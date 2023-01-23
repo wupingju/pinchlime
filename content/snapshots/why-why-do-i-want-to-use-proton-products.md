@@ -1,7 +1,6 @@
 ---
 title: 為何我想使用 Proton 的各項產品？
 date: 2022-12-01
-updated: 2022-12-01
 description: 對 Proton 的好感則是一直持續存在，可能是欣賞他們注重隱私的理念、也覺得這是一間很酷的公司，甚至 UI 視覺方面也很合我的胃口。
 path: snapshots/why/why-do-i-want-to-use-proton-products
 taxonomies:

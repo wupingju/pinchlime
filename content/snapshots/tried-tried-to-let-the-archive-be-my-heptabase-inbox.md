@@ -1,7 +1,6 @@
 ---
 title: 嘗試把 The Archive 當成 Heptabase 的草稿夾
 date: 2022-07-10
-updated: 2022-07-10
 description: 對我來說， The Archive 目前更適合做這件事的原因是，他有「快速輸入」的小視窗，並且可以「透過標題排序」，這兩點都是目前 Heptabase 還沒有的功能，但好像是我實踐卡片筆記法的需求，因此目前就先來嘗試用 The Archive 處理看看吧！
 path: snapshots/what-i-tried-today/tried-to-let-the-archive-be-my-heptabase-inbox
 taxonomies:

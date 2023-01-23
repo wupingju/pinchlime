@@ -1,7 +1,6 @@
 ---
 title: Metaphor - 類 GPT-3 的新搜尋引擎
 date: 2022-11-25
-updated: 2022-11-25
 description: 更精確一點，他希望你輸入的是日常社群或對話中，你推薦或分享給別人的時候會怎麼講話，Metaphor 就會「產生」那樣的連結。
 path: snapshots/what-i-found-interesting/metaphor-search-engine
 taxonomies:

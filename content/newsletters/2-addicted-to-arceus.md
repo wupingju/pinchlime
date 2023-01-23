@@ -1,7 +1,6 @@
 ---
 title: 沉迷於阿爾宙斯的一週
 date: 2022-02-20
-updated: 2022-02-20
 description: 從上週末開始玩 Switch 上的 《寶可夢傳說 阿爾宙斯》，結果就完全陷進這個遊戲的世界裡。
 draft: false
 path: newsletters/addicted-to-arceus

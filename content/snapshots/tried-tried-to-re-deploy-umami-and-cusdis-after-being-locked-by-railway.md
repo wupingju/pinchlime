@@ -1,7 +1,6 @@
 ---
 title: 嘗試解決 Railway 鎖住導致 umami 跟 Cusdis 失效的問題
 date: 2022-07-09
-updated: 2022-07-09
 description: 希望以後 Railway 能安穩一點，如果要付費就付吧XD
 path: snapshots/what-i-tried-today/tried-to-re-deploy-umami-and-cusdis-after-being-locked-by-railway
 taxonomies:

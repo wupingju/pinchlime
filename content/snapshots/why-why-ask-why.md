@@ -1,7 +1,6 @@
 ---
 title: Why ask why?
 date: 2022-05-04
-updated: 2022-05-04
 description: 持續問「Why」的原因是，探究某件表象事物背後真正的本質是什麼，藉此定義出更好的問題、更應該被解決的問題。
 path: snapshots/why/why-ask-why
 taxonomies:

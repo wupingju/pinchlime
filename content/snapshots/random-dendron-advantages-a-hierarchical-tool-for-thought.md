@@ -1,7 +1,6 @@
 ---
 title: Dendron 的優點 - 兼顧層級化的架構以及彈性
 date: 2022-05-08
-updated: 2022-05-09
 description: 層級化架構的問題在：一個筆記不一定只出現在一個地方，因此過早思考他的「層級」與「位置」可能會讓使用者感到阻力。對於這種是否選擇層級化的兩難，我覺得透過「Daily Journal/notes」這種固定的格式來紀錄是個好方法。
 path: snapshots/random/dendron-advantages-a-hierarchical-tool-for-thought
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: Self reviews、語雀、ChatGPT & domain knowledge 
 date: 2023-01-23
-updated: 2023-01-23
 description: 新年快樂，旺兔順利！
 path: newsletters/16-self-reviews-yuque-chatgpt-domain-knowledge
 extra:

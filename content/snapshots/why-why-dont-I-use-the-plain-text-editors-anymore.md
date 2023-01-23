@@ -1,7 +1,6 @@
 ---
 title: 為何我不再用「純」文字編輯器了？
 date: 2022-06-12
-updated: 2022-06-12
 description: 在個人知識管理上，我也從文件型的筆記軟體 Obsidian ，轉向了大綱型的 Workflowy 及 Logseq ，現在則是開始在 Heptabase 上進行卡片寫作，因此我也不再需要像以前使用 DEVONthink 時那樣，還要外連 iA Writer 來撰寫 .md 文件的內容。
 path: snapshots/why/why-dont-I-use-the-plain-text-editors-anymore
 taxonomies:

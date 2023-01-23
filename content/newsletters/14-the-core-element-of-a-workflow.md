@@ -1,7 +1,6 @@
 ---
 title: 工作流的核心在於你想解決的問題
 date: 2022-06-26
-updated: 2022-06-26
 description: 帶著自己「更清楚知道的需求」以及「更多對於工具的理解」，把它們組合在一起，就逐漸形成了自己獨有的工具組合以及完整的工作流。
 path: newsletters/the-core-element-of-a-workflow
 extra:

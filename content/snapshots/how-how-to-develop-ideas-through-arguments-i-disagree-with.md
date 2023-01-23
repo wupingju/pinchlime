@@ -1,7 +1,6 @@
 ---
 title: 如何透過自己不同意的論點發展想法？
 date: 2022-04-26
-updated: 2022-04-26
 description: 我想到以前我很喜歡的一個老師曾說過，他在思考一個論點時，都會思考反對者可能會怎麼想，接著他再想，可以怎麼破解對方的論點，接著又再想，對方可能會怎麼反擊，這樣想個幾輪下來，自己的論點就會越來越強壯了
 path: snapshots/how/how-to-develop-ideas-through-arguments-i-disagree-with
 taxonomies:

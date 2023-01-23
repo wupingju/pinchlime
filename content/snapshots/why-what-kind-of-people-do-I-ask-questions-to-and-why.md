@@ -1,7 +1,6 @@
 ---
 title: 我會對怎樣的人提問？為什麼？
 date: 2022-05-08
-updated: 2022-05-08
 description: 問「為什麼會這樣」容易有責罵感，可能需要換個方式問，例如：「是發生了什麼意料之外的狀況嗎？」
 path: snapshots/why/what-kind-of-people-do-I-ask-questions-to-and-why
 taxonomies:

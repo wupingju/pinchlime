@@ -1,7 +1,6 @@
 ---
 title: 關於 Evergreen notes 的命名原則
 date: 2022-05-17
-updated: 2022-05-17
 description: 是一個明確的「論點」，內含價值判斷或比較。
 path: snapshots/random/thoughts-about-the-naming-of-evergreen-notes
 taxonomies:

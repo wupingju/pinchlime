@@ -1,7 +1,6 @@
 ---
 title: 漂亮好用的註記工具 Glasp
 date: 2022-06-23
-updated: 2022-06-23
 description: Glasp 可以用不同顏色是個蠻重要的優勢，我可以用不同顏色去區分不同用途的 highlights ，比方說黃色是標註有感的句子，綠色拿來標註能讓我產生下一步行動的句子，紫色是我有疑問的句子，紅色則是我不認同的句子，透過顏色這樣簡單的分類方式，可以更快記下重要的靈感與想法，未來再回頭查找時也更直覺。
 path: snapshots/what-i-found-interesting/glasp-the-social-web-highlighter
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 我真正想要的不是個人 wiki
 date: 2022-06-06
-updated: 2022-06-06
 description: 我發現我真正想要的不是「wiki」，wiki 感覺更像是面向一個社群或一個知識主題的知識系統，但對我來說，我想要的核心元素比較不是「多人協作」以及「知識」，而是更初步的「想法」。
 path: snapshots/random/what-i-truly-want-is-not-a-personal-wiki
 draft: false

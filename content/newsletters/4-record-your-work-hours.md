@@ -1,7 +1,6 @@
 ---
 title: 每天花 10 分鐘紀錄自己工時吧！
 date: 2022-03-06
-updated: 2022-03-06
 description: 我一開始也覺得這個制度比較是對公司有利的制度，但近期漸漸意識到這麼做對我自己的幫助。
 draft: false
 path: newsletters/record-your-work-hours

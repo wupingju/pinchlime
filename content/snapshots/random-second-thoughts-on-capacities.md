@@ -1,7 +1,6 @@
 ---
 title: 再看了一次 Capacities 的想法
 date: 2022-11-25
-updated: 2022-11-25
 description: 我覺得這個功能的好處是，讓「review」這件事更簡易、更直覺。一樣是解決了 Logseq 那種難以回顧、必須仰賴雙向連結「碰撞」在一起的不確定感。
 path: snapshots/random/second-thoughts-on-capacities
 taxonomies:

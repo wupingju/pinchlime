@@ -1,7 +1,6 @@
 ---
 title: 人們不喜歡的網站體驗有哪些？
 date: 2022-06-07
-updated: 2022-06-07
 description: 如果整個使用網站的過程是不斷地根據體驗給予正負分，那麼還沒累積正分時打斷體驗就會直接負分出局，較好的作法可能是累積了一定的正分後，再給予這些可能會扣分的功能。
 path: snapshots/random/website-experiences-people-dislike
 taxonomies:

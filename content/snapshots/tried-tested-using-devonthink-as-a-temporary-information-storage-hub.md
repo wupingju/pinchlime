@@ -1,7 +1,6 @@
 ---
 title: 測試以 DEVONthink 作為暫存資訊的 hub
 date: 2022-11-26
-updated: 2022-11-26
 description: 一直覺得 DEVONthink 偏「重」，無論是介面、啟動速度、同步複雜性等等，都好像少了一些靈敏的速記的感覺。
 path: snapshots/what-i-tried-today/tested-using-devonthink-as-a-temporary-information-storage-hub
 taxonomies:

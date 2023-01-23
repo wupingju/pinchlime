@@ -1,7 +1,6 @@
 ---
 title: 為何我選擇不續訂 Craft ？
 date: 2022-11-19
-updated: 2022-11-19
 description: 雖然 Craft 有不少優點，但其中好像沒有那個「獨一無二的 killer feature 」，這就導致我會傾向用其他手上的工具來完成想在 Craft 上面做的事。我想，這可能代表我不太是 Craft 主打的客群。
 path: snapshots/why/why-did-i-cancel-craft-subscription
 taxonomies:

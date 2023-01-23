@@ -1,7 +1,6 @@
 ---
 title: 嘗試使用 Logseq 上面的 GPT-3 plugin
 date: 2022-06-15
-updated: 2022-06-16
 description: 整體初步的感覺是， GPT-3 很適合在面向一個新議題時有一個最初步的理解，他的回應通常都蠻簡潔扼要，那種答案有點像是 Google 找到 Quora 或是 Reddit 上面最多人 upvoted 的問題一樣。
 path: snapshots/what-i-tried-today/tried-to-use-logseq-plugin-gpt3-openai
 taxonomies:

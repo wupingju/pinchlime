@@ -1,7 +1,6 @@
 ---
 title: 什麼是「鑄幣稅（seigniorage）代幣」？
 date: 2022-06-01
-updated: 2022-06-01
 description: 如果鑄幣稅代幣本身就是對應穩定幣的價值支撐，那麼就有可能會讓穩定幣的「穩定效果」受到負面影響，因為鑄幣稅代幣的流通性跟需求若容易觀測，那就會讓市場處於悲觀情緒時，更難逃離悲觀的賣壓漩渦。
 path: snapshots/what/what-are-seigniorage-tokens
 draft: false

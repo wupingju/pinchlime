@@ -1,7 +1,6 @@
 ---
 title: What 是通往 Why 的捷徑嗎？
 date: 2022-05-21
-updated: 2022-05-21
 description: 因為每天給自己設定的最小目標是「一定要想一個 Why」，但有時還是會卡關。卡住的點是想不到今天想問什麼。
 path: snapshots/random/is-the-what-a-pathway-to-the-why
 taxonomies:

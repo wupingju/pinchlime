@@ -1,7 +1,6 @@
 ---
 title: Bionic Reading
 date: 2022-05-18
-updated: 2022-05-18
 description: 簡單來說，就是創造的人們認為人的大腦讀得比眼睛還快，而只要給大腦一小部分的資訊，就會自動補完，所以這能讓人獨得更快，甚至更好地理解讀的內容。
 path: snapshots/what-i-found-interesting/bionic-reading
 taxonomies:

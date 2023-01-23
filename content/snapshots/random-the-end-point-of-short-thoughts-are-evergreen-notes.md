@@ -1,7 +1,6 @@
 ---
 title: 短想法的終點都是 Evergreen notes
 date: 2022-05-29
-updated: 2022-05-29
 description: 無論是 why, how, what, 或者是 random thoughts ，好像都應該盡量提取可以成為 evergreen notes 的片段。
 path: snapshots/random/the-end-point-of-short-thoughts-are-evergreen-notes
 taxonomies:

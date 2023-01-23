@@ -1,7 +1,6 @@
 ---
 title: 為何呼籲別人理性很危險？
 date: 2022-05-19
-updated: 2022-05-19
 description: 這可能是因為理性的對面可能是「感性」，也可能是「不理性」，這就容易造成潛在被呼籲對象自行帶入「不理性」這個對立面。
 path: snapshots/why/why-it-is-dangerous-to-urge-others-to-be-rational
 taxonomies:

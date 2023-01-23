@@ -1,7 +1,6 @@
 ---
 title: Pin 起來電子報重新上線
 date: 2023-01-15
-updated: 2023-01-15
 description: 接下來的電子報會改為以網路文章與推文串的選讀為主，並且每篇文章會搭配三個問題或一個短想法。這些問題分別是：我為何想讀？我為何推薦這篇文？我看完以後產生哪些問題？
 path: newsletters/restarting-pinchlime-newsletters
 extra:

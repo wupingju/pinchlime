@@ -1,7 +1,6 @@
 ---
 title: 或許我不需要「Literature notes？」
 date: 2022-05-15
-updated: 2022-05-15
 description: 我過去就曾對 Literature notes 的產製流程感到困擾，即使用最快的速度整理，每篇文章可能也要 20-30 分鐘來整理 notes ，但這樣做的意義卻似乎沒很大，不如直接寫成我的想法，然後適度引用就好。
 path: snapshots/random/maybe-i-dont-need-literature-notes
 taxonomies:

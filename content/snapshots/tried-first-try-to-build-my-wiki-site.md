@@ -1,7 +1,6 @@
 ---
 title: 建構我的 wiki site
 date: 2022-05-06
-updated: 2022-05-06
 description: 上週透過 Logseq 內建的 export 功能，很順利地把頁面整個輸出成靜態頁面，並且上傳到自己的網域裡面，開始建立自己的小小 wiki page
 path: snapshots/what-i-tried-today/first-try-to-build-my-wiki-site
 taxonomies:

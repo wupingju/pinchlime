@@ -1,7 +1,6 @@
 ---
 title: 透過 Raycast 的 Quicklink 迅速連動 Drafts
 date: 2022-04-04
-updated: 2022-04-04
 path: 2022/04/04/raycast-quicklink-introduction/
 description: Quicklink 的功能並不限於搜尋網站而已，而是可以用來處理各種能透過 URL scheme 運作的工具。
 taxonomies:

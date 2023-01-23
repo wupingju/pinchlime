@@ -1,7 +1,6 @@
 ---
 title: 令人感覺混亂的 Capacities
 date: 2022-11-08
-updated: 2022-11-08
 description: 在 Features 頁面光這樣看，就覺得不知道這個東西的特色在哪。不同功能彼此之間的邏輯不清楚、重要性也不明確。
 path: snapshots/random/confusing-capacities
 taxonomies:

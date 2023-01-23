@@ -1,7 +1,6 @@
 ---
 title: 為何會有人發明「演算法穩定幣」(algorithm-based stablecoins)？
 date: 2022-05-12
-updated: 2022-05-12
 description: 看起來是基於某種去中心化的情懷，但它真正比 asset-based stablecoin 好的地方在哪呢？
 path: snapshots/why/why-did-people-invent-algorithm-based-stablecoins
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 為何信任難以創造？
 date: 2022-05-13
-updated: 2022-05-13
 description: 對我來說，信任好像就像是展開自己的柔軟面（但也脆弱）給對方，這樣做的優點是有機會也獲得對方的柔軟，但缺點是可能被對方傷害，所以信任只能逐步建構與累積，也會視對方的具體表現（例如是拿刀相向還是展現友好）來決定是否展現自己的柔軟。
 path: snapshots/why/why-is-it-hard-to-create-trust
 taxonomies:

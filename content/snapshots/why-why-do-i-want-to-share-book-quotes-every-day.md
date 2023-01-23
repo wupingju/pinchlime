@@ -1,7 +1,6 @@
 ---
 title: 為何想每天分享 book quotes？
 date: 2022-05-05
-updated: 2022-05-05
 description: 覺得能持續做一件事是很棒的事
 path: snapshots/why/why-do-i-want-to-share-book-quotes-every-day
 taxonomies:

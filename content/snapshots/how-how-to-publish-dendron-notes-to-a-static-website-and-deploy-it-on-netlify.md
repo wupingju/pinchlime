@@ -1,7 +1,6 @@
 ---
 title: 如何將 Dendron 輸出成靜態網站並部署到 Netlify？
 date: 2022-05-07
-updated: 2022-05-07
 description: 未來的自動部署也不一定要透過桌面版的 Dendron 進行，只要 repository 有變動， Netlify 就會自動部署差異的內容。
 path: snapshots/how/how-to-publish-dendron-notes-to-a-static-website-and-deploy-it-on-netlify
 taxonomies:

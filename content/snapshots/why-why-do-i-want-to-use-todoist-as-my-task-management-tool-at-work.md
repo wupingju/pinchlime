@@ -1,7 +1,6 @@
 ---
 title: 為何我想開始使用 Todoist 作為我工作上的任務管理工具？
 date: 2023-01-03
-updated: 2023-01-03
 description: 試用了 20 分鐘發現相當喜歡，只是淺嚐而已就有許多不錯的 UI 體驗，例如 quick capture 功能可以直接用自然語言設定 due day 與指定 project 
 path: snapshots/why/why-do-i-want-to-use-todoist-as-my-task-management-tool-at-work
 taxonomies:

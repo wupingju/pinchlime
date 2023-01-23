@@ -1,7 +1,6 @@
 ---
 title: 聯想羅盤
 date: 2022-05-29
-updated: 2022-05-29
 description: 透過 Heptabase 的視覺化筆記來實現，使用方式是把需要的卡片放在正中央，此時就開始根據聯想羅盤的東西南北四個方位開始思考新的想法。
 path: blog/workflows/the-compass-of-creating-thoughts
 taxonomies:

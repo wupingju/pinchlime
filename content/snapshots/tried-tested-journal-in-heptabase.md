@@ -1,7 +1,6 @@
 ---
 title: 測試 Hepta 的 Journal
 date: 2022-06-05
-updated: 2022-06-05
 description: 今天參加 Hepta 的新功能 Journal 測試，覺得很有趣。
 path: snapshots/what-i-tried-today/tested-journal-in-heptabase
 draft: false

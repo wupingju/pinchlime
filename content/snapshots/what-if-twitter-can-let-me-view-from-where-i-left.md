@@ -1,7 +1,6 @@
 ---
 title: 如果 Twitter 可以讓我從上次瀏覽的地方繼續看
 date: 2023-01-21
-updated: 2023-01-21
 description: 我不禁思考，假設 Twitter 也導入這樣的功能，我是否就不再需要第三方 app 了？目前誠實的答案是，對。
 path: snapshots/what-if/twitter-can-let-me-view-from-where-i-left
 taxonomies:
