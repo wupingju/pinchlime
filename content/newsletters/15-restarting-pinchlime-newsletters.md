@@ -128,9 +128,9 @@ Hi 大家好，這裡是 [Pin起來電子報](https://pinchlime.substack.com/) �
 
 ---
 
-## Tweet Threads
+## Twitter Threads
 
-我喜歡的 Tweet Threads
+我喜歡的 Twitter Threads
 
 [Alexander Rink](https://twitter.com/rcvd_io/status/1610384989341745154)
 
