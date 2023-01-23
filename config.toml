@@ -39,7 +39,7 @@ include_path = true
 include_content = false
 
 [extra]
-author = "P.J. Wu"
+author = "P.J. Wu 吳秉儒"
 email = "mimir@hey.com"
 theme_color = "#003c6d"
 
@@ -68,8 +68,8 @@ label_back_to_start = "本文開始"
 label_book_author = "作者"
 label_categories = "所有分類"
 label_kinds = "所有類別"
-label_category = "分類"
-label_created = "發布於"
+label_category = "Category: "
+label_created = "Posted"
 label_home = "首頁"
 label_links = "連結"
 label_new_posts_list_title = "最新 Blog 文章"
@@ -83,13 +83,13 @@ label_reading = "閱讀時間"
 label_rss = "訂閱RSS"
 label_table_contents = "目錄"
 label_sorting_articles ="看更多"
-label_tag = "標籤"
+label_tag = "Tags: "
 label_tags = "依標籤"
 label_timeline = "依時序"
 label_target_language = "English Blog"
 label_taxonomy = "類別"
 label_thoughts_title = "以下是我最近的幾則[短想法](/thoughts/)："
-label_updated = "最後更新時間"
+label_updated = "Last Modified"
 [languages.en]
 description = "Introduce productivity tools"
 generate_feed = true
