@@ -50,9 +50,10 @@
         </div>
         {% endblock breadcrumbs %}
         <div>
-          <h1>{{ page.title }}</h1>
-          <div class="muted">
-            <span>{% block detail_meta_slot %}{% endblock detail_meta_slot %}</span><span>{% if page.date %}{{ trans(key="label_created",lang=lang)}} {{ page.date }}{% endif %}{% if page.updated %} | {{trans(key="label_updated",lang=lang)}} {{ page.updated }} {% endif %}</span>
+          <h1>{% block detail_meta_slot %}{% endblock detail_meta_slot %}{{ page.title }}</h1>
+          <div class="muted" style="justify-content: space-between;display: flex;">
+            <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time> 
+            <span>{{ config.extra.author }}</span>
           </div>
         </div>
       </header>
@@ -72,10 +73,14 @@
            
             {% endif %}
              <br>
+             {% if page.updated %}
+             <div class="muted" style="justify-content: right;display: flex;">
+             <span>{{trans(key="label_updated",lang=lang)}}&nbsp;</span><time pubdate>{{ page.updated | date(format="%Y-%m-%d") }}</time>
+             <br>
+             {% endif %}
           </article>
         </section>
       </section>
-          <hr>
           <section id="backlinks">
             {{ macro::backlink(pages=page.backlinks) }}
           </section>
@@ -94,6 +99,7 @@
           <script async defer src="https://comments.pinchlime.com/js/cusdis.es.js"></script>
           </section>
           <section id="contact">
+          <br>
           {% if config.extra.email %}
           <div id="email-comment" class="muted text-sm">
             <hr class="w-full">

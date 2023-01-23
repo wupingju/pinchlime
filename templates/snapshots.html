@@ -31,25 +31,32 @@
     <div class="element">
       <article>
         <h1><a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a></h1>
-        <div class="muted">
-          <span>{% if page.date %}{{ trans(key="label_created",lang=lang)}} {{ page.date }}{% endif %}{% if page.updated %} | {{trans(key="label_updated",lang=lang)}} {{ page.updated }} {% endif %}</span> 
+        <section>
+          <div class="muted" style="justify-content: space-between;display: flex;">
+            <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time>
+            <span>{{ config.extra.author }}</span>
+          </div>
+        </section>
+
+        <div>{{ page.content | safe }}</div>
+        <div class="muted" style="justify-content: space-between;display: flex;">
           {% if page.taxonomies.kinds %}
-          <span>｜&emsp;{{trans(key="label_published_on",lang=lang)}}</span>
+          <div>
+          <span>{{trans(key="label_category",lang=lang)}}</span>
           <a class="no-underline" href="{{ get_taxonomy_url(kind="kinds",lang=lang, name=page.taxonomies.kinds[0]) }}">
           {{ page.taxonomies.kinds[0] }}
           </a> 
-        {% endif %}
+          </div>
+          {% endif %}
+          {% if page.taxonomies.tags %}
+          <div>
+            {% for tag in page.taxonomies.tags %}
+            <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags",lang=lang, name=tag) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
+            {% if loop.index != page.taxonomies.tags | length %}&nbsp;{% endif %}{% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
         </div>
-        <div>{{ page.content | safe }}</div>
-        {% if page.taxonomies.tags %}
-        <p>
-          {% for tag in page.taxonomies.tags %}
-          <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags",lang=lang, name=tag) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
-          {% if loop.index != page.taxonomies.tags | length %}&nbsp;{% endif %}{% endif %}
-          {% endfor %}
-        </p>
-        {% endif %}
-        <p></p>
       </article>
     </div>
       {% endfor %} 

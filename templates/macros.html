@@ -2,49 +2,68 @@
   <article>
   <div class="element">
   <h1><a class="no-underline " href="{{ page.permalink }}">{{ page.title }}</a></h1>
-  <section class="muted">
-    <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time>
-    {% if page.taxonomies.categories %}
-    <span>｜&emsp;{{trans(key="label_published_on",lang=lang)}}</span>
-    <a class="no-underline" href="{{ get_taxonomy_url(kind="categories",lang=lang, name=page.taxonomies.categories[0]) }}">
-    {{ page.taxonomies.categories[0] }}
-    </a> 
-  {% endif %}
-    </section>
+  <section>
+    <div class="muted" style="justify-content: space-between;display: flex;">
+      <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time>
+      <span>{{ config.extra.author }}</span>
+    </div>
+  </section>
 
   {% if page.summary -%}
   <div>{{ page.summary | safe }}</div>
   {% elif page.description -%}
   <p>{{ page.description }}</p>
   {% endif -%}
-  <div class="muted">
+  <div class="continue-reading-btn">
     <section>
-      <a class="text text-color" href="{{ page.permalink }}#continue-reading"><span>{{ trans(key="label_read_more",lang=lang) }} </span></a>
+      <a href="{{ page.permalink }}#continue-reading"><span>{{ trans(key="label_read_more",lang=lang) }} </span></a>
     </section>
-  </div>  
+  </div>
+  <br>
+  <div class="muted" style="justify-content: space-between;display: flex;">
+  {% if page.taxonomies.categories %}
+  <div>
+  <span>{{trans(key="label_category",lang=lang)}}</span>
+  <a class="no-underline" href="{{ get_taxonomy_url(kind="categories",lang=lang, name=page.taxonomies.categories[0]) }}">
+  {{ page.taxonomies.categories[0] }}
+  </a>
+  </div>
+  {% endif %}
   {% if page.taxonomies.tags %}
-  <p>
+  <div>
     {% for tag in page.taxonomies.tags %}
     <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags",lang=lang, name=tag) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
     {% if loop.index != page.taxonomies.tags | length %}&nbsp;{% endif %}{% endif %}
   {% endfor %}
-  </p>
+  </div>
   {% endif %}
+  </div>
 </div>
 </article>
 {% endmacro post_max %}
 
 
 {% macro post_min(page) %}
-<a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a> <span class="muted text-sm">{{ page.updated }}</span>
+<div style="display: flex;justify-content: space-between;line-height: 75%;">
+<a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a> 
+<span class="muted text-sm" style="font-family: menlo;">{{ page.date }}</span>
+</div>
 {% endmacro post_min %}
 
 {% macro snapshots_min(page) %}
-<a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a> <span class="muted text-sm">{{ page.updated }}</span>
+<div style="display: flex;justify-content: space-between;line-height: 75%;">
+<a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a> 
+<span class="muted text-sm" style="font-family: menlo;">{{ page.date }}</span>
+</div>
 {% endmacro post_min %}
 
 {% macro newsletters_min(page) %}
-<span>＃{{page.extra.issues }} </span><a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a> <span class="muted text-sm">{{ page.updated }}</span>
+<div style="display: flex;justify-content: space-between;line-height: 75%;">
+  <div>
+    <span>＃{{page.extra.issues }} </span><a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a> 
+  </div>
+  <span class="muted text-sm" style="font-family: menlo;">{{ page.date }}</span>
+</div>
 {% endmacro post_min %}
 
 {% macro post_side(page) %}
@@ -115,6 +134,7 @@
 {% macro backlink(pages) %}
 {% if pages and pages | length >0 %}
   <section class="backlinks ">
+    <hr>
     <h3>Links to this page ({{ pages | length }})</h3>
     <ul>
       {% for page in pages %}

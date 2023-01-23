@@ -10,7 +10,7 @@
 {% set_global file_lang_path = "." ~ lang -%}
 {% endif -%}
 {% set all_section_pages = get_section(path="_index"~file_lang_path~".md") -%}
-{% set all_pages_sort_by_date = all_section_pages.pages | sort(attribute="updated") | reverse  -%}
+
 <!DOCTYPE html>
 <html
   lang="{% if page.extra.lang %}{{ page.extra.lang }}{% else %}{{ lang }}{% endif %}"
