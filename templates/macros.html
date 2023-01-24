@@ -108,7 +108,7 @@
       <li class="disabled"><a class="no-underline" href="#">&larr;</a></li>
     {% endif %}
 
-    <li><a class="no-underline" href="{{get_url(path="@/archive/_index.md",lang=lang)}}">{{ ref.current_index }}/{{ ref.number_pagers }}</a></li>
+    <li><a class="no-underline" href="{{get_url(path="@/archive/_index.md")}}">{{ ref.current_index }}/{{ ref.number_pagers }}</a></li>
     
     {% if ref.next %}
       <li><a class="no-underline" href="{{ ref.next }}">&rarr;</a></li>

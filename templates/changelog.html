@@ -86,7 +86,7 @@
 <div class="sidebar-element">
 <h2>看{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
 <ul>
-  {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
+  {% set all_blog_pages = get_section(path="blog/_index.md") -%}
   {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
   <li class="no-underline">
     {{ macro::post_side(page=page) }}
@@ -97,7 +97,7 @@
 <div class="sidebar-element">
 <h2>看最新電子報</h2>
 <ul>
-  {% set all_blog_pages = get_section(path="newsletters/_index"~file_lang_path~".md") -%}
+  {% set all_blog_pages = get_section(path="newsletters/_index.md") -%}
   {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
   <li class="no-underline">
     {{ macro::newsletters_side(page=page) }}

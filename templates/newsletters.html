@@ -63,7 +63,7 @@
     <div class="sidebar-element">
     <h2>{{trans(key="label_new_newsletters_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
     <ul>
-        {% set all_blog_pages = get_section(path="newsletters/_index"~file_lang_path~".md") -%}
+        {% set all_blog_pages = get_section(path="newsletters/_index.md") -%}
           {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
           <li class="no-underline">
           {{ macro::newsletters_side(page=page) }}
@@ -77,7 +77,7 @@
     <div class="sidebar-element">
     <h2>{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
     <ul>
-      {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") -%}
+      {% set all_blog_pages = get_section(path="blog/_index.md") -%}
             {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
             <li class="no-underline">
             {{ macro::post_side(page=page) }}
@@ -91,7 +91,7 @@
     <div class="sidebar-element">
     <h2>{{trans(key="label_new_snapshots_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
     <ul>
-        {% set all_blog_pages = get_section(path="snapshots/_index"~file_lang_path~".md") -%}
+        {% set all_blog_pages = get_section(path="snapshots/_index.md") -%}
           {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
           <li class="no-underline">
           {{ macro::snapshots_side(page=page) }}
@@ -120,7 +120,7 @@
     </ul>
     </div>
     <div class="sidebar-element">
-      {% set custom_sidebar = get_section(path="sidebar/_index"~file_lang_path~".md") %} 
+      {% set custom_sidebar = get_section(path="sidebar/_index.md") %} 
       {{ custom_sidebar.content | safe }}        
     </div>  
   </aside>

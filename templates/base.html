@@ -1,15 +1,7 @@
 {% import "macros.html" as macro -%}
-{% set_global target_lang = "en" -%}
 {% set_global lang_prefix_path = "/" -%}
-{% if config.default_language != lang -%}
-{% set_global target_lang = "zh-TW" -%}
-{% set_global lang_prefix_path = "/"~lang~"/" -%}
-{% endif -%}
 {% set_global file_lang_path = "" -%}
-{% if config.default_language != lang -%}
-{% set_global file_lang_path = "." ~ lang -%}
-{% endif -%}
-{% set all_section_pages = get_section(path="_index"~file_lang_path~".md") -%}
+{% set all_section_pages = get_section(path="_index.md") -%}
 
 <!DOCTYPE html>
 <html
