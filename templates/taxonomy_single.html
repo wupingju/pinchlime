@@ -3,7 +3,7 @@
 {% block ogtitle %}{{taxonomy.name}}: {{term.name}} -  {{ config.title }}{% endblock ogtitle %}
 {% block description %}All posts in {{term.name}}{% endblock description %}
 {% block ogdesc %}All posts in {{term.name}}{% endblock ogdesc %}
-{% block ogurl %}{{get_taxonomy_url(kind=taxonomy.name,lang=lang, name=term.name)}}{% endblock ogurl %}
+{% block ogurl %}{{get_taxonomy_url(kind=taxonomy.name, name=term.name)}}{% endblock ogurl %}
 
 {% block main %}
 <div class="element">
@@ -11,7 +11,7 @@
   <header id="overview">
     <div class="pt">
       <span>&gt;&gt;</span>
-      <a href="{{ get_url(path="@/_index.md",lang=lang) }}">{{trans(key="label_home",lang=lang)}}</a>
+      <a href="{{ get_url(path="@/_index.md") }}">{{trans(key="label_home")}}</a>
       {% if term.name -%}
       <span class="divider"> / </span> {{ term.name }}
       {% endif -%}

@@ -14,8 +14,8 @@
     <br>
   </div>
   <ul class="list-none">
-    {% set tags = get_taxonomy(kind="tags",lang=lang) %} {% for tag in tags.items -%}
-    {% set url = get_taxonomy_url(kind="tags",lang=lang, name=tag.name) -%}
+    {% set tags = get_taxonomy(kind="tags") %} {% for tag in tags.items -%}
+    {% set url = get_taxonomy_url(kind="tags", name=tag.name) -%}
     <li>
       <a class="no-underline" href="{{ url }}"
         >{{ tag.name }} ({{ tag.pages | length }})</a
@@ -24,7 +24,7 @@
     {% endfor %}
   </ul>
   <br>
-  <h2 ><a class="no-underline" href="{{lang_prefix_path}}tags/">👉 也可看看根據標籤排序的文章列表</a></h2>
+  <h2 ><a class="no-underline" href="/tags/">👉 也可看看根據標籤排序的文章列表</a></h2>
   <br>
 </div>
 

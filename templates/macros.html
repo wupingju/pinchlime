@@ -16,7 +16,7 @@
   {% endif -%}
   <div class="continue-reading-btn">
     <section>
-      <a href="{{ page.permalink }}#continue-reading"><span>{{ trans(key="label_read_more",lang=lang) }} </span></a>
+      <a href="{{ page.permalink }}#continue-reading"><span>{{ trans(key="label_read_more") }} </span></a>
     </section>
   </div>
   <br>
@@ -25,7 +25,7 @@
   {% if page.taxonomies.tags %}
   <div>
     {% for tag in page.taxonomies.tags %}
-    <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags",lang=lang, name=tag) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
+    <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
     {% if loop.index != page.taxonomies.tags | length %}&nbsp;{% endif %}{% endif %}
   {% endfor %}
   </div>
@@ -74,7 +74,7 @@
 {% macro page_toc(toc)%}
 <section class="sidebar-table-content">
   <ul >
-    <li><a href="#start">{{trans(key="label_back_to_start",lang=lang)}}</a></li>
+    <li><a href="#start">{{trans(key="label_back_to_start")}}</a></li>
   {% for h1 in toc %}
       <li>
           <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>

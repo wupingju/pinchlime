@@ -39,14 +39,14 @@
         {% if page.taxonomies.tags %}
         <p>
           {% for tag in page.taxonomies.tags %}
-          <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags",lang=lang, name=tag) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
+          <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
           {% if loop.index != page.taxonomies.tags | length %}&nbsp;{% endif %}{% endif %}
           {% endfor %}
         </p>
         {% endif %}
         <div class="continue-reading-btn">
           <section>
-            <a href="{{ page.permalink }}#continue-reading"><span>{{ trans(key="label_read_more",lang=lang) }} </span></a>
+            <a href="{{ page.permalink }}#continue-reading"><span>{{ trans(key="label_read_more") }} </span></a>
           </section>
         </div>
       </article>
@@ -61,7 +61,7 @@
 {% block sidebar %}
   <aside class="sidebar">
     <div class="sidebar-element">
-    <h2>{{trans(key="label_new_newsletters_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <h2>{{trans(key="label_new_newsletters_list_title") | markdown(inline=true) | safe}}</h2>
     <ul>
         {% set all_blog_pages = get_section(path="newsletters/_index.md") -%}
           {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
@@ -70,12 +70,12 @@
           </li>
           {% endfor %} 
           <li class="no-underline">
-          {{trans(key="label_all_newsletters",lang=lang) | markdown(inline=true) | safe}}
+          {{trans(key="label_all_newsletters") | markdown(inline=true) | safe}}
           </li>
     </ul>
     </div>
     <div class="sidebar-element">
-    <h2>{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <h2>{{trans(key="label_new_posts_list_title") | markdown(inline=true) | safe}}</h2>
     <ul>
       {% set all_blog_pages = get_section(path="blog/_index.md") -%}
             {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
@@ -84,12 +84,12 @@
             </li>
             {% endfor %} 
             <li class="no-underline">
-            {{trans(key="label_all_posts",lang=lang) | markdown(inline=true) | safe}}
+            {{trans(key="label_all_posts") | markdown(inline=true) | safe}}
             </li>
     </ul>
     </div>
     <div class="sidebar-element">
-    <h2>{{trans(key="label_new_snapshots_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <h2>{{trans(key="label_new_snapshots_list_title") | markdown(inline=true) | safe}}</h2>
     <ul>
         {% set all_blog_pages = get_section(path="snapshots/_index.md") -%}
           {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
@@ -98,24 +98,24 @@
           </li>
           {% endfor %}
           <li class="no-underline"> 
-          {{trans(key="label_all_snapshots",lang=lang) | markdown(inline=true) | safe}}
+          {{trans(key="label_all_snapshots") | markdown(inline=true) | safe}}
           </li>
     </ul>
     </div>
     <div class="sidebar-element">
-    <h2>{{trans(key="label_sorting_articles",lang=lang) | markdown(inline=true) | safe}}</h2>
+    <h2>{{trans(key="label_sorting_articles") | markdown(inline=true) | safe}}</h2>
     <ul>
         <li class="no-underline">
-          <a href="{{lang_prefix_path}}tag-list/">{{ trans(key="label_tags",lang=lang) }}</a>
+          <a href="/tag-list/">{{ trans(key="label_tags") }}</a>
         </li>
         <li class="no-underline">
-          <a href="{{lang_prefix_path}}archive/">{{ trans(key="label_archive",lang=lang) }}</a>
+          <a href="/archive/">{{ trans(key="label_archive") }}</a>
         </li>
         <li class="no-underline">
-          <a href="{{lang_prefix_path}}newsletters/archive/">{{ trans(key="label_newsletter_archive",lang=lang) }}</a>
+          <a href="/newsletters/archive/">{{ trans(key="label_newsletter_archive") }}</a>
         </li>
         <li class="no-underline">
-          <a href="{{lang_prefix_path}}snapshots/archive/">{{ trans(key="label_snapshot_archive",lang=lang) }}</a>
+          <a href="/snapshots/archive/">{{ trans(key="label_snapshot_archive") }}</a>
         </li>
     </ul>
     </div>

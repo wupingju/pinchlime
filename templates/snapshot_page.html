@@ -5,17 +5,17 @@
     <a class="category" href="/snapshots/">Snapshots</a>
     {% if page.taxonomies.categories %}
     <span class="divider">/</span>
-    <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}"> {{ page.taxonomies.categories[0] }}</a>
+    <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0]) }}"> {{ page.taxonomies.categories[0] }}</a>
     {% if page.taxonomies.tags -%}
     <span class="divider">/</span>
     {% for tag in page.taxonomies.tags %}
-    <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}{% if loop.index != page.taxonomies.tags | length %},{% endif %}{% endif %}
+    <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}{% if loop.index != page.taxonomies.tags | length %},{% endif %}{% endif %}
     {% endfor %}
     {% endif %}
     {% endif %}
     {% if page.taxonomies.kinds %}
     <span class="divider">/</span>
-    <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0],lang=lang) }}">{{ page.taxonomies.kinds[0] }}</a>    
+    <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0]) }}">{{ page.taxonomies.kinds[0] }}</a>    
     {% endif %}
   </div>
 {% endblock breadcrumbs %}
@@ -25,13 +25,13 @@
   <h2>看更多相關 Snapshots</h2>
   <ul>
     <li class="no-underline">
-    <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0],lang=lang) }}">➤&emsp;其他 {{
+    <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0]) }}">➤&emsp;其他 {{
       page.taxonomies.kinds[0] }} 分類</a><br>      
     </li>
     {% if page.taxonomies.tags -%}
     {% for tag in page.taxonomies.tags %}
     <li class="no-underline">
-    <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">➤&emsp;其他 {{ tag }} 標籤</a>{% if page.taxonomies.tags | length > 1 %}{% if
+    <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">➤&emsp;其他 {{ tag }} 標籤</a>{% if page.taxonomies.tags | length > 1 %}{% if
     loop.index != page.taxonomies.tags | length %}<br>{% endif %}{% endif %}
     </li>
     {% endfor %}
@@ -40,7 +40,7 @@
   </div>
 </body>
 <div class="sidebar-element">
-<h2>看其他{{trans(key="label_new_snapshots_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+<h2>看其他{{trans(key="label_new_snapshots_list_title") | markdown(inline=true) | safe}}</h2>
 <ul>
   {% set all_blog_pages = get_section(path="snapshots/_index.md") -%}
   {% for page in all_blog_pages.pages | slice(start=0,end=15)  %} 

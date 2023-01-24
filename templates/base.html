@@ -1,11 +1,9 @@
 {% import "macros.html" as macro -%}
-{% set_global lang_prefix_path = "/" -%}
-{% set_global file_lang_path = "" -%}
 {% set all_section_pages = get_section(path="_index.md") -%}
 
 <!DOCTYPE html>
 <html
-  lang="{% if page.extra.lang %}{{ page.extra.lang }}{% else %}{{ lang }}{% endif %}"
+  lang="{{ lang }}"
   itemscope
   itemtype="http://schema.org/Blog"
 >
@@ -30,7 +28,7 @@
     <meta
       name="keywords"
       itemprop="keywords"
-      content="{{ trans(key="keywords",lang=lang) }}"
+      content="keywords"
     />
     <meta name="author" itemprop="author" content="{{ config.extra.author }}" />
     <meta itemprop="headline" content="{{ config.title }}" />
@@ -56,7 +54,7 @@
     />
     <meta
       property="og:url"
-      content="{% block ogurl %}{{ config.base_url~lang_prefix_path | safe }}{% endblock ogurl%}"
+      content="{% block ogurl %}{{ config.base_url }}{% endblock ogurl%}"
     />
     <meta property="og:site_name" content="{{ config.title }}" />
     <meta property="og:type" content="website" />
@@ -92,7 +90,7 @@
       <nav class="navbar-top">
         <div class="nav-container">
         <div>
-          <a class="navbar-a" style="color: #ffffff" href="{{ config.base_url~lang_prefix_path }}" >
+          <a class="navbar-a" style="color: #ffffff" href="{{ config.base_url }}" >
             <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-02-no-sub-96x96_Bgz9Ey.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
             <span class="navbar-name">Pin 起來</span>
           </a> 

@@ -29,11 +29,11 @@
           <a class="category" href="/blog/">Blog</a>
           {% if page.taxonomies.categories %}
           <span class="divider">/</span>
-          <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}"> {{ page.taxonomies.categories[0] }}</a>
+          <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0]) }}"> {{ page.taxonomies.categories[0] }}</a>
           {% endif %}
           {% if page.taxonomies.kinds %}
           <span class="divider">/</span>
-          <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0],lang=lang) }}">{{ page.taxonomies.kinds[0] }}</a>    
+          <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0]) }}">{{ page.taxonomies.kinds[0] }}</a>    
           {% endif %}
         </div>
         {% endblock breadcrumbs %}
@@ -54,7 +54,7 @@
             {% if page.taxonomies.tags %}
             <p>
               {% for tag in page.taxonomies.tags %}
-              <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags",lang=lang, name=tag) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
+              <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
               {% if loop.index != page.taxonomies.tags | length %}&nbsp;{% endif %}{% endif %}
             {% endfor %}
             </p>
@@ -63,7 +63,7 @@
              <br>
              {% if page.updated %}
              <div class="muted" style="justify-content: right;display: flex;">
-             <span>{{trans(key="label_updated",lang=lang)}}&nbsp;</span><time pubdate>{{ page.updated | date(format="%Y-%m-%d") }}</time>
+             <span>{{trans(key="label_updated")}}&nbsp;</span><time pubdate>{{ page.updated | date(format="%Y-%m-%d") }}</time>
              <br>
              {% endif %}
           </article>
@@ -91,15 +91,9 @@
           {% if config.extra.email %}
           <div id="email-comment" class="muted text-sm">
             <hr class="w-full">
-            {% if config.default_language != lang %}
-            <p>
-              If you have anything want to discuss, feel free to contact me via <a href="mailto:mimir@hey.com?subject={{ "Reply: " ~ page.title | urlencode }}">mail:</a><code>mimir@hey.com</code>
-            </p>
-            {% else %}
             <p>
               如果你對於<a href="https://pinchlime.com">本站</a>或本文有任何想討論或分享的，歡迎<a class="muted" href="mailto:mimir@hey.com?subject={{"回覆："~page.title | urlencode }}">來信</a>到：<code>mimir@hey.com</code> 找我聊聊！
             </p>
-            {% endif %}
           </div>
           {% endif %}
           </section>
@@ -110,7 +104,7 @@
 <aside class="sidebar">
 {% if page.toc %}
 <div class="sidebar-element">
-<h2>{{trans(key="label_table_contents",lang=lang)}}</h2>
+<h2>{{trans(key="label_table_contents")}}</h2>
 {{ macro::page_toc(toc=page.toc) }}
 </div>
 {% endif %}
@@ -122,13 +116,13 @@
   <h2>看更多相關文章</h2>
   <ul>
     <li class="no-underline">
-    <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}">➤&emsp;其他 {{
+    <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0]) }}">➤&emsp;其他 {{
       page.taxonomies.categories[0] }} 分類</a><br>      
     </li>
     {% if page.taxonomies.tags -%}
     {% for tag in page.taxonomies.tags %}
     <li class="no-underline">
-    <a href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">➤&emsp;其他 {{ tag }} 標籤</a>{% if page.taxonomies.tags | length > 1 %}{% if
+    <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">➤&emsp;其他 {{ tag }} 標籤</a>{% if page.taxonomies.tags | length > 1 %}{% if
     loop.index != page.taxonomies.tags | length %}<br>{% endif %}{% endif %}
     </li>
     {% endfor %}
@@ -137,7 +131,7 @@
   </div>
   </body>
   <div class="sidebar-element">
-  <h2>看其他{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
+  <h2>看其他{{trans(key="label_new_posts_list_title") | markdown(inline=true) | safe}}</h2>
   <ul>
     {% set all_blog_pages = get_section(path="blog/_index.md") -%}
     {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
