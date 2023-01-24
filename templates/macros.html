@@ -21,14 +21,7 @@
   </div>
   <br>
   <div class="muted" style="justify-content: space-between;display: flex;">
-  {% if page.taxonomies.categories %}
-  <div>
-  <span>{{trans(key="label_category",lang=lang)}}</span>
-  <a class="no-underline" href="{{ get_taxonomy_url(kind="categories",lang=lang, name=page.taxonomies.categories[0]) }}">
-  {{ page.taxonomies.categories[0] }}
-  </a>
-  </div>
-  {% endif %}
+  
   {% if page.taxonomies.tags %}
   <div>
     {% for tag in page.taxonomies.tags %}
