@@ -11,17 +11,16 @@
 
   {% if page.summary -%}
   <div>{{ page.summary | safe }}</div>
-  {% elif page.description -%}
-  <p>{{ page.description }}</p>
-  {% endif -%}
   <div class="continue-reading-btn">
     <section>
       <a href="{{ page.permalink }}#continue-reading"><span>{{ trans(key="label_read_more") }} </span></a>
     </section>
   </div>
   <br>
+  {% elif page.content -%}
+  <p>{{ page.content | safe }}</p>
+  {% endif -%}
   <div class="muted" style="justify-content: space-between;display: flex;">
-  
   {% if page.taxonomies.tags %}
   <div>
     {% for tag in page.taxonomies.tags %}
