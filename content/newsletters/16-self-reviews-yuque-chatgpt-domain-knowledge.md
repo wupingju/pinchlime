@@ -1,6 +1,7 @@
 ---
 title: Self reviews、語雀、ChatGPT & domain knowledge 
 date: 2023-01-23
+updated: 2023-01-24
 description: 新年快樂，旺兔順利！
 path: newsletters/16-self-reviews-yuque-chatgpt-domain-knowledge
 extra:
@@ -140,11 +141,15 @@ Lovin 給的範例是：
 
 [Replit](https://twitter.com/Replit/status/1616481968212021249)
 
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Having AI tools like ChatGPT is like having a personal software engineer in your pocket.<br><br>But most people don&#39;t know how to craft prompts for code.<br><br>Here&#39;s how you can get AI to write software for you: <a href="https://t.co/UJhd4mtmyi">pic.twitter.com/UJhd4mtmyi</a></p>&mdash; Replit ⠕ (@Replit) <a href="https://twitter.com/Replit/status/1616481968212021249?ref_src=twsrc%5Etfw">January 20, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 這串推文給了很清楚的如何跟 AI 互動的範例，簡直跟攻略書一樣，照著架構填入需求後就可以產生幾乎能運作的程式碼，我覺得很讚。
 
 ---
 
 Kevin Cannon [The future of email with ChatGPT.](https://twitter.com/multikev/status/1616784555788075009)
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">The future of email with ChatGPT. <a href="https://t.co/EGXhYx9OB3">pic.twitter.com/EGXhYx9OB3</a></p>&mdash; Kevin Cannon (@multikev) <a href="https://twitter.com/multikev/status/1616784555788075009?ref_src=twsrc%5Etfw">January 21, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 這張圖顯示了一個人們未來如何透過 AI 溝通的範例，求職者輸入簡單明瞭的意圖， AI 會轉化為禮貌完整囉唆的信，收信者會再透過 AI 釐清這封信的真實意圖。
 
@@ -158,7 +163,13 @@ Kevin Cannon [The future of email with ChatGPT.](https://twitter.com/multikev/st
 
 ---
 
-Tiago Forte [開地圖炮討論 PKM apps](https://twitter.com/fortelabs/status/1616173350778441729) ，有點炎上後[再花不少力氣補充說明](https://twitter.com/fortelabs/status/1616290315845111809)。
+Tiago Forte [開地圖炮討論 PKM apps](https://twitter.com/fortelabs/status/1616173350778441729) 
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">We really need a graph-based PKM app built by a serious company for mainstream users<br><br>• Roam is a religion<br>• Obsidian is a side hobby<br>• Logseq is an open-source project<br>• Tana is barely in alpha<br><br>If there was just one reliable app in this space I’d refer so much traffic to it</p>&mdash; Tiago Forte (@fortelabs) <a href="https://twitter.com/fortelabs/status/1616173350778441729?ref_src=twsrc%5Etfw">January 19, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+有點炎上後[再花不少力氣補充說明](https://twitter.com/fortelabs/status/1616290315845111809)。
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Some context on what I mean by “a serious company building a reliable app for mainstream users”<br><br>👇 <a href="https://t.co/V9qwqUFUQL">https://t.co/V9qwqUFUQL</a></p>&mdash; Tiago Forte (@fortelabs) <a href="https://twitter.com/fortelabs/status/1616290315845111809?ref_src=twsrc%5Etfw">January 20, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 在第一串裡面，有很多人不滿 Tiago Forte 的講法，甚至有人認為他開始走上那種靠爭議型斷言博取流量的路線。
 
@@ -173,6 +184,8 @@ Tiago Forte [開地圖炮討論 PKM apps](https://twitter.com/fortelabs/status/1
 ---
 
 David Perell [談品味](https://twitter.com/david_perell/status/1615537835305750528)
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">How I improve my taste:<br><br>• I do everything I can to surround myself with all kinds of ultra-high performers. <br><br>• I spend an unreasonable amount of time in art museums.<br><br>• If a piece of writing feels magical to me, I dissect it and voraciously read the author’s work.</p>&mdash; David Perell (@david_perell) <a href="https://twitter.com/david_perell/status/1615537835305750528?ref_src=twsrc%5Etfw">January 18, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 > Over a long enough time horizon, “the goal of cultivating good taste” is a good one-liner for my career. Applies to taste in people, products, writing, storytelling, aesthetics. Everything. It’s a daily discipline for me.
 
