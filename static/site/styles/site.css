@@ -581,6 +581,10 @@ li.inline {
   #root {
     display: flex;
   }
+  p {
+    text-align: left;
+    word-wrap: break-word;
+  }
   .navbar-name {
     font-size: 12px;
   }
