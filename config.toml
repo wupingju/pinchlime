@@ -49,6 +49,7 @@ google_analytics = ""
 ### SOCIAL MEDIA
 image = "https://pinchlime.com/logo.png"
 twitter_user = "@WuPingJu"
+edit_url_prefix = "https://github.com/wupingju/pinchlime/edit/master/content/"
 
 ### I18N WORDS
 
@@ -58,9 +59,9 @@ taxonomies = "on"
 
 [translations]
 keywords = "生產力工具, macOS, 專案管理, 任務管理, PM"
-label_all_posts = "[看所有文章 ➞](/blog/)"
-label_all_newsletters = "[看所有電子報 ➞](/newsletters/)"
-label_all_snapshots = "[看所有 Snapshots ➞](/snapshots/)"
+label_all_posts = "[看所有文章 ➞](/archive/)"
+label_all_newsletters = "[看所有電子報 ➞](/newsletters/archive/)"
+label_all_snapshots = "[看所有 Snapshots ➞](/snapshots/archive/)"
 label_archive = "Blog 歸檔"
 label_newsletter_archive = "Newsletters 歸檔"
 label_snapshot_archive = "Snapshots 歸檔"

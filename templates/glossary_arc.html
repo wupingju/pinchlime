@@ -1,0 +1,32 @@
+{% extends "base.html" %} 
+{% block canonical_url %}
+<link rel="canonical" href="{{ config.base_url }}{{ section.path }}" />
+{% endblock canonical_url %}
+{% block title %}{{ config.title }} - {{ section.title }}{% endblock title %}
+{% block ogtitle %}{{ config.title }} - {{ section.title }}{% endblock ogtitle %}
+{% block description %}{{ section.title }}{% endblock description %}
+{% block ogdesc %}{{ section.title }}{% endblock ogdesc %}
+{% block ogurl %}{{ config.base_url }}{{ section.path }}{% endblock ogurl %}
+{% block main -%}
+
+<div class="element-container">
+  <div class="element">
+
+  <h1 style="text-align: center;">Glossary 個人詞庫</h1>
+  <br>
+  <hr>
+  <br>
+  {% set all_blog_pages = get_section(path="glossary/_index.md") %}
+
+  {% for year, posts in all_blog_pages.pages | group_by(attribute="year") %}
+  <h2>{{ year }}</h2>
+
+  <ul class="list-none">
+    {% for post in posts %}
+    <li>{{ macro::snapshots_min(page=post) }}</li>
+    {% endfor %}
+  </ul>
+  {% endfor %} 
+  </div>
+</div>
+{% endblock main %}

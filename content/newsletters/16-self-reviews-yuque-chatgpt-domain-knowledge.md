@@ -111,7 +111,7 @@ Lovin 給的範例是：
 
 ### 我為何推薦這篇文？
 
-我覺得這篇文章透過 domain knowledge 這個切角討論 ChatGPT （或更廣義的 AI ）的潛在限制與挑戰，蠻吸引人的。
+我覺得這篇文章透過 [domain knowledge](@/glossary/domain-knowledge.md) 這個切角討論 ChatGPT （或更廣義的 AI ）的潛在限制與挑戰，蠻吸引人的。
 
 作者認為， AI 的持續發展會讓各領域的 domain knowledge 範圍越來越小，但仍有三種類型的 domain knowledge 是 AI 的禁區：
 

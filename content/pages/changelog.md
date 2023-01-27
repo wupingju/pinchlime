@@ -25,6 +25,22 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [2.3.0] - 2023.01.27
+
+### Added
+
+- 站內新增了「[Glossary 個人詞庫](/glossary)」section 以及相關功能。
+- 詳細的介紹可以看這篇：「[完成了站內的 Glossary 個人詞庫 v1 版本](@/blog/completed-the-v1-version-of-my-personal-glossary.md)」
+
+
+
+### Changed
+
+- 把側邊欄的「看所有文章、看所有電子報、看所有 Snapshots」的路徑改為「archive」版本，比較符合直覺（可以一眼看到所有內容，而非該項目的主頁面）。
+
+
+---
+
 ## [2.2.2] - 2023.01.24
 
 ### Removed
