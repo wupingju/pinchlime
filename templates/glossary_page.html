@@ -42,20 +42,20 @@
       </header>
       {% endblock detail_meta -%}
       <section data-pagefind-body>
-        {% if page.extra.alias %}
-        <section id="alias" class="muted">
-          <span>別名：</span>
-            {% for alias in page.extra.alias %}
-            <span>{{ alias }}</span>
-            {% if page.extra.alias | length > 1 %}
-            {% if loop.index != page.extra.alias | length %}、{% endif %}{% endif %}
-          {% endfor %}
-          <br>
-          <br>
-          <hr>
-       </section>
-        {% endif %}
         <section class="main">
+          {% if page.extra.alias %}
+            <section id="alias" class="muted">
+              <span>別名：</span>
+                {% for alias in page.extra.alias %}
+                <span>{{ alias }}</span>
+                {% if page.extra.alias | length > 1 %}
+                {% if loop.index != page.extra.alias | length %}、{% endif %}{% endif %}
+              {% endfor %}
+              <br>
+              <br>
+              <hr>
+          </section>
+          {% endif %}
           <section id="start"></section>
           <article>
             {{ page.content | safe }}
