@@ -43,7 +43,8 @@
       {% endblock detail_meta -%}
       <section data-pagefind-body>
         <section class="main">
-          {% if page.extra.alias %}
+          <section id="start"></section>
+            {% if page.extra.alias %}
             <section id="alias" class="muted">
               <span>別名：</span>
                 {% for alias in page.extra.alias %}
@@ -54,9 +55,8 @@
               <br>
               <br>
               <hr>
-          </section>
-          {% endif %}
-          <section id="start"></section>
+            </section>
+            {% endif %}
           <article>
             {{ page.content | safe }}
              <br>
