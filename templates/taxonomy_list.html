@@ -23,10 +23,10 @@
     </div>
     <ul class="root-ul">
       {% for category in terms %}
-      <li>
+      <li style="margin-left: -2.5rem;">
         <a class="no-underline" href="{{ category.permalink }}">{{ category.name }}</a> ({{
         category.pages | length }})
-        <ul>
+        <ul style="margin-left: -2.5rem">
           {% for page in category.pages %}
           <li>{{ macro::post_min(page=page) }}</li>
           {% endfor %}

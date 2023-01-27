@@ -211,6 +211,9 @@ ul {
 li {
   margin-bottom: 0.5rem;
 }
+.li_archive {
+  max-width: 30rem;
+}
 .no-underline {
   text-decoration: none;
 }
@@ -643,5 +646,8 @@ li.inline {
     margin-right: 0.4rem;
     height: 16px;
     width: 16px;
+  }
+  .li_archive {
+    max-width: 16rem;
   }
 }
