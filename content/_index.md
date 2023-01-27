@@ -1,4 +1,5 @@
 ---
+updated: 2023-01-27
 sort_by: date
 sort_direction: decending
 transparent: true
@@ -19,7 +20,7 @@ title: Pin 起來
 - Reviews：各種主題性的回顧內容。
 
 ### Newsletters
-[Newsletters](/newsletters) 區塊主要放置我在 Substack 上面發布的電子報備份，目前短期停更中，但歡迎看看過去的十幾期內容。
+[Newsletters](/newsletters) 區塊主要放置我在 Substack 上面發布的電子報備份，每週會更新一期，內容會包含幾篇文章及推文串的推薦與感想。
 
 ### Snapshots
 詳見 [Snapshots](/snapshots) 專區的介紹。
@@ -38,9 +39,10 @@ title: Pin 起來
 ### 主題
 - [Heptabase](/tags/heptabase/)
 - [Productivity Tools](/tags/productivity-tools/)
-- [Logseq](/tags/logseq/)
+- [Static Websites](/tags/static-websites/)
 - [Zettelkasten](/tags/zettelkasten)
 - [Raycast](/tags/raycast)
+- [Zola](/tags/zola)
 
 ### Blog 文章
 - [迅速迭代功能的 Heptabase 已成為我最愛用的知識管理工具](/blog/heptabase-has-already-become-my-favorite-pkm-tool/)
@@ -48,6 +50,8 @@ title: Pin 起來
 - [Pin 起來改版了！從 Wordpress 搬家到 Zola！](/blog/rebuilt-pinchlime/)
 - [Raycast - 讓你更專注的高效率啟動器](/2022/04/02/raycast-introduction/)
 - [合理，且處處是驚喜的 Readwise Reader](/blog/readwise-reader-introduction/)
+- [2022 年開始進入我工作流的好工具們](/blog/2022-tools-started-entering-my-workflows/)
+- [2022 年我不再使用的工具 - 還是喜歡，但用不到了](/blog/2022-tools-i-dont-use-anymore/)
 
 ### Newsletters
 
@@ -62,3 +66,4 @@ title: Pin 起來
 - [為何「為什麼」比其他類型的問題都還難產生？](/snapshots/why/why-does-it-harder-to-form-the-why-type-questions/)
 - [What I Found Interesting 全部內容](/kinds/what-i-found-interesting/)
 - [關於好奇心](/2021/03/20/curiosity/)
+- [我為什麼還是想寫電子報？](/snapshots/why/why-do-i-still-want-to-write-newsletters/)
