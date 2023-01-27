@@ -583,7 +583,6 @@ li.inline {
   }
   p {
     text-align: left;
-    word-wrap: break-word;
   }
   .navbar-name {
     font-size: 12px;
