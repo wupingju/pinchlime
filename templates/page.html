@@ -12,6 +12,9 @@
   }
 </style>
 {% endblock post_meta -%}
+{% block canonical_url %}
+<link rel="canonical" href="{{ config.base_url }}{{ page.path }}" />
+{% endblock canonical_url %}
 {% block title %}{{ page.title }} - {{ config.title}}{% endblock title %}
 {% block ogtitle %}{{ page.title }} - {{ config.title}}{% endblock ogtitle %}
 {% block ogdesc %}{% if page.description %} {{ page.description }} {% elif page.summary %} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock ogdesc %}

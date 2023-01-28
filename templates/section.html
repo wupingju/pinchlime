@@ -10,10 +10,15 @@
 {% block main %} 
 
 <section>
-  {% if paginator %} {% for page in paginator.pages %} {{
-  macro::post_max(page=page) }} {% endfor %} {{ macro::paginator(ref=paginator,
-  extra=config.extra) }} {% else %} {% for page in section.pages %} {{
-  macro::post_max(page=page) }} {% endfor %} {% endif %}
+  {% if paginator %} 
+  {% for page in paginator.pages %} 
+  {{ macro::post_max(page=page) }} 
+  {% endfor %} 
+  {% else %} 
+  {% for page in section.pages %} 
+  {{ macro::post_max(page=page) }} 
+  {% endfor %} 
+  {% endif %}
 </section>
 {% endblock main %}
 {% block sidebar %}
