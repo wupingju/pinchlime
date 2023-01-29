@@ -203,7 +203,7 @@ David Perell [談品味](https://twitter.com/david_perell/status/161553783530575
 
 Blog:
 
-* [部落格加上了 Backlinks 的功能](@/blog/supported-backlinks.md) 2023.01.20
+* [部落格加上了 Backlinks 的功能](/blog/supported-backlinks) 2023.01.20
 
   * 能夠完成這件事我真的很開心，推薦你看看。
 
@@ -211,9 +211,9 @@ Blog:
 
 Snapshots:
 
-* [關於 Heptabase 側邊瀏覽器的想法](@/snapshots/random-thoughts-about-heptabase-side-panel-browser.md) 2023.01.18
+* [關於 Heptabase 側邊瀏覽器的想法](/snapshots/random/thoughts-about-heptabase-side-panel-browser) 2023.01.18
 
-* [如果 Twitter 可以讓我從上次瀏覽的地方繼續看](@/snapshots/what-if-twitter-can-let-me-view-from-where-i-left.md) 2023.01.21
+* [如果 Twitter 可以讓我從上次瀏覽的地方繼續看](/snapshots/what-if/twitter-can-let-me-view-from-where-i-left) 2023.01.21
 
   * 結果才剛寫完這篇的隔天，原本還能用的 Spring app 也被斷 api 了，現在只剩下 Twitter 官方 app 可以用了。
 
