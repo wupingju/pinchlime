@@ -88,5 +88,5 @@ extra:
 
 不過更推薦直接看推薦我 Curius 的網友 黃岳涵 寫過的介紹文 [Curius: 紀錄與分享你在網路上的閱讀足跡](https://bojne.medium.com/curius-%E7%B4%80%E9%8C%84%E8%88%87%E5%88%86%E4%BA%AB%E4%BD%A0%E5%9C%A8%E7%B6%B2%E8%B7%AF%E4%B8%8A%E7%9A%84%E9%96%B1%E8%AE%80%E8%B6%B3%E8%B7%A1-26157948cded)
 
-如果有興趣用用看的人，也歡迎可以追蹤![我的頁面](https://curius.app/pingju-wu)。
+如果有興趣用用看的人，也歡迎可以追蹤[我的頁面](https://curius.app/pingju-wu)。
 
