@@ -10,4 +10,4 @@ updated: 2023-01-01
 - [Glossary](/glossary)
 - [About](/about/)
 - [Changelog](/changelog/)
-- [RSS](/atom.xml)
+- [Subscribe](/subscribe)
