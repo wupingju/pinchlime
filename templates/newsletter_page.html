@@ -28,6 +28,22 @@
 {% block detail_meta_slot -%}
 <span># {{page.extra.issues }} &nbsp;</span>
 {% endblock detail_meta_slot -%}
+{% block outro %}
+<br>
+<blockquote>
+  <setion class="muted text-sm">
+    <p>
+      你正在閱讀的是 Pin 起來電子報！
+    </p>
+    <p>
+      若有任何問題或回饋，歡迎<a class="muted" href="mailto:pj@pinchlime.com?subject={{"回覆："~page.title | urlencode }}">來信</a>到：<code>pj@pinchlime.com</code> 跟我分享！
+    </p>
+    <p>
+      若你還未訂閱，未來想要持續收到相關內容，也歡迎你到本站的 <a href="/subscribe">Subscribe</a> 頁面訂閱！
+    </p>
+  </setion>
+</blockquote>
+{% endblock outro %}
 {% block newsletter_sidebar_slot %}
 <div class="sidebar-element">
 <h2>看其他<span style="text-decoration:underline;"><a href="/newsletters/">電子報</a></span></h2>

@@ -9,8 +9,10 @@ template: newsletters.html
 page_template: newsletter_page.html
 ---
 
-**Pin 起來電子報**是我固定在 Substack 平台上面更新的電子報，現在你看到的則是在這個部落格上面的是原文備份與存檔。
+Hi ，你現在看到的是 **Pin 起來電子報**的主頁面。
 
-如果你喜歡這個區塊的電子報們，歡迎你直接在 Substack 上[訂閱電子報](https://pinchlime.substack.com/)，你將會每週收到信。
+Pin 起來電子報目前固定會在每週日寄送，內容涵蓋我各方面的選讀內容，以及當週特別想分享的事。
 
-也歡迎你先看看 [所有電子報歸檔](/newsletters/archive) 的頁面，隨意挑幾期有興趣的標題看看。
+歡迎你先往下瀏覽看看過去的內容，也可以直接透過[電子報歸檔頁面](/newsletters/archive)看更多期數。
+
+如果要訂閱，請前往本站的 [Subsrcibe](/subscribe) 頁面訂閱。

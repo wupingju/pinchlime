@@ -75,7 +75,19 @@
           <section id="backlinks">
             {{ macro::backlink(pages=page.backlinks) }}
           </section>
-          <hr class="w-full">
+          <hr>
+          {% block outro %}
+          {% if config.extra.email %}
+          <br>
+          <div id="email-comment" class="muted text-sm">
+            <blockquote>
+              <p>
+              如果你對於本文有任何想討論或分享的，歡迎<a class="muted" href="mailto:pj@pinchlime.com?subject={{"回覆："~page.title | urlencode }}">來信</a>到：<code>pj@pinchlime.com</code> 找我聊聊！也歡迎在下方留言！
+              </p>
+            </blockquote>
+          </div>
+          {% endif %}
+          {% endblock outro %}
           <section id="cusdis">
           <h3>Write your comment</h3>
           <br>
@@ -90,15 +102,6 @@
           <script async defer src="https://comments.pinchlime.com/js/cusdis.es.js"></script>
           </section>
           <section id="contact">
-          <br>
-          {% if config.extra.email %}
-          <div id="email-comment" class="muted text-sm">
-            <hr class="w-full">
-            <p>
-              如果你對於<a href="https://pinchlime.com">本站</a>或本文有任何想討論或分享的，歡迎<a class="muted" href="mailto:mimir@hey.com?subject={{"回覆："~page.title | urlencode }}">來信</a>到：<code>mimir@hey.com</code> 找我聊聊！
-            </p>
-          </div>
-          {% endif %}
           </section>
 </div>
 {% endblock main%}
