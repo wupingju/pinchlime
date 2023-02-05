@@ -25,6 +25,20 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [2.4.0] - 2023.02.05
+
+### Added
+
+- 站內新增了「[Subscribe](/subscribe)」頁面，搭配 Buttondown 這個電子報服務，讓讀者可以透過 email 靈活訂閱全站不同類型的內容。
+- 也將 RSS 訂閱的資訊整合進 Subscribe 頁面。
+- 這也是我第一次在網站上實作表單！（雖然是直接 copy Buttondown 的範例程式碼，但還是蠻開心的！）
+
+### Changed
+
+- 也更新了每個文章頁面的 footer，還有 Newsletter 頁面的置頂文字。
+
+---
+
 ## [2.3.0] - 2023.01.27
 
 ### Added
