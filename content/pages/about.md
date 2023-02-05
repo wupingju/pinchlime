@@ -45,7 +45,7 @@ Pin 起來這個部落格當時是先想好中文的名字，覺得很喜歡這�
 
 若你有任何想討論或分享的，歡迎透過比較即時的推特，或者是能完整討論內容的 email 跟我聯繫。
 
-- 電子郵件： mimir@hey.com
+- 電子郵件： pj@pinchlime.com
 
 - Twitter： [@WuPingJu](https://twitter.com/WuPingJu)
 
