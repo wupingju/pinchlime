@@ -6,17 +6,8 @@
     {{ section.content | safe }}
     </section>
     <hr class="w-full">
-    <h3>也歡迎你留言</h3>
-    <br>
-    <div id="cusdis_thread"
-    data-host="https://comments.pinchlime.com"
-    data-app-id="d39e9f8e-53f2-48bc-a699-980cc0a4b00c"
-    data-page-id="{{ config.base_url }}"
-    data-page-url="{{ config.base_url }}"
-    data-page-title="{{ config.title }}"
-    data-theme="light"
-  ></div>
-  <script async defer src="https://comments.pinchlime.com/js/cusdis.es.js"></script>
+    <script defer src="https://chirpy.dev/bootstrap/comment.js" data-chirpy-domain="pinchlime.com"></script>
+    <div data-chirpy-comment="true"></div>
   </div>
 </div>
 {% endblock main -%}  
