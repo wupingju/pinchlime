@@ -79,21 +79,17 @@
           {% block outro %}
           {% if config.extra.email %}
           <br>
+          <section id="contact">
           <div id="email-comment" class="muted text-sm">
-            <blockquote>
+            <blockquote style="margin-left: 0;">
               <p>
-              如果你對於本文有任何想討論或分享的，歡迎<a class="muted" href="mailto:pj@pinchlime.com?subject={{"回覆："~page.title | urlencode }}">來信</a>到：<code>pj@pinchlime.com</code> 找我聊聊！也歡迎在下方留言！
+              我暫時還找不到足夠滿意的留言系統，如果你對於這個網站或這篇文有任何想討論或分享的，歡迎<a class="muted" href="mailto:pj@pinchlime.com?subject={{"回覆："~page.title | urlencode }}">來信</a>到：<code>pj@pinchlime.com</code> 跟我說！
               </p>
             </blockquote>
           </div>
+          </section>
           {% endif %}
           {% endblock outro %}
-          <section id="comment">
-            <script defer src="https://chirpy.dev/bootstrap/comment.js" data-chirpy-domain="pinchlime.com"></script>
-            <div data-chirpy-comment="true"></div>
-          </section>
-          <section id="contact">
-          </section>
 </div>
 {% endblock main%}
 
