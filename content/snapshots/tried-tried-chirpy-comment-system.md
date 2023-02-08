@@ -1,6 +1,7 @@
 ---
 title: 測試了 Chirpy 這個留言系統
 date: 2023-02-07
+updated: 2023-02-08
 description: 可能是因為目前 Chirpy 還在前期開發階段，雖然核心的留言功能做的蠻簡單使用，也有外加的追蹤（倘若有這方面的需求的話，或許兩個融合起來一次搞定還蠻不錯的），但正好不太符合我的需求
 path: snapshots/what-i-tried-today/tried-chirpy-comment-system
 taxonomies:
@@ -44,3 +45,5 @@ taxonomies:
 總之，可能是因為目前 Chirpy 還在前期開發階段，雖然核心的留言功能做的蠻簡單使用，也有外加的追蹤（倘若有這方面的需求的話，或許兩個融合起來一次搞定還蠻不錯的），但正好不太符合我的需求。
 
 而我也因為這次 Chirpy 的嘗試，決定把原本網站安裝的留言系統 Cusdis 給關閉了，這就下一篇再來分享。
+
+（結果一天後就決定不關閉，要繼續使用 Cusdis，詳見： [為何我想停用 Cusdis 但卻又反悔？](@/snapshots/why-why-did-i-want-to-stop-using-cusdis.md)）
