@@ -15,8 +15,6 @@ extra:
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/docusaurus-social-card_WKa2xI.jpg
 ---
 
-# 我為什麼又想用 Docusaurus 架一個子網站？
-
 前幾天發現 [Docusaurus](https://docusaurus.io/) 這個似乎是由 Meta (Facebook) 推出的靜態網站產生工具後就很喜歡，中間有思考了一下我真的要這樣做嗎？
 
 最終還是決定：要。
