@@ -189,7 +189,7 @@ Tiago Forte 在文中描述了這幾個層次的特徵，我自己梳理消化�
 <blockquote class="twitter-tweet"><p lang="zh" dir="ltr">Google 的每次搜索是独立的，ChatGPT 可以进行多轮对话。<br><br>这是微妙而巨大的差别。<a href="https://t.co/8wsaUrN6Mj">https://t.co/8wsaUrN6Mj</a></p>&mdash; Odyssey (@OdysseysEth) <a href="https://twitter.com/OdysseysEth/status/1622797902601981952?ref_src=twsrc%5Etfw">February 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-這篇提到，Google 搜尋的結果只能夠讓你抵達「已知的未知」，就是那些「你知道自己不知道的事」（所以你才去搜尋。
+這篇提到，Google 搜尋的結果只能夠讓你抵達「已知的未知」，就是那些「你知道自己不知道的事」（所以你才去搜尋。）
 
 但 ChatGPT （以及 Perplexity 、 new Bing 這些），則能讓你達到「未知的未知」。
 
