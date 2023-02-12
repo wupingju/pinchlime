@@ -73,8 +73,15 @@ Hi ，若你有興趣持續收到這個網站的內容更新，可以透過 Emai
 
   <input type="hidden" value="1" name="embed" />
   <input type="submit" value="點我訂閱" style="display: block; border-radius: 0.5rem; padding: 0.5rem; width: 25%; margin: 0 auto; text-align: center; background-color: #003C6D; color: #ffffff;font-size:1.2rem">
-
 </form>
+<br>
+
+> 在按下訂閱按鈕後，你應該會在信箱收到一封確認信，請你點擊裡面的確認連結，才算是完成訂閱。
+
+> 若你沒有收到確認信，那麼肯定是哪邊出錯了，此時歡迎你直接寄信到 <pj@pinchlime.com> 給我，由我為你手動訂閱。
+
+> 若你已經是訂閱用戶，但想要更改訂閱的方案，很抱歉，目前沒有自己調整的方式（連退訂再重新訂閱也不行），所以請你直接寄信給我，我很樂意為你調整！
+
 <br>
 
 ---

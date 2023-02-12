@@ -20,7 +20,7 @@ title: Pin 起來
 - Reviews：各種主題性的回顧內容。
 
 ### Newsletters
-[Newsletters](/newsletters) 區塊主要放置我在 Substack 上面發布的電子報備份，每週會更新一期，內容會包含幾篇文章及推文串的推薦與感想。
+[Newsletters](/newsletters) 區塊放置的是我的「Pin 起來電子報」內容，目前電子報固定會在每週日寄送，涵蓋我各方面的選讀內容，以及當週特別想分享的事。
 
 ### Snapshots
 詳見 [Snapshots](/snapshots) 專區的介紹。
