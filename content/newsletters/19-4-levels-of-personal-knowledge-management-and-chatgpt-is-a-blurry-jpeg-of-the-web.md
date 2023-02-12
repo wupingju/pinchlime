@@ -11,7 +11,7 @@ extra:
 
 這禮拜對我來說是豐盛的一週：
 
-* 我發現了 Docusaurus 這個靜態網站產生器，並且[又開始建立一個子網站](/snapshots/why-why-do-i-want-to-build-another-website-by-docusaurus/)。
+* 我發現了 Docusaurus 這個靜態網站產生器，並且[又開始建立一個子網站](/snapshots/why/why-do-i-want-to-build-another-website-by-docusaurus/)。
 
 * 我買了 ChatGPT plus ，開始享受暢通的 VIP 連線資格。
 
