@@ -7,7 +7,7 @@ taxonomies:
   kinds: 
     - What I Found Interesting
   tags: 
-    - Bing
+    - new Bing
     - Edge
     - ChatGPT
 ---
