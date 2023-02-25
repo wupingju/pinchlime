@@ -4,10 +4,11 @@ sort_direction: decending
 updated: 2023-01-01
 ---
 
-## 常用連結
+## 其他站內頁面
 
-- [Search](/search)
-- [Glossary](/glossary)
 - [About](/about/)
 - [Changelog](/changelog/)
+- [Glossary](/glossary)
+- [Search](/search)
+- [Stream](/stream/2023)
 - [Subscribe](/subscribe)

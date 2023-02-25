@@ -1,0 +1,75 @@
+{% extends "base.html" -%}
+{% block post_meta-%}
+<meta name="title" content="{{ page.title }}">
+<style>
+  .sidebar{
+    display: block;
+  }
+  @media (min-width: 52rem) {
+    .sidebar{
+      display: block;
+    }
+  }
+</style>
+{% endblock post_meta -%}
+{% block title %}{{ page.title }} - {{ config.title}}{% endblock title %}
+{% block ogtitle %}{{ page.title }} - {{ config.title}}{% endblock ogtitle %}
+{% block ogdesc %}{% if page.description %} {{ page.description }} {% elif page.summary%} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock ogdesc %}
+{% block description %}{% if page.description %} {{ page.description }} {% elif page.summary%} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock description %}
+{% block ogurl %}{% if page.path %}{{ config.base_url }}{{ page.path }} {% endif %}{% endblock ogurl %}
+{% block ogimg %}{% if page.extra.image %}{{ page.extra.image }}{% endif %}{% endblock ogimg %}
+{% block main %}
+<div class="element">
+      {% block detail_meta -%}
+      <header id="overview">        
+        <div>
+          <h1>{% block detail_meta_slot %}{% endblock detail_meta_slot %}{{ page.title }}</h1>
+          <div class="muted" style="justify-content: space-between;display: flex;">
+            <span>Exploring my thoughts</span>
+            <span>{{ config.extra.author }}</span>
+          </div>
+          <div class="muted" style="justify-content: right;display: flex;">
+            <a class="muted" href="/blog/built-a-personal-twitter-the-stream">About this page</a>
+          </div>
+        </div>
+      </header>
+      {% endblock detail_meta -%}
+      <section data-pagefind-body>
+        <section class="main">
+          <section id="start"></section>
+          <article>
+            {{ page.content | safe }}
+          </article>
+        </section>
+      </section>
+      {% block outro %}
+      {% if config.extra.email %}
+      <hr>
+      <br>
+      <section id="contact">
+      <div id="email-comment" class="muted text-sm">
+        <p style="margin-left: 0;">
+        如果你想回覆或討論特定的某一則 Stream ，歡迎提到它的編號，並且可以<a class="muted" href="mailto:pj@pinchlime.com?subject={{"回覆："~page.title | urlencode }}">來信</a>到：<code>pj@pinchlime.com</code> 跟我說，或在下方留言分享！
+        </p>
+      </div>
+      </section>
+      {% endif %}
+      {% endblock outro %}
+      <section id="cusdis">
+        <h3>Write your comment</h3>
+        <br>
+        <div id="cusdis_thread"
+        data-host="https://comments.pinchlime.com"
+        data-app-id="d39e9f8e-53f2-48bc-a699-980cc0a4b00c"
+        data-page-id="{{ page.path }}"
+        data-page-url="{{ config.base_url }}{{ page.path }}"
+        data-page-title="{{ page.title }}"
+        data-theme="light"
+        ></div>
+        <script async defer src="https://comments.pinchlime.com/js/cusdis.es.js"></script>
+      </section>
+</div>
+{% endblock main%}
+
+{% block sidebar %}
+{% endblock sidebar %}
