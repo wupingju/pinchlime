@@ -12,6 +12,13 @@ template: stream.html
 
 ### Feburary
 
+{% fleet(num="7",time="Feb 25 15:04",year="2023") %}
+剛剛做了一個簡單的 Keyboard Maestro macro ，可以快速建立新的 stream 內容，如截圖：
+<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/quick-add-stream_EvcjNC.gif" loading="lazy" alt="quick-add-stream" align=center /><br>
+我只要輸入編號，就會自動幫我帶入當下的時間、年份等資訊。這樣 PO 東西的速度就可以更快了！
+{% end %}
+
+
 {% fleet(num="6",time="Feb 25 10:05",year="2023") %}
 剛才調整了一下站內不同頁面的側邊欄。<br>原先的我太貪心，想要盡量在每一頁都塞給讀者更多的可能性。但這幾天思考以及重新閱讀自己的網站後，感覺閱讀動線可能更重要，因此我做了一些調整。<br>
 由於最上方已經有個導航列，讀者可以很容易連結到三大主題頁面，所以我把各個主題的側邊欄都簡化，例如，Blog 主頁與相關子頁的側邊欄就只留下 Blog 的內容。<br>調整過後各個頁面感覺更乾淨清爽一點了。
@@ -32,7 +39,7 @@ template: stream.html
 昨晚發現了 <a href="https://phind.com/">phind.com</a> 這個感覺也不錯的 AI 搜尋引擎，測試了一下效果蠻好的，呈現 References 的方式我也更喜歡，值得後續繼續研究。
 {% end %}
 
-{% fleet_q(num="2",time="Feb 24 08:56",year="2023",source_name="Linus Lee - About the stream",link="https://stream.thesephist.com/about//") %}
+{% fleet_q(num="2",time="Feb 24 08:56",year="2023",source_name="Linus Lee - About the stream",link="https://stream.thesephist.com/about/") %}
 <strong>Why not twitter?</strong>
 <br>
 Lastly, Twitter is great for "in the moment" discussion in public, but it's not so great as a reference you can link to from the future, and as a historical record of my thinking and work. I wanted a place more purpose-built, more focused, and more permanent for my less permanent thoughts and updates.
