@@ -691,7 +691,7 @@ li.inline {
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
-    width: fit-content;
+    width: 100%;
     flex-grow: 1;
     flex-shrink: 1;
   }
