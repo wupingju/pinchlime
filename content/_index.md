@@ -55,6 +55,7 @@ title: Pin 起來
 
 ### Newsletters
 
+- [為何我不想再用 Substack 寄送電子報？](/newsletters/why-i-dont-want-to-use-substack-anymore/)
 - [工作流的核心在於你想解決的問題](/newsletters/the-core-element-of-a-workflow/)
 - [Open Source 自己的想法](/newsletters/open-source-my-thoughts/)
 - [Twitter 比 Facebook 更好的地方](/newsletters/why-twitter-is-better-than-facebook/)
