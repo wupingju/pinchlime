@@ -23,65 +23,6 @@
 {% block sidebar %}
   <aside class="sidebar">
   <div class="sidebar-element">
-    <h2>{{trans(key="label_new_posts_list_title") | markdown(inline=true) | safe}}</h2>
-    <ul>
-      {% set all_blog_pages = get_section(path="blog/_index.md") -%}
-            {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
-            <li class="no-underline">
-            {{ macro::post_side(page=page) }}
-            </li>
-            {% endfor %} 
-            <li class="no-underline">
-            {{trans(key="label_all_posts") | markdown(inline=true) | safe}}
-            </li>
-    </ul>
-  </div>
-  <div class="sidebar-element">
-    <h2>{{trans(key="label_new_newsletters_list_title") | markdown(inline=true) | safe}}</h2>
-    <ul>
-        {% set all_blog_pages = get_section(path="newsletters/_index.md") -%}
-          {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
-          <li class="no-underline">
-          {{ macro::newsletters_side(page=page) }}
-          </li>
-          {% endfor %} 
-          <li class="no-underline">
-          {{trans(key="label_all_newsletters") | markdown(inline=true) | safe}}
-          </li>
-    </ul>
-  </div>
-  <div class="sidebar-element">
-    <h2>{{trans(key="label_new_snapshots_list_title") | markdown(inline=true) | safe}}</h2>
-    <ul>
-        {% set all_blog_pages = get_section(path="snapshots/_index.md") -%}
-          {% for page in all_blog_pages.pages | slice(start=0,end=5)  %} 
-          <li class="no-underline">
-          {{ macro::snapshots_side(page=page) }}
-          </li>
-          {% endfor %} 
-          <li class="no-underline">
-          {{trans(key="label_all_snapshots") | markdown(inline=true) | safe}}
-          </li>
-    </ul>
-  </div>
-  <div class="sidebar-element">
-    <h2>{{trans(key="label_sorting_articles") | markdown(inline=true) | safe}}</h2>
-    <ul>
-        <li class="no-underline">
-          <a href="/tag-list/">{{ trans(key="label_tags") }}</a>
-        </li>
-        <li class="no-underline">
-          <a href="/archive/">{{ trans(key="label_archive") }}</a>
-        </li>
-        <li class="no-underline">
-          <a href="/newsletters/archive/">{{ trans(key="label_newsletter_archive") }}</a>
-        </li>
-        <li class="no-underline">
-          <a href="/snapshots/archive/">{{ trans(key="label_snapshot_archive") }}</a>
-        </li>
-    </ul>
-  </div>
-  <div class="sidebar-element">
       {% set custom_sidebar = get_section(path="sidebar/_index.md") %} 
       {{ custom_sidebar.content | safe }}
   </div>          
