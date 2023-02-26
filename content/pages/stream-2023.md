@@ -10,7 +10,7 @@ template: stream.html
 ## 2023
 
 
-### Feburary
+### February
 
 {% fleet(num="7",time="Feb 25 15:04",year="2023") %}
 剛剛做了一個簡單的 Keyboard Maestro macro ，可以快速建立新的 stream 內容，如截圖：
