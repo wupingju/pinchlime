@@ -12,6 +12,15 @@ template: stream.html
 
 ### February
 
+{% fleet(num="8",time="Feb 27 14:51",year="2023") %}
+今天從 Fox 那邊得知了 GPT 模型裡面的 <a href="https://platform.openai.com/docs/api-reference/completions/create#completions/create-temperature">temperature</a> 概念，之前偶爾都有看到，但一直沒去深入理解。目前我的理解是， temperature 可以控制產生結果的多樣性與隨機性，這個值可以設定在 0-2 ， 0 代表最小的隨機性， 2 則是最大。
+<br>
+另一個影響多樣性的變數是 top_p ，目前我的理解是， top_p 設定越高（ 0-1 ），生成的文本會「更可信」，但同時會降低文本的「多樣性」。
+<br>
+我自己目前還沒有找到適合的問題來測試 top_p ，而 temperature 倒是蠻容易測試的，很有趣！
+{% end %}
+
+
 {% fleet(num="7",time="Feb 25 15:04",year="2023") %}
 剛剛做了一個簡單的 Keyboard Maestro macro ，可以快速建立新的 stream 內容，如截圖：
 <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/quick-add-stream_EvcjNC.gif" loading="lazy" alt="quick-add-stream" align=center /><br>
