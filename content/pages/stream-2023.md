@@ -12,6 +12,11 @@ template: stream.html
 
 ### February
 
+{% fleet(num="9",time="Feb 27 21:54",year="2023") %}
+剛剛花了一點時間看了一篇文：<a href="https://www.wired.co.uk/article/stripe-payments-apple-amazon-facebook">The untold story of Stripe, the secretive $20bn startup driving Apple, Amazon and Facebook</a>，寫的真精彩！<br>有時候真的是看一篇文就會想訂閱整個網站或者爬完那個作者的其他文。
+{% end %}
+
+
 {% fleet(num="8",time="Feb 27 14:51",year="2023") %}
 今天從 Fox 那邊得知了 GPT 模型裡面的 <a href="https://platform.openai.com/docs/api-reference/completions/create#completions/create-temperature">temperature</a> 概念，之前偶爾都有看到，但一直沒去深入理解。目前我的理解是， temperature 可以控制產生結果的多樣性與隨機性，這個值可以設定在 0-2 ， 0 代表最小的隨機性， 2 則是最大。
 <br>
