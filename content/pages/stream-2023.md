@@ -3,7 +3,7 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-02-24
+updated: 2023-03-01
 template: stream.html
 ---
 
@@ -11,6 +11,13 @@ template: stream.html
 
 
 ### February
+
+{% fleet(num="10",time="Mar 01 23:01",year="2023") %}
+這幾天感覺使用 Heptabase 的能力又更進化了。<br>
+先前的我比較沒有用 Heptabase 系統學習＆研究一個「不熟悉議題」的經驗，但這幾天剛好有個機會這樣做，簡直是效果顯著。<br>
+我最喜歡的地方是，我可以快速收錄各種原始資料，透過白板的廣闊空間迅速集群分類，而在收集到一個段落後，可以轉而使用側邊欄彙整編輯。此時我會一個一個將白板上已用過的原始資料改變顏色，這樣我就知道這張卡片已經處理過。<br>
+這個流程非常直覺滑順，幾乎可以說是心流保證班，體驗很好！
+{% end %}
 
 {% fleet(num="9",time="Feb 27 21:54",year="2023") %}
 剛剛花了一點時間看了一篇文：<a href="https://www.wired.co.uk/article/stripe-payments-apple-amazon-facebook">The untold story of Stripe, the secretive $20bn startup driving Apple, Amazon and Facebook</a>，寫的真精彩！<br>有時候真的是看一篇文就會想訂閱整個網站或者爬完那個作者的其他文。
