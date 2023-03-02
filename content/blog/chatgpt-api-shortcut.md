@@ -9,6 +9,8 @@ taxonomies:
   tags: 
     - ChatGPT
     - Shortcuts
+extra:
+  image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatgpt-say-hi_37nm4M.webp
 ---
 
 今天 OpenAI 推出了 [ChatGPT API](https://openai.com/blog/introducing-chatgpt-and-whisper-apis) ，透過這個 API ，各式各樣的應用程式與服務都可以開始使用與 ChatGPT 相同的模型。
