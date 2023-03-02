@@ -11,6 +11,19 @@ template: stream.html
 
 ### March
 
+{% fleet(num="12",time="Mar 02 09:11",year="2023") %}
+在 Twitter 上面看到有人分享 <a href="https://www.bifrost.so/">Bifrost</a> 這個工具，看起來可以直接把 Figma frame 轉為 React 的程式碼，已經申請了 Alpha ，不知道能不能推給同事們使用。
+{% end %}
+
+
+{% fleet(num="11",time="Mar 02 08:05",year="2023") %}
+一早醒來，<a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis">ChatGPT 的 API</a>推出了。<br>
+推出後我才發現我完全還沒做好心理準備，我原本以為大概要四五六月、我原本以為還會再迭代個幾版的 ChatGPT ，才會正式推出。<br>
+這讓我一早就有點興奮與緊張，興奮在於又有更多的可能性可以嘗試與體驗了，緊張在於，我還沒辦法自己 build ，感覺會有點跟不上。<br>
+但總體來說，興奮還是更多的，好期待這一整年下來世界會變怎樣！
+{% end %}
+
+
 {% fleet(num="10",time="Mar 01 23:01",year="2023") %}
 這幾天感覺使用 Heptabase 的能力又更進化了。<br>
 先前的我比較沒有用 Heptabase 系統學習＆研究一個「不熟悉議題」的經驗，但這幾天剛好有個機會這樣做，簡直是效果顯著。<br>
