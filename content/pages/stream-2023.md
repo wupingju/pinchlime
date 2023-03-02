@@ -17,7 +17,7 @@ template: stream.html
 
 
 {% fleet(num="11",time="Mar 02 08:05",year="2023") %}
-一早醒來，<a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis">ChatGPT 的 API</a>推出了。<br>
+一早醒來，<a href="https://openai.com/blog/introducing-chatgpt-and-whisper-apis">ChatGPT 的 API</a> 推出了。<br>
 推出後我才發現我完全還沒做好心理準備，我原本以為大概要四五六月、我原本以為還會再迭代個幾版的 ChatGPT ，才會正式推出。<br>
 這讓我一早就有點興奮與緊張，興奮在於又有更多的可能性可以嘗試與體驗了，緊張在於，我還沒辦法自己 build ，感覺會有點跟不上。<br>
 但總體來說，興奮還是更多的，好期待這一整年下來世界會變怎樣！
