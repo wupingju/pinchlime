@@ -1,5 +1,5 @@
 ---
-title: 不懂程式也可以輕鬆透過 Apple Shortcut 串接 ChatGPT
+title: 不懂程式也可以輕鬆透過 Apple Shortcuts 串接 ChatGPT
 date: 2023-03-02
 description: 只要你是蘋果（主要是 macOS ）的用戶，就可以透過官方免費的 Shortcuts 這個應用程式來串接 ChatGPT 的 API 。而且作法很簡單，你開啟這個 Shortcut 後，只要設定 API key （可以想成是密碼），以及你想要的快捷鍵，就可以開始使用了。
 path: blog/chatgpt-api-shortcut
