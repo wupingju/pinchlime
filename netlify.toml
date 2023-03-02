@@ -9,7 +9,8 @@
 
 [build]
     publish = "public/"
-    command = "zola build && npx pagefind@v0.10.6 --source public"
+    command = "zola build && npx pagefind@latest --source "public""
+    
 
     [build.environment]
          ZOLA_VERSION = "0.16.0"
