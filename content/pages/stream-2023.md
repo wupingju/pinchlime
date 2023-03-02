@@ -11,6 +11,12 @@ template: stream.html
 
 ### March
 
+{% fleet(num="13",time="Mar 02 23:20",year="2023") %}
+今天花了一些時間研究 ChatGPT API ，還自己做了一個 shortcut ，感覺真好！<br>
+接下來希望能逐步擴充我的 shortcut，並且搭配 Keyboard maestro 做出更多功能與使用方式。
+{% end %}
+
+
 {% fleet(num="12",time="Mar 02 09:11",year="2023") %}
 在 Twitter 上面看到有人分享 <a href="https://www.bifrost.so/">Bifrost</a> 這個工具，看起來可以直接把 Figma frame 轉為 React 的程式碼，已經申請了 Alpha ，不知道能不能推給同事們使用。
 {% end %}
