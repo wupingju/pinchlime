@@ -11,6 +11,18 @@ template: stream.html
 
 ### March
 
+{% fleet_q(num="15",time="Mar 03 23:46",year="2023",source_name="Sam Altman",link="https://greylock.com/greymatter/sam-altman-ai-for-the-next-era/") %}
+What will always matter is the quality of ideas and the understanding of what you want.
+<br>
+想法的品質，以及對於你「想要什麼」的真正理解，才是最重要的事。
+{% end %}
+
+
+{% fleet(num="14",time="Mar 03 20:21",year="2023") %}
+今天花了不少時間在研究 Stable Diffusion 跟 Midjourney ，發現難度比 ChatGPT 還高很多，我沒辦法很容易地透過自然語言取得我想要的結果。加上不熟悉指令與語法，就只能一直產出不合想法的內容，可惡！
+{% end %}
+
+
 {% fleet(num="13",time="Mar 02 23:20",year="2023") %}
 今天花了一些時間研究 ChatGPT API ，還自己做了一個 shortcut ，感覺真好！<br>
 接下來希望能逐步擴充我的 shortcut，並且搭配 Keyboard maestro 做出更多功能與使用方式。
