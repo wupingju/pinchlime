@@ -11,6 +11,12 @@ template: stream.html
 
 ### March
 
+{% fleet(num="16",time="Mar 04 20:47",year="2023") %}
+剛剛看到 <a href="https://twitter.com/Piglei/status/1631943319109656576">piglei</a> 分享的 <a href="https://github.com/piglei/ai-vocabulary-builder">AI Vocabulary Builder</a> ，覺得非常讚。看起來只要輸入一段帶有生詞的句子後，就可以自動偵測生詞，並且提供整句翻譯、生詞、解釋、以及將這些資訊嵌入表格裡。
+<br>
+不過看了一下好像需要透過 Python 安裝，就想了一下我自己能不能做個類似的東西。感覺好像可以，只是要自己把步驟切割開來，變成是直接輸入我看到的生詞、句子，然後請 ChatGPT 去處理他們，並且把處理後的內容帶到某個檔案裡面。下禮拜就來做做看！
+{% end %}
+
 {% fleet_q(num="15",time="Mar 03 23:46",year="2023",source_name="Sam Altman",link="https://greylock.com/greymatter/sam-altman-ai-for-the-next-era/") %}
 What will always matter is the quality of ideas and the understanding of what you want.
 <br>
