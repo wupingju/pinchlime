@@ -3,13 +3,18 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-03-01
+updated: 2023-03-04
 template: stream.html
 ---
 
 ## 2023
 
 ### March
+
+{% fleet(num="17",time="Mar 04 21:43",year="2023") %}
+在 ChatGPT API 出現後，我感覺好像該繼續訂閱 Drafts 了。先前因為轉向低度使用，訂閱在 2 月到期後就沒有續訂。<br>
+但在昨天看到 <a href="https://twitter.com/novoreorx/status/1631598188187746304">Reorx 分享的 draft action</a> 後，再加上這兩天對 Shortcuts 的理解，感覺 Drafts 有機會成為未來我串接 ChatGPT API 的 hub ，所以還是來續訂一下好了！
+{% end %}
 
 {% fleet(num="16",time="Mar 04 20:47",year="2023") %}
 剛剛看到 <a href="https://twitter.com/Piglei/status/1631943319109656576">piglei</a> 分享的 <a href="https://github.com/piglei/ai-vocabulary-builder">AI Vocabulary Builder</a> ，覺得非常讚。看起來只要輸入一段帶有生詞的句子後，就可以自動偵測生詞，並且提供整句翻譯、生詞、解釋、以及將這些資訊嵌入表格裡。
