@@ -13,7 +13,7 @@ template: stream.html
 
 {% fleet(num="18",time="Mar 05 16:04",year="2023") %}
 為了使用 <a href="https://apps.apple.com/app/opencat/id6445999201?mt=12
-{% end %}https://apps.apple.com/app/opencat/id6445999201?mt=12">OpenCat</a> 這個 ChatGPT client ，我決定我要來將 mac 更新到 Ventura ，請蘋果大神保佑我順利完成。（我每次 mac 升級版本都很怕，怕某些 workflows 無法再繼續使用...
+">OpenCat</a> 這個 ChatGPT client ，我決定我要來將 mac 更新到 Ventura ，請蘋果大神保佑我順利完成。（我每次 mac 升級版本都很怕，怕某些 workflows 無法再繼續使用...
 {% end %}
 
 {% fleet(num="17",time="Mar 04 21:43",year="2023") %}
