@@ -11,6 +11,11 @@ template: stream.html
 
 ### March
 
+{% fleet(num="18",time="Mar 05 16:04",year="2023") %}
+為了使用 <a href="https://apps.apple.com/app/opencat/id6445999201?mt=12
+{% end %}https://apps.apple.com/app/opencat/id6445999201?mt=12">OpenCat</a> 這個 ChatGPT client ，我決定我要來將 mac 更新到 Ventura ，請蘋果大神保佑我順利完成。（我每次 mac 升級版本都很怕，怕某些 workflows 無法再繼續使用...
+{% end %}
+
 {% fleet(num="17",time="Mar 04 21:43",year="2023") %}
 在 ChatGPT API 出現後，我感覺好像該繼續訂閱 Drafts 了。先前因為轉向低度使用，訂閱在 2 月到期後就沒有續訂。<br>
 但在昨天看到 <a href="https://twitter.com/novoreorx/status/1631598188187746304">Reorx 分享的 draft action</a> 後，再加上這兩天對 Shortcuts 的理解，感覺 Drafts 有機會成為未來我串接 ChatGPT API 的 hub ，所以還是來續訂一下好了！
