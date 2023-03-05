@@ -2,7 +2,7 @@
 title: domain knowledge
 date: 2023-01-27
 path: glossary/domain-knowledge
-description: 
+description: 「領域知識」是指對某一特定領域或主題事項的理解和專長。它包括理論和實踐知識，以及對該領域特定術語和概念的熟悉程度。例如，一個具有醫療領域知識的軟件開發人員會對醫療行業以及該領域使用的具體技術和系統有深刻的理解。(DeepL 直接翻譯)
 extra:
   alias:
   - 領域知識
