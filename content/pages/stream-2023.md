@@ -3,13 +3,19 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-03-04
+updated: 2023-03-09
 template: stream.html
 ---
 
 ## 2023
 
 ### March
+
+{% fleet(num="19",time="Mar 09 22:16",year="2023") %}
+今天發現可以使用 Raycast AI 了，這也讓我手中各種可以使用 AI 的效率工具數量來到某個臨界值。<br>
+目前共有： Raycast , Drafts , Shortcuts + Keyboard Maestro , Popclip，還有各種 desktop clients 。好像該是取捨、思考一下個別用途的時候了！<br>
+目前初步感覺，越快捷越好，所以 Raycast 跟 Keyboard Maestro 這兩個應該會是決選名單。<br>但假設 Raycast AI 很貴、或者不能串自己的 API ，我應該也不會付費使用它，所以看起來還是固守在 Keyboard Maestro 就好囉？
+{% end %}
 
 {% fleet(num="18",time="Mar 05 16:04",year="2023") %}
 為了使用 <a href="https://apps.apple.com/app/opencat/id6445999201?mt=12
