@@ -11,6 +11,11 @@ template: stream.html
 
 ### March
 
+{% fleet(num="21",time="Mar 10 23:40",year="2023") %}
+為了安裝 <a href="https://github.com/yufeikang/ai-cli">ai-cli</a> 這個能在 Terminal 使用 ChatGPT 的工具，我下載了 Python ，並成功安裝了！好有趣！
+{% end %}
+
+
 {% fleet(num="20",time="Mar 10 21:11",year="2023") %}
 這幾天下載了一些 Github 上面開源的 ChatGPT client 專案，想要自己改改看能否變成自己想要的樣子，但卻一直失敗。<br>
 除了技術能力完全不足之外，更主要的問題應該是，我還不知道我自己想要的 client 究竟要長什麼樣子。<br>
