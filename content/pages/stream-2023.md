@@ -11,6 +11,13 @@ template: stream.html
 
 ### March
 
+{% fleet(num="20",time="Mar 10 21:11",year="2023") %}
+這幾天下載了一些 Github 上面開源的 ChatGPT client 專案，想要自己改改看能否變成自己想要的樣子，但卻一直失敗。<br>
+除了技術能力完全不足之外，更主要的問題應該是，我還不知道我自己想要的 client 究竟要長什麼樣子。<br>
+看來我應該先停止越級打怪，而是應該釐清接下來我打算怎麼使用 ChatGPT API ，再來找適合的工具，若沒找到，就找最接近的，想辦法改改看。
+{% end %}
+
+
 {% fleet(num="19",time="Mar 09 22:16",year="2023") %}
 今天發現可以使用 Raycast AI 了，這也讓我手中各種可以使用 AI 的效率工具數量來到某個臨界值。<br>
 目前共有： Raycast , Drafts , Shortcuts + Keyboard Maestro , Popclip，還有各種 desktop clients 。好像該是取捨、思考一下個別用途的時候了！<br>
