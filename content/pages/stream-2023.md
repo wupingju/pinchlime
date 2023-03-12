@@ -3,7 +3,7 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-03-09
+updated: 2023-03-12
 template: stream.html
 ---
 
@@ -11,17 +11,19 @@ template: stream.html
 
 ### March
 
+{% fleet(num="22",time="Mar 12 09:43",year="2023") %}
+昨晚使用 <a href="https://github.com/yihong0618/bilingual_book_maker">Bilingual_Book_Maker</a>翻譯了一本電子書，花了大約 2 美元，整個體驗真的是震撼，有種「這是我可以做到的嗎？」的感覺。<br>未來感覺在吸收知識這一塊可以更全面了。
+{% end %}
+
 {% fleet(num="21",time="Mar 10 23:40",year="2023") %}
 為了安裝 <a href="https://github.com/yufeikang/ai-cli">ai-cli</a> 這個能在 Terminal 使用 ChatGPT 的工具，我下載了 Python ，並成功安裝了！好有趣！
 {% end %}
-
 
 {% fleet(num="20",time="Mar 10 21:11",year="2023") %}
 這幾天下載了一些 Github 上面開源的 ChatGPT client 專案，想要自己改改看能否變成自己想要的樣子，但卻一直失敗。<br>
 除了技術能力完全不足之外，更主要的問題應該是，我還不知道我自己想要的 client 究竟要長什麼樣子。<br>
 看來我應該先停止越級打怪，而是應該釐清接下來我打算怎麼使用 ChatGPT API ，再來找適合的工具，若沒找到，就找最接近的，想辦法改改看。
 {% end %}
-
 
 {% fleet(num="19",time="Mar 09 22:16",year="2023") %}
 今天發現可以使用 Raycast AI 了，這也讓我手中各種可以使用 AI 的效率工具數量來到某個臨界值。<br>
