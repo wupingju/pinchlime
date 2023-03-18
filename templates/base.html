@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
     <link rel="stylesheet" href="{{ get_url(path="site/styles/site.css",
-    trailing_slash=false,cachebust=true) | safe }}">
+    trailing_slash=false,cachebust=true) | safe }}" async>
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
 
     {% if config.generate_rss %} <link rel="alternate"
