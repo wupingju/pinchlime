@@ -3,13 +3,21 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-03-12
+updated: 2023-03-18
 template: stream.html
 ---
 
 ## 2023
 
 ### March
+
+{% fleet(num="24",time="Mar 18 20:21",year="2023") %}
+今天早上收到 GPT 4 的 API 開放通知，非常開心，不過坦白說，我好像不知道要特別拿他來做什麼。一方面是 GPT 3.5 的表現我已經頗滿意，二方面是 GPT 4 目前的價格還太貴。但在我這樣想的同時，又覺得自己這樣會不會有點浪費這樣的機會？
+{% end %}
+
+{% fleet(num="23",time="Mar 18 20:19",year="2023") %}
+竟然一個禮拜沒更新這邊，真的是相當忙碌的一週。<br>補記錄一下前幾天 GPT 4 上線的感想：快，真的是太快了。這一切的演進速度令人目不暇給，真的非常好奇幾個月後、一年後、三年後，這個世界會變成什麼樣子。
+{% end %}
 
 {% fleet(num="22",time="Mar 12 09:43",year="2023") %}
 昨晚使用 <a href="https://github.com/yihong0618/bilingual_book_maker">Bilingual_Book_Maker</a>翻譯了一本電子書，花了大約 2 美元，整個體驗真的是震撼，有種「這是我可以做到的嗎？」的感覺。<br>未來感覺在吸收知識這一塊可以更全面了。
