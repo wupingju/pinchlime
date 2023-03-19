@@ -3,13 +3,17 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-03-18
+updated: 2023-03-19
 template: stream.html
 ---
 
 ## 2023
 
 ### March
+
+{% fleet(num="25",time="Mar 19 18:40",year="2023") %}
+昨晚在 ChatGPT 的協助之下，我超級順利地，製作了一個 Discord 的 bot ，它的功能是，我可以按某一則訊息 emoji ，bot 就會把那則訊息的資料傳送到 Notion 的 database 裡面。<br>成功後，我覺得很震驚。直到現在，我還是很震驚。
+{% end %}
 
 {% fleet(num="24",time="Mar 18 20:21",year="2023") %}
 今天早上收到 GPT 4 的 API 開放通知，非常開心，不過坦白說，我好像不知道要特別拿他來做什麼。一方面是 GPT 3.5 的表現我已經頗滿意，二方面是 GPT 4 目前的價格還太貴。但在我這樣想的同時，又覺得自己這樣會不會有點浪費這樣的機會？
