@@ -9,6 +9,18 @@ template: stream.html
 
 ## 2023
 
+### April
+
+{% fleet(num="27",time="Apr 01 22:23",year="2023") %}
+今天在 Twitter 上看到有人分享的 <a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT-Next-Web</a> 專案，感覺非常方便部署，而且看起來可以鎖密碼，我就想到好像可以把它放在 Heptabase 的側邊欄。結果快速設定一下就成功了，在 Hepta 裡面也可以打開，挺不錯的！
+{% end %}
+
+
+{% fleet(num="26",time="Apr 01 22:21",year="2023") %}
+沒想到竟然兩個禮拜沒更新了！這兩個禮拜我過得好忙，團隊上線了 <a href="https://simpleinfo.ai">Simpleinfo.ai</a> 這個小小的服務，我開始擔任這個專案的 PM ，學了不少，很有趣。整個三月實在太瘋狂，要來趁這五天連假回顧、反芻一下。
+{% end %}
+
+
 ### March
 
 {% fleet(num="25",time="Mar 19 18:40",year="2023") %}
