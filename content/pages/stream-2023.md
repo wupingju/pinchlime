@@ -11,6 +11,10 @@ template: stream.html
 
 ### April
 
+{% fleet(num="28",time="Apr 03 22:15",year="2023") %}
+今天訂閱了 Todoist Pro 以及 Midjourney 的 Basic Plan ，想讓前者擔當更多知識管理流程裡的任務，而後者則是單純想體驗，以及嘗試讓部落格能有更多配圖！
+{% end %}
+
 {% fleet(num="27",time="Apr 01 22:23",year="2023") %}
 今天在 Twitter 上看到有人分享的 <a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT-Next-Web</a> 專案，感覺非常方便部署，而且看起來可以鎖密碼，我就想到好像可以把它放在 Heptabase 的側邊欄。結果快速設定一下就成功了，在 Hepta 裡面也可以打開，挺不錯的！
 {% end %}
