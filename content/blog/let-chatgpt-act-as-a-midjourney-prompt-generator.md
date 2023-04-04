@@ -24,7 +24,7 @@ extra:
 
 看到這些東西，我突然充滿靈感，覺得好像可以透過 ChatGPT 弄一個「 Midjourney prompt 產生器」出來。於是我就訂閱了 Midjourney 的 basic plan ，一個月 $10 美元，可以產大約 200 張圖，然後就開始測試。
 
-<!-- More -->
+<!-- more -->
 
 ---
 
