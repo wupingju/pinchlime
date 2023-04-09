@@ -20,7 +20,7 @@ title: Pin 起來
 - Reviews：各種主題性的回顧內容。
 
 ### Newsletters
-[Newsletters](/newsletters) 區塊放置的是我的「Pin 起來電子報」內容，目前電子報固定會在每週日寄送，涵蓋我各方面的選讀內容，以及當週特別想分享的事。
+[Newsletters](/newsletters) 區塊放置的是我的「Pin 起來電子報」內容，目前電子報的定位更像是我對不同感興趣主題的探索想法，會不定期寄送給有訂閱的人。
 
 ### Snapshots
 詳見 [Snapshots](/snapshots) 專區的介紹。
@@ -55,6 +55,9 @@ title: Pin 起來
 
 ### Newsletters
 
+- [重新定位 Pin 起來電子報、再次感到被 ChatGPT 賦能](/newsletters/repositioning-pinchlime-empowered-by-chatgpt-once-again/)
+- [我目前選擇 AI 工具的三個原則](/newsletters/my-three-principles-for-choosing-ai-tools/)
+- [我的六個專屬 ChatGPT 助手](/newsletters/my-six-chatgpt-assistants/)
 - [為何我不想再用 Substack 寄送電子報？](/newsletters/why-i-dont-want-to-use-substack-anymore/)
 - [工作流的核心在於你想解決的問題](/newsletters/the-core-element-of-a-workflow/)
 - [Open Source 自己的想法](/newsletters/open-source-my-thoughts/)
