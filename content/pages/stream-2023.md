@@ -3,13 +3,18 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-03-19
+updated: 2023-04-09
 template: stream.html
 ---
 
 ## 2023
 
 ### April
+
+{% fleet(num="29",time="Apr 09 23:36",year="2023") %}
+剛才在 <a href="https://www.anthropic.com/">Anthropic</a> 網站申請了 Claude ，我好像還不知道可以幹嘛，但這幾天在 Twitter 上面看到有些人說他的能力不比 GPT 3.5 差，甚至有些還認為比 GPT 4 好。我想試試看是不是真的是這樣。
+{% end %}
+
 
 {% fleet(num="28",time="Apr 03 22:15",year="2023") %}
 今天訂閱了 Todoist Pro 以及 Midjourney 的 Basic Plan ，想讓前者擔當更多知識管理流程裡的任務，而後者則是單純想體驗，以及嘗試讓部落格能有更多配圖！
