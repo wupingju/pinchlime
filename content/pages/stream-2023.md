@@ -12,7 +12,7 @@ template: stream.html
 ### April
 
 {% fleet(num="30",time="Apr 11 23:36",year="2023") %}
-很推薦 [曼報 Podcast EP39｜無條件基本收入（UBI）與創作的本能](https://open.firstory.me/story/clg7jx1cl00kk01sk0zi97ups/platforms) 這集
+很推薦<a href="https://open.firstory.me/story/clg7jx1cl00kk01sk0zi97ups/platforms">曼報 Podcast EP39｜無條件基本收入（UBI）與創作的本能</a>這集
 <br>
 今天在去公司路上聽了一次，中午吃飯時又把最後那十幾分鐘聽了一次，真的是非常非常喜歡。
 <br>
