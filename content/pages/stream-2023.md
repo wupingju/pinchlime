@@ -11,10 +11,19 @@ template: stream.html
 
 ### April
 
+{% fleet(num="30",time="Apr 11 23:36",year="2023") %}
+很推薦 [曼報 Podcast EP39｜無條件基本收入（UBI）與創作的本能](https://open.firstory.me/story/clg7jx1cl00kk01sk0zi97ups/platforms) 這集
+<br>
+今天在去公司路上聽了一次，中午吃飯時又把最後那十幾分鐘聽了一次，真的是非常非常喜歡。
+<br>
+喜歡的原因是，我好像可以懂 Manny 講的那種「被 program」的感覺，對事情好奇是本能、想知道更多也是本能，但又感覺自己還沒完全駕馭自己的本能，此時又會因為好奇彼端的世界，而繼續探索。
+<br>
+也許哪天真的會跌跌撞撞發現自己好像更會騎這匹馬了也說不定？
+{% end %}
+
 {% fleet(num="29",time="Apr 09 23:36",year="2023") %}
 剛才在 <a href="https://www.anthropic.com/">Anthropic</a> 網站申請了 Claude ，我好像還不知道可以幹嘛，但這幾天在 Twitter 上面看到有些人說他的能力不比 GPT 3.5 差，甚至有些還認為比 GPT 4 好。我想試試看是不是真的是這樣。
 {% end %}
-
 
 {% fleet(num="28",time="Apr 03 22:15",year="2023") %}
 今天訂閱了 Todoist Pro 以及 Midjourney 的 Basic Plan ，想讓前者擔當更多知識管理流程裡的任務，而後者則是單純想體驗，以及嘗試讓部落格能有更多配圖！
