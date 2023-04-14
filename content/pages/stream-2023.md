@@ -3,13 +3,18 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-04-09
+updated: 2023-04-14
 template: stream.html
 ---
 
 ## 2023
 
 ### April
+
+{% fleet(num="31",time="Apr 14 23:57",year="2023") %}
+晚上透過 Slack 測試了 <a href="https://www.anthropic.com/">Anthropic 的 Claude </a>，覺得若在 ChatGPT 出現前我可能會非常驚艷，但現在則感覺「還好」。我覺得目前 Slack 版本的 Claude 能力值大約比 GPT 3.5 還要弱一點，但基本的對話或邏輯能力都還不錯。<br>
+不過，透過 Slack 互動有個最好的地方是，整個團隊的人都可以直接看到我跟 Claude 的互動、甚至是同步與他互動。
+{% end %}
 
 {% fleet(num="30",time="Apr 11 23:36",year="2023") %}
 很推薦<a href="https://open.firstory.me/story/clg7jx1cl00kk01sk0zi97ups/platforms">曼報 Podcast EP39｜無條件基本收入（UBI）與創作的本能</a>這集
