@@ -10,6 +10,9 @@ template: stream.html
 ## 2023
 
 ### April
+{% fleet(num="32",time="Apr 16 11:18",year="2023") %}
+剛剛發現， Pin 起來網站從 wordpress 搬家到 Zola 滿一週年了。今天來寫寫心得好了！
+{% end %}
 
 {% fleet(num="31",time="Apr 14 23:57",year="2023") %}
 晚上透過 Slack 測試了 <a href="https://www.anthropic.com/">Anthropic 的 Claude </a>，覺得若在 ChatGPT 出現前我可能會非常驚艷，但現在則感覺「還好」。我覺得目前 Slack 版本的 Claude 能力值大約比 GPT 3.5 還要弱一點，但基本的對話或邏輯能力都還不錯。<br>
