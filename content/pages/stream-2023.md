@@ -10,6 +10,10 @@ template: stream.html
 ## 2023
 
 ### April
+{% fleet(num="33",time="Apr 18 23:21",year="2023") %}
+剛剛不知道怎麼的，突然想說來換字體看看，結果試玩了一下完全被燒到，感覺右邊專業好多！我的卡快刷下去了...<br><img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/noto-serif-tc_nLmL0I.webp" loading="lazy" alt="noto-serif-tc" align=center />
+{% end %}
+
 {% fleet(num="32",time="Apr 16 11:18",year="2023") %}
 剛剛發現， Pin 起來網站從 wordpress 搬家到 Zola 滿一週年了。今天來寫寫心得好了！
 {% end %}
