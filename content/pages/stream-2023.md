@@ -10,6 +10,10 @@ template: stream.html
 ## 2023
 
 ### April
+{% fleet(num="34",time="Apr 19 10:04",year="2023") %}
+剛剛刷了卡，換了一個字體，但發現 blog/newsletters/snapshots 這三大主頁面好像無法生效，研究了一下，猜測可能跟 Zola 的 paginator 設定有關係。週末來改版看看好了！
+{% end %}
+
 {% fleet(num="33",time="Apr 18 23:21",year="2023") %}
 剛剛不知道怎麼的，突然想說來換字體看看，結果試玩了一下完全被燒到，感覺右邊專業好多！我的卡快刷下去了...<br><img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/noto-serif-tc_nLmL0I.webp" loading="lazy" alt="noto-serif-tc" align=center />
 {% end %}
