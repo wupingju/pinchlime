@@ -5,7 +5,7 @@ sort_by: date
 sort_direction: decending
 transparent: true
 generate_feed: true
-template: newsletters.html
+template: newsletter_archive.html
 page_template: newsletter_page.html
 ---
 
@@ -24,6 +24,4 @@ Hi ，你現在看到的是 **Pin 起來電子報** 的主頁面。
 
 Newsletters 在我目前規劃的[定位](https://pinchlime.com/newsletters/repositioning-pinchlime-empowered-by-chatgpt-once-again/)裡，會更偏向 Letters 而非 News ，性質會更像是我不定期對朋友寫的分享信。
 
-歡迎你先往下瀏覽看看過去的內容，也可以直接透過[電子報歸檔頁面](/newsletters/archive)看更多期數。
-
-如果要訂閱，請前往本站的 [Subsrcibe](/subscribe) 頁面訂閱。
+歡迎你先往下瀏覽看看過去的內容，如果要訂閱，請前往本站的 [Subsrcibe](/subscribe) 頁面訂閱。

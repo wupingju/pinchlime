@@ -5,7 +5,7 @@ sort_by: date
 sort_direction: decending
 transparent: true
 generate_feed: true
-template: snapshots.html
+template: snapshot_archive.html
 page_template: snapshot_page.html
 ---
 
