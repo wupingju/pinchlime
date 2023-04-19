@@ -85,8 +85,8 @@ html {
 }
 
 body {
-  font-family: jf-jinxuan, "Inter", "Menlo", "PT Mono", "Arial", "Helvetica", "Helvetica Neue", "Noto Sans TC", "PingFang TC", "PingFang SC", sans-serif, Georgia;
-  font-weight: 300;
+  font-family: "jf-jinxuan", "Inter", "Menlo", "PT Mono", "Arial", "Helvetica", "Helvetica Neue", "Noto Sans TC", "PingFang TC", "PingFang SC", sans-serif, Georgia;
+  font-weight: 400;
   color: var(--color-text);
   background-color: var(--colors-background);
 }
