@@ -38,14 +38,14 @@
 {% macro post_min(page) %}
 <div style="display: flex;justify-content: space-between">
 <a class="no-underline li_archive" href="{{ page.permalink }}">{{ page.title }}</a> 
-<span class="muted text-sm" style="font-family: menlo;">{{ page.date }}</span>
+<span class="muted text-sm">{{ page.date }}</span>
 </div>
 {% endmacro post_min %}
 
 {% macro snapshots_min(page) %}
 <div style="display: flex;justify-content: space-between">
 <a class="no-underline li_archive" href="{{ page.permalink }}">{{ page.title }}</a> 
-<span class="muted text-sm" style="font-family: menlo;">{{ page.date }}</span>
+<span class="muted text-sm">{{ page.date }}</span>
 </div>
 {% endmacro post_min %}
 
@@ -54,7 +54,7 @@
   <div class="li_archive">
     <span>＃{{page.extra.issues }} </span><a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a> 
   </div>
-  <span class="muted text-sm" style="font-family: menlo;">{{ page.date }}</span>
+  <span class="muted text-sm">{{ page.date }}</span>
 </div>
 {% endmacro post_min %}
 
