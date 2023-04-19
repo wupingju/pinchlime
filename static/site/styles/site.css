@@ -86,7 +86,7 @@ html {
 
 body {
   font-family: "jf-jinxuan", "Inter", "Menlo", "PT Mono", "Arial", "Helvetica", "Helvetica Neue", "Noto Sans TC", "PingFang TC", "PingFang SC", sans-serif, Georgia;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--color-text);
   background-color: var(--colors-background);
 }
@@ -530,7 +530,18 @@ li.inline {
   line-height: 2;
   width: 80%;
 }
-
+.jf-loading body { /*載入中不顯示*/
+  opacity: 0;
+  visibility: hidden;
+}
+.jf-active body { /*如果處理成功，直接顯示*/
+  opacity: 1;
+  visibility: visible;
+}
+.jf-inactive body {/*如果處理失敗，直接顯示*/
+  opacity: 1;
+  visibility: visible;
+}
 @media (min-width: 52rem) {
   #root {
     display: flex;
@@ -673,7 +684,7 @@ li.inline {
     width: 16px;
   }
   .li_archive {
-    max-width: 16rem;
+    max-width: 18rem;
   }
   .fleet {
     display: flex;
