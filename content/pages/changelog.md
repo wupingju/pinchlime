@@ -25,6 +25,14 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [2.7.0] - 2023.04.20
+
+### Changed
+
+- 更換站內字型為金萱那提，並更動了 blog, newsletters, snapshots 這三個主頁面的排版方式，詳情可以看這篇：[更換了網站的字型為「金萱那提」](@/blog/changed-font-to-jinxuan-latte.md)
+
+---
+
 ## [2.6.0] - 2023.04.16
 
 ### Added
