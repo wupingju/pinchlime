@@ -213,7 +213,10 @@ li {
   margin-bottom: 0.5rem;
 }
 .li_archive {
-  max-width: 30rem;
+  max-width: 36rem;
+  margin-left: 2.5rem;
+  margin-right: 1rem;
+  text-indent: -3.5rem;
 }
 .no-underline {
   text-decoration: none;
@@ -684,7 +687,7 @@ li.inline {
     width: 16px;
   }
   .li_archive {
-    max-width: 18rem;
+    max-width: 16rem;
   }
   .fleet {
     display: flex;

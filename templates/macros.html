@@ -54,10 +54,7 @@
 <div style="display: flex; justify-content: space-between;">
   <div style="display: flex;">
     <div class="li_archive">
-      <span style="margin-right: 2rem;">＃{{page.extra.issues }}</span>
-    </div>
-    <div class="li_archive">
-      <a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a>
+      <span style="margin-right: 1rem;">＃{{page.extra.issues }}</span><a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a>
     </div>
   </div>
   <span class="muted text-sm" style="font-family: menlo;">{{ page.date | date(format="%b %d") }}</span>
