@@ -214,6 +214,9 @@ li {
 }
 .li_archive {
   max-width: 36rem;
+}
+.li_archive_news {
+  max-width: 36rem;
   margin-left: 2.5rem;
   margin-right: 1rem;
   text-indent: -3.5rem;
@@ -687,6 +690,9 @@ li.inline {
     width: 16px;
   }
   .li_archive {
+    max-width: 16rem;
+  }
+  .li_archive_news {
     max-width: 16rem;
   }
   .fleet {
