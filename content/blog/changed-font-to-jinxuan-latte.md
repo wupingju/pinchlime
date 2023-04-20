@@ -63,7 +63,7 @@ _圖：金萱那提，來源：[justfont](https://justfont.com/jinxuan-latte/)_
 
 ## 順便簡化了網站的架構
 
-在換完字型後，我發現整個網站上有三個頁面，不知為何，無法生效。他們分別是 Blog, Newsletter, Snapshots 這三個主頁面，這三個頁面的共通點是，他們都會讀取該類別的所有文章，依照時序倒序呈現概要內容。目前已經修改掉了，[但可以看 wayback machine 的備份頁面參考](http://web.archive.org/web/20230203224114/https://pinchlime.com/blog/)。
+在換完字型後，我發現整個網站上有三個頁面，不知為何，無法生效。他們分別是 [Blog](/blog), [Newsletters](/newsletters), [Snapshots](/snapshots) 這三個主頁面，這三個頁面的共通點是，他們都會讀取該類別的所有文章，依照時序倒序呈現概要內容。目前已經修改掉了，[但可以看 wayback machine 的備份頁面參考](http://web.archive.org/web/20230203224114/https://pinchlime.com/blog/)。
 
 我研究後猜測，可能是因為這幾頁都使用到架站系統 Zola 的 “paginator” 功能，有可能是 bug 的原因，導致 justfont 的 script 無法生效。於是我決定，山不轉路轉，直接修改這幾頁的架構。
 
