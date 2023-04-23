@@ -13,7 +13,7 @@ taxonomies:
 ---
 
 
-大約在兩個多禮拜前，我寫下了「[我打算在網站上建立的「個人詞庫」是什麼？](@/snapshots/what-what-is-the-personal-glossary-section-i-plan-to-build-on-my-website.md)」這篇 snapshot，當時就想著過年期間要來把這個詞庫的 1.0 版本蓋起來。
+大約在兩個多禮拜前，我寫下了「[我打算在網站上建立的「個人詞庫」是什麼？](@/blog/what-what-is-the-personal-glossary-section-i-plan-to-build-on-my-website.md)」這篇 snapshot，當時就想著過年期間要來把這個詞庫的 1.0 版本蓋起來。
 
 這兩天順利完成了！來分享一下紀錄。
 

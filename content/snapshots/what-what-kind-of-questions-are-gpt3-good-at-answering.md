@@ -5,7 +5,7 @@ description: 這些 GPT-3 自認不擅長的問題，好像也是人類相對比
 path: snapshots/what/what-kind-of-questions-are-gpt3-good-at-answering
 taxonomies:
   kinds: 
-    - Daily What
+    - Random Thoughts
   tags: 
     - GPT-3
     - AI

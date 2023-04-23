@@ -5,7 +5,7 @@ description: 雖然目前還沒有針對 Mobile 或 Pad 版本的顯示優化，
 path: snapshots/what/what-can-i-achieve-by-heptabase-web-version
 taxonomies:
   kinds: 
-    - Daily What
+    - Random Thoughts
   tags: 
     - Heptabase
 ---

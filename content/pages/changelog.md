@@ -4,7 +4,7 @@ description: 這邊放置 Pin 起來網站的 Changelog，主要的內容是描�
 path: changelog/
 draft: false
 date: 2022-04-20
-updated: 2023-04-16
+updated: 2023-04-23
 template: changelog.html
 ---
 
@@ -22,6 +22,14 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 - 修訂號：表示部落格既有功能有修改內容，例如 css 樣式的調整、既有頁面或段落的連結調整、或者分類類別的調整等。
 
 以下是依時間倒序排列的 changelogs ，歡迎瀏覽！
+
+---
+
+## [2.7.1] - 2023.04.23
+
+### Removed
+
+- 簡化了 [Snapshots](/snapshots) 頁面的類型，把比較少在更新的 Daily What 與 Daily How 都整併到其他類別裡了。我覺得， What 類型的問題好像適合放在 [Glossary](/glossary) 裡面，而 How 類型的問題通常則可以直接放在 [Blog](/blog) 裡面。
 
 ---
 

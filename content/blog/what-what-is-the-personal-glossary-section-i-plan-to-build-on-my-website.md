@@ -4,8 +4,8 @@ date: 2023-01-11
 description: 我可以更理解與更確定自己在用的這些詞，究竟是什麼意思？我有沒有誤用？這個詞本身是否有歧義？我怎麼看待這些歧義？
 path: snapshots/what/what-is-the-personal-glossary-section-i-plan-to-build-on-my-website
 taxonomies:
-  kinds: 
-    - Daily What
+  categories: 
+    - Pinchlime
   tags: 
     - Personal Glossary
 ---

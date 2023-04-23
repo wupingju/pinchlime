@@ -13,11 +13,11 @@ title: Pin 起來
 
 ### Blog
 [Blog](/blog) 主要是比較成熟的想法、比較完整的內容，目前分成幾個類別：
-- Tools：與各種生產力工具、產品、服務相關的介紹與討論。
-- Evergreen notes：一則就是一個想法、一個論點。
-- Workflows：我的工作流分享與討論。
-- Pinchlime：與這個部落格有關的介紹與討論。
-- Reviews：各種主題性的回顧內容。
+- [Tools](/categories/tools)：與各種生產力工具、產品、服務相關的介紹與討論。
+- [Evergreen notes](/categories/evergreen-notes)：一則就是一個想法、一個論點。
+- [Workflows](/categories/workflows)：我的工作流分享與討論。
+- [Pinchlime](/categories/pinchlime)：與這個部落格有關的介紹與討論。
+- [Reviews](/categories/reviews)：各種主題性的回顧內容。
 
 ### Newsletters
 [Newsletters](/newsletters) 區塊放置的是我的「Pin 起來電子報」內容，目前電子報的定位更像是我對不同感興趣主題的探索想法，會不定期寄送給有訂閱的人。
