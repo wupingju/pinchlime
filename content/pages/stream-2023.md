@@ -10,6 +10,10 @@ template: stream.html
 ## 2023
 
 ### May
+{% fleet(num="36",time="May 06 18:55",year="2023") %}
+剛才在 ChatGPT 的協助下，製作了手機版本的 toggle menu ，終於可以把所有分頁的連結都在手機介面中完整呈現了，讚啦！
+{% end %}
+
 {% fleet(num="35",time="May 06 15:23",year="2023") %}
 5 月了！這兩週比較沒有在碰 AI 的東西，但也沒有特別感到緊張或焦慮。倒是重新拾起了相機，這件事令我非常開心！
 {% end %}

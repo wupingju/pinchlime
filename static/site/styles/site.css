@@ -141,8 +141,10 @@ h3 {
 .no-border {
   border: none;
 }
-
-pre {
+summary {
+  font-size: 1.2rem;
+}
+  pre {
   color: rgb(57, 58, 52);
   background-color: rgb(246, 248, 250);
   margin-top: 0px;
@@ -226,6 +228,8 @@ li {
 }
 a:link {
   color: #000000;
+  text-decoration-color: #003C6D;
+  text-underline-offset: 4px;
 }
 a:visited {
   -webkit-transition: color 200ms ease;

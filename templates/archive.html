@@ -8,6 +8,11 @@
 {% set_global blog_section = get_section(path="blog/_index.md") -%}
 {% set_global section_content = blog_section.content %}
 <div class="element-container">
+  <div class="element">
+  <setion>
+    {{ section_content | safe}}
+  </setion>
+</div> 
 <div class="element">
 <h1>Blog</h1>
 <br>
@@ -24,3 +29,4 @@
 </div>
 </div>
 {% endblock main %}
+<summary style="text-decoration:line-through "></summary>
