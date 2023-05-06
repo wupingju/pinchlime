@@ -3,11 +3,16 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-04-14
+updated: 2023-05-06
 template: stream.html
 ---
 
 ## 2023
+
+### May
+{% fleet(num="35",time="May 06 15:23",year="2023") %}
+5 月了！這兩週比較沒有在碰 AI 的東西，但也沒有特別感到緊張或焦慮。倒是重新拾起了相機，這件事令我非常開心！
+{% end %}
 
 ### April
 {% fleet(num="34",time="Apr 19 10:04",year="2023") %}
