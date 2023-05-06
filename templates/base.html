@@ -94,13 +94,34 @@
             <span class="navbar-name">Pin 起來</span>
           </a> 
         </div>
+        <div class="mobile-menu-icon">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
         <div class="navbar-name">
           <a class="menu-button" href="/blog/">Blog</a>
           <a class="menu-button" href="/newsletters/">Newsletters</a>
           <a class="menu-button" href="/snapshots/">Snapshots</a>
+          <a class="menu-button" href="/stream/2023">Stream</a>
           <a class="menu-button-search" href="/search/">
             <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/search-icon_IsXZSS.svg" alt="search-icon" >
           </a>
+        </div>
+        <div class="mobile-menu">
+          <a class="menu-button" href="/blog/">Blog</a>
+          <a class="menu-button" href="/newsletters/">Newsletters</a>
+          <a class="menu-button" href="/snapshots/">Snapshots</a>
+          <a class="menu-button" href="/stream/2023">Stream</a>
+          <hr style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
+          <a class="menu-button" href="/about/">About</a>
+          <a class="menu-button" href="/now/">Now</a>
+          <a class="menu-button" href="/changelog/">Changelog</a>
+          <a class="menu-button" href="/glossary/">Glossary</a>
+          <a class="menu-button" href="/search/">Search</a>
+          <a class="menu-button" href="/subscribe/">Subscribe</a>
         </div>
         </div>
       </nav>
@@ -123,5 +144,16 @@
    
     </section>
     <section id="bottom"></section>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const hamburger = document.querySelector(".hamburger");
+        const mobileMenu = document.querySelector(".mobile-menu");
+    
+        hamburger.addEventListener("click", function() {
+          hamburger.classList.toggle("active");
+          mobileMenu.classList.toggle("show");
+        });
+      });
+    </script>
   </body>
 </html>
