@@ -2,7 +2,7 @@
 title: What I'm doing now
 path: now/
 date: 2023-04-16
-updated: 2023-04-16
+updated: 2023-05-07
 description: 我理解的 Now page 概念有點像是，當我今天要跟一個幾年沒見的好朋友更新近況時，我會跟他說些什麼？這個好朋友有某些關於我的印象與記憶，但對我的近況沒那麼熟悉，甚至可以說是陌生，此時這個頁面的內容，就會是我想跟這個人分享的東西。 Now 頁面會更頻繁更新，放的是我現在關注的事以及我正在進行的事。這些事聚集在一起，指向的是我想達到的未來。
 ---
 
@@ -44,6 +44,14 @@ Now page 與 About 頁面的差別在於， About 頁面呈現的是我過去的
 * [🧭 ChatGPT 学习导航 | Learning Prompt](https://learningprompt.wiki/docs/chatgpt-learning-path)
 * [openai/openai-cookbook: Examples and guides for using the OpenAI API](https://github.com/openai/openai-cookbook)
 * [Getting started with Claude - Docs](https://console.anthropic.com/docs)
+
+### 重拾攝影
+
+我大學的時候很熱衷拍照，畢業後就愈來愈少拍，最近幾年甚至完全沒碰。但最近在一個偶然的契機下，我又開始對攝影感興趣了。
+
+我把這些想法寫在 [#27 只能拍攝黑白照片的 “Monochrome” 相機](@/newsletters/27-camera-that-can-only-take-black-and-white-photos.md)這篇裡面，歡迎你看看。
+
+最近會開始建立自己的相簿，並且重新開始多拍照，一直拍就對了！
 
 ---
 
