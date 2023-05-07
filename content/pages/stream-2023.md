@@ -10,8 +10,8 @@ template: stream.html
 ## 2023
 
 ### May
-{% fleet(num="37",time="May 07 10:58",year="2023") %}
-剛才原本想開一個新的 Flickr 帳號放照片，結果創了幾次帳號都失敗。一怒之下改用 500px ，馬上就成功了！<br>歡迎參觀<a href="https://500px.com/p/pj_wu_pj">我的 500px 頁面</a>。
+{% fleet(num="37",time="May 07 16:19",year="2023") %}
+為了放未來的照片，開了一個新的 Flickr 帳號！<br>歡迎參觀<a href="https://www.flickr.com/photos/pj_wu_pj">我的 Flickr 頁面</a>。
 {% end %}
 
 {% fleet(num="36",time="May 06 18:55",year="2023") %}
