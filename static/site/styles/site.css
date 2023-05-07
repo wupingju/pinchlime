@@ -221,7 +221,7 @@ li {
   max-width: 36rem;
   margin-left: 2.5rem;
   margin-right: 1rem;
-  text-indent: -3.5rem;
+  text-indent: -48px;
 }
 .no-underline {
   text-decoration: none;
@@ -459,6 +459,7 @@ li.inline {
 }
 .text-sm {
   font-size: 1rem;
+  white-space: nowrap;
 }
 .text-sm p {
   font-size: 1rem;
