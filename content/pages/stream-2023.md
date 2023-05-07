@@ -3,13 +3,17 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-05-06
+updated: 2023-05-07
 template: stream.html
 ---
 
 ## 2023
 
 ### May
+{% fleet(num="37",time="May 07 10:58",year="2023") %}
+剛才原本想開一個新的 Flickr 帳號放照片，結果創了幾次帳號都失敗。一怒之下改用 500px ，馬上就成功了！<br>歡迎參觀<a href="https://500px.com/p/pj_wu_pj">我的 500px 頁面</a>。
+{% end %}
+
 {% fleet(num="36",time="May 06 18:55",year="2023") %}
 剛才在 ChatGPT 的協助下，製作了手機版本的 toggle menu ，終於可以把所有分頁的連結都在手機介面中完整呈現了，讚啦！
 {% end %}
