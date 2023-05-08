@@ -459,7 +459,6 @@ li.inline {
 }
 .text-sm {
   font-size: 1rem;
-  white-space: nowrap;
 }
 .text-sm p {
   font-size: 1rem;

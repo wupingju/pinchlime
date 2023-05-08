@@ -57,7 +57,7 @@
       <span style="margin-right: 1rem; font-family: menlo;">＃{{page.extra.issues }}</span><a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a>
     </div>
   </div>
-  <span class="muted text-sm" style="font-family: menlo;">{{ page.date | date(format="%b %d") }}</span>
+  <span class="muted text-sm" style="font-family: menlo; white-space: nowrap;">{{ page.date | date(format="%b %d") }}</span>
 </div>
 
 {% endmacro newsletters_min %}
