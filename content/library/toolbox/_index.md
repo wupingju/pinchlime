@@ -1,13 +1,12 @@
 ---
 title: Pin 起來的 Toolbox
-sort_by: date
+sort_by: weight
 sort_direction: decending
+weight: 1
 template: library.html
 page_template: library_page.html
 extra: 
-    breadcrumbs: 
-    - {url: "/library", title: "Library"}
-    - {url: "/library/toolbox", title: "Toolbox"}
+    bread_name: Toolbox
 ---
 
 這是工具箱

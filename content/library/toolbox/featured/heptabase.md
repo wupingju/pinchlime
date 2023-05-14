@@ -3,11 +3,6 @@ title: Heptabase
 description: 
 date: 2022-07-30
 updated: 2022-07-30
-extra: 
-    breadcrumbs: 
-    - {url: "/library", title: "Library"}
-    - {url: "/library/toolbox", title: "Toolbox"}
-    - {url: "/library/toolbox/featured", title: "Featured"}
 ---
 
 | Property | Detail |

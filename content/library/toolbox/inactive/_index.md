@@ -2,13 +2,11 @@
 title: 我不再使用的工具
 sort_by: date
 sort_direction: decending
+weight: 3
 template: library.html
 page_template: library_page.html
 extra: 
-    breadcrumbs: 
-    - {url: "/library", title: "Library"}
-    - {url: "/library/toolbox", title: "Toolbox"}
-    - {url: "/library/toolbox/inactive", title: "Inactive"}
+    bread_name: Inactive
 ---
 
 這個類別裡放的，是我曾經花很多時間使用，但目前已經不再使用的工具。

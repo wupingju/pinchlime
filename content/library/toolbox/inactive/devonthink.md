@@ -3,11 +3,6 @@ title: DEVONthink
 description: DEVONthink 是一個蠻老牌的知識管理軟體，使用者可以在裡面儲存文件與資訊，管理檔案，撰寫筆記與文章，另外它也提供了蠻強的 AI 功能，適合有「大量收集與整理資訊」需求的人。
 date: 2022-07-30
 updated: 2022-07-30
-extra: 
-    breadcrumbs: 
-    - {url: "/library", title: "Library"}
-    - {url: "/library/toolbox", title: "Toolbox"}
-    - {url: "/library/toolbox/inactive", title: "Inactive"}
 ---
 
 

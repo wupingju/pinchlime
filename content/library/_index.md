@@ -1,12 +1,10 @@
 ---
 title: Pin 起來的收集箱
-sort_by: date
-sort_direction: decending
+sort_by: weight
 template: library.html
 page_template: library_page.html
 extra: 
-    breadcrumbs: 
-    - {url: "/library", title: "Library"}
+    bread_name: Library
 ---
 
 這個頁面專區是「Pin 起來的收集箱」。

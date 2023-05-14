@@ -3,11 +3,6 @@ title: Logseq
 description: Logseq 是一個無限層級的大綱軟體，以每日紀錄為核心，有著完整的雙向連結功能，鍵盤操作體驗相當順暢，並且檔案格式是最輕便可攜的 markdown 格式，一切都存放於自己的本機資料夾中。
 date: 2022-07-30
 updated: 2022-07-30
-extra: 
-    breadcrumbs: 
-    - {url: "/library", title: "Library"}
-    - {url: "/library/toolbox", title: "Toolbox"}
-    - {url: "/library/toolbox/inactive", title: "Inactive"}
 ---
 
 | Property | Detail |
