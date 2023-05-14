@@ -74,6 +74,12 @@
 <span>＃{{page.extra.issues }} </span><a href="{{ page.permalink }}">{{ page.title }}</a><br>
 {% endmacro newsletters_side %}
 
+{% macro library_side(page) %}
+<li>
+<a href="{{ page.permalink }}">{{ page.title }}</a>
+</li>
+{% endmacro library_side %}
+
 {% macro page_toc(toc)%}
 <section class="sidebar-table-content">
   <ul >
