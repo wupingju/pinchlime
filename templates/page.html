@@ -21,7 +21,6 @@
 {% block description %}{% if page.description %} {{ page.description }} {% elif page.summary %} {{page.summary | spaceless | striptags}}  {% endif %}{% endblock description %}
 {% block ogurl %}{% if page.path %}{{ config.base_url }}{{ page.path }} {% endif %}{% endblock ogurl %}
 {% block ogimg %}{% if page.extra.image %}{{ page.extra.image }}{% endif %}{% endblock ogimg %}
-
 {% block main %}
 <div class="element">
       {% block detail_meta -%}
@@ -75,8 +74,8 @@
           <section id="backlinks">
             {{ macro::backlink(pages=page.backlinks) }}
           </section>
-          <hr>
           {% block outro %}
+          <hr>
           {% if config.extra.email %}
           <br>
           <section id="contact">
@@ -90,6 +89,7 @@
           </section>
           {% endif %}
           {% endblock outro %}
+          {% block comments %}
           <section id="cusdis">
             <h3>Write your comment</h3>
             <br>
@@ -103,6 +103,7 @@
             ></div>
             <script async defer src="https://comments.pinchlime.com/js/cusdis.es.js"></script>
           </section>
+          {% endblock comments %}
 </div>
 {% endblock main%}
 
