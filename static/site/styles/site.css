@@ -61,15 +61,37 @@ iframe {
 }
 
 table {
+  width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
+  table-layout:auto; /* 這讓表格的寬度分配更均勻 */
+}
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  word-wrap: break-word; /* 這讓內容在必要的時候換行 */
+  overflow-wrap: break-word; /* 更現代的版本，同樣讓內容在必要的時候換行 */
 }
 
-td,
-th {
-  padding: 0;
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
-/* --reset end -- */
+
+table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+table th:first-child, table td:first-child {
+  width: 30%; /* 或者其他你希望的寬度 */
+}
+
+table th:nth-child(2), table td:nth-child(2) {
+  width: 70%; /* 或者其他你希望的寬度 */
+}
+table th {
+  background-color: #003C6D;
+  color: white;
+}
 
 html {
   font-size: 15px;
@@ -122,6 +144,13 @@ h3 {
   padding-bottom: 0.4rem;
   margin-bottom: 0.2rem;
   line-height: 1.6;
+  font-weight: bold;
+  position: relative;
+}
+h4 {
+  font-size: 1.3rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   font-weight: bold;
   position: relative;
 }
@@ -596,6 +625,128 @@ li.inline {
 .hamburger.active span:nth-child(2) {
   transform: scaleX(0);
 }
+/* 麵包屑導航樣式 230513 */
+div.pt {
+  font-size: 14px; /* 文字大小 */
+  color: #333; /* 文字颜色 */
+  margin: 10px 0; /* 边距 */
+  padding-top: -10rem;
+}
+
+div.pt span {
+  margin: 0 5px; /* 分隔符的左右边距 */
+}
+
+div.pt a {
+  color: #333; /* 链接颜色 */
+  text-decoration: none; /* 去除下划线 */
+}
+
+div.pt a:hover {
+  color: #0056b3; /* 鼠标悬停时的颜色 */
+}
+/* 麵包屑導航樣式end 230513 */
+/* library-sidebar 230511 */
+.nav-level-1 {
+  list-style-type: none;
+  width: 22.5rem;
+}
+.nav-level-2 {
+  list-style-type: none;
+  width: 23rem;
+}
+.nav-level-3 {
+  list-style-type: none;
+  width: 22.5rem;
+}
+
+.nav-level-1 > li {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-indent: 0.2rem;
+  margin-left: -1.5rem;
+}
+.nav-level-2 > li {
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-left: -3rem;
+  padding-left: 2.5rem;
+  text-indent: 0.5rem;
+}
+
+.nav-level-3 > li {
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-left: -3rem;
+  padding-left: 4rem;
+  text-indent: 0rem;
+  word-wrap: break-word;
+  max-width: 24.5rem;
+}
+.nav-level-1 > ul,
+.nav-level-2 > ul,
+.nav-level-3 > ul {
+  width: 20rem;
+}
+.nav-level-1 a,
+.nav-level-2 a,
+.nav-level-3 a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding-left: 1rem;
+  margin-left: -1rem;
+}
+
+.nav-level-1 a:hover,
+.nav-level-2 a:hover,
+.nav-level-3 a:hover {
+  background-color: #e8e8e8;
+}
+
+.nav-toggle {
+  cursor: pointer;
+  max-width: 100%;
+}
+.nav-toggle h3 {
+  display: inline-block;
+  width: 20.3rem; /* 调整宽度以便箭头显示 */
+}
+.nav-toggle h4 {
+  display: inline-block;
+  width: 19.5rem; /* 调整宽度以便箭头显示 */
+}
+.nav-toggle:hover {
+  background-color: #ddd;
+}
+.nav-toggle:hover a {
+  background-color: inherit;
+}
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  padding: 4px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transition: transform 0.2s ease-out;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transition: transform 0.2s ease-out;
+}
+.nav-hidden {
+  display: none;
+}
+.sidebar-element.active {
+  background-color: #ddd;
+}
+/* library-sidebar end 230511 */
 
 @media (min-width: 52rem) {
   #root {
@@ -609,7 +760,7 @@ li.inline {
   .element {
     width: 100%;
     background-color: #fff;
-    padding: 2.4rem 4rem;
+    padding: 1rem 4rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
     max-width: 52rem;
     min-width: 24rem;
@@ -662,6 +813,27 @@ li.inline {
     font-size: 1rem;
     /* font-weight: 400; */
     padding-bottom: 1rem;
+    border: none;
+  }
+  #library-sidebar ul {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  #library-sidebar li {
+    font-size: 1.0rem;
+    margin-bottom: 0rem;
+    padding-right: 0rem;
+  }
+  #library-sidebar h2,
+  #library-sidebar h3,
+  #library-sidebar h4 {
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-size: 1rem;
+    font-weight:500;
     border: none;
   }
 }
@@ -791,5 +963,12 @@ li.inline {
 
   .navbar-name {
     display: none;
+  }
+  #library-sidebar {
+    display: none;
+  }
+  table {
+    max-width: 24rem;
+    table-layout: fixed;
   }
 }
