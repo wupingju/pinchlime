@@ -1,16 +1,23 @@
 ---
 title: DEVONthink
-description: 
-draft: true
+description: DEVONthink 是一個蠻老牌的知識管理軟體，使用者可以在裡面儲存文件與資訊，管理檔案，撰寫筆記與文章，另外它也提供了蠻強的 AI 功能，適合有「大量收集與整理資訊」需求的人。
 date: 2022-07-30
 updated: 2022-07-30
+extra: 
+    breadcrumbs: 
+    - {url: "/library", title: "Library"}
+    - {url: "/library/toolbox", title: "Toolbox"}
+    - {url: "/library/toolbox/inactive", title: "Inactive"}
 ---
 
 
-[DEVONthink](https://www.devontechnologies.com/apps/devonthink)  
-★★★★★｜買斷制｜macOS & iOS  
-類別：收集＆吸收｜處理＆輸出｜歸檔＆回顧  
-定位：第二大腦的儲存空間，儲存我所有想保留的、之後想再度利用的資訊
+| Property | Detail |
+| --- | --- |
+| Website | <https://www.devontechnologies.com/apps/devonthink> |
+| Platform | macOS & iOS |
+| Pricing | 買斷制，基本版 $99 usd， Pro 版 $199 usd |
+| Description | 第二大腦的儲存空間，儲存我所有想保留的、之後想再度利用的資訊 |
+
 
 簡介：DEVONthink 是一個蠻老牌的**知識管理軟體**，使用者可以在裡面儲存文件與資訊，管理檔案，撰寫筆記與文章，另外它也提供了蠻強的 AI 功能，適合有「大量收集與整理資訊」需求的人。
 

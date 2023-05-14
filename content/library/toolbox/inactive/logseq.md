@@ -1,15 +1,21 @@
 ---
 title: Logseq
-description: 
-draft: true
+description: Logseq 是一個無限層級的大綱軟體，以每日紀錄為核心，有著完整的雙向連結功能，鍵盤操作體驗相當順暢，並且檔案格式是最輕便可攜的 markdown 格式，一切都存放於自己的本機資料夾中。
 date: 2022-07-30
 updated: 2022-07-30
+extra: 
+    breadcrumbs: 
+    - {url: "/library", title: "Library"}
+    - {url: "/library/toolbox", title: "Toolbox"}
+    - {url: "/library/toolbox/inactive", title: "Inactive"}
 ---
 
-[Logseq](https://logseq.com)  
-★★★★★｜免費｜macOS  
-類別：收集＆吸收｜處理＆輸出  
-定位：透過每日紀錄串連的第二大腦
+| Property | Detail |
+| --- | --- |
+| Website | <https://logseq.com> |
+| Platform | 全平台（無 Web 版）|
+| Pricing | 基本使用免費 |
+| Description | 透過每日紀錄串連的第二大腦 |
 
 簡介：Logseq 是一個無限層級的大綱軟體，以每日紀錄為核心，有著完整的雙向連結功能，鍵盤操作體驗相當順暢，並且檔案格式是最輕便可攜的 markdown 格式，一切都存放於自己的本機資料夾中。
 
