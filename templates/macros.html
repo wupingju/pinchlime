@@ -148,3 +148,93 @@
   </section>
 {% endif %}
 {% endmacro backlink %}
+{% macro section_links(section) %}
+<li>
+  <a href="{{ section.permalink }}">{{ section.title }}</a>
+  <ul>
+    {% for subsection_path in section.subsections %}
+      {% set subsection = get_section(path=subsection_path) %}
+      <li><a href="{{ subsection.permalink }}">{{ subsection.title }}</a></li>
+    {% endfor %}
+  </ul>
+</li>
+{% endmacro section_links %}
+
+{% macro breadcrumb_link(path) %}
+{% set trimmed_path = path | trim_start_matches(pat="/") | trim_end_matches(pat="/_index.md") %}
+{% set modified_path = trimmed_path ~ "/_index.md" %}
+{% set section = get_section(path=modified_path) %}
+<a href="{{ section.permalink }}">{{ section.extra.bread_name }}</a>
+{% endmacro breadcrumb_link %}
+
+{% macro breadcrumbs(current_section) %}
+<div class="pt" style="padding-bottom: 1rem;">
+  {% for path in current_section.ancestors %}
+    {% if path != "_index.md" %}
+      {{ macro::breadcrumb_link(path=path) }}
+      <span>></span>
+    {% endif %}
+  {% endfor %}
+  {{ macro::breadcrumb_link(path=current_section.path) }}
+</div>
+{% endmacro breadcrumbs %}
+
+{% macro page_breadcrumb_link(paths, current_index) %}
+{% if current_index < paths | length - 1 %}
+{% set paths_part = paths | slice(end=current_index + 1) | join(sep="/") %}
+{% set modified_path = paths_part ~ "/_index.md" %}
+{% set section = get_section(path=modified_path) %}
+<a href="{{ section.permalink }}">{{ section.extra.bread_name }}</a>
+{% else %}
+{% set page_name = paths[current_index] | replace(from=".md", to="") | title %}
+<a href="#">{{ page_name }}</a>
+{% endif %}
+{% endmacro page_breadcrumb_link %}
+
+{% macro page_breadcrumbs(current_page) %}
+<div class="pt" style="padding-bottom: 1rem;">
+  {% set paths = current_page.components %}
+  {% for i in range(end=paths | length) %}
+    {% if paths[i] != "_index.md" %}
+      {{ macro::page_breadcrumb_link(paths=paths, current_index=i) }}
+      {% if not loop.last %}
+        <span>></span>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
+{% endmacro page_breadcrumbs %}
+
+{% macro render_sidebar(section) %}
+    <ul class="nav-level-1">
+        {% for child_path in section.subsections %}
+            {% set child = get_section(path=child_path) %}
+            <li>
+                <div class="nav-toggle">
+                    <h3><a href="{{ child.permalink }}">{{ child.extra.bread_name }}</a></h3>
+                    <span class="arrow right"></span>
+                </div>
+                {% if child.subsections %}
+                    <ul class="nav-level-2 nav-hidden">
+                        {% for grandchild_path in child.subsections %}
+                            {% set grandchild = get_section(path=grandchild_path) %}
+                            <li>
+                                <div class="nav-toggle">
+                                    <h4><a href="{{ grandchild.permalink }}">{{ grandchild.extra.bread_name }}</a></h4>
+                                    <span class="arrow right"></span>
+                                </div>
+                                {% if grandchild.pages %}
+                                    <ul class="nav-level-3 nav-hidden">
+                                        {% for page in grandchild.pages | slice(start=0,end=10) %}
+                                            <li>{{ macro::library_side(page=page) }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endmacro render_sidebar %}

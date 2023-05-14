@@ -1,14 +1,6 @@
 {% extends "page.html" -%}
 {% block breadcrumbs -%}
-<div class="pt" style="padding-bottom: 1rem;">
-  <span>>></span>
-  {% for breadcrumb in page.extra.breadcrumbs %}
-    <a href="{{ breadcrumb.url }}">{{ breadcrumb.title }}</a>
-    {% if not loop.last %}
-      <span>></span>
-    {% endif %}
-  {% endfor %}
-</div>
+{{ macro::page_breadcrumbs(current_page=page) }}
 {% endblock breadcrumbs %}
 {% block nav_bar %}
 <nav class="navbar-top">
@@ -41,66 +33,13 @@
 {% endblock nav_bar %}
 {% block comments %}{% endblock comments %}
 {% block outro %}{% endblock outro %}
-
 {% block sidebar %}
+{% set_global library_sidebar_section = get_section(path="library/_index.md") %}
 <aside class="sidebar" id="library-sidebar">
   <body>
     <div class="sidebar-element">
       <h2><a href="/library">Pin 起來的收集箱</a></h2>
-      <ul class="nav-level-1">
-        <li>
-          <div class="nav-toggle">
-          <h3>
-            <a href="/library/toolbox">Toolbox</a>
-          </h3>
-            <span class="arrow right"></span>
-          </div>
-          <ul class="nav-level-2 nav-hidden">
-            <li>
-              <div class="nav-toggle">
-                <h4>
-                  <a href="/library/toolbox/featured">Featured</a>
-                </h4>
-                  <span class="arrow right"></span>
-              </div>
-              <ul class="nav-level-3 nav-hidden">
-                {% set all_library_outdated_pages = get_section(path="library/toolbox/featured/_index.md") -%}
-                {% for page in all_library_outdated_pages.pages | slice(start=0,end=10)  %} 
-                  {{ macro::library_side(page=page) }}
-                {% endfor %} 
-              </ul>
-            </li>
-            <li>
-              <div class="nav-toggle">
-                <h4>
-                  <a href="/library/toolbox/active">Active</a>
-                </h4>
-                  <span class="arrow right"></span>
-              </div>
-              <ul class="nav-level-3 nav-hidden">
-                {% set all_library_outdated_pages = get_section(path="library/toolbox/active/_index.md") -%}
-                {% for page in all_library_outdated_pages.pages | slice(start=0,end=10)  %} 
-                  {{ macro::library_side(page=page) }}
-                {% endfor %} 
-              </ul>
-            </li>
-            <li>
-              <div class="nav-toggle">
-              <h4>
-                <a href="/library/toolbox/inactive">Inactive</a>
-              </h4>
-                <span class="arrow right"></span>
-              </div>
-              <ul class="nav-level-3 nav-hidden">
-                {% set all_library_outdated_pages = get_section(path="library/toolbox/inactive/_index.md") -%}
-                {% for page in all_library_outdated_pages.pages | slice(start=0,end=10)  %} 
-                  {{ macro::library_side(page=page) }}
-                {% endfor %} 
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
+      {{ macro::render_sidebar(section=library_sidebar_section) }}
     </div>
   </body>
 </aside>
