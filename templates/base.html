@@ -130,7 +130,7 @@
     <section id="root" >
       {% block body_zone -%}
       <main class="body-zone flex justify-between flex-1">
-          <section class="main flex-1 py">
+          <section id="main" class="main flex-1 py">
             <div>
               {% block main %}
               {% endblock main %}
@@ -155,5 +155,7 @@
         });
       });
     </script>
+    {% block custom_script %}
+    {% endblock custom_script -%}
   </body>
 </html>
