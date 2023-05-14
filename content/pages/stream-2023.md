@@ -10,6 +10,10 @@ template: stream.html
 ## 2023
 
 ### May
+{% fleet(num="38",time="May 14 20:38",year="2023") %}
+經過一週的努力，建成了一個新的站內 section ： <a href="/library">Library</a>，接下來會先努力填補內容。感謝 ChatGPT 的協助，沒有你我沒辦法完成這個東西。
+{% end %}
+
 {% fleet(num="37",time="May 07 16:19",year="2023") %}
 為了放未來的照片，開了一個新的 Flickr 帳號！<br>歡迎參觀<a href="https://www.flickr.com/photos/pj_wu_pj">我的 Flickr 頁面</a>。
 {% end %}
