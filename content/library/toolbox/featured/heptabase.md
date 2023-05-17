@@ -1,8 +1,9 @@
 ---
 title: Heptabase
-description: 
+description: Heptabase 對我來說是當前市面上最符合我需求的「個人知識管理工具」，無論是拿來做筆記、思考、或者是學習新知，它在「輸入、處理、輸出」這三個讓「資訊」成為「知識」的不同階段上，都表現得很好，而且越來越好。
 date: 2022-07-30
-updated: 2022-07-30
+updated: 2023-05-15
+path: library/heptabase
 ---
 
 | Property | Detail |

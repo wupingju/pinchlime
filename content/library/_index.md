@@ -3,6 +3,7 @@ title: Pin 起來的收集箱
 sort_by: weight
 template: library.html
 page_template: library_page.html
+weight: 1
 extra: 
     bread_name: Library
 ---
