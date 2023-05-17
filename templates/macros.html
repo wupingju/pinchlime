@@ -179,31 +179,28 @@
 </div>
 {% endmacro breadcrumbs %}
 
-{% macro page_breadcrumb_link(paths, current_index) %}
-{% if current_index < paths | length - 1 %}
-{% set paths_part = paths | slice(end=current_index + 1) | join(sep="/") %}
-{% set modified_path = paths_part ~ "/_index.md" %}
-{% set section = get_section(path=modified_path) %}
-<a href="{{ section.permalink }}">{{ section.extra.bread_name }}</a>
-{% else %}
-{% set page_name = paths[current_index] | replace(from=".md", to="") | title %}
-<a href="#">{{ page_name }}</a>
-{% endif %}
+{% macro page_breadcrumb_link(path) %}
+  {% set section = get_section(path=path) %}
+  <a href="{{ section.permalink }}">{{ section.extra.bread_name }}</a>
 {% endmacro page_breadcrumb_link %}
 
-{% macro page_breadcrumbs(current_page) %}
+{% macro page_breadcrumbs(page) %}
 <div class="pt" style="padding-bottom: 1rem;">
-  {% set paths = current_page.components %}
-  {% for i in range(end=paths | length) %}
-    {% if paths[i] != "_index.md" %}
-      {{ macro::page_breadcrumb_link(paths=paths, current_index=i) }}
-      {% if not loop.last %}
-        <span>></span>
-      {% endif %}
+  {% for path in page.ancestors %}
+    {% if path != "_index.md" %}
+      {{ macro::page_breadcrumb_link(path=path) }}
+      <span>></span>
     {% endif %}
   {% endfor %}
+  {% set current_page = get_page(path=page.relative_path) %}
+  <a href="{{ page.permalink }}">{{ current_page.title }}</a>
 </div>
 {% endmacro page_breadcrumbs %}
+
+
+
+
+
 
 {% macro render_sidebar(section) %}
     <ul class="nav-level-1">
