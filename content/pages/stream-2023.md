@@ -3,13 +3,18 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-05-07
+updated: 2023-05-18
 template: stream.html
 ---
 
 ## 2023
 
 ### May
+
+{% fleet_q(num="39",time="May 18 21:25",year="2023",source_name="左耳朵耗子的话",link="https://mp.weixin.qq.com/s/bOnW8gDJ-dXp4KbAjhDw9A") %}
+<quote>所以你需要站在一个天天都有风吹的地方，比如说你选对了计算机专业，这就是一个风不停地吹的地方。过去也好，今天也好，未来也好，整个世界都是被一堆程序员驱动，就是这些写代码的人在改变着未来。</quote>
+{% end %}
+
 {% fleet(num="38",time="May 14 20:38",year="2023") %}
 經過一週的努力，建成了一個新的站內 section ： <a href="/library">Library</a>，接下來會先努力填補內容。感謝 ChatGPT 的協助，沒有你我沒辦法完成這個東西。
 {% end %}
