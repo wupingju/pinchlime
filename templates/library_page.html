@@ -63,6 +63,10 @@
               const parsedDocument = parser.parseFromString(html, "text/html");
               const mainContent = parsedDocument.querySelector("#main");
 
+              // 更新頁籤的標題
+              const title = parsedDocument.querySelector('title').innerText;
+              document.title = title;
+              
               if (mainContent) {
                 targetElement.innerHTML = mainContent.innerHTML;
               } else {
