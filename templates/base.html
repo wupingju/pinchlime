@@ -80,6 +80,11 @@
       name="twitter:image:alt"
       content="{% block ogaltimg %}{{ config.title }}{% endblock ogaltimg %}" />
     {% endif %}
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
     {% block post_meta %}{% endblock post_meta %}
   </head>
 
@@ -154,6 +159,11 @@
           mobileMenu.classList.toggle("show");
         });
       });
+    </script>
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+      // Your custom options
+    });
     </script>
     {% block custom_script %}
     {% endblock custom_script -%}
