@@ -25,7 +25,7 @@ path: library/chatgpt
 ## 簡介
 2022 年尾聲出現的 ChatGPT 目前已經成為我每天不可或缺的工具。它有網頁版本，也有 API 版本。
 
-我會把相關的使用技巧、案例、各種心得，都慢慢彙整在站內的 [ChatGPT 清單](library/chatgpt-list)，歡迎參考。
+我會把相關的使用技巧、案例、各種心得，都慢慢彙整在站內的 [ChatGPT 清單](/library/chatgpt-list)，歡迎參考。
 
 
 整體來說，ChatGPT 對我來說最大的意義是：
