@@ -113,7 +113,9 @@ extra:
 
 今天想分享的新東西是 [Working Copy](https://workingcopyapp.com/) 這個 iOS/iPad OS 上面的 app 。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/working-copy_qO6Bbm.webp" width = "768" height = "637" alt="logseq-publish-demo" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/working-copy_qO6Bbm.webp" data-fancybox data-caption="logseq-publish-demo">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/working-copy_qO6Bbm.webp" width="768" height="637" alt="logseq-publish-demo" align="center" />
+</a>
 
 他是一個 "Git client" ，在此不特別展開介紹什麼是 "Git" ，可以先簡化理解成， Working Copy 可以讓使用者在手機上也執行各種 Git 的版本控管指令。
 

@@ -14,8 +14,10 @@ Hi 大家好，歡迎回到 Pin 起來電子報。前兩個禮拜都沒寄信，
 
 今天的第一段想先來分享一下這兩天對電子報的新想法。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/empowered-by-chatgpt_H2Ranj.webp" loading="lazy" alt="Abstract Language, Technology, Abstract, Futuristic, grayscale , Digital, by monochromatic 4k --ar 3:2 --v 5" align=center />
-<br>
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/empowered-by-chatgpt_H2Ranj.webp" data-fancybox data-caption="Abstract Language, Technology, Abstract, Futuristic, grayscale, Digital, by monochromatic 4k --ar 3:2 --v 5">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/empowered-by-chatgpt_H2Ranj.webp" loading="lazy" alt="Abstract Language, Technology, Abstract, Futuristic, grayscale, Digital, by monochromatic 4k --ar 3:2 --v 5" align="center" />
+</a>
+
 
 <!-- more -->
 

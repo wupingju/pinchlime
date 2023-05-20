@@ -16,7 +16,9 @@ Now page 與 About 頁面的差別在於， About 頁面呈現的是我過去的
 
 但 Now 頁面會更頻繁更新，放的是我現在關注的事以及我正在進行的事。這些事聚集在一起，指向的是我想達到的未來。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/now-for-the-future_3Ly5Zu.webp" loading="lazy" alt="now-for-the-future" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/now-for-the-future_3Ly5Zu.webp" data-fancybox data-caption="now-for-the-future">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/now-for-the-future_3Ly5Zu.webp" loading="lazy" alt="now-for-the-future" align="center" />
+</a>
 <br>
 
 

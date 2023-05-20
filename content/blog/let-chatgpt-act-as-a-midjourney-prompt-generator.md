@@ -61,7 +61,9 @@ Here is the user input: {{input}}
 
 "a cozy dog in the backyard, warm tones, soft focus, tranquil, vintage, rustic, golden hour, natural light, nostalgic, 4k --ar 3:2 --v 5"
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_a_cozy_dog_in_the_backyard_warm_tones_soft_focus_tranquil_e6c7266c-5998-400b-a354-737b11487b14_Fl44uD.webp" loading="lazy" alt="a cozy dog in the backyard, warm tones, soft focus, tranquil, vintage, rustic, golden hour, natural light, nostalgic, 4k --ar 3:2 --v 5" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_a_cozy_dog_in_the_backyard_warm_tones_soft_focus_tranquil_e6c7266c-5998-400b-a354-737b11487b14_Fl44uD.webp" data-fancybox data-caption="a cozy dog in the backyard, warm tones, soft focus, tranquil, vintage, rustic, golden hour, natural light, nostalgic, 4k --ar 3:2 --v 5">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_a_cozy_dog_in_the_backyard_warm_tones_soft_focus_tranquil_e6c7266c-5998-400b-a354-737b11487b14_Fl44uD.webp" loading="lazy" alt="a cozy dog in the backyard, warm tones, soft focus, tranquil, vintage, rustic, golden hour, natural light, nostalgic, 4k --ar 3:2 --v 5" align="center" />
+</a>
 
 <br>
 
@@ -69,7 +71,9 @@ Here is the user input: {{input}}
 
 "a cozy dog in the backyard, playful, greenery, sunlit, bokeh, candid, organic, lush, peaceful, 4k --ar 3:2 --v 5"
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_a_cozy_dog_in_the_backyard_playful_greenery_sunlit_bokeh__ccea284a-35f4-4c19-a10a-8ee76859e40b_UQWct1.webp" loading="lazy" alt="a cozy dog in the backyard, playful, greenery, sunlit, bokeh, candid, organic, lush, peaceful, 4k --ar 3:2 --v 5" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_a_cozy_dog_in_the_backyard_playful_greenery_sunlit_bokeh__ccea284a-35f4-4c19-a10a-8ee76859e40b_UQWct1.webp" data-fancybox data-caption="a cozy dog in the backyard, playful, greenery, sunlit, bokeh, candid, organic, lush, peaceful, 4k --ar 3:2 --v 5">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_a_cozy_dog_in_the_backyard_playful_greenery_sunlit_bokeh__ccea284a-35f4-4c19-a10a-8ee76859e40b_UQWct1.webp" loading="lazy" alt="a cozy dog in the backyard, playful, greenery, sunlit, bokeh, candid, organic, lush, peaceful, 4k --ar 3:2 --v 5" align="center" />
+</a>
 
 <br>
 
@@ -77,7 +81,9 @@ Here is the user input: {{input}}
 
 "a cozy dog in the backyard, hygge, serene, pastel colors, gentle, textured, inviting, cottagecore, charming, 4k --ar 3:2 --v 5"
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_a_cozy_dog_in_the_backyard_hygge_serene_pastel_colors_gen_4509af04-7faa-454a-90c2-bf34a9be627b_hBDTmF.webp" loading="lazy" alt="a cozy dog in the backyard, hygge, serene, pastel colors, gentle, textured, inviting, cottagecore, charming, 4k --ar 3:2 --v 5" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_a_cozy_dog_in_the_backyard_hygge_serene_pastel_colors_gen_4509af04-7faa-454a-90c2-bf34a9be627b_hBDTmF.webp" data-fancybox data-caption="a cozy dog in the backyard, hygge, serene, pastel colors, gentle, textured, inviting, cottagecore, charming, 4k --ar 3:2 --v 5">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_a_cozy_dog_in_the_backyard_hygge_serene_pastel_colors_gen_4509af04-7faa-454a-90c2-bf34a9be627b_hBDTmF.webp" loading="lazy" alt="a cozy dog in the backyard, hygge, serene, pastel colors, gentle, textured, inviting, cottagecore, charming, 4k --ar 3:2 --v 5" align="center" />
+</a>
 
 <br>
 
@@ -85,8 +91,9 @@ Here is the user input: {{input}}
 
 而若只是單純貼上 “a cozy dog in the backyard” ，V5 版本的 Midjourney 跑出來的圖則是這樣（好啦，也很棒）：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_a_cozy_dog_in_the_backyard_72552e35-d1a0-4415-a218-751b554d1809_5WzqZ6.webp" loading="lazy" alt="a cozy dog in the backyard" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_a_cozy_dog_in_the_backyard_72552e35-d1a0-4415-a218-751b554d1809_5WzqZ6.webp" data-fancybox data-caption="a cozy dog in the backyard">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_a_cozy_dog_in_the_backyard_72552e35-d1a0-4415-a218-751b554d1809_5WzqZ6.webp" loading="lazy" alt="a cozy dog in the backyard" align="center" />
+</a>
 
 第一次嘗試做這個產生器就有這樣的效果，我已經相當滿意了，但我覺得那個初版的 prompt 只是一個起點，一定可以有更好的版本，所以我接著來分享一下這個 prompt 背後的思路！
 
@@ -124,7 +131,9 @@ Here is the user input: {{input}}
 
 例如，我用產生器測試了 “car, cyberpunk style” ，結果 prompt 產生器給了我這段：” cyberpunk style, car, neon, futuristic, glowing, chrome, metallic, smoke, city, monochromatic, hologram “ ，然後跑出的圖是下面這組我非常滿意的圖：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_cyberpunk_style_car_neon_futuristic_glowing_chrome_metall_2b2479f3-0469-483c-ae7e-e02c9df018e5_AfsRcz.webp" loading="lazy" alt="cyberpunk style, car, neon, futuristic, glowing, chrome, metallic, smoke, city, monochromatic, hologram" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_cyberpunk_style_car_neon_futuristic_glowing_chrome_metall_2b2479f3-0469-483c-ae7e-e02c9df018e5_AfsRcz.webp" data-fancybox data-caption="cyberpunk style, car, neon, futuristic, glowing, chrome, metallic, smoke, city, monochromatic, hologram">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_cyberpunk_style_car_neon_futuristic_glowing_chrome_metall_2b2479f3-0469-483c-ae7e-e02c9df018e5_AfsRcz.webp" loading="lazy" alt="cyberpunk style, car, neon, futuristic, glowing, chrome, metallic, smoke, city, monochromatic, hologram" align="center" />
+</a>
 
 只要這樣跑個幾輪，把提供給 ChatGPT 的「範例」換上你實踐過，喜歡的「邏輯對應關係」，你就可以大幅強化這個產生器的能力。
 
@@ -148,4 +157,6 @@ Here is the user input: {{input}}
 
 最後附上一張我透過這個產生器產的圖，歡迎猜猜我是用什麼關鍵字產的！
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/secret_SEkJBl.webp" loading="lazy" alt="secret" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/secret_SEkJBl.webp" data-fancybox data-caption="secret">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/secret_SEkJBl.webp" loading="lazy" alt="secret" align="center" />
+</a>

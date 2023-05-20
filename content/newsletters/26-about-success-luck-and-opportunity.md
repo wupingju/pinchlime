@@ -8,7 +8,9 @@ extra:
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/limitless-opportunities_NMXjPk.webp
 ---
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/limitless-opportunities_NMXjPk.webp" loading="lazy" alt="limitless-opportunities" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/limitless-opportunities_NMXjPk.webp" data-fancybox data-caption="limitless-opportunities">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/limitless-opportunities_NMXjPk.webp" loading="lazy" alt="limitless-opportunities" align="center" />
+</a>
 
 `圖片來源：Midjourney, prompt: "Limitless Opportunities", abstract, motion graphics, bold colors, dynamic shapes, fast-paced, energetic, futuristic, --ar 1200:630 --v 5`
 

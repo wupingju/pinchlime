@@ -23,7 +23,7 @@ extra:
 在那時，我可以一天拍掉好幾卷底片，甚至是為了看自己拍的某幾張照片的效果，快門亂按一通，就趕快跑去社辦，然後鎖上門，開始把底片捲到片軸上，放到沖片罐，加入調好比例的顯影液，計時，放音樂，聽著水流拍打沖片罐的聲音。那時真的是好快樂。
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/random-b-and-w_fuq7e8.webp" data-fancybox data-caption="random-b-and-w">
-  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/random-b-and-w_fuq7e8.webp" />
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/random-b-and-w_fuq7e8.webp" loading="lazy" alt="random-b-and-w" align="center" />
 </a>
 
 `圖片來源：我，應該是用 Minolta TC-1 搭配 Kodak Double X 拍攝，自己沖，再掃描成數位影像。`
@@ -69,7 +69,7 @@ extra:
 我看了以後完全被「純黑白相機」的高感光度表現嚇到了，如下圖，即使 ISO 開到 50,000 ，黑白相機幾乎還是沒有什麼噪點，這意味著黑白相機可以在較暗的場合表現得更好。
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/Q2-vs-Q2M-Vinegar-ISO-50000_SPeuBO.webp" data-fancybox data-caption="Q2-vs-Q2M-Vinegar-ISO-50000">
-  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/Q2-vs-Q2M-Vinegar-ISO-50000_SPeuBO.webp" />
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/Q2-vs-Q2M-Vinegar-ISO-50000_SPeuBO.webp" loading="lazy" alt="Q2-vs-Q2M-Vinegar-ISO-50000" align="center" />
 </a>
 
 <code>圖片來源：<a href="https://www.reddotforum.com/content/2021/02/bw-iso-showdown-2021-leica-q2-monochrom-vs-m10-monochrom-vs-q2-vs-m10-r">B&W ISO Showdown 2021: Leica Q2 Monochrom / M10 Monochrom / Q2 / M10-R | Red Dot Forum</a></code>

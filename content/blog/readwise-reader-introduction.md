@@ -10,7 +10,9 @@ taxonomies:
     - Readwise Reader
 ---
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/readwise-reader_7e6hi8.webp" loading="lazy" alt="readwise-reader" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/readwise-reader_7e6hi8.webp" data-fancybox data-caption="readwise-reader">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/readwise-reader_7e6hi8.webp" loading="lazy" alt="readwise-reader" align="center" />
+</a>
 
 （_圖來自 [Readwise Reader 官網](https://readwise.io/read)_）
 
@@ -41,7 +43,9 @@ taxonomies:
 * YouTube 影片
 * 還可以自行上傳 PDF 跟 epub 電子書
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/readwise-reader-layout_R2l5UR.webp" loading="lazy" alt="readwise-reader-layout" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/readwise-reader-layout_R2l5UR.webp" data-fancybox data-caption="readwise-reader-layout">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/readwise-reader-layout_R2l5UR.webp" loading="lazy" alt="readwise-reader-layout" align="center" />
+</a>
 
 - 圖說：Readwise Reader 的主介面，左邊的編號 1 是不同類型的內容入口，上方的編號 2 是該類型的內部分類與篩選介面，右方的編號 3 是該篇文章的資訊與筆記區。
 

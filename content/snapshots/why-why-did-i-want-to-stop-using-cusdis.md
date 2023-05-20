@@ -52,7 +52,9 @@ taxonomies:
 
 全部都完成後，就成功了！只要有新的留言出現，官方的 chatbot 就會通知我有人留言，並且提供我一個 approve link ，如下圖：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cusdis-approve-link_C1sZmK.webp" loading="lazy" alt="cusdis-approve-link" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cusdis-approve-link_C1sZmK.webp" data-fancybox data-caption="cusdis-approve-link">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cusdis-approve-link_C1sZmK.webp" loading="lazy" alt="cusdis-approve-link" align="center" />
+</a>
 
 這個 Link 點下去就，就會跳出一個無須登入的視窗，可以審核留言，也可以直接以網站主的身分回應留言。（當時會選用 Cusdis 的其中一個原因就是覺得這個 link 很聰明也很方便，但一直用不了）
 

@@ -13,7 +13,10 @@ taxonomies:
 extra:
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cloudflare-web-analytics_Ju2RGs.webp
 ---
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cloudflare-web-analytics_Ju2RGs.webp" loading="lazy" alt="cloudflare-web-analytics" align=center />
+
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cloudflare-web-analytics_Ju2RGs.webp" data-fancybox data-caption="cloudflare-web-analytics">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cloudflare-web-analytics_Ju2RGs.webp" loading="lazy" alt="cloudflare-web-analytics" align="center" />
+</a>
 
 今天早上收到我在使用的追蹤工具 Umami 的通知，說 Umami Cloud 即將結束 Public Beta ，要開始正式上線，這也意味著要開始收費。
 
@@ -34,7 +37,8 @@ extra:
 
 追蹤幾個小時下來，看起來數據儀表板也是該有的都有，包含流量資訊、各頁面的分別數據、 Referers 等等。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cloudflare-web-analytics-dashboard_0hLUzO.webp" loading="lazy" alt="cloudflare-web-analytics-dashboard" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cloudflare-web-analytics-dashboard_0hLUzO.webp" data-fancybox data-caption="cloudflare-web-analytics-dashboard">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cloudflare-web-analytics-dashboard_0hLUzO.webp" loading="lazy" alt="cloudflare-web-analytics-dashboard" align="center" />
+</a>
 
 接下來打算讓他跑個一兩週看看數據跟 Umami 追蹤的有沒有什麼不一樣，若沒有太大落差，應該就會正式轉向 Cloudflare 了！

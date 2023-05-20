@@ -21,7 +21,9 @@ taxonomies:
 
 點開來以後會很像自己 Logseq graph 的樣子，可以有超連結、可以建立頁面、可以設定雙向連結，也可以看到 graph view 。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/logseq-publish-demo_li7WwB.webp" width = "768" height = "382" alt="logseq-publish-demo" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/logseq-publish-demo_li7WwB.webp" data-fancybox data-caption="logseq-publish-demo">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/logseq-publish-demo_li7WwB.webp" width="768" height="382" alt="logseq-publish-demo" align="center" />
+</a>
 
 這個頁面是 4 月底到 5 月初我自己的小小嘗試，透過這個嘗試我發現建立「個人 Wiki」有非常多優點，但 Logseq 還有一些不足的地方，因此後來我又找到了 [Dendron](https://www.dendron.so/) 這個工具來建立我自己的個人 wiki。（2022.12.25 後記：已關閉）
 
@@ -90,14 +92,18 @@ taxonomies:
 
 透過 Github Desktop 選擇「Create a New Repository」，幫它取個名字，並且在 "Local Path 這邊，選擇剛剛設定的 logseq-pub 資料夾。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/github-create-a-new-repository_33JKGw.webp" width = "768" height = "881" alt="github-create-a-new-repository" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/github-create-a-new-repository_33JKGw.webp" data-fancybox data-caption="github-create-a-new-repository">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/github-create-a-new-repository_33JKGw.webp" width="768" height="881" alt="github-create-a-new-repository" align="center" />
+</a>
 
 
 ### 步驟二：Publish repository
 
 選好之後按下 Create Repository 就好，接著在 Github Desktop 的右方可以看到「Publish repository」的按鈕，按下去就好。按下去以後，預設會把這個 repository 設定為「Private」，意思就是別人看不到你的資料，一開始建議可以先打勾。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/publish-repository_pgzwk6.webp" width = "768" height = "423" alt="publish-repository" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/publish-repository_pgzwk6.webp" data-fancybox data-caption="publish-repository">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/publish-repository_pgzwk6.webp" width="768" height="423" alt="publish-repository" align="center" />
+</a>
 
 此時你再登入自己的 Github 帳號，就會看到 "Repositories" 的地方，出現這個 "Logseq-Pub" 了。
 

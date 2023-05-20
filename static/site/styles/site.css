@@ -456,7 +456,6 @@ a.muted,
 .navbar-top {
   position: fixed;
   width: 100%;
-  border-bottom: 3px solid #e9edf0;
   color: #FFFFFF;
   background-color: #003C6D;
   z-index: 1100;

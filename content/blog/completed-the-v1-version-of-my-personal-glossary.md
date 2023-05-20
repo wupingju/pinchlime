@@ -44,7 +44,9 @@ taxonomies:
 而在一番調整與設定後，目前的成果會類似下圖這樣：
 
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/glossary-demo_jg0m8o.webp" loading="lazy" alt="glossary-demo" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/glossary-demo_jg0m8o.webp" data-fancybox data-caption="glossary-demo">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/glossary-demo_jg0m8o.webp" loading="lazy" alt="glossary-demo" align="center" />
+</a>
 
 
 由上往下的結構是：

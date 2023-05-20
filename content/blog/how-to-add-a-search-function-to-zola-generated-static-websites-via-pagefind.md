@@ -28,8 +28,9 @@ extra:
 
 以下簡單紀錄一下，為了幫網站加上站內搜索的功能，我做了什麼、中間遇到什麼挫折，最後又是怎麼辦到的？
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pagefind_MyUsEp.webp" loading="lazy" alt="pagefind" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pagefind_MyUsEp.webp" data-fancybox data-caption="pagefind">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pagefind_MyUsEp.webp" loading="lazy" alt="pagefind" align="center" />
+</a>
 
 （_圖來自 [Pagefind 官網](https://pagefind.app/)_）
 
@@ -90,12 +91,15 @@ run: npm_config_yes=true npx pagefind --source "public"
 最後我想到，何不問問 ChatGPT 呢？
 
 於是我問他下列內容：
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/ask-chatgpt-how-to-edit-netlify-toml_sfSs5D.webp" loading="lazy" alt="ask-chatgpt-how-to-edit-netlify-toml" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/ask-chatgpt-how-to-edit-netlify-toml_sfSs5D.webp" data-fancybox data-caption="ask-chatgpt-how-to-edit-netlify-toml">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/ask-chatgpt-how-to-edit-netlify-toml_sfSs5D.webp" loading="lazy" alt="ask-chatgpt-how-to-edit-netlify-toml" align="center" />
+</a>
 
 
 結果他回我：
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatgpt-answered-how-to-edit-netlify-toml_gtmRXN.webp" loading="lazy" alt="chatgpt-answered-how-to-edit-netlify-toml" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatgpt-answered-how-to-edit-netlify-toml_gtmRXN.webp" data-fancybox data-caption="chatgpt-answered-how-to-edit-netlify-toml">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatgpt-answered-how-to-edit-netlify-toml_gtmRXN.webp" loading="lazy" alt="chatgpt-answered-how-to-edit-netlify-toml" align="center" />
+</a>
 
 意思是，在 build 的指令那邊，可以透過 && ，把兩個指令連結在一起執行，這樣就可以達到我想要的「先 build zola，再 index，再 deploy 」的效果。
 
@@ -103,8 +107,9 @@ run: npm_config_yes=true npx pagefind --source "public"
 
 我照著做以後，真的就成功了，跑了十幾二十次失敗的 Netlify ，終於成功地 index 我的所有靜態網頁們。如下圖紅框內的內容。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/netlify-deploy-log-230114_dUOrSs.webp" loading="lazy" alt="netlify-deploy-log-230114" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/netlify-deploy-log-230114_dUOrSs.webp" data-fancybox data-caption="netlify-deploy-log-230114">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/netlify-deploy-log-230114_dUOrSs.webp" loading="lazy" alt="netlify-deploy-log-230114" align="center" />
+</a>
 
 而在確定可以順利 deploy 後，後續要做的事情就簡單很多了，只要照著 Pagefind 上面的教學，把對應的 prebuilt UI 相關程式碼放到網頁上，並且再額外設定一些內容，就順利完成了。
 
@@ -154,7 +159,9 @@ run: npm_config_yes=true npx pagefind --source "public"
 
 全部都處理好後，最終的搜尋效果我還蠻滿意的，可以看到下面的 gif 示意，他的搜尋非常即時，例如我搜尋 pagefind 時，會根據我輸的的字數從 pa → page → pagefind 而產出不同的搜尋結果。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pagefind-demo_hkBkdd.gif" loading="lazy" alt="pagefind-demo" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pagefind-demo_hkBkdd.gif" data-fancybox data-caption="pagefind-demo">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pagefind-demo_hkBkdd.gif" loading="lazy" alt="pagefind-demo" align="center" />
+</a>
 
 不過目前對於中文的支持度稍微差了一些，需要自己強制斷詞，才比較可以搜到想要的結果，但我覺得也很堪用了！
 

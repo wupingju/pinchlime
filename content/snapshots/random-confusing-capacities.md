@@ -14,7 +14,9 @@ taxonomies:
 
 1. 混亂，在 Features 頁面光這樣看，就覺得不知道這個東西的特色在哪。不同功能彼此之間的邏輯不清楚、重要性也不明確。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/capacities-features_lGyPZy.webp" loading="lazy" width = "1024" height = "1378" alt="capacities-features" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/capacities-features_lGyPZy.webp" data-fancybox data-caption="capacities-features">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/capacities-features_lGyPZy.webp" loading="lazy" width="1024" height="1378" alt="capacities-features" align="center" />
+</a>
 
 2. 複雜，光編輯器就充滿一堆功能選項，不知道要這麼多顏色幹嘛。
 

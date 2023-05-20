@@ -13,7 +13,9 @@ extra:
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/abstract-colon_i1BdaA.webp
 ---
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/abstract-colon_i1BdaA.webp" loading="lazy" alt="Abstract colon, glossy, iridescent, metallic, gradient, futuristic, surrealism, overlapping, abstract shapes. --ar 3:2 --v 5" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/abstract-colon_i1BdaA.webp" data-fancybox data-caption="Abstract colon, glossy, iridescent, metallic, gradient, futuristic, surrealism, overlapping, abstract shapes. --ar 3:2 --v 5">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/abstract-colon_i1BdaA.webp" loading="lazy" alt="Abstract colon, glossy, iridescent, metallic, gradient, futuristic, surrealism, overlapping, abstract shapes. --ar 3:2 --v 5" align="center" />
+</a>
 
 `圖片來源：Midjourney, prompt: Abstract colon, glossy, iridescent, metallic, gradient, futuristic, surrealism, overlapping, abstract shapes. --ar 3:2 --v 5`
 

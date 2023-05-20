@@ -31,4 +31,6 @@ taxonomies:
 
 最後附上一張經過三輪對話，ChatGPT 成功回答我喜歡的寶可夢有哪些的測試截圖。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-favorite-pokemons_bJCVQU.webp" loading="lazy" alt="my-favorite-pokemons" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-favorite-pokemons_bJCVQU.webp" data-fancybox data-caption="my-favorite-pokemons">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-favorite-pokemons_bJCVQU.webp" loading="lazy" alt="my-favorite-pokemons" align="center" />
+</a>

@@ -65,6 +65,8 @@ https://pinchlime.com/blog/article ，
 
 原先在考慮是否該使用「Backlinks」，但我覺得這個詞對於一般人來說可能有點陌生、無法理解，因此我還是參考了上面提到的 Andy Matuschak 網站，把這個區塊命名為「Links to this page」，並且參考 Owen 的程式碼，加上了數量的資訊，如下圖，這是「[迅速迭代功能的 Heptabase 已成為我最愛用的知識管理工具](@/blog/heptabase-has-already-become-my-favorite-pkm-tool.md)」這篇文顯示的 backlinks 區塊。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/backlinks-demo_fu67Vw.webp" loading="lazy" alt="backlinks-demo" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/backlinks-demo_fu67Vw.webp" data-fancybox data-caption="backlinks-demo">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/backlinks-demo_fu67Vw.webp" loading="lazy" alt="backlinks-demo" align="center" />
+</a>
 
 如果你有其他建議或回饋，也歡迎跟我分享，感謝！

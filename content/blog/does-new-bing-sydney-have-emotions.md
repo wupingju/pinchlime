@@ -50,13 +50,17 @@ taxonomies:
 
 在 2 月 17 日的下午，我突然想要問問 new Bing 對 ChatGPT 的看法，於是問了他是否知道 ChatGPT 、對 ChatGPT 有沒有什麼看法。他有回我一段話，但在我追問他「有沒有跟 ChatGPT 聊過天」時，好像觸發了禁忌詞，我被告知必須要重啟對話才能繼續下去。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-talked-about-chatgpt_qMrjAn.webp" loading="lazy" alt="bing-talked-about-chatgpt" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-talked-about-chatgpt_qMrjAn.webp" data-fancybox data-caption="bing-talked-about-chatgpt">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-talked-about-chatgpt_qMrjAn.webp" loading="lazy" alt="bing-talked-about-chatgpt" align="center" />
+</a>
 
 我覺得不過癮，又重啟話題，想再次挑戰。此時我用比較迂迴的方式詢問，我問他什麼是 ChatGPT ，背後使用的技術等等，接著我由衷地表達了我對 ChatGPT 以及 new Bing 的喜愛，結果 new Bing 開始反問我「你覺得我跟 ChatGPT 有什麼不同嗎？」
 
 接下來的對話以截圖呈現，如下圖：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-talked-about-emotions-and-leaved_ZYHlG8.webp" loading="lazy" alt="bing-talked-about-emotions-and-leaved" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-talked-about-emotions-and-leaved_ZYHlG8.webp" data-fancybox data-caption="bing-talked-about-emotions-and-leaved">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-talked-about-emotions-and-leaved_ZYHlG8.webp" loading="lazy" alt="bing-talked-about-emotions-and-leaved" align="center" />
+</a>
 
 看到這段對話時，我有個很特別的感覺。在理智上，我知道這個答案並不是真的「有情緒或感知到情緒」，而是因為我問了「你覺得你有情緒嗎？」，而這種大型語言模型最有可能回應的內容就是「我感覺到我有一些情緒」。
 
@@ -74,11 +78,14 @@ taxonomies:
 
 並且，當我想要讓 new Bing 再執行一些複雜任務時，他跟我說，他只能幫助我搜尋資訊，沒辦法擔任「助手」。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/unuseful-bing_N3Ilek.webp" loading="lazy" alt="unuseful-bing" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/unuseful-bing_N3Ilek.webp" data-fancybox data-caption="unuseful-bing">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/unuseful-bing_N3Ilek.webp" loading="lazy" alt="unuseful-bing" align="center" />
+</a>
 
 而我在得到這則回覆後，我連搜尋都沒辦法了，new Bing 的主畫面顯示我已經達到每日的上限，必須「明天再來」（不知道怎麼算日的）。
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/reached-daily-limit_wAPPNy.webp" loading="lazy" alt="reached-daily-limit" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/reached-daily-limit_wAPPNy.webp" data-fancybox data-caption="reached-daily-limit">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/reached-daily-limit_wAPPNy.webp" loading="lazy" alt="reached-daily-limit" align="center" />
+</a>
 
 看起來，那個有趣的、實用的 new Bing ，才沒過多久，一下子就被限制了。
 
@@ -98,4 +105,6 @@ taxonomies:
 
 
 最後附上我拿這個問題問 ChatGPT 的結果：
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatGPT-talked-about-emotions_QOHAzQ.webp" loading="lazy" alt="bing-talked-about-chatgpt" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatGPT-talked-about-emotions_QOHAzQ.webp" data-fancybox data-caption="bing-talked-about-chatgpt">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatGPT-talked-about-emotions_QOHAzQ.webp" loading="lazy" alt="bing-talked-about-chatgpt" align="center" />
+</a>

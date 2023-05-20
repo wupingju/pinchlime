@@ -26,7 +26,9 @@ extra:
 
 我第一步找的是 Umami 的官網，想看看他們有沒有其他推薦的解決方案，結果發現官網的 Pricing 頁面，寫著「Umami Cloud BETA」的字樣，看起來是可以直接使用 cloud 版本。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/umami-cloud-beta_xN33tf.webp" loading="lazy" alt="umami-cloud-beta" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/umami-cloud-beta_xN33tf.webp" data-fancybox data-caption="umami-cloud-beta">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/umami-cloud-beta_xN33tf.webp" loading="lazy" alt="umami-cloud-beta" align="center" />
+</a>
 
 於是我就趕緊註冊，然後發現設定超級無敵簡單，只要輸入要追蹤的網域，就會給你一段程式碼，只要把這段程式碼放到網頁的 <head> 區塊就可以開始追蹤了。
 

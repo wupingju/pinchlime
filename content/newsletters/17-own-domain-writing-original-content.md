@@ -36,7 +36,9 @@ Hi ，年假的尾聲，為你帶來最新一期的 Pin 起來電子報。
 
 在設定後，自己的 Mastodon 主頁就會出現綠色的認證勾勾，如下圖：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/mastodon-profile_OYQzzx.webp" loading="lazy" alt="mastodon-profile" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/mastodon-profile_OYQzzx.webp" data-fancybox data-caption="mastodon-profile">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/mastodon-profile_OYQzzx.webp" loading="lazy" alt="mastodon-profile" align="center" />
+</a>
 
 作者認為，擁有自己的網域，有點像是種一棵樹一樣，在整個網路中慢慢成長，最終會累積信任的價值。相較之下，假設自己的所有數位身分都基於特定的服務例如 Twitter , IG, Facebook ，那麼哪天這個服務突然掛掉、甚至因為各種原因停用你的帳號，其他人都會不知道該去哪裡找你。
 

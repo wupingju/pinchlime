@@ -45,7 +45,9 @@ taxonomies:
 步驟一：先找到你要注入的 GA 追蹤碼。這部分請自行透過 GA 查找，以截圖的範例來說，大概會是長成下面這樣：
 
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/google-analytics-code_JeKjzs.webp" loading="lazy" alt="google-analytics-code" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/google-analytics-code_JeKjzs.webp" data-fancybox data-caption="google-analytics-code">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/google-analytics-code_JeKjzs.webp" loading="lazy" alt="google-analytics-code" align="center" />
+</a>
 
 步驟二：在 Netifly 的 Site settings ，選擇 “Build & deploy” 選單，並且選到 “Post processing” ，裡面就有 Snippet injection 的功能了。
 
@@ -53,7 +55,9 @@ taxonomies:
 
 因此可以點選 “Add snippet” 的按鈕。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/netlify-snippet-injection-1_VHYwHh.webp" loading="lazy" alt="netlify-snippet-injection-1" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/netlify-snippet-injection-1_VHYwHh.webp" data-fancybox data-caption="netlify-snippet-injection-1">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/netlify-snippet-injection-1_VHYwHh.webp" loading="lazy" alt="netlify-snippet-injection-1" align="center" />
+</a>
 
 步驟三：參考截圖，先在第一個選單選擇 Insert before </head> （這個意思是，這段程式碼會植入在網頁檔案的 `<head>` 區塊裡面，放置在 `</head>` 的位置之前。
 
@@ -61,7 +65,9 @@ taxonomies:
 
 而選擇要放的位置後，接著就是幫這個 script 命名，並且貼上步驟一拿到的追蹤碼，原封不動貼上就好，然後就可以按下 Save 了。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/netlify-snippet-injection-2_Kawvpq.webp" loading="lazy" alt="netlify-snippet-injection-2" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/netlify-snippet-injection-2_Kawvpq.webp" data-fancybox data-caption="netlify-snippet-injection-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/netlify-snippet-injection-2_Kawvpq.webp" loading="lazy" alt="netlify-snippet-injection-2" align="center" />
+</a>
 
 對，這樣就大功告成了，基本上整個流程會運用到的關鍵技能就是：
 
@@ -77,7 +83,9 @@ taxonomies:
 
 在設定完成後， Netlify 幾乎是馬上生效，我回到網站上面打開「開發者工具」後，點開網頁的 <head> 區塊，就可以順利找到被注入的 Google 追蹤碼了。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/successfully-injected_mYAe6C.webp" loading="lazy" alt="successfully-injected" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/successfully-injected_mYAe6C.webp" data-fancybox data-caption="successfully-injected">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/successfully-injected_mYAe6C.webp" loading="lazy" alt="successfully-injected" align="center" />
+</a>
 
 ---
 

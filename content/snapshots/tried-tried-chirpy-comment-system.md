@@ -20,7 +20,9 @@ taxonomies:
 
 留言的介面如下，我覺得還算乾淨好看。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chirpy-demo_BaPVgb.webp" loading="lazy" alt="chirpy-demo" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chirpy-demo_BaPVgb.webp" data-fancybox data-caption="chirpy-demo">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chirpy-demo_BaPVgb.webp" loading="lazy" alt="chirpy-demo" align="center" />
+</a>
 
 我在測試時，主要是想測試匿名留言的功能，以及管理者的後台會怎麼通知。
 

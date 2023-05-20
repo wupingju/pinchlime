@@ -68,7 +68,9 @@ taxonomies:
 四、
 在每次對話結束後，我設定了三個選項，詢問使用者是否要記得這段對話。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/remember-conversation_tPUydb.webp" loading="lazy" alt="remember-conversation" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/remember-conversation_tPUydb.webp" data-fancybox data-caption="remember-conversation">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/remember-conversation_tPUydb.webp" loading="lazy" alt="remember-conversation" align="center" />
+</a>
 
 選項一：是，請你記住，並繼續對話
 選項二：不用記住，但我們還是可以繼續對話
@@ -106,7 +108,9 @@ taxonomies:
 
 如果你已經有 OpenAI 帳號，那就到[後台](https://platform.openai.com/) ，若你沒有帳號，或者想新註冊一個，那就到 [API 頁面](https://openai.com/blog/openai-api)選 Sign up ，登入後，選右上角選單的「View API keys」，然後選擇畫面中央的「Create new secret key」。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/generate-api-key_MjXCsD.webp" loading="lazy" alt="generate-api-key" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/generate-api-key_MjXCsD.webp" data-fancybox data-caption="generate-api-key">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/generate-api-key_MjXCsD.webp" loading="lazy" alt="generate-api-key" align="center" />
+</a>
 
 產生後，先找個地方把這串亂碼記錄下來，未來沒辦法再重看一次這串 key 。（真的不見了也沒關係，你隨時可以刪掉舊的 keys，產生新的。）
 
@@ -116,7 +120,9 @@ taxonomies:
 
 請你在自己的備忘錄 Notes 裡面開啟一則新的 note ，在第一行輸入「Chat History」。（就這麼簡單）
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chat-history_e21Dsw.webp" loading="lazy" alt="chat-history" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chat-history_e21Dsw.webp" data-fancybox data-caption="chat-history">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chat-history_e21Dsw.webp" loading="lazy" alt="chat-history" align="center" />
+</a>
 <br>
 
 ---
@@ -125,7 +131,9 @@ taxonomies:
 
 接著，請你下載 Shortcut ，[連結在這裡](http://bit.ly/3ZGkkss)，點進去下載後，接著一路點選 Add ，然後會看到一個視窗跳出來，請你輸入 API Key ，這邊就請你把步驟一申請到的 API Key 輸入進去。這邊可以放心，我不會知道你的 API Key。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/import-apikey_CowYG5.webp" loading="lazy" alt="import-apikey" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/import-apikey_CowYG5.webp" data-fancybox data-caption="import-apikey">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/import-apikey_CowYG5.webp" loading="lazy" alt="import-apikey" align="center" />
+</a>
 
 若你沒有看到 API Key 的輸入介面，可以編輯第一個「Text」的欄位，直接貼上 API Key 就可以囉！
 

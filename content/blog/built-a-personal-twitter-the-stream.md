@@ -18,9 +18,10 @@ extra:
 
 這幾天下班後都在做一件事：建立我自己的迷你版 Twitter ： [Stream](/stream/2023)，昨晚初步搞定了，來介紹分享一下。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-stream_cM7m3M.webp" loading="lazy" alt="my-stream" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-stream_cM7m3M.webp" data-fancybox data-caption="my-stream">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-stream_cM7m3M.webp" loading="lazy" alt="my-stream" align="center" />
+</a>
 <br>
-
 <!-- more -->
 ---
 
@@ -84,8 +85,10 @@ Shortcode 是 [Zola 裡面有的一個功能](https://www.getzola.org/documentat
 
 
 我最喜歡 Linus 的 Stream 頁面的地方是乾淨簡單，左邊放日期與時間，右邊放想法。於是我就嘗試用 Shortcode 做做看，中間嘗試與調整的過程先不提，做出來的結果大概是長這樣：
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/a-stream_NtjujP.webp" loading="lazy" alt="a-stream" align=center />
 
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/a-stream_NtjujP.webp" data-fancybox data-caption="a-stream">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/a-stream_NtjujP.webp" loading="lazy" alt="a-stream" align="center" />
+</a>
 
 每一則 stream 會分成三個部分：
 

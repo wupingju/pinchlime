@@ -28,12 +28,15 @@ taxonomies:
 
 但現在剛好有家人在美國，這次就委託他幫我註冊一個帳號，並且申請了 DeepL 的 API，每個月有 500,000 個字元的免費翻譯額度。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/deepl-account_Hxi7rK.webp" loading="lazy" alt="deepl-account" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/deepl-account_Hxi7rK.webp" data-fancybox data-caption="deepl-account">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/deepl-account_Hxi7rK.webp" loading="lazy" alt="deepl-account" align="center" />
+</a>
 
 申請好後在 Raycast 裡面輸入 API Key，馬上就能開始使用了！
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-deepcast_JGSyJY.webp" loading="lazy" alt="raycast-deepcast" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-deepcast_JGSyJY.webp" data-fancybox data-caption="raycast-deepcast">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-deepcast_JGSyJY.webp" loading="lazy" alt="raycast-deepcast" align="center" />
+</a>
 
 如截圖，我只開啟了 Translate into English 以及 Translate into Chinese 這兩個選項，並且分別設定了 te 跟 tc 這兩個快速啟動詞（alias），而具體使用起來非常單純，流程如下：
 

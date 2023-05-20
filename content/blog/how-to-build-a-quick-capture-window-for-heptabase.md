@@ -44,8 +44,9 @@ taxonomies:
 
 以下是簡單的螢幕錄影示意：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-quick-capture_W9DtLe.gif" loading="lazy" alt="heptabase-quick-capture" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-quick-capture_W9DtLe.gif" data-fancybox data-caption="heptabase-quick-capture">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-quick-capture_W9DtLe.gif" loading="lazy" alt="heptabase-quick-capture" align="center" />
+</a>
 
 我在瀏覽網頁時按下熱鍵後，就叫出了右下角的這個輸入視窗，並且可以按一下我指定的觸發按鈕使視窗固定在最上層，以方便剪貼或編輯文字。
 

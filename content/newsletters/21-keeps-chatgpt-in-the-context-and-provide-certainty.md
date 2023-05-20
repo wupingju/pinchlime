@@ -101,8 +101,9 @@ Hi 大家好，由於昨天出遊，所以電子報晚一天發出。
 
 基於上面這兩種類型，我嘗試出一套預設指令，我請他在回覆問題時，除了回覆內容之外，也一併回覆他的「把握程度」。並且我定義了三種不同的回答方式。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/reply-rules-about-certainty_HgmtFc.webp" loading="lazy" alt="reply-rules-about-certainty" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/reply-rules-about-certainty_HgmtFc.webp" data-fancybox data-caption="reply-rules-about-certainty">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/reply-rules-about-certainty_HgmtFc.webp" loading="lazy" alt="reply-rules-about-certainty" align="center" />
+</a>
 
 第一種是針對那些通常「有標準答案」的問題，請他回覆時回答「 100% 有把握」。
 
@@ -114,17 +115,21 @@ Hi 大家好，由於昨天出遊，所以電子報晚一天發出。
 
 例如第一種類型的狀況：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/first-type-answer_tfyrtA.webp" loading="lazy" alt="first-type-answer" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/first-type-answer_tfyrtA.webp" data-fancybox data-caption="first-type-answer">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/first-type-answer_tfyrtA.webp" loading="lazy" alt="first-type-answer" align="center" />
+</a>
 
 第二種類型的狀況：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/second-type-answer_b40CwB.webp" loading="lazy" alt="second-type-answer" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/second-type-answer_b40CwB.webp" data-fancybox data-caption="second-type-answer">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/second-type-answer_b40CwB.webp" loading="lazy" alt="second-type-answer" align="center" />
+</a>
 
 第三種類型的狀況，框起來的是錯誤資訊或是根本沒這東西。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/third-type-answer_jx4W4r.webp" loading="lazy" alt="third-type-answer" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/third-type-answer_jx4W4r.webp" data-fancybox data-caption="third-type-answer">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/third-type-answer_jx4W4r.webp" loading="lazy" alt="third-type-answer" align="center" />
+</a>
 
 我覺得一定還有更省力的指令、或者是其他不同的「錯誤狀況」可以去細分，但能夠讓 ChatGPT 每次回覆時都多帶一句把握度的資訊，我覺得是很不錯的一件事。
 

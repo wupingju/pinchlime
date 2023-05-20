@@ -29,8 +29,9 @@ taxonomies:
 
 進入 General Task 的首頁是蠻乾淨的三欄式介面，最左邊是各項功能與串接的服務，第二欄是不同任務的列表，而第三欄是任務的詳細資訊。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/general-task-home_9LZO80.webp" loading="lazy" alt="general-task-home" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/general-task-home_9LZO80.webp" data-fancybox data-caption="general-task-home">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/general-task-home_9LZO80.webp" loading="lazy" alt="general-task-home" align="center" />
+</a>
 
 不過最右邊還有一個日曆介面，這邊可以直接把 task 拖曳到日曆裡面，所以應該算是四欄式的介面才是。
 
@@ -40,7 +41,9 @@ taxonomies:
 
 * 每個任務都有很大的 note 區塊，而且編輯器支援 markdown ，以目前的 beta 版本來說就可以放 inline code, code block 以及 quotes。
 
-  * <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/general-task-notes_mtGHCf.webp" loading="lazy" alt="general-task-notes" align=center />
+  <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/general-task-notes_mtGHCf.webp" data-fancybox data-caption="general-task-notes">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/general-task-notes_mtGHCf.webp" loading="lazy" alt="general-task-notes" align="center" />
+  </a>
 
   * 我之前對 OmniFocus 有點不滿意的地方就是它的 notes 欄位非常小，很難編輯，也很難紀錄跟任務有關的各種想法與靈感。
 

@@ -282,7 +282,9 @@ taxonomies:
 
 而近期 CleanShot 還推出截圖後快速加上漸層背景的功能（如下圖）
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cleanshot-features_Blwn8o.webp" loading="lazy" alt="cleanshot-features" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cleanshot-features_Blwn8o.webp" data-fancybox data-caption="cleanshot-features">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cleanshot-features_Blwn8o.webp" loading="lazy" alt="cleanshot-features" align="center" />
+</a>
 
 對我來說這功能可以迅速地為我部落格的截圖增加一些基礎的美感，我非常喜歡。
 

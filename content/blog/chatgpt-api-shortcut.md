@@ -26,7 +26,9 @@ extra:
 
 結論是，可以！我參考了網路上的[一個舊版 GPT 串接的教學影片](https://www.youtube.com/watch?v=CN0SZ33x0bE)，自己模仿試出了一個「Shortcut 捷徑」。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatgpt-shortcut_zhvdqo.gif" loading="lazy" alt="chatgpt-shortcut" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatgpt-shortcut_zhvdqo.gif" data-fancybox data-caption="chatgpt-shortcut">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatgpt-shortcut_zhvdqo.gif" loading="lazy" alt="chatgpt-shortcut" align="center" />
+</a>
 
 只要你是蘋果（主要是 macOS ）的用戶，就可以透過官方免費的 Shortcuts 這個應用程式來串接 ChatGPT 的 API。而且作法很簡單，你開啟這個 Shortcut 後，只要設定 API key （可以想成是密碼），以及你想要的快捷鍵，就可以開始使用了。
 
@@ -52,7 +54,9 @@ extra:
 
 如果你已經有 OpenAI 帳號，那就到[後台](https://platform.openai.com/) ，若你沒有帳號，或者想新註冊一個，那就到 [API 頁面](https://openai.com/blog/openai-api)選 Sign up ，登入後，選右上角選單的「View API keys」，然後選擇畫面中央的「Create new secret key」。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/generate-api-key_MjXCsD.webp" loading="lazy" alt="generate-api-key" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/generate-api-key_MjXCsD.webp" data-fancybox data-caption="generate-api-key">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/generate-api-key_MjXCsD.webp" loading="lazy" alt="generate-api-key" align="center" />
+</a>
 
 產生後，先找個地方把這串亂碼記錄下來，未來沒辦法再重看一次這串 key 。（真的不見了也沒關係，你隨時可以刪掉舊的 keys，產生新的。）
 
@@ -62,7 +66,9 @@ extra:
 
 [我的 Shortcut 連結在這邊](http://bit.ly/3ZJYOTH)，點開後，點選下方的 Get Shortcut ，接著一路點選 Add ，然後會看到一個視窗跳出來，請你輸入 API Key ，這邊就請你把步驟一申請到的 API Key 輸入進去。這邊可以放心，我不會知道你的 API Key。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/import-apikey_CowYG5.webp" loading="lazy" alt="import-apikey" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/import-apikey_CowYG5.webp" data-fancybox data-caption="import-apikey">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/import-apikey_CowYG5.webp" loading="lazy" alt="import-apikey" align="center" />
+</a>
 
 若你沒有看到 API Key 的輸入介面，可以編輯第一個「Text」的欄位，直接貼上 API Key 就可以囉！
 
@@ -75,7 +81,9 @@ extra:
 
 如果你沒有別的想法，建議你可以用跟我一樣的 Control \+ Option \+ C 。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/set-a-shortcut_aS30cY.webp" loading="lazy" alt="set-a-shortcut" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/set-a-shortcut_aS30cY.webp" data-fancybox data-caption="set-a-shortcut">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/set-a-shortcut_aS30cY.webp" loading="lazy" alt="set-a-shortcut" align="center" />
+</a>
 
 大功告成！你已經完成設定了，就這麼簡單！
 
@@ -85,7 +93,9 @@ extra:
 
 若一切順利，你按下熱鍵後，就會跳出一個輸入視窗，在這個視窗你可以輸入「你想要請 ChatGPT 做的事」，就像你平常使用 ChatGPT 的方式一樣。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/input-window_DlrWQZ.webp" loading="lazy" alt="input-window" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/input-window_DlrWQZ.webp" data-fancybox data-caption="input-window">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/input-window_DlrWQZ.webp" loading="lazy" alt="input-window" align="center" />
+</a>
 
 不過因為輸入框框比較矮，如果你不太習慣這樣輸入，你也可以先在別的地方打好字，再複製貼上。
 
@@ -94,7 +104,9 @@ extra:
 （在過程中他可能會請求你的系統權限，可以按下同意。）
 
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatgpt-say-hi_37nm4M.webp" loading="lazy" alt="chatgpt-say-hi" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatgpt-say-hi_37nm4M.webp" data-fancybox data-caption="chatgpt-say-hi">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/chatgpt-say-hi_37nm4M.webp" loading="lazy" alt="chatgpt-say-hi" align="center" />
+</a>
 
 我猜想，會想使用這個 shortcut 的人應該都是想要在自己熟悉的軟體或服務，例如 Word, Google Docs, Gmail 等等裡面使用。
 
@@ -123,7 +135,9 @@ extra:
 
 不過記得， User 的地方不要刪掉原本那個橘色的「user-input」，這樣 ChatGPT 才會準確讀到你貼上的內容。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/change-system-and-user-variables_yoxVNt.webp" loading="lazy" alt="chatgpt-say-hi" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/change-system-and-user-variables_yoxVNt.webp" data-fancybox data-caption="chatgpt-say-hi">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/change-system-and-user-variables_yoxVNt.webp" loading="lazy" alt="chatgpt-say-hi" align="center" />
+</a>
 
 若設定成功了，你就可以依樣畫葫蘆，複製一個 shortcut ，再設定成其他的助手，你也可以更改 shortcut 的名字，讓他們更好辨識。
 

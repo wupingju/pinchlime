@@ -21,7 +21,9 @@ extra:
 
 也因為這個原因，從 2022 年 6 月以來累積的數據可能會就此中斷，不過也沒關係，就來截圖記錄一下吧！
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/umami-record-pinchlime-2206-2212_7z9h7t.webp" loading="lazy" alt="umami-record-pinchlime-2206-2212" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/umami-record-pinchlime-2206-2212_7z9h7t.webp" data-fancybox data-caption="umami-record-pinchlime-2206-2212">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/umami-record-pinchlime-2206-2212_7z9h7t.webp" loading="lazy" alt="umami-record-pinchlime-2206-2212" align="center" />
+</a>
 
 
 從去年 6 月 1 日以來， pinchlime.com 的逐月瀏覽量是：

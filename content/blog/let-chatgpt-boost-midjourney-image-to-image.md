@@ -31,7 +31,9 @@ extra:
 
 例如，我上傳了 Pink Floyd 的 Wish You Were Here 這張專輯的封面， Midjourney 就產出了四段不同的描述。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/midjourney-describe_cPiMn2.webp" loading="lazy" alt="midjourney-describe" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/midjourney-describe_cPiMn2.webp" data-fancybox data-caption="midjourney-describe">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/midjourney-describe_cPiMn2.webp" loading="lazy" alt="midjourney-describe" align="center" />
+</a>
 <br>
 
 接著，我只要點選下方的任何一個數字，就可以依照該描述在 Midjourney 裡面產圖。
@@ -40,7 +42,9 @@ extra:
 
 不過，在我測試了幾張圖之後，我發現這樣做的效果大概只到 70 分的程度，常常四個按鈕都試了以後，發現每個都有一些好的地方，但也都有一些不足的地方。如下圖，左上是第一組，右上是第二組，左下是第三組，右下是第四組：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/wish-you-were-here-described_a2fW7q.webp" loading="lazy" alt="wish-you-were-here-described" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/wish-you-were-here-described_a2fW7q.webp" data-fancybox data-caption="wish-you-were-here-described">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/wish-you-were-here-described_a2fW7q.webp" loading="lazy" alt="wish-you-were-here-described" align="center" />
+</a>
 <br>
 
 我猜想可能是因為 describe 這個功能才剛推出，或者是 Midjourney 是想透過這個方式來訓練他們的「圖生文」模型，還沒完全釋放出最精準的辨識能力。
@@ -73,24 +77,32 @@ extra:
 接著，我再拿這段 prompt 直接丟給 Midjourney 產圖，我覺得表現好像更好了。
 
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/wish-you-were-here-merged_TadvUO.webp" loading="lazy" alt="wish-you-were-here-merged" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/wish-you-were-here-merged_TadvUO.webp" data-fancybox data-caption="wish-you-were-here-merged">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/wish-you-were-here-merged_TadvUO.webp" loading="lazy" alt="wish-you-were-here-merged" align="center" />
+</a>
 <br>
 
 其中我最喜歡的是第二張，因此我請它 upscale 放大，成品如下圖：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_Pink_Floyd_album_cover_featuring_two_men_shaking_hands_on_414bad5a-0522-412e-a673-e11a8df9804b_YgHhwa.webp" loading="lazy" alt="wish-you-were-here-merged-2" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_Pink_Floyd_album_cover_featuring_two_men_shaking_hands_on_414bad5a-0522-412e-a673-e11a8df9804b_YgHhwa.webp" data-fancybox data-caption="wish-you-were-here-merged-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/PJ_Wu_Pink_Floyd_album_cover_featuring_two_men_shaking_hands_on_414bad5a-0522-412e-a673-e11a8df9804b_YgHhwa.webp" loading="lazy" alt="wish-you-were-here-merged-2" align="center" />
+</a>
 <br>
 
 我也透過這個方式再測試了兩張 Pink Floyd 的專輯封面，發現透過 ChatGPT 融合過後的版本都更接近原版一些，這邊就直接貼我最喜歡的原版＆成品對照，左邊都是原圖，右邊是 Midjourney 產出的圖。
 
 **Animals**
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/animals-merged_ipmegk.webp" loading="lazy" alt="animals-merged" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/animals-merged_ipmegk.webp" data-fancybox data-caption="animals-merged">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/animals-merged_ipmegk.webp" loading="lazy" alt="animals-merged" align="center" />
+</a>
 <br>
 
 **The Division Bell**
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/the-division-bell-merged_eMU3bu.webp" loading="lazy" alt="the-division-bell-merged" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/the-division-bell-merged_eMU3bu.webp" data-fancybox data-caption="the-division-bell-merged">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/the-division-bell-merged_eMU3bu.webp" loading="lazy" alt="the-division-bell-merged" align="center" />
+</a>
 <br>
 
 ---

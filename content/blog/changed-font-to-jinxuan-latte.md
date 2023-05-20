@@ -18,7 +18,9 @@ extra:
 
 這篇來簡單分享一下心得！
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-new-font_ATleKx.webp" loading="lazy" alt="pinchlime-new-font" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-new-font_ATleKx.webp" data-fancybox data-caption="pinchlime-new-font">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-new-font_ATleKx.webp" loading="lazy" alt="pinchlime-new-font" align="center" />
+</a>
 <br>
 ---
 
@@ -48,13 +50,17 @@ extra:
 
 為了比較，我還把他們都截圖放到 Figma 裡面對照：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-new-font-2_dAuj9b.webp" loading="lazy" alt="pinchlime-new-font-2" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-new-font-2_dAuj9b.webp" data-fancybox data-caption="pinchlime-new-font-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-new-font-2_dAuj9b.webp" loading="lazy" alt="pinchlime-new-font-2" align="center" />
+</a>
 <br>
 
 最後勝出的是由圓體搭配明體設計的[金萱那提](https://justfont.com/jinxuan-latte/)，我自己也有點意外，若單看字型的話，我好像更喜歡的是融合明體與黑體，看起來更典雅的[金萱](https://justfont.com/jinxuan/)，但搭配自己的 blog 文字後，我覺得金萱讀起來好像更嚴肅、更有距離感一點，而金萱那提閱讀起來則是更親近、更自在一點，所以最後就選擇使用金萱那提了。
 
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/jinxuan-latte_EhaXlW.webp" loading="lazy" alt="jinxuan-latte" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/jinxuan-latte_EhaXlW.webp" data-fancybox data-caption="jinxuan-latte">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/jinxuan-latte_EhaXlW.webp" loading="lazy" alt="jinxuan-latte" align="center" />
+</a>
 <br>
 
 _圖：金萱那提，來源：[justfont](https://justfont.com/jinxuan-latte/)_

@@ -10,7 +10,9 @@ taxonomies:
     - Heptabase
 ---
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-journal-cards_av2Keu.webp" loading="lazy" width = "1024" height = "639" alt="heptabase-journal-cards" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-journal-cards_av2Keu.webp" data-fancybox data-caption="heptabase-journal-cards">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-journal-cards_av2Keu.webp" loading="lazy" width="1024" height="639" alt="heptabase-journal-cards" align="center" />
+</a>
 
 （_圖來自：[Heptabase 的 Twitter](https://twitter.com/Heptabase/status/1594160484738945024)_）
 

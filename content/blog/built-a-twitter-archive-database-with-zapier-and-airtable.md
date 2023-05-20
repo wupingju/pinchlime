@@ -12,7 +12,9 @@ taxonomies:
     - Airtable
 ---
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-1_Vg8dJX.webp" loading="lazy" alt="zapier-airtable-1" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-1_Vg8dJX.webp" data-fancybox data-caption="zapier-airtable-1">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-1_Vg8dJX.webp" loading="lazy" alt="zapier-airtable-1" align="center" />
+</a>
 
 隨著使用 Twitter 的頻率越來越高，有時會想要找過去推過的文然後繼續補充，有時只是好奇想看一下自己以前推了什麼文，雖然 Twitter 內建的進階搜尋就可以找到，但一直以來都想要有一個自己掌握的資料庫，裡面放自己所有的 tweets 備份。
 
@@ -35,25 +37,36 @@ taxonomies:
 3. 在 Zapier 裡面選擇 Create Zap
 
 4. 第一步驟「Trigger」選擇 Twitter
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-2_POoGIL.webp" loading="lazy" alt="zapier-airtable-2" align=center />
+
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-2_POoGIL.webp" data-fancybox data-caption="zapier-airtable-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-2_POoGIL.webp" loading="lazy" alt="zapier-airtable-2" align="center" />
+</a>
 
 
 5. Event 選擇 My Tweet （還有其他的 triggers ，之後再玩玩）
 
 6. 並且登入 Twitter 授權給 Zapier，此時他會測試你的 Trigger ，抓一篇近期的推文，如附圖，剛好抓到我測試完 Zapier 的推文。
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-3_Gi8BIF.webp" loading="lazy" alt="zapier-airtable-3" align=center />
 
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-3_Gi8BIF.webp" data-fancybox data-caption="zapier-airtable-3">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-3_Gi8BIF.webp" loading="lazy" alt="zapier-airtable-3" align="center" />
+</a>
 
 
 7. 測試完畢後就可以設定第二步驟的「Action」，選擇 Airtable （應該也可以用 Google Sheets 或別的）
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-4_PBAqRS.webp" loading="lazy" alt="zapier-airtable-4" align=center />
+
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-4_PBAqRS.webp" data-fancybox data-caption="zapier-airtable-4">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-4_PBAqRS.webp" loading="lazy" alt="zapier-airtable-4" align="center" />
+</a>
 
 8. Event 選擇 Create Record
 
 9. 登入 Airtable 帳號，選定要串接紀錄的 Base（大表）跟 Table（分頁）
 
 10. 選定後，會顯示該 Table 的欄位，也可以設定想要對應的 Twitter 資料，邊對應邊設定，以我來說，我就在 Airtable 裡面設定了 Text、URL、User name、Date 這些欄位，並且選取對應的 Twitter 資料。（設定的當下可以同步更改 Airtable 後按 Refresh Fields 就會重新整理）
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-5_ZWnN64.webp" loading="lazy" alt="zapier-airtable-5" align=center />
+
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-5_ZWnN64.webp" data-fancybox data-caption="zapier-airtable-5">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zapier-airtable-5_ZWnN64.webp" loading="lazy" alt="zapier-airtable-5" align="center" />
+</a>
 
 
 11. 全部設定好後可以測試整個流程，若都順利，就會在 Airtable 看到這筆記錄了，沒問題後就按下 Publish ，之後就可以自動享受 Zapier 為你服務了。

@@ -16,7 +16,9 @@ extra:
 
 三年多過去，使用的工具幾乎換了一大輪，接觸了各種不同的新軟體與服務，並逐漸建立自己的工作流，好像很值得記錄一下自己這一年的各種經驗。以下就直接開始！
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/2022-review_4bQHpT.webp" loading="lazy" alt="2022-review" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/2022-review_4bQHpT.webp" data-fancybox data-caption="2022-review">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/2022-review_4bQHpT.webp" loading="lazy" alt="2022-review" align="center" />
+</a>
 
 （_圖是 9 月台東行的照片，很喜歡台東，這張照片也很搭配這篇回顧的心情_）
 

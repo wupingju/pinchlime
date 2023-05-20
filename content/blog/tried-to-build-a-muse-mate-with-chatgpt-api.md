@@ -15,7 +15,9 @@ extra:
 
 早上設計了一個新的 ChatGPT 助手「Muse Mate 靈感夥伴」，這篇簡單描述一下他的功能、以及為什麼我想要這個助手。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-spark_MVFfyO.webp" loading="lazy" alt="muse-spark" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-spark_MVFfyO.webp" data-fancybox data-caption="muse-spark">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-spark_MVFfyO.webp" loading="lazy" alt="muse-spark" align="center" />
+</a>
 
 `圖片來源：Midjourney, prompt: muse spark, abstract, pixel arts, --ar 1200:630 --v 5`
 
@@ -123,15 +125,21 @@ User prompt：
 
 另外我也有搭配 Keyboard Maestro 這個工具來加速我輸入這些內容的效果，我只要按一個熱鍵，就會跳出一個視窗讓我輸入當下這個主題相關的資訊（如下圖一），接著 Keyboard Maestro 就會幫我依照我設定好的格式產出文字讓我複製，例如下圖二。 很推薦 Keyboard Maestro！
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-mate-km-prompt_FC0pEC.webp" loading="lazy" alt="muse-mate-km-prompt" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-mate-km-prompt_FC0pEC.webp" data-fancybox data-caption="muse-mate-km-prompt">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-mate-km-prompt_FC0pEC.webp" loading="lazy" alt="muse-mate-km-prompt" align="center" />
+</a>
 <br>
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-mate-km-prompt-2_G5vo41.webp" loading="lazy" alt="muse-mate-km-prompt-2" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-mate-km-prompt-2_G5vo41.webp" data-fancybox data-caption="muse-mate-km-prompt-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-mate-km-prompt-2_G5vo41.webp" loading="lazy" alt="muse-mate-km-prompt-2" align="center" />
+</a>
 <br>
 
 而我再把這段文字丟給助手後，他產出的回覆如下，覺得提問的效果還是蠻不錯的！
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-mate-km-answer_s8QejI.webp" loading="lazy" alt="muse-mate-km-answer" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-mate-km-answer_s8QejI.webp" data-fancybox data-caption="muse-mate-km-answer">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-mate-km-answer_s8QejI.webp" loading="lazy" alt="muse-mate-km-answer" align="center" />
+</a>
 
 ---
 

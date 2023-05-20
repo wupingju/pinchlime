@@ -14,7 +14,9 @@ extra:
 
 如果我要建立一個我自己的 Digital Copy ，我的動機與我期待達到的目標是什麼？
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-digital-copy_ivqb5z.webp" loading="lazy" alt="my-digital-copy" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-digital-copy_ivqb5z.webp" data-fancybox data-caption="my-digital-copy">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-digital-copy_ivqb5z.webp" loading="lazy" alt="my-digital-copy" align="center" />
+</a>
 
 `圖片來源：Midjourney, prompt: my digital copy, abstract, random style, --ar 1200:630 --v 5`
 

@@ -21,15 +21,21 @@ extra:
 
 打開 Substack 後台，每一封電子報都可以看到一些基本的統計數據，例如觀看次數、開信率、以及連結的點擊次數等等，也可以看到流量的來源佔比，如下圖：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/substack-stats-1_pxMPci.webp" loading="lazy" alt="substack-stats-1" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/substack-stats-1_pxMPci.webp" data-fancybox data-caption="substack-stats-1">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/substack-stats-1_pxMPci.webp" loading="lazy" alt="substack-stats-1" align="center" />
+</a>
 
 接著，若點進每一篇的數據頁面，可以看到不同訂閱者的瀏覽資訊，例如該篇電子報，不同訂閱者個別點開了幾次、點擊了幾個連結等等，如下圖：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/substack-stats-2_Xx0Tvg.webp" loading="lazy" alt="substack-stats-2" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/substack-stats-2_Xx0Tvg.webp" data-fancybox data-caption="substack-stats-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/substack-stats-2_Xx0Tvg.webp" loading="lazy" alt="substack-stats-2" align="center" />
+</a>
 
 還沒完，假設我點到個別訂閱者，還可以看到他過往所有的瀏覽與點擊紀錄：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/substack-stats-3_fhvnsh.webp" loading="lazy" alt="substack-stats-3" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/substack-stats-3_fhvnsh.webp" data-fancybox data-caption="substack-stats-3">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/substack-stats-3_fhvnsh.webp" loading="lazy" alt="substack-stats-3" align="center" />
+</a>
 
 等於說，我可以從 Substack 的後台，知道不同訂閱者對我的哪封信特別有感、看很多次、比較喜歡點擊哪個連結等等。
 
@@ -101,8 +107,9 @@ extra:
 
 而在本週，我發現了 Buttondown 這個服務，它「也有」追蹤的功能，但是它可以讓我選擇「不開啟追蹤」，如下圖。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/buttondown-tracking_79EmE6.webp" loading="lazy" alt="buttondown-tracking" align=center />
-
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/buttondown-tracking_79EmE6.webp" data-fancybox data-caption="buttondown-tracking">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/buttondown-tracking_79EmE6.webp" loading="lazy" alt="buttondown-tracking" align="center" />
+</a>
 
 我目前暫時設定的結果是，在五個追蹤設定選項裡面我只開啟了 UTM parameters ，這會在 email 裡面放置的超連結後面增加一小串資訊，描述這個連結是來自我的電子報。因此「被連結到」的網站主假設有設定追蹤，就可以知道有一部分的流量是來自我的電子報，但他不會知道這個人是誰，我也不會知道有誰點擊過這個連結。
 
@@ -141,11 +148,15 @@ extra:
 在發現 Buttondown 可以設定成「不追蹤」後，我透過 Hey 測試了一下，確實如此。
 
 如截圖，在 Hey 裡面，上半部是 Buttondown 寄出的信，旁邊沒有「望遠鏡」的標籤，下半部則是 Substack 寄出的信，旁邊有代表追蹤的「望遠鏡」。
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/buttondown-vs-substack_aGe3he.webp" loading="lazy" alt="buttondown-vs-substack" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/buttondown-vs-substack_aGe3he.webp" data-fancybox data-caption="buttondown-vs-substack">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/buttondown-vs-substack_aGe3he.webp" loading="lazy" alt="buttondown-vs-substack" align="center" />
+</a>
 
 而在 Buttondown 的後台，點進使用者的個別頁面後，也只看得到「信有沒有寄到」這個資訊，而無法再看到其他是否有打開、點擊連結的資訊。（ open rate 跟 click rate 也都是 0% ）
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/buttondown-subscriber-events_TLKHLA.webp" loading="lazy" alt="buttondown-subscriber-events" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/buttondown-subscriber-events_TLKHLA.webp" data-fancybox data-caption="buttondown-subscriber-events">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/buttondown-subscriber-events_TLKHLA.webp" loading="lazy" alt="buttondown-subscriber-events" align="center" />
+</a>
 
 所以在測試後我可以大聲宣布，未來這份電子報不會追蹤你，請放心閱讀（或不讀）。
 

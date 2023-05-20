@@ -116,7 +116,9 @@ System 的地方填入的內容會規範這個助手的行為方式，例如最�
 
 功能：但他有一個好處是，我透過 Keyboard Maestro 這個工具，串了一個動作。我可以在任何編輯界面，呼叫這個助手，他就會接續執行「處理我的請求 → 貼上回覆文字」的動作，換句話說，我可以在任何介面都使用這個助手。例如下圖，我就是直接在 Heptabase 裡面使用它。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/QA-mode-demo_j5m15z.gif" loading="lazy" alt="QA-mode-demo" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/QA-mode-demo_j5m15z.gif" data-fancybox data-caption="QA-mode-demo">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/QA-mode-demo_j5m15z.gif" loading="lazy" alt="QA-mode-demo" align="center" />
+</a>
 
 所以這個助手對我來說優點是方便性，我可以隨時在打字打到一半時，直接請求 ChatGPT ，他就會回傳給我我期待的內容。
 
@@ -135,7 +137,9 @@ System 的地方填入的內容會規範這個助手的行為方式，例如最�
 
 例如，下面這個截圖範例是請他摘要 Paul Graham 的 [The need to read](http://paulgraham.com/read.html) 這篇文章，大概花了 10 秒左右就回傳列點摘要給我。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/summarizer_demo_DLnBa2.webp" loading="lazy" alt="summarizer_demo" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/summarizer_demo_DLnBa2.webp" data-fancybox data-caption="summarizer_demo">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/summarizer_demo_DLnBa2.webp" loading="lazy" alt="summarizer_demo" align="center" />
+</a>
 
 由於我會使用這個助手的情境大多在於網路閱讀時，因此我採用彈窗的方式來提供輸出後的資料給我，讓我可以直接閱讀。
 
@@ -156,13 +160,17 @@ System 的地方填入的內容會規範這個助手的行為方式，例如最�
 
 他的回應如下：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/challenger-demo_BPTuU8.webp" loading="lazy" alt="challenger-demo" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/challenger-demo_BPTuU8.webp" data-fancybox data-caption="challenger-demo">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/challenger-demo_BPTuU8.webp" loading="lazy" alt="challenger-demo" align="center" />
+</a>
 
 可以看到，由於我只給了一句斷言直述句，所以他的回覆也偏向泛泛之言，但已經很足夠。
 
 假設我給了更完整的論述，他的表現會更好，例如，我繼續餵給他上面 Paul Graham 那篇 [The need to read](http://paulgraham.com/read.html) ，他就提出了下列問題。在我看來，他提問的內容都還不錯，有兩個 what 的問題，但也有兩個 why 的問題。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/challenger-demo-2_Wi5Rff.webp" loading="lazy" alt="challenger-demo-2" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/challenger-demo-2_Wi5Rff.webp" data-fancybox data-caption="challenger-demo-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/challenger-demo-2_Wi5Rff.webp" loading="lazy" alt="challenger-demo-2" align="center" />
+</a>
 
 這個挑戰者助手不僅對於我的思考與寫作有幫助，也能讓我讀到某些文章的特定段落時，詢問 ChatGPT 對方的論理邏輯是否有哪邊怪怪的，進而讓我可以思考更多。
 
@@ -181,7 +189,9 @@ System 的地方填入的內容會規範這個助手的行為方式，例如最�
 
 他給我的內容如下：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/creator-demo_EoJ0bh.webp" loading="lazy" alt="creator-demo" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/creator-demo_EoJ0bh.webp" data-fancybox data-caption="creator-demo">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/creator-demo_EoJ0bh.webp" loading="lazy" alt="creator-demo" align="center" />
+</a>
 
 我覺得這個助手可以在我只有初步想法時，快速丟更多想法給我，讓我去組織架構出合理的框架與內容細節。不過也許他的名字不該叫 Creator ，之後再來調整看看。
 
@@ -233,7 +243,9 @@ System 的地方填入的內容會規範這個助手的行為方式，例如最�
 
 他回覆給我的內容如下：
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/explainer-demo_oHFEQ3.webp" loading="lazy" alt="explainer-demo" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/explainer-demo_oHFEQ3.webp" data-fancybox data-caption="explainer-demo">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/explainer-demo_oHFEQ3.webp" loading="lazy" alt="explainer-demo" align="center" />
+</a>
 
 我覺得雖然還有像是「哈希」或者是「雙重支付」這樣的術語，但已經比單純用翻譯還要好理解一些，當然，也可以逐段請他說明，這樣更可以保持完整的脈絡。
 

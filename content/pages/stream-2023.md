@@ -37,7 +37,9 @@ template: stream.html
 {% end %}
 
 {% fleet(num="33",time="Apr 18 23:21",year="2023") %}
-剛剛不知道怎麼的，突然想說來換字體看看，結果試玩了一下完全被燒到，感覺右邊專業好多！我的卡快刷下去了...<br><img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/noto-serif-tc_nLmL0I.webp" loading="lazy" alt="noto-serif-tc" align=center />
+剛剛不知道怎麼的，突然想說來換字體看看，結果試玩了一下完全被燒到，感覺右邊專業好多！我的卡快刷下去了...<br><a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/noto-serif-tc_nLmL0I.webp" data-fancybox data-caption="noto-serif-tc">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/noto-serif-tc_nLmL0I.webp" loading="lazy" alt="noto-serif-tc" align="center" />
+</a>
 {% end %}
 
 {% fleet(num="32",time="Apr 16 11:18",year="2023") %}
@@ -184,7 +186,9 @@ What will always matter is the quality of ideas and the understanding of what yo
 
 {% fleet(num="7",time="Feb 25 15:04",year="2023") %}
 剛剛做了一個簡單的 Keyboard Maestro macro ，可以快速建立新的 stream 內容，如截圖：
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/quick-add-stream_EvcjNC.gif" loading="lazy" alt="quick-add-stream" align=center /><br>
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/quick-add-stream_EvcjNC.gif" data-fancybox data-caption="quick-add-stream">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/quick-add-stream_EvcjNC.gif" loading="lazy" alt="quick-add-stream" align="center" />
+</a><br>
 我只要輸入編號，就會自動幫我帶入當下的時間、年份等資訊。這樣 PO 東西的速度就可以更快了！
 {% end %}
 

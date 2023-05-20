@@ -13,7 +13,9 @@ taxonomies:
 
 今天在 Heptabase 的 discord 上面有人分享了 Capacities 的截圖跟討論，我覺得有個功能還蠻吸引我的，就是可以自動在每項收錄的內容上面加上時間戳，並且自動在 Journal / Daily notes 介面集成顯示。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/capacities-journal-view_58TFLY.webp" loading="lazy" width = "1024" height = "547" alt="capacities-journal-view" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/capacities-journal-view_58TFLY.webp" data-fancybox data-caption="capacities-journal-view">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/capacities-journal-view_58TFLY.webp" loading="lazy" width="1024" height="547" alt="capacities-journal-view" align="center" />
+</a>
 
 我覺得這個功能的好處是，讓「review」這件事更簡易、更直覺。一樣是解決了 Logseq 那種難以回顧、必須仰賴雙向連結「碰撞」在一起的不確定感。
 

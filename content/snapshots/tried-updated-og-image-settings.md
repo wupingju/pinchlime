@@ -12,7 +12,9 @@ taxonomies:
 
 最近又開始比較密集分享兩個部落格的文章，不過在 Twitter 上面分享時，通常都只會顯示部落格的 LOGO （如下圖），沒辦法顯示裡面的配圖。
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/logo-as-ogimage_MrGaxT.webp" loading="lazy" alt="logo-as-ogimage" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/logo-as-ogimage_MrGaxT.webp" data-fancybox data-caption="logo-as-ogimage">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/logo-as-ogimage_MrGaxT.webp" loading="lazy" alt="logo-as-ogimage" align="center" />
+</a>
 
 今天剛好有空，想來調整這部分的設定。
 

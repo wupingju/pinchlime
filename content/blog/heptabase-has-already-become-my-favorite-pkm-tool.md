@@ -10,7 +10,9 @@ taxonomies:
     - Heptabase
 ---
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-changelog-screenshot_qRE6ix.webp" loading="lazy" width = "768" height = "478" alt="heptabase-changelog-screenshot" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-changelog-screenshot_qRE6ix.webp" data-fancybox data-caption="heptabase-changelog-screenshot">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-changelog-screenshot_qRE6ix.webp" loading="lazy" width="768" height="478" alt="heptabase-changelog-screenshot" align="center" />
+</a>
 
 *這張圖來自 Heptabase 的 [官方 changelog 頁面](https://heptaplatforms.notion.site/Heptabase-Version-Changelog-29ea6db0b4ff4127b83d454742de86ad)，點進去可以看到每個版本大致上改了什麼東西。*
 

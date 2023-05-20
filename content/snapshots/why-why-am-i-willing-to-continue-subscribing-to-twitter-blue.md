@@ -13,7 +13,9 @@ extra:
 ---
 
 
-<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/twitter-blue_7sZ9MQ.webp" loading="lazy" alt="twitter blue, abstract, random style, --ar 1200:630 --v 5" align=center />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/twitter-blue_7sZ9MQ.webp" data-fancybox data-caption="twitter blue, abstract, random style, --ar 1200:630 --v 5">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/twitter-blue_7sZ9MQ.webp" loading="lazy" alt="twitter blue, abstract, random style, --ar 1200:630 --v 5" align="center" />
+</a>
 
 `圖片來源：Midjourney, prompt: twitter blue, abstract, random style, --ar 1200:630 --v 5`
 
