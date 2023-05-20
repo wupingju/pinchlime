@@ -25,6 +25,14 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [2.10.0] - 2023.05.20
+
+### Added
+
+- [網站新增了 Fancybox 的 Lightbox 燈箱彈窗效果](@/blog/added-fancybox-lightbox-effect.md)，這樣呈現圖片時更有質感，資訊也更清楚了！
+
+---
+
 ## [2.9.0] - 2023.05.14
 
 ### Added
