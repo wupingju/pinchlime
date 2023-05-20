@@ -62,6 +62,13 @@
 
 {% endmacro newsletters_min %}
 
+{% macro library_min(page) %}
+<div style="display: flex;justify-content: space-between; line-height: 1;">
+<a class="no-underline li_archive" href="{{ page.permalink }}">{{ page.title }}</a> 
+<span class="muted text-sm" style="font-family: menlo;">{{ page.updated | date(format="%Y-%m-%d") }}</span>
+</div>
+{% endmacro library_min %}
+
 {% macro post_side(page) %}
 <a href="{{ page.permalink }}">{{ page.title }}</a><br>
 {% endmacro post_side %}

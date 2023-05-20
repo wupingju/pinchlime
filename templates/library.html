@@ -53,10 +53,10 @@
     {{ section_content | safe}}
     {% if library_section.pages and library_section.pages|length > 0 %}
     <hr>
-    <h3>這個層級裡面有的內容</h3>
+    <h3 style="margin-bottom: 1.5rem;">Update Logs</h3>
     <ul class="list-none">
-    {% for page in library_section.pages | slice(start=0,end=10)  %} 
-    {{ macro::library_side(page=page) }}
+    {% for page in library_section.pages | sort(attribute="updated") | reverse  %} 
+    <li style="margin-bottom: 0.5rem;margin-top: 0.5rem;">{{ macro::library_min(page=page) }}</li>
     {% endfor %} 
     </ul>
     {% endif %}
