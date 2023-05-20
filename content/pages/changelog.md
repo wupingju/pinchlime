@@ -31,6 +31,15 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 - [網站新增了 Fancybox 的 Lightbox 燈箱彈窗效果](@/blog/added-fancybox-lightbox-effect.md)，這樣呈現圖片時更有質感，資訊也更清楚了！
 
+### Changed
+
+- 把個別 tags & categories 的匯總頁面都加上了年份排序的資訊，讓資訊陳列更清楚一些，可參考下圖，左邊是原本的樣子，右邊是本次修改後的樣子。
+
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/change-taxonomy-list_2SD3FC.webp" data-fancybox data-caption="change-taxonomy-list">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/change-taxonomy-list_2SD3FC.webp" loading="lazy" alt="change-taxonomy-list" align="center" />
+</a>
+
+
 ---
 
 ## [2.9.0] - 2023.05.14
@@ -38,6 +47,8 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 ### Added
 
 - 新增了站內的 [Library](/library) 區塊。並且連帶著增加了該區塊專屬的 breadcrumbs, sidebar, 以及對應的 javascript 內容，讓我可以紀錄 sidebar 的點擊狀態。
+
+---
 
 ## [2.8.0] - 2023.05.06
 

@@ -23,15 +23,16 @@
     </div>
     <ul class="root-ul">
       {% for category in terms %}
-      <li style="margin-left: -2.5rem;">
-        <a class="no-underline" href="{{ category.permalink }}">{{ category.name }}</a> ({{
-        category.pages | length }})
+        <h2 style="margin-left: -2.5rem"><a class="no-underline" href="{{ category.permalink }}">{{ category.name }}</a> ({{
+        category.pages | length }})</h2>
+        {% for year, posts in category.pages | group_by(attribute="year") %}
+        <h3>{{ year }}</h3>
         <ul style="margin-left: -2.5rem">
-          {% for page in category.pages %}
-          <li>{{ macro::post_min(page=page) }}</li>
+          {% for post in posts %}
+          <li>{{ macro::post_min(page=post) }}</li>
           {% endfor %}
         </ul>
-      </li>
+        {% endfor %}
       {% endfor %}
     </ul>
   </section>
