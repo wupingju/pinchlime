@@ -25,3 +25,4 @@ extra:
 ### 目前收集箱內的主要類別
 
 - [Toolbox](/library/toolbox)
+- [ChatGPT](/library/chatgpt)
