@@ -174,10 +174,14 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
     - Quote 的文字增加底色，更好區別樣式
 
 以下是兩張前後對比圖，左邊都是舊版，右邊是新版～
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/css-change-230119-1_7g2pJ1.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/css-change-230119-1_7g2pJ1.webp" data-fancybox data-caption="css-change-230119-1">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/css-change-230119-1_7g2pJ1.webp" loading="lazy" alt="css-change-230119-1" align="center" />
+</a>
 
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/css-change-230119-2_C3S2BG.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/css-change-230119-2_C3S2BG.webp" data-fancybox data-caption="css-change-230119-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/css-change-230119-2_C3S2BG.webp" loading="lazy" alt="css-change-230119-2" align="center" />
+</a>
 
 
 ---
@@ -225,7 +229,10 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 - 今天心血來潮詢問 ChatGPT 一些 css 的問題，就順帶把網站的每篇文章「分開」了，原先每篇文章都會黏在一起，有時比較不好區分不同文章，現在分開後清爽不少！
 
-- 對照圖，左邊是修改後，右邊是修改前：![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/separated-articles_1ybAat.webp)
+- 對照圖，左邊是修改後，右邊是修改前：
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/separated-articles_1ybAat.webp" data-fancybox data-caption="separated-articles">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/separated-articles_1ybAat.webp" loading="lazy" alt="separated-articles" align="center" />
+</a>
 
 ---
 
@@ -264,7 +271,10 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 - 效仿 [Owen 的部落格作法](https://www.owenyoung.com/en/changelog/#2022-07-06-desktop-read-mode)，把部落格的內文區塊區隔開來，製造出類似 reader mode 的效果，讓文章的區塊更好閱讀。
 
-- 對照圖：![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/reader-mode_9FwDHl.webp)
+- 對照圖：
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/reader-mode_9FwDHl.webp" data-fancybox data-caption="reader-mode">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/reader-mode_9FwDHl.webp" loading="lazy" alt="reader-mode" align="center" />
+</a>
 
 
 ---

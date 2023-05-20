@@ -17,7 +17,9 @@ taxonomies:
 
 直接上桌面！
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/2020.09.26-ios-home-screen-4_fdZqY9.webp?w=20)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/2020.09.26-ios-home-screen-4_fdZqY9.webp" data-fancybox>
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/2020.09.26-ios-home-screen-4_fdZqY9.webp" loading="lazy" alt="" align="center" />
+</a>
 
 <!-- more -->
 

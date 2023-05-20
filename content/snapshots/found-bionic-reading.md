@@ -16,7 +16,9 @@ taxonomies:
 我不太確定該怎麼命名它，因為他不是一個特定的軟體，在首頁的 CTA 是「Bionic Reading API」。
 
 他的概念可以看這張圖中的文字，左邊是沒有使用的，右邊是有使用的。
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bionic-reading_WxR6e4.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bionic-reading_WxR6e4.webp" data-fancybox data-caption="bionic-reading">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bionic-reading_WxR6e4.webp" loading="lazy" alt="bionic-reading" align="center" />
+</a>
 
 簡單來說，就是創造的人們認為人的大腦讀得比眼睛還快，而只要給大腦一小部分的資訊，就會自動補完，所以這能讓人讀得更快，甚至更好地理解讀的內容。
 

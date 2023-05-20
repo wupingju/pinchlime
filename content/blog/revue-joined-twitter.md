@@ -14,7 +14,9 @@ taxonomies:
 
 稍早傳出消息，Twitter 宣布收購來自荷蘭的電子報服務公司 Revue。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/twitter-revue_JB1zqs.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/twitter-revue_JB1zqs.webp" data-fancybox data-caption="twitter-revue_JB1zqs">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/twitter-revue_JB1zqs.webp" loading="lazy" alt="twitter-revue_JB1zqs" align="center" />
+</a>
 
 <!-- more -->
 
@@ -22,7 +24,9 @@ taxonomies:
 
 [Revue](https://www.getrevue.co/) 並不是一間很知名的公司，它提供的是電子報的服務，創作者可以透過 Revue 的介面與編輯器（如下圖），快速將內容編輯成版型不錯、簡潔好看的電子報，發送給讀者。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/revue-editor_6i28SU.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/revue-editor_6i28SU.webp" data-fancybox data-caption="revue-editor">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/revue-editor_6i28SU.webp" loading="lazy" alt="revue-editor" align="center" />
+</a>
 
 創作者也可以推出付費訂閱的內容，整個流程一樣很簡單，而 Revue 則從中收取手續費。
 

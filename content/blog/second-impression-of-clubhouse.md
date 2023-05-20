@@ -28,7 +28,9 @@ taxonomies:
     
 3. **Closed** ：只有自己選擇的對象可以加入，其他人看不到，應該也無法加入。（參加者的上線狀態只會顯示為「online」，而不會顯示在哪個房間、跟誰在對談）
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/clubhouse-rooms_IBZf1V.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/clubhouse-rooms_IBZf1V.webp" data-fancybox data-caption="clubhouse-rooms">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/clubhouse-rooms_IBZf1V.webp" loading="lazy" alt="clubhouse-rooms" align="center" />
+</a>
 
 ---
 

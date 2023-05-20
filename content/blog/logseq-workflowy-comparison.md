@@ -14,7 +14,9 @@ taxonomies:
 
 今天想來分享一下最近把 Logseq 當成 Workflowy 用的心得
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-logseq_E1hVKi.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-logseq_E1hVKi.webp" data-fancybox data-caption="workflowy-logseq">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-logseq_E1hVKi.webp" loading="lazy" alt="workflowy-logseq" align="center" />
+</a>
 
 <!-- more -->
 
@@ -83,7 +85,9 @@ taxonomies:
 - 鍵盤操作都相當順暢，體驗很好。（像是游標即使在句子中間任何一點，按 Tab 都可以整段直接縮排。）
 - 反向連結的顯示都很完整，這點的意思是，從任何一個連結點進去後，視窗下方的反向連結區域可以顯示完整的內文，而不僅僅是「哪個文件連到這個文件」而已。這在思考和編輯上的優點非常多，可以方便引用、甚至直接搬移內容。如下圖，左邊是 Logseq 官網的 FAQ 內容，反向連結的內容就在下方的 "Linked References" 處，可以直接閱覽及編輯，而右邊是我之前製作的 [Workflowy Demo](@/blog/workflowy-backlinks-mirror-board.md)，反向連結的內容會顯示在下方的 "Backlinks"處，也是可以直接閱覽跟編輯。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-logseq-backlinks_pdScRU.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-logseq-backlinks_pdScRU.webp" data-fancybox data-caption="workflowy-logseq-backlinks">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-logseq-backlinks_pdScRU.webp" loading="lazy" alt="workflowy-logseq-backlinks" align="center" />
+</a>
 
 ---
 
@@ -94,7 +98,9 @@ taxonomies:
 - Workflowy 每一行下面可以有一個單獨的 notes 欄位，是非常棒的一件事，拿來放tags、拿來放連結、放註解，都很剛好。這點 Logseq 就輸了。  
     如下圖，Logseq 的 shift + enter 只是軟換行，層級上跟本文是同一級的，引用時會被視為本文，全部內容都看得到。 Workflowy 的 notes 是另外一種屬性，顏色是不同的灰色，可以跟本文的黑色區別，且太長會略縮，在引用介面也不會顯示出來。 我覺得Workflowy的設計比較乾淨！  
     
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-logseq-notes_RLE6d4.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-logseq-notes_RLE6d4.webp" data-fancybox data-caption="workflowy-logseq-notes">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-logseq-notes_RLE6d4.webp" loading="lazy" alt="workflowy-logseq-notes" align="center" />
+</a>
 
 - Workflowy 的同步非常順暢穩定，有陣子我直接拿它來當 MacOS 跟 iOS 之間的剪貼板，基本上隨時打開都會是一樣的東西，要多裝置同步編輯也幾乎沒問題。
 

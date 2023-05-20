@@ -11,7 +11,9 @@ taxonomies:
     - HEY
 ---
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-email_1WGP9P.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-email_1WGP9P.webp" data-fancybox data-caption="hey-email">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-email_1WGP9P.webp" loading="lazy" alt="hey-email" align="center" />
+</a>
 
 一直很想好好介紹，我從2020年下半年開始使用的 Email 服務 [HEY](https://hey.com/) 。
 
@@ -65,7 +67,9 @@ HEY 是在 2020 年上半年由 [Basecamp](https://basecamp.com/) 公司推出�
 
 ## The Screener
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-the-screener_25uLeX.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-the-screener_25uLeX.webp" data-fancybox data-caption="hey-the-screener">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-the-screener_25uLeX.webp" loading="lazy" alt="hey-the-screener" align="center" />
+</a>
 
 上圖為 The Screener，圖片來源：[Hey.com](https://hey.com/features/the-screener/)
 
@@ -91,7 +95,9 @@ HEY 是在 2020 年上半年由 [Basecamp](https://basecamp.com/) 公司推出�
 
 ## Spy Blocking
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-spy-blocking_MDF0Hy.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-spy-blocking_MDF0Hy.webp" data-fancybox data-caption="hey-spy-blocking">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-spy-blocking_MDF0Hy.webp" loading="lazy" alt="hey-spy-blocking" align="center" />
+</a>
 
 Spy Blocking，來源：[Hey.com](https://hey.com/spy-trackers/)
 
@@ -109,7 +115,9 @@ Spy Blocking，來源：[Hey.com](https://hey.com/spy-trackers/)
 
 ## 靈活的通知設定
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-notifications_j626GB.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-notifications_j626GB.webp" data-fancybox data-caption="hey-notifications">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-notifications_j626GB.webp" loading="lazy" alt="hey-notifications" align="center" />
+</a>
 
 靈活的通知設定，來源：[Hey.com](https://hey.com/features/notifications/)
 

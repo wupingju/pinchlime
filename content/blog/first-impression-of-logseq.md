@@ -11,7 +11,9 @@ taxonomies:
     - Outliner
 ---
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/logseq-banner_Ue1i5r.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/logseq-banner_Ue1i5r.webp" data-fancybox data-caption="logseq-banner">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/logseq-banner_Ue1i5r.webp" loading="lazy" alt="logseq-banner" align="center" />
+</a>
 
 11月底，因為想讓工作上的紀錄跟日常的紀錄分開，所以下載了放在觀察清單很久，但一直沒空研究的 [Logseq](https://logseq.com)，結果用了幾天以後，發現它似乎比想像中的還要讚，甚至可以替代我原本在用的好幾個工具。
 

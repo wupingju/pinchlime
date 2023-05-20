@@ -88,4 +88,6 @@ Docusaurus 的介面很適合處理這種列表類型的頁面，例如 [PJCHENd
 
 PS. Docusaurus 的吉祥物恐龍真的很可愛！
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/docusaurus-social-card_WKa2xI.jpg)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/docusaurus-social-card_WKa2xI.jpg" data-fancybox data-caption="docusaurus-social-card">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/docusaurus-social-card_WKa2xI.jpg" loading="lazy" alt="docusaurus-social-card" align="center" />
+</a>

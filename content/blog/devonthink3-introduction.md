@@ -15,7 +15,9 @@ taxonomies:
 
 這篇想介紹的，是被我定位為 _第二大腦_ 的 Mac 軟體，[DEVONthink 3](https://www.devontechnologies.com/apps/devonthink)。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/devonthink-banner_waugVb.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/devonthink-banner_waugVb.webp" data-fancybox data-caption="devonthink-banner">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/devonthink-banner_waugVb.webp" loading="lazy" alt="devonthink-banner" align="center" />
+</a>
 
 <!-- more -->
 
@@ -88,7 +90,9 @@ DEVONthink 是由德國的公司 _DEVONtechnologies, LLC_ 開發的，最早的�
 
 我最喜歡的是用 markdown 格式擷取，這個以後再講，與自己的整個工作流有關。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/devonthink-web-clipper_kyqpfO.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/devonthink-web-clipper_kyqpfO.webp" data-fancybox data-caption="devonthink-web-clipper">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/devonthink-web-clipper_kyqpfO.webp" loading="lazy" alt="devonthink-web-clipper" align="center" />
+</a>
 
 上圖為 DEVONthink 的 Web Clipper 介面，_圖片來源：_[DEVONtechnologies](https://www.devontechnologies.com/)
 
@@ -129,7 +133,9 @@ DEVONthink 是由德國的公司 _DEVONtechnologies, LLC_ 開發的，最早的�
 
 而且最棒的事情是，這個功能會隨著資料庫的擴張，越來越強大。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/devonthink-demo_dhBGG7.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/devonthink-demo_dhBGG7.webp" data-fancybox data-caption="devonthink-demo">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/devonthink-demo_dhBGG7.webp" loading="lazy" alt="devonthink-demo" align="center" />
+</a>
 
 上圖為詞彙權重的呈現畫面，圖片來源：[DEVONtechnologies](https://www.devontechnologies.com/)
 

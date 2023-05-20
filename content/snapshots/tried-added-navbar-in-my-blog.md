@@ -17,6 +17,9 @@ taxonomies:
 
 * 於是經歷了一番亂搞，最後終於製作完成了，整體感覺我還蠻喜歡的，雖然肯定還可以更好，但目前也夠用了。
 
-* 附上截圖 ![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/blog-navbar_9OSlVQ.webp)
+* 附上截圖 
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/blog-navbar_9OSlVQ.webp" data-fancybox data-caption="blog-navbar">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/blog-navbar_9OSlVQ.webp" loading="lazy" alt="blog-navbar" align="center" />
+</a>
 
 * 這個研究的過程也讓我開始思考，是不是個人 wiki 還是用 Zola 來建更好？

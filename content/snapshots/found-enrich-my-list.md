@@ -17,7 +17,9 @@ taxonomies:
 
 這服務的收費方式是「按 List 大小」計費，目前的計費標準如下圖：
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/enrich-my-list_ucqxJZ.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/enrich-my-list_ucqxJZ.webp" data-fancybox data-caption="enrich-my-list">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/enrich-my-list_ucqxJZ.webp" loading="lazy" alt="enrich-my-list" align="center" />
+</a>
 
 我覺得這服務有趣的點在於，他解決了某種懶惰又真實存在的需求：
 「我想知道誰追蹤我、誰訂閱我，但我沒力氣一個一個去肉搜」

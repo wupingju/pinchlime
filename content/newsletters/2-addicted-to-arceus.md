@@ -48,7 +48,9 @@ Keyboard Maestro 有個蠻特別的功能叫做 Conflict Palette ，簡單的概
 - 紀錄快速想法的 Drafts 頁面
 - 團隊共用的 Clickup 頁面
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/keyboard-maestro-f1-dashboard_73ePhc.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/keyboard-maestro-f1-dashboard_73ePhc.webp" data-fancybox data-caption="keyboard-maestro-f1-dashboard">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/keyboard-maestro-f1-dashboard_73ePhc.webp" loading="lazy" alt="keyboard-maestro-f1-dashboard" align="center" />
+</a>
 
 這樣做的好處是，當我慢慢的把工作上面最常跳轉的頁面或應用程式都放上去後，這些熱鍵會逐漸形成某種肌肉記憶，因此在橫跨數個應用程式的工作中，思緒也不會被干擾而中斷。
 
@@ -58,7 +60,9 @@ Keyboard Maestro 有個蠻特別的功能叫做 Conflict Palette ，簡單的概
 
 而在編輯文字方面，我也有個快捷鍵是可以快速把「選取的文字」加上左右的標點符號，例如快速增加兩個中括號 [[ ]] ，這樣在大部分筆記軟體中就可以先寫文字，然後直接快捷鍵建立雙向連結。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/keyboard-maestro-f1-quickadd_2Pynto.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/keyboard-maestro-f1-quickadd_2Pynto.webp" data-fancybox data-caption="keyboard-maestro-f1-quickadd">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/keyboard-maestro-f1-quickadd_2Pynto.webp" loading="lazy" alt="keyboard-maestro-f1-quickadd" align="center" />
+</a>
 
 Keyboard Maestro 真的是很棒的工具，推薦大家可以試用看看，即使沒有寫程式的能力如我，只要看一些教學文章或影片，再下載幾個範本研究看看，都可以蠻快建立一些自己想要的功能！
 
@@ -76,7 +80,9 @@ Keyboard Maestro 真的是很棒的工具，推薦大家可以試用看看，即
 
 關於這裡面講的搜索，目前覺得已經有點影子的是這一年多來用的非常滿意的 [Sidekick](https://www.meetsidekick.com/) ， Sidekick 不僅是控管記憶體用量的高手，也有很多瀏覽器功能上的創新。例如這篇文提到的深度搜索，可以在 Sidekick 的新頁面按下 Option+F 快捷鍵搜尋查找，像是前陣子我在幫團隊評估新的專案管理工具，所以輸入 project ma 就會跑出相應的瀏覽紀錄。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/sidekick-quick-search_JMn4K9.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/sidekick-quick-search_JMn4K9.webp" data-fancybox data-caption="sidekick-quick-search">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/sidekick-quick-search_JMn4K9.webp" loading="lazy" alt="sidekick-quick-search" align="center" />
+</a>
 
 但目前這樣的功能看起來還沒有真的到很實用，期待未來真的有厲害的瀏覽器，能夠如這篇所說的，在知識管理的更前期就扮演更自動也更重要的角色。（若有，也請分享！）
 

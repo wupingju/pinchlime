@@ -13,7 +13,9 @@ taxonomies:
 
 這篇文章要來介紹的是，由台灣團隊開發的全新知識管理工具： [Heptabase](https://heptabase.com/) 。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-banner_DfkVdH.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-banner_DfkVdH.webp" data-fancybox data-caption="heptabase-banner">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-banner_DfkVdH.webp" loading="lazy" alt="heptabase-banner" align="center" />
+</a>
 
 ```
 備註：本文初稿完成於 2022.02.27，後續更新紀錄如下：
@@ -49,7 +51,9 @@ taxonomies:
 
 每張卡片的第一行就是該卡片的「標題／卡片名稱」。可以被其他卡片以「超連結」的方式來連結與引用。例如下圖的範例，內文的藍色文字「數位的筆記軟體讓卡片筆記法的編碼系統更彈性好用」就是透過超連結連到另一張卡片。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/a-card-example_jSaSGJ.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/a-card-example_jSaSGJ.webp" data-fancybox data-caption="a-card-example">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/a-card-example_jSaSGJ.webp" loading="lazy" alt="a-card-example" align="center" />
+</a>
 
 ---
 
@@ -63,7 +67,9 @@ taxonomies:
 
 下圖是我針對「Zettelkasten 卡片筆記法」這個主題製作的白板鳥瞰圖，我透過位置、顏色與連結線來讓卡片與卡片之間的關係更清楚，而這些視覺的資訊也會讓我對於卡片的記憶更深刻。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-zettelkasten-whiteboard_m8YSpU.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-zettelkasten-whiteboard_m8YSpU.webp" data-fancybox data-caption="my-zettelkasten-whiteboard">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-zettelkasten-whiteboard_m8YSpU.webp" loading="lazy" alt="my-zettelkasten-whiteboard" align="center" />
+</a>
 
 ---
 
@@ -75,7 +81,9 @@ taxonomies:
 
 Hepta 團隊就曾分享過[把 Whiteboards 依照某些特定的圖像如地圖來排列](https://twitter.com/Heptabase/status/1463120531176132620/photo/1)（如下圖），透過固定的位置來增強記憶與聯想。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-canada-map_AG4gDW.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-canada-map_AG4gDW.webp" data-fancybox data-caption="heptabase-canada-map">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-canada-map_AG4gDW.webp" loading="lazy" alt="heptabase-canada-map" align="center" />
+</a>
 
 這個「卡片-白板-地圖」的架構是 Heptabase 最基本的放置內容方式，但除了視覺方面的呈現外，Heptabase 更精華的地方在於「**透過不同方式來應用卡片**」。
 
@@ -83,7 +91,9 @@ Hepta 團隊就曾分享過[把 Whiteboards 依照某些特定的圖像如地圖
 
 ## Heptabase 的卡片應用方式 - Journal, Card Library, Tags
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-sidebar-2_VgCs3Y.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-sidebar-2_VgCs3Y.webp" data-fancybox data-caption="heptabase-sidebar-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-sidebar-2_VgCs3Y.webp" loading="lazy" alt="heptabase-sidebar-2" align="center" />
+</a>
 
 _上圖為 Heptabase 從 v0.161.0 版本以後的側邊欄_ {{ ftnt_refs( idxs=[1]) }}
 
@@ -96,7 +106,9 @@ _上圖為 Heptabase 從 v0.161.0 版本以後的側邊欄_ {{ ftnt_refs( idxs=[
 
 在 2022 年 6 月底推出的 Journal 功能，是 Heptabase 為了讓用戶輸入內容更迅速無壓力而推出的功能，它目前的介面如下圖：
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-journal_f2Wr8N.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-journal_f2Wr8N.webp" data-fancybox data-caption="heptabase-journal">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-journal_f2Wr8N.webp" loading="lazy" alt="heptabase-journal" align="center" />
+</a>
 
 只要點選側邊欄的 Journal 選項，就可以直接到這個「以日期為主體」的內容存放空間，透過上面的導覽列和日曆可以跳轉到想要的日期。
 
@@ -106,13 +118,17 @@ _上圖為 Heptabase 從 v0.161.0 版本以後的側邊欄_ {{ ftnt_refs( idxs=[
 
 而原先的文字在 Journal 上面則會變成一個「連到新卡片」的超連結。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/turn-into-card_UWGfFl.gif)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/turn-into-card_UWGfFl.gif" data-fancybox data-caption="turn-into-card">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/turn-into-card_UWGfFl.gif" loading="lazy" alt="turn-into-card" align="center" />
+</a>
 
 第二種方式是把內容區塊拖曳到白板裡。在任何白板可以從右上角打開 Journal ，此時可以直接把想要的文字區塊拖曳到白板，就會直接把這些文字轉換成卡片，第一段的文字也會成為該卡片的標題。
 
 而原先的文字在 Journal 上面也會變成一個「連到新卡片」的超連結。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/drag-to-whiteboards_x4fnJQ.gif)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/drag-to-whiteboards_x4fnJQ.gif" data-fancybox data-caption="drag-to-whiteboards">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/drag-to-whiteboards_x4fnJQ.gif" loading="lazy" alt="drag-to-whiteboards" align="center" />
+</a>
 
 這兩種讓「零散文字」轉換為「卡片」的操作，讓 Journal 成為 Heptabase 裡面很適合記下靈感與想法的第一站。不過由於 Journal 才剛推出不久，未來應該還會有不少新增的功能與操作方式，之後再來補充介紹。
 
@@ -183,11 +199,15 @@ Card Library 是 Heptabase 裡面的卡片管理站，目前有分成兩種模�
 
 而在 Heptabase 裡面，每張卡片的 Card Info 介面都承載了該張卡片的連結資訊，包含「這張卡片連到哪裡？放在哪裡？」以及「有哪些卡片連到這張卡片？」（如下圖）
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/card-info-1_2UD3Rd.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/card-info-1_2UD3Rd.webp" data-fancybox data-caption="card-info-1">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/card-info-1_2UD3Rd.webp" loading="lazy" alt="card-info-1" align="center" />
+</a>
 
 而若是將這張卡片展開為「編輯模式」，它的 Card Info 呈現重點則會是反向連結（哪些卡片連到這張卡片）的上下文資訊。（如下圖）
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/card-info-2_BBMX5c.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/card-info-2_BBMX5c.webp" data-fancybox data-caption="card-info-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/card-info-2_BBMX5c.webp" loading="lazy" alt="card-info-2" align="center" />
+</a>
 
 透過這些連結的資訊，我可以在未來透過搜尋等功能，找到某張卡片時，很清楚知道這張卡片與哪些卡片有關係、它出現在哪些白板、它曾被哪些卡片提及，進而透過這樣的關係網，去觸發更多記憶，產生更多新的想法與連結。
 

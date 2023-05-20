@@ -13,7 +13,9 @@ taxonomies:
 
 有在用 Clubhouse 的人，應該都曾經好奇過 app icon 上面的那個爆炸頭黑人是誰吧？
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bomani-x_9cSUFd.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bomani-x_9cSUFd.webp" data-fancybox data-caption="bomani-x">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bomani-x_9cSUFd.webp" loading="lazy" alt="bomani-x" align="center" />
+</a>
 
 上圖為 Bomani X ，來源： [https://twitter.com/iambomanix](https://twitter.com/iambomanix)
 
@@ -35,7 +37,9 @@ taxonomies:
 
 ## Axel Mansoor
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/axel-mansoor_KaVEZc.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/axel-mansoor_KaVEZc.webp" data-fancybox data-caption="axel-mansoor">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/axel-mansoor_KaVEZc.webp" loading="lazy" alt="axel-mansoor" align="center" />
+</a>
 
 上圖為 Axel Mansoor，來源：[https://twitter.com/iamaxelm](https://twitter.com/iamaxelm)
 
@@ -51,7 +55,9 @@ Axel Mansoor 是一名音樂家，在 PST 時區的每天晚上9點（大約是�
 
 ## Bomani X
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bomani-x-2_TSvl6A.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bomani-x-2_TSvl6A.webp" data-fancybox data-caption="bomani-x-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bomani-x-2_TSvl6A.webp" loading="lazy" alt="bomani-x-2" align="center" />
+</a>
 
 Bomani X，來源：[https://www.instagram.com/p/Bzbg0EXnEFb/](https://www.instagram.com/p/Bzbg0EXnEFb/)
 
@@ -67,7 +73,9 @@ Bomani X，來源：[https://www.instagram.com/p/Bzbg0EXnEFb/](https://www.insta
 
 在 Bomani X 之前的，是 Espree Devora (@espree)。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/espree-devora_Yf8Ksd.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/espree-devora_Yf8Ksd.webp" data-fancybox data-caption="espree-devora">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/espree-devora_Yf8Ksd.webp" loading="lazy" alt="espree-devora" align="center" />
+</a>
 
 Espree Devora，[圖片來源](https://www.prnewswire.com/news-releases/trailblazing-podcast-host-and-women-in-tech-superconnector-espree-devora-becomes-the-face-of-the-clubhouse-app-301186814.html)
 
@@ -83,7 +91,9 @@ Clubhouse 官方對 Espree 的介紹是：她在 Clubhouse 裡頭幫助了許多
 
 在 Espree 的前一位，則是 Erika Batista (@erika)。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/erika-batista_8QKyWX.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/erika-batista_8QKyWX.webp" data-fancybox data-caption="erika-batista">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/erika-batista_8QKyWX.webp" loading="lazy" alt="erika-batista" align="center" />
+</a>
 
 Erika Batista，來源： [https://twitter.com/ErikaBatista/status/1329450467508809729/photo/2](https://twitter.com/ErikaBatista/status/1329450467508809729/photo/2)
 

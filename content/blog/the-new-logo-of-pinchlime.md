@@ -16,7 +16,9 @@ taxonomies:
 
 此時經由女友介紹，推薦一個她之前合作過的設計師朋友，我再次把需求交付給對方，但這次希望由對方主導設計（我實在太沒有設計想法了），結果幾次來回討論後，慢慢 Logo 成型。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/the-logo-of-pinchlime_fJJLpp.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/the-logo-of-pinchlime_fJJLpp.webp" data-fancybox data-caption="the-logo-of-pinchlime">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/the-logo-of-pinchlime_fJJLpp.webp" loading="lazy" alt="the-logo-of-pinchlime" align="center" />
+</a>
 
 <!-- more -->
 
@@ -34,4 +36,6 @@ taxonomies:
 
 最後再附上設計師選的其他幾個顏色搭配，其中有一個被我拿去當成[Pin 起來電子報](https://pinchlime.substack.com/)的 Logo 了
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logos_YCuipA.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logos_YCuipA.webp" data-fancybox data-caption="pinchlime-logos">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logos_YCuipA.webp" loading="lazy" alt="pinchlime-logos" align="center" />
+</a>

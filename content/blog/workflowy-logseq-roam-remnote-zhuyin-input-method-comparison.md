@@ -25,7 +25,9 @@ taxonomies:
 
 如下圖，在 Workflowy 測試注音輸入。假設我原本已經有個頁面叫做「注意力」，但我現在想要創立 / 連結到「注音」的頁面。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/testing-zhuyin-in-workflowy_EZHFLI.gif)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/testing-zhuyin-in-workflowy_EZHFLI.gif" data-fancybox data-caption="testing-zhuyin-in-workflowy">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/testing-zhuyin-in-workflowy_EZHFLI.gif" loading="lazy" alt="testing-zhuyin-in-workflowy" align="center" />
+</a>
 
 此時我在 Workflowy 裡面輸入「注」，然後按下 enter 要先確定選字時， Workflowy 就會自動多跳一步，直接幫我選到「注意力」這個項目，而且還會跑出多餘的贅字在旁邊。
 
@@ -45,7 +47,9 @@ taxonomies:
 
 如下圖，從在 RemNote 測試注音輸入的結果可以看到， RemNote 基本上根本沒考慮中文的使用，不僅「暫選狀態」的字不會啟動搜尋，在處理 enter 時的方式也最糟糕，簡直無法繼續使用下去，直接放棄。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/testing-zhuyin-in-remnote_ZkPTE0.gif)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/testing-zhuyin-in-remnote_ZkPTE0.gif" data-fancybox data-caption="testing-zhuyin-in-remnote">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/testing-zhuyin-in-remnote_ZkPTE0.gif" loading="lazy" alt="testing-zhuyin-in-remnote" align="center" />
+</a>
 
 接著來測試 Logseq。
 
@@ -57,7 +61,9 @@ taxonomies:
 
 從下圖在 Logseq 測試注音輸入的結果可以看到，當我輸入「注」這個字，並且按下 enter 時，Logseq 就會搜尋「注」相關的頁面，但不會馬上幫我確認要連，我可以自己選擇要不要連。而連下去以後也不會出現多餘的贅字。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/testing-zhuyin-in-logseq_CHZMsD.gif)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/testing-zhuyin-in-logseq_CHZMsD.gif" data-fancybox data-caption="testing-zhuyin-in-logseq">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/testing-zhuyin-in-logseq_CHZMsD.gif" loading="lazy" alt="testing-zhuyin-in-logseq" align="center" />
+</a>
 
 而我直接輸入「注音」然後按 enter 選字後，也很順暢，總之，透過 Logseq 的 [[ 快捷鍵，我可以順順地打上我想要連結的頁面，或者也可以新創一個頁面。
 
@@ -71,7 +77,9 @@ taxonomies:
 
 如下圖，我一樣可以先按下 [[ 啟動雙向連結的搜尋偵測，但此時即使怎麼打字、按下 enter 選字，都可以好好編輯，選完也不會跑出多餘的贅字。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/testing-zhuyin-in-roam-research_LXSYEp.gif)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/testing-zhuyin-in-roam-research_LXSYEp.gif" data-fancybox>
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/testing-zhuyin-in-roam-research_LXSYEp.gif" loading="lazy" alt="testing-zhuyin-in-roam-research_LXSYEp" align="center" />
+</a>
 
 ---
 

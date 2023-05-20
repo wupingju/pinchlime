@@ -15,19 +15,25 @@ taxonomies:
 
 早上看到微軟推出了全新的 Bing \+ Edge ，目前只開放有限的幾個預設問題，可以透過 <https://bing.com/new/> 點選下面的那些預設問題。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/new-bing_duw0uC.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/new-bing_duw0uC.webp" data-fancybox data-caption="new-bing">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/new-bing_duw0uC.webp" loading="lazy" alt="new-bing" align="center" />
+</a>
 
 試玩了一下，跟 ChatGPT 蠻不一樣的地方在於，他是把 AI 整合進原本的搜尋視窗，並且分成兩種模式。
 
 第一種是類似 AI 搜尋助手，把 AI 整合的完整答案呈現在側邊欄。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-ai-assistant_lCBSdV.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-ai-assistant_lCBSdV.webp" data-fancybox data-caption="bing-ai-assistant">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-ai-assistant_lCBSdV.webp" loading="lazy" alt="bing-ai-assistant" align="center" />
+</a>
 
 另一種則是「讓 AI 幫你寫」。
 
 當你輸入特定的內容類型以及要寫的東西， Bing 就會在搜尋結果畫面出現一個視窗，裡面有它為你產生的內容，類型有 blog post, code, tweet, story, movie, summary 等等。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-ai-creator_uPMC50.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-ai-creator_uPMC50.webp" data-fancybox data-caption="bing-ai-creator">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-ai-creator_uPMC50.webp" loading="lazy" alt="bing-ai-creator" align="center" />
+</a>
 
 無論是哪一種，都有兩個特性：
 
@@ -35,7 +41,9 @@ taxonomies:
 
     例如在預設的「請推薦我電子音樂的音樂祭」這個問題中， AI 整合的答案後方有些 footnotes ，在畫面下方就可以連到這些原始的頁面。
 
-    ![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-search-results_SfV3DI.webp)
+    <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-search-results_SfV3DI.webp" data-fancybox data-caption="bing-search-results">
+    <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bing-search-results_SfV3DI.webp" loading="lazy" alt="bing-search-results" align="center" />
+    </a>
 
 2. 還是保留原本的搜尋結果
 

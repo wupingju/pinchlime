@@ -29,7 +29,11 @@ taxonomies:
 3. 桌面版的介面要追上行動版  
     
 
-所以長出來的是這個樣子 ![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/the-new-facebook_2NCPaP.webp) （圖來自Facebook）
+所以長出來的是這個樣子：
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/the-new-facebook_2NCPaP.webp" data-fancybox data-caption="the-new-facebook">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/the-new-facebook_2NCPaP.webp" loading="lazy" alt="the-new-facebook" align="center" />
+</a>
+（圖來自Facebook）
 
 可以看到，介面確實很像行動版，按鈕跟整體配置都是。這點沒騙人。
 

@@ -17,7 +17,9 @@ taxonomies:
 
 下班後在回家路上，也隨機加了[Firstory](https://www.facebook.com/firstory.inc/) 的人開的房間，邊聽這些有點知道、但其實陌生的人們閒聊，感覺蠻有趣的，這邊簡單紀錄一下整天下來的使用心得。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/clubhouse-intro_s9Ox45.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/clubhouse-intro_s9Ox45.webp" data-fancybox data-caption="clubhouse-intro">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/clubhouse-intro_s9Ox45.webp" loading="lazy" alt="clubhouse-intro" align="center" />
+</a>
 
 <!-- more -->
 

@@ -11,7 +11,9 @@ taxonomies:
     - Launcher
 ---
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast_A44cKa.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast_A44cKa.webp" data-fancybox data-caption="raycast">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast_A44cKa.webp" loading="lazy" alt="raycast" align="center" />
+</a>
 
 ## 為什麼想嘗試 Raycast？
 
@@ -29,7 +31,9 @@ taxonomies:
 
 一開始打開 Raycast 後，如果從來沒用過這類軟體，可能會被一堆指令嚇到，反而不知道可以幹嘛、該幹嘛，就被嚇跑了，所以我建議直接先打開偏好設定（Command + ,）（或點選 menubar 的圖示選 Preferences），接著你會看到一個簡單的設定介面，在 General 分頁可以設定啟動快捷鍵，而主要的功能設定都在 Extensions 分頁，如下圖。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-extensions_rcrvLB.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-extensions_rcrvLB.webp" data-fancybox data-caption="raycast-extensions">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-extensions_rcrvLB.webp" loading="lazy" alt="raycast-extensions" align="center" />
+</a>
 
 在這邊簡單介紹一下裡面每一欄的意思，第一欄 Name 指的是某一類型的指令（Command）、擴充功能（Extension）或者群組（Group），而重點的設定在第三欄的 Alias 以及第四欄的 Hotkey。第五欄的 Enabled 則是可以勾選「要不要開啟這項功能」。
 
@@ -45,7 +49,9 @@ taxonomies:
 
 Raycast 的功能一篇文章絕對說不完，因為它有豐富的擴充功能市場，從 Extensions 介面點選那個＋號就可以進去瀏覽。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-extensions-store_4JjW52.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-extensions-store_4JjW52.webp" data-fancybox data-caption="raycast-extensions-store">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-extensions-store_4JjW52.webp" loading="lazy" alt="raycast-extensions-store" align="center" />
+</a>
 
 而除了擴充功能外，內建的也已經足夠強大，對我來說可能可以分成「可以替代 Spotlight 的功能」以及「可以替代其他效率工具的功能」兩種類型。
 
@@ -70,7 +76,9 @@ Raycast 的功能一篇文章絕對說不完，因為它有豐富的擴充功能
 
 而在 Windows Management 的項目裡面， Raycast 就內建了二三十種不同的視窗管理選項，以我來說我就設定了下圖這些：
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-windows-management_NNkiKe.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-windows-management_NNkiKe.webp" data-fancybox data-caption="raycast-windows-management">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast-windows-management_NNkiKe.webp" loading="lazy" alt="raycast-windows-management" align="center" />
+</a>
 
 這個意思是比如說，我只要按下 Option + 上，就能迅速將目前的視窗擴展到整個螢幕的大小，按下特定快捷鍵，就可以將視窗設定為左右對半、左右三分之二、左右三分之一、或者是將螢幕切成四格。
 

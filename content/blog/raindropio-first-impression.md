@@ -13,7 +13,9 @@ taxonomies:
 
 牛年的尾巴，想來分享一下一個不錯的書籤管理工具： [Raindrop.io](https://raindrop.io)
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raindrop-io-banner_57bRTZ.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raindrop-io-banner_57bRTZ.webp" data-fancybox data-caption="raindrop-io-banner">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raindrop-io-banner_57bRTZ.webp" loading="lazy" alt="raindrop-io-banner" align="center" />
+</a>
 
 <!-- more -->
 
@@ -39,7 +41,9 @@ Raindrop.io 有基本的三欄式介面，只要把網址丟進去（也可以�
 
 而我試用 Raindrop 後，嘗試把單則推文的網址丟到 Raindrop ，結果發現效果意外地好，例如我試著存入自己前幾天在[討論 Heptabase 優點的推文](https://twitter.com/WuPingJu/status/1486369791711473665)，結果在 Raindrop 頁面中，可以直接在第二欄看到推文的文字，點開後在第三欄可以看到完整的預覽（包含推文串的其他內容），這讓我可以把有興趣的推文一股腦兒都倒進 Raindrop.io ，然後在之後有空時再批次處理。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raindrop-io-user-interface_lLUYqI.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raindrop-io-user-interface_lLUYqI.webp" data-fancybox data-caption="raindrop-io-user-interface">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raindrop-io-user-interface_lLUYqI.webp" loading="lazy" alt="raindrop-io-user-interface" align="center" />
+</a>
 
 ---
 
@@ -77,7 +81,9 @@ b. 如果只是覺得文章不錯，未來也許用得上，但找不到也沒�
 
 費用的話，以月計價是 3.15 美金／月，以年計價是 29.4 美金／年，覺得不算太貴。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raindrop-io-pricing_R7fFc1.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raindrop-io-pricing_R7fFc1.webp" data-fancybox data-caption="raindrop-io-pricing">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raindrop-io-pricing_R7fFc1.webp" loading="lazy" alt="raindrop-io-pricing" align="center" />
+</a>
 
 ---
 

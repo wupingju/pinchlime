@@ -15,7 +15,9 @@ taxonomies:
 
 剛剛看了一下，前七天花了差不多50小時在這上面，到底做了哪些事情、觀察到了哪些現象，一定要好好記錄下來，像是在某個大當機系統不穩的夜晚，衝到皮卡丘房第二位！可惜頭像沒顯示出來。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/clubhouse-pikachu-room_i9Gu94.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/clubhouse-pikachu-room_i9Gu94.webp" data-fancybox data-caption="clubhouse-pikachu-room">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/clubhouse-pikachu-room_i9Gu94.webp" loading="lazy" alt="clubhouse-pikachu-room" align="center" />
+</a>
 
 <!-- more -->
 

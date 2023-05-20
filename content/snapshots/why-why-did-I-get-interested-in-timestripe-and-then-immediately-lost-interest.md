@@ -28,10 +28,16 @@ taxonomies:
 但介面真的蠻美，附上三張圖。
 
 第一張是我很喜歡的看板介面
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/timestripe-1_BhiU7k.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/timestripe-1_BhiU7k.webp" data-fancybox data-caption="timestripe-1">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/timestripe-1_BhiU7k.webp" loading="lazy" alt="timestripe-1" align="center" />
+</a>
 
 第二張是「今年過了多少」的視覺化呈現
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/timestripe-2_rTrPNv.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/timestripe-2_rTrPNv.webp" data-fancybox data-caption="timestripe-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/timestripe-2_rTrPNv.webp" loading="lazy" alt="timestripe-2" align="center" />
+</a>
 
 第三張是「你活了幾年」的視覺化呈現
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/timestripe-3_eV72dt.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/timestripe-3_eV72dt.webp" data-fancybox data-caption="timestripe-3">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/timestripe-3_eV72dt.webp" loading="lazy" alt="timestripe-3" align="center" />
+</a>

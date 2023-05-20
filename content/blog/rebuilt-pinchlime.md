@@ -15,7 +15,9 @@ taxonomies:
     - Static Sites
 ---
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zola-banner_pOklOy.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zola-banner_pOklOy.webp" data-fancybox data-caption="zola-banner">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zola-banner_pOklOy.webp" loading="lazy" alt="zola-banner" align="center" />
+</a>
 
 來跟大家分享以及更新一下，目前看到的這個網站「Pin 起來／Pinchlime.com」，在今天（2022.04.17）進行了一次大改版。
 
@@ -62,7 +64,9 @@ taxonomies:
 
 原先我在 Wordpress.com 上面選用的是「進階版方案」，以年計費的話，每個月是新台幣 240 元，一年則是 2,880 元，但坦白說，這個方案裡面諸多功能我幾乎都用不到。如下圖，像是進階設計工具、儲存音訊跟影片檔案的空間，或者是透過網站廣告獲利等等，還有電子郵件支援、使用 Paypal 支付或 Jetpack 等功能，我全部都用不到。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/wordpress-com-advanced-plan_GAXFMG.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/wordpress-com-advanced-plan_GAXFMG.webp" data-fancybox data-caption="wordpress-com-advanced-plan">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/wordpress-com-advanced-plan_GAXFMG.webp" loading="lazy" alt="wordpress-com-advanced-plan" align="center" />
+</a>
 
 對我來說，我需要的功能就是能夠產製簡單圖文排版的頁面、版型設計符合我的需求、加上讀取速度夠快就好，而 Wordpress.com 對我來說好像有點大材小用。
 
@@ -178,7 +182,9 @@ taxonomies:
 
 在讀取速度方面，目前的網站透過 [PageSpeed Insights](https://pagespeed.web.dev/) 測出來的結果（如下圖），手機版大概可以在 95 分左右，而桌面版則是 99 或 100 分，跟原本的分數比起來，我已經很滿意了！ 
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-pagespeed-new_3fWdIE.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-pagespeed-new_3fWdIE.webp" data-fancybox data-caption="pinchlime-pagespeed-new">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-pagespeed-new_3fWdIE.webp" loading="lazy" alt="pinchlime-pagespeed-new" align="center" />
+</a>
 
 而在寫作速度方面，原本要在 Wordpress 編輯器上面多花的 15-30 分鐘，現在也不需要了，比方說我目前這篇文章寫完後，只要在 VSCode 編輯器裡面按下 commit + sync ，就會自動把文章同步到 Github ，也就是同步到 Netlify 裡面，然後大約在 30 秒後，就可以在網站上面看到了。
 

@@ -23,7 +23,9 @@ taxonomies:
 
 首先可以看我透過 Workflowy 的分享功能，創造的 [demo 頁面](https://workflowy.com/s/demo/vQWTHz5gMjHqCwUE)（見下圖） ，這個頁面是個簡單的純瀏覽示範，由三個區塊組成，第一個區塊是追蹤看板，第二個區塊是每日紀錄，第三個區塊是專案紀錄。demo 頁面中每個節點或者有底線的連結都可點。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-demo-1_V5RjQF.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-demo-1_V5RjQF.webp" data-fancybox data-caption="workflowy-demo-1">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-demo-1_V5RjQF.webp" loading="lazy" alt="workflowy-demo-1" align="center" />
+</a>
 
 不過在介紹上，我的順序會先講第三個區塊的專案紀錄。
 
@@ -35,7 +37,9 @@ taxonomies:
 
 在每日紀錄的區塊，用法就是每天開一個節點，當天若某專案有進度，就直接用 [[ ]] 連到該專案，並且記下相關資訊。例如我在 1月7日的節點底下，連結到了專案A，並且開了一個項目叫做「例行會議追蹤」（如下圖）。
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-demo-2_7BJYV0.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-demo-2_7BJYV0.webp" data-fancybox data-caption="workflowy-demo-2">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-demo-2_7BJYV0.webp" loading="lazy" alt="workflowy-demo-2" align="center" />
+</a>
 
 此時若這個紀錄是重要的，那就直接把它用**鏡像(mirror)** 的功能連回「專案紀錄」區塊中，該專案的指定欄位，例如我在「專案紀錄->專案A->專案A例行會議追蹤」紀錄每次的追蹤會議，所以就在這項下面連結回1月7日的追蹤紀錄。
 
@@ -47,7 +51,9 @@ taxonomies:
 
 在「每日紀錄」的欄位，有每個專案的完整記錄和討論，而在「專案紀錄」的欄位，則是可以一覽所有專案的重要進展跟資訊（當然可以再自己設置不同層級、或者是上 tag。 如圖，我把這兩大頁面的 demo 排在一起，可以稍微感受一下他們之間的連結性。）
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-demo-3_ncdggB.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-demo-3_ncdggB.webp" data-fancybox data-caption="workflowy-demo-3">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-demo-3_ncdggB.webp" loading="lazy" alt="workflowy-demo-3" align="center" />
+</a>
 
 兩大區塊彼此有關，但各自有各自的重點。
 
@@ -57,7 +63,9 @@ taxonomies:
 
 這時再回過頭來講第一個「追蹤看板」，「看板」是 workflowy 的功能之一，可以把任何一個列表轉換成看板模式，而我在這個 demo 的用法，就是把專案A、專案B、專案C的「專案Ｏ例行會議追蹤」這個點，都用鏡像的功能連到「追蹤看板」，這樣一來，每當我把每日紀錄的專案會議追蹤，鏡像到該專案的欄位後，又會自動再鏡像到追蹤看板，即時更新。（如下圖）
 
-![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-demo-4_fz3Qbc.webp)
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-demo-4_fz3Qbc.webp" data-fancybox data-caption="workflowy-demo-4">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/workflowy-demo-4_fz3Qbc.webp" loading="lazy" alt="workflowy-demo-4" align="center" />
+</a>
 
 簡單來說，看板的好處是能夠將同一屬性但不同日期或專案的資訊有效地整合在一起。
 

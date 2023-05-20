@@ -33,16 +33,22 @@ extra:
 
 1. 每當有靈感浮現，使用自己設定的  熱鍵，點選 New Letter Draft
 
-	![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/new-letter-draft_2fbmMC.webp)
+	<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/new-letter-draft_2fbmMC.webp" data-fancybox data-caption="new-letter-draft">
+	<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/new-letter-draft_2fbmMC.webp" loading="lazy" alt="new-letter-draft" align="center" />
+	</a>
 
 2. 點開後，會有一個輸入框，讓我填入暫時預設的電子報標題。
 
-	![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/new-letter-title_zfJy40.webp)
+	<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/new-letter-title_zfJy40.webp" data-fancybox data-caption="new-letter-title">
+	<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/new-letter-title_zfJy40.webp" loading="lazy" alt="new-letter-title" align="center" />
+	</a>
 
 
 3. 按下輸入後，在 Drafts 這個軟體裡面就會開啟一篇新的草稿，裡面有這篇的標題、標籤，還有我自己預設的幾個段落標題。
 
-	![](https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/new-letter-template_1TcPIf.webp)
+	<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/new-letter-template_1TcPIf.webp" data-fancybox data-caption="new-letter-template">
+	<img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/new-letter-template_1TcPIf.webp" loading="lazy" alt="new-letter-template" align="center" />
+	</a>
 
 4. 在 Drafts 裡面寫的東西告個段落、有雛型以後，就可以透過 Drafts 的 action，把這篇草稿送到 iA Writer 裡面繼續編輯，然後發出。
 
