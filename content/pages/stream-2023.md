@@ -3,13 +3,21 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-05-18
+updated: 2023-05-25
 template: stream.html
 ---
 
 ## 2023
 
 ### May
+
+{% fleet(num="41",time="May 25 22:26",year="2023") %}
+今天賣掉了持有十多年的兩台經典底片自動相機，Contax T2 & Minolta TC-1 ，他們都是我在大學時買的，一直都是非常喜歡的好相機。賣掉後有點不捨，但也感覺少牽掛一些，可以更專注於我所擁有的。接下來還有好幾台要賣，希望最終能返璞歸真。
+{% end %}
+
+{% fleet(num="40",time="May 25 22:23",year="2023") %}
+昨天被 MoneyWiz 雷到，遷移到 Setapp 有支援的 2023 版本後，我發現有部分帳戶的現值出了問題，花了一些時間處理，結果愈弄愈糟。有點想要換記帳工具了。<br>目前兩個最心動的應該是 Moze 3.0 跟 Beancount。Moze 感覺很容易使用，但目前只有手機版本，而且看起來不太好處理股票跟 crypto currencies ，Beancount 則感覺是某種生產力 geek 的殊途同歸選擇，這個標籤自己貼上來後害我好心動。都研究看看好了！
+{% end %}
 
 {% fleet_q(num="39",time="May 18 21:25",year="2023",source_name="左耳朵耗子的话",link="https://mp.weixin.qq.com/s/bOnW8gDJ-dXp4KbAjhDw9A") %}
 <quote>所以你需要站在一个天天都有风吹的地方，比如说你选对了计算机专业，这就是一个风不停地吹的地方。过去也好，今天也好，未来也好，整个世界都是被一堆程序员驱动，就是这些写代码的人在改变着未来。</quote>
