@@ -4,13 +4,13 @@ sort_by: weight
 template: library.html
 page_template: library_page.html
 weight: 1
-extra: 
+extra:
     bread_name: Library
 ---
 
-這個頁面專區是「Pin 起來的收集箱」。
+這個頁面專區是「Pin 起來的收集箱」，目前正在持續累積內容中，尚未完全公開。
 
-用途是拿來放置我收集的各種東西，包含我正在使用的工具、已經沒在使用的工具、我推薦的網站、對我影響深遠的文章、我閱讀過的書 ... 等等。
+這個專區的用途，是拿來放置我收集的各種東西，包含我正在使用的工具、已經沒在使用的工具、我推薦的網站、對我影響深遠的文章、我閱讀過的書 ... 等等。
 
 會想把這些內容放在這個專區，是因為這些東西比較像是單純的「收集」與「列表」，他們跟網站內其他頁面的「文章」有些不一樣。因此我想把這類比較偏向「純資訊整理」的東西都放在這區。
 
@@ -25,4 +25,4 @@ extra:
 ### 目前收集箱內的主要類別
 
 - [Toolbox](/library/toolbox)
-- [ChatGPT](/library/chatgpt)
+- [ChatGPT List](/library/chatgpt-list)
