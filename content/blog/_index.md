@@ -21,6 +21,7 @@ Hi，你現在看到的「**Blog**」頁面，是這個網站最核心的內容�
 <details>
   <summary>展開熱門文章清單</summary>
   <ul>
+    <li><a href="/blog/my-personal-knowledge-management-system-2023/">我的個人知識管理系統</a></li>
     <li><a href="/blog/let-chatgpt-act-as-a-midjourney-prompt-generator/">嘗試讓 ChatGPT 扮演 Midjourney prompt 產生器</a></li>
     <li><a href="/blog/heptabase-has-already-become-my-favorite-pkm-tool/">迅速迭代功能的 Heptabase 已成為我最愛用的知識管理工具</a></li>
     <li><a href="/2022/02/27/heptabase-introduction/">Heptabase 介紹 - 以卡片為基礎的強大知識管理工具</a></li>
