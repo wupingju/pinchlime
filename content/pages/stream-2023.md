@@ -3,13 +3,22 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-06-16
+updated: 2023-06-24
 template: stream.html
 ---
 
 ## 2023
 
 ### June
+
+{% fleet(num="45",time="Jun 24 15:39",year="2023") %}
+無意間看到 <a href="https://djot.net/">Djot</a> 這個輕量的標記語法。根據官網介紹，是想要做出一套比 commonmark 還要簡單、更容易解析的語法。我對這些東西不太熟悉，但感覺是個有趣的東西。
+{% end %}
+
+{% fleet(num="44",time="Jun 24 14:26",year="2023") %}
+今天試玩了一下之前有朋友推薦的 AI chatbot "<a href="https://heypi.com/talk">Pi</a>" ，但對話了幾句以後，就把它關掉了。<br>一方面是找不到清除對話的按鈕、另一方面是對方的設定好像就是會一直跟你聊下去，這讓我感到有點壓力，一直聊天好累啊！<br>之後若有契機再試試看好了。
+{% end %}
+
 {% fleet(num="43",time="Jun 16 22:18",year="2023") %}
 近期實在發生太多事，期待忙亂的時節能順利結束，迎向新的開始！
 {% end %}
