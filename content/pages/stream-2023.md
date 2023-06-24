@@ -11,6 +11,11 @@ template: stream.html
 
 ### June
 
+{% fleet(num="46",time="Jun 24 22:45",year="2023") %}
+今天終於把 Sidekick 上面的分頁清空，決定要開始把主力使用的瀏覽器轉移到 Arc 。<br>關鍵的原因是，在 Sidekick 上面若要使用 split view ，把兩個網頁分別放在頁面的左右，就必須使用付費的 Pro 版本。<br>我好像還沒有打算為瀏覽器付費，所以雖然我真的很喜歡 Sidekick ，但我還是決定轉換了。<br>另一個原因是，Arc 一直在推出一些有趣的功能，例如 Boost 就很好玩。我期待 Arc 後續的發展，那就從現在開始換吧！
+{% end %}
+
+
 {% fleet(num="45",time="Jun 24 15:39",year="2023") %}
 無意間看到 <a href="https://djot.net/">Djot</a> 這個輕量的標記語法。根據官網介紹，是想要做出一套比 commonmark 還要簡單、更容易解析的語法。我對這些東西不太熟悉，但感覺是個有趣的東西。
 {% end %}
