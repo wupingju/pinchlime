@@ -3,11 +3,17 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-06-24
+updated: 2023-07-06
 template: stream.html
 ---
 
 ## 2023
+
+### July
+
+{% fleet(num="47",time="Jul 06 23:08",year="2023") %}
+今天用了一天的 Threads ，發現還是更喜歡 Twitter。真是奇妙、厲害的東西。
+{% end %}
 
 ### June
 
