@@ -82,7 +82,7 @@
           <div id="email-comment" class="muted text-sm">
             <blockquote style="margin-left: 0;">
               <p>
-              如果你對於這個網站或這篇文有任何想討論或分享的，歡迎<a class="muted" href="mailto:pj@pinchlime.com?subject={{"回覆："~page.title | urlencode }}">來信</a>到：<code>pj@pinchlime.com</code> 跟我說，或在下方留言分享！
+              如果你對於這個網站或這篇文有任何想討論的，歡迎<a class="muted" href="mailto:pj@pinchlime.com?subject={{"回覆："~page.title | urlencode }}">來信</a>到：<code>pj@pinchlime.com</code> 跟我分享！
               </p>
             </blockquote>
           </div>
@@ -90,19 +90,6 @@
           {% endif %}
           {% endblock outro %}
           {% block comments %}
-          <section id="cusdis">
-            <h3>Write your comment</h3>
-            <br>
-            <div id="cusdis_thread"
-            data-host="https://comments.pinchlime.com"
-            data-app-id="d39e9f8e-53f2-48bc-a699-980cc0a4b00c"
-            data-page-id="{{ page.path }}"
-            data-page-url="{{ config.base_url }}{{ page.path }}"
-            data-page-title="{{ page.title }}"
-            data-theme="light"
-            ></div>
-            <script async defer src="https://comments.pinchlime.com/js/cusdis.es.js"></script>
-          </section>
           {% endblock comments %}
 </div>
 {% endblock main%}
