@@ -1,9 +1,8 @@
 ---
 title: 從 Heptabase 的懷疑者到傳教士
 date: 2023-08-19
-description: 這次短暫離開台灣的經驗，與過去出國的感覺都有點不太一樣，好像是我至今覺得最「自由」的一次，一方面是女友是超棒的旅伴，另一方面是自己對於在陌生國度移動這件事也更自在了一些。雖然我是個很宅的人，但有這次的美好經驗後，開始想要更頻繁地出國旅遊了。
+description: 坦白說，我自己過往對於「傳教士」這個名詞多少有種負面感受，因為信仰的建立有其脈絡，在未有這樣經驗與感受的人面前，頻繁的推崇與看似「盲信」的證言，都會讓部分人產生反感。所以我自己反而會把這樣的「身分標籤」視為一種持續的提醒，要提醒自己時刻注意推薦時是否會不小心塑造出盲信感，提醒自己是否會不小心過度美化了什麼東西，而造成他人的不適感。
 path: newsletters/from-a-heptabase-doubter-to-a-missionary
-draft: true
 extra:
   issues: 29
 ---
@@ -20,7 +19,10 @@ Hi 大家好，歡迎回到 Pin 起來電子報！
 
 我看了一下覺得沒問題，最後就以這版本公告了。而後來 Alan 也把這個版本的中文版發布在臉書與 Twitter ，這段文字對我來講很是觸動，這幾天在心中反覆咀嚼這段話，感覺好像可以把一些零散的想法記錄下來。
 
-![CleanShot-2023-08-13-23-05-10@2x.png](./#29%20從%20Heptabase%20的懷疑者到傳教士-assets/CleanShot-2023-08-13-23-05-10@2x.png)
+<a href="https://media.cleanshot.cloud/media/69649/wuwEERIOfibsNpkD4HW8PrxQPB8sZmuBG7VUd7Ww.jpeg?Expires=1692466828&Signature=PC2TMltcjDlGmS0RnJ-5IviowYti~wXB5aZwgvfuM6Fm8mEaM6RD-wz0EVJt2R9RSxpTHU2NMAUEjkksW02te7yuPqOTKIV5daIXV0YHmx9OW8NSX5wDjhcnbdcWuxmHeofE~hh5CLy8WCl4N-9UBOdaASSnd1BklcXPs415oW6Ng1aHFOUzNWG62~gR9uaQF9r07JlSip6X416sQxLShZ5J7N2GY585Tq7tokImlIb6uL4-hdGDUMASTbDwk-x65wctKaQpkuovCaNkuFXOba8Q5xbwFlrmFPFKu30Zyw6NyEA7B5ZBRjAAtUmPGhoxUAf998Mm5GwO3bmi5BTYtg__&Key-Pair-Id=K269JMAT9ZF4GZ" data-fancybox data-caption="Missionary">
+  <img src="https://media.cleanshot.cloud/media/69649/wuwEERIOfibsNpkD4HW8PrxQPB8sZmuBG7VUd7Ww.jpeg?Expires=1692466828&Signature=PC2TMltcjDlGmS0RnJ-5IviowYti~wXB5aZwgvfuM6Fm8mEaM6RD-wz0EVJt2R9RSxpTHU2NMAUEjkksW02te7yuPqOTKIV5daIXV0YHmx9OW8NSX5wDjhcnbdcWuxmHeofE~hh5CLy8WCl4N-9UBOdaASSnd1BklcXPs415oW6Ng1aHFOUzNWG62~gR9uaQF9r07JlSip6X416sQxLShZ5J7N2GY585Tq7tokImlIb6uL4-hdGDUMASTbDwk-x65wctKaQpkuovCaNkuFXOba8Q5xbwFlrmFPFKu30Zyw6NyEA7B5ZBRjAAtUmPGhoxUAf998Mm5GwO3bmi5BTYtg__&Key-Pair-Id=K269JMAT9ZF4GZ" loading="lazy" alt="Missionary" align="center" />
+</a>
+<br>
 
 <!-- more -->
 ---
@@ -42,7 +44,9 @@ Hi 大家好，歡迎回到 Pin 起來電子報！
 
 於是，我很快地申請了 waitlist ，並且在看了最一開始的 [onboarding 影片](https://www.youtube.com/watch?v=fxuzPgFixZ4)後，覺得興奮不已，直接選擇付了年費，成為了訂閱會員，初次接觸 Heptabase 的我就有很好的體驗與印象，還寫了一串推文串：
 
-<blockquote class="twitter-tweet"><p lang="zh" dir="ltr">今天早上發現順利收到 <a href="[https://twitter.com/Heptabase?ref_src=twsrc%5Etfw">@Heptabase</a>](https://twitter.com/Heptabase?ref_src=twsrc%5Etfw">@Heptabase</a>) 的邀請信，馬上手刀刷卡付了年費，下午到晚上都在玩，一開始卡住了好一陣子，後來好像稍微找到一些專屬自己的使用場景，來簡單分享一下心得。<br><br>不過目前應該還是超早期，我相信幾個月、甚至只要幾個禮拜後，很多目前在意的東西都會處理了。</p>&mdash; P.J. Wu 吳秉儒 (@WuPingJu) <a href="[https://twitter.com/WuPingJu/status/1484903036015157253?ref_src=twsrc%5Etfw">January](https://twitter.com/WuPingJu/status/1484903036015157253?ref_src=twsrc%5Etfw">January) 22, 2022</a></blockquote> <script async src="[https://platform.twitter.com/widgets.js](https://platform.twitter.com/widgets.js)" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="zh" dir="ltr">今天早上發現順利收到 <a href="https://twitter.com/Heptabase?ref_src=twsrc%5Etfw">@Heptabase</a> 的邀請信，馬上手刀刷卡付了年費，下午到晚上都在玩，一開始卡住了好一陣子，後來好像稍微找到一些專屬自己的使用場景，來簡單分享一下心得。<br><br>不過目前應該還是超早期，我相信幾個月、甚至只要幾個禮拜後，很多目前在意的東西都會處理了。</p>&mdash; P.J. Wu 吳秉儒 (@WuPingJu) <a href="https://twitter.com/WuPingJu/status/1484903036015157253?ref_src=twsrc%5Etfw">January 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 在這之後我愈來愈常使用 Heptabase ，蠻積極地提出功能請求與回饋，也寫了不少部落格的文章分享與介紹我怎麼使用 Heptabase、以及我對 Heptabase 的期待，這時的我，已經是個 Heptabase 的 believer ，我很相信這個產品會愈來愈好，我也愈來愈能夠信任這個產品與團隊。
@@ -61,15 +65,15 @@ Hi 大家好，歡迎回到 Pin 起來電子報！
 
 坦白說，我自己過往對於「傳教士」這個名詞多少有種負面感受，因為信仰的建立有其脈絡，在未有這樣經驗與感受的人面前，頻繁的推崇與看似「盲信」的證言，都會讓部分人產生反感。所以我自己反而會把這樣的「身分標籤」視為一種持續的提醒，要提醒自己時刻注意推薦時是否會不小心塑造出盲信感，提醒自己是否會不小心過度美化了什麼東西，而造成他人的不適感。
 
-但不可否認的是，從第二階段的 Believer 開始，我就已經很相信 Heptabase 這個產品能夠為我帶來非常多的幫助，在使用這個產品思考與學習的過程也總是令我感到滿足。
-
-現在，成為了可以一起打造這個產品的一份子，也令我感到很雀躍。
+但不可否認的是，從第二階段的 Believer 開始，我就已經很相信 Heptabase 這個產品能夠為我帶來非常多的幫助，在使用這個產品思考與學習的過程也總是令我感到滿足，這樣的滿意也外溢到可以持續推薦與分享給大家，所以真的要說是傳教士，也完全沒問題。
 
 ---
 
 ### Next step
 
-在加入團隊後，我自己有個對自己的小小期許是：「雖然我不是共同創辦人，但我想讓自己跟共同創辦人一樣思考與做事。」
+在加入團隊後，自己從單純的使用者，轉變成為了可以一起打造這個產品的一份子，對 Heptabase 可以做的可以施力的事情也變得更多。
+
+雖然身分上是員工，但我自己仍有個小小期許是：「我不是共同創辦人，但我想讓自己跟共同創辦人一樣思考與做事。」
 
 至於這樣設定期許後，具體工作起來的感覺是怎樣、效果如何、有沒有什麼心得等等，就之後再來分享啦！
 
