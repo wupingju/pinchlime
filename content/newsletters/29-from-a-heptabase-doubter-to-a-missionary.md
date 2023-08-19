@@ -19,8 +19,8 @@ Hi 大家好，歡迎回到 Pin 起來電子報！
 
 我看了一下覺得沒問題，最後就以這版本公告了。而後來 Alan 也把這個版本的中文版發布在臉書與 Twitter ，這段文字對我來講很是觸動，這幾天在心中反覆咀嚼這段話，感覺好像可以把一些零散的想法記錄下來。
 
-<a href="https://media.cleanshot.cloud/media/69649/wuwEERIOfibsNpkD4HW8PrxQPB8sZmuBG7VUd7Ww.jpeg?Expires=1692466828&Signature=PC2TMltcjDlGmS0RnJ-5IviowYti~wXB5aZwgvfuM6Fm8mEaM6RD-wz0EVJt2R9RSxpTHU2NMAUEjkksW02te7yuPqOTKIV5daIXV0YHmx9OW8NSX5wDjhcnbdcWuxmHeofE~hh5CLy8WCl4N-9UBOdaASSnd1BklcXPs415oW6Ng1aHFOUzNWG62~gR9uaQF9r07JlSip6X416sQxLShZ5J7N2GY585Tq7tokImlIb6uL4-hdGDUMASTbDwk-x65wctKaQpkuovCaNkuFXOba8Q5xbwFlrmFPFKu30Zyw6NyEA7B5ZBRjAAtUmPGhoxUAf998Mm5GwO3bmi5BTYtg__&Key-Pair-Id=K269JMAT9ZF4GZ" data-fancybox data-caption="Missionary">
-  <img src="https://media.cleanshot.cloud/media/69649/wuwEERIOfibsNpkD4HW8PrxQPB8sZmuBG7VUd7Ww.jpeg?Expires=1692466828&Signature=PC2TMltcjDlGmS0RnJ-5IviowYti~wXB5aZwgvfuM6Fm8mEaM6RD-wz0EVJt2R9RSxpTHU2NMAUEjkksW02te7yuPqOTKIV5daIXV0YHmx9OW8NSX5wDjhcnbdcWuxmHeofE~hh5CLy8WCl4N-9UBOdaASSnd1BklcXPs415oW6Ng1aHFOUzNWG62~gR9uaQF9r07JlSip6X416sQxLShZ5J7N2GY585Tq7tokImlIb6uL4-hdGDUMASTbDwk-x65wctKaQpkuovCaNkuFXOba8Q5xbwFlrmFPFKu30Zyw6NyEA7B5ZBRjAAtUmPGhoxUAf998Mm5GwO3bmi5BTYtg__&Key-Pair-Id=K269JMAT9ZF4GZ" loading="lazy" alt="Missionary" align="center" />
+<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/missionary_npoZdw.webp" data-fancybox data-caption="Missionary">
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/missionary_npoZdw.webp" loading="lazy" alt="Missionary" align="center" />
 </a>
 <br>
 
