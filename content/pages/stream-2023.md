@@ -11,6 +11,10 @@ template: stream.html
 
 ### August
 
+{% fleet(num="49",time="Aug 19 20:54",year="2023") %}
+每次重看我記下的各種短短破碎想法，都能很快回到當下的情境再展開，這種感覺好好哦！
+{% end %}
+
 {% fleet(num="48",time="Aug 04 22:29",year="2023") %}
 最近這幾天又接觸到了一些新工具新服務，好快樂啊！
 {% end %}
