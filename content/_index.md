@@ -42,8 +42,5 @@ title: Pin 起來
 ### [Changelog](/changelog/)
 這裡放的是關於這個站的 Changelog ，只要每次網站的架構或程式碼有什麼變化，我就會記錄一下！
 
-### [Glossary](/glossary)
-這個頁面是我的「個人詞庫」，不過目前還沒有花太多力氣經營。
-
 ### [Subscribe](/subscribe)
 若你有興趣持續收到這個網站的內容更新，可以透過 Email 或 RSS 訂閱本站內容。這個頁面有詳細的介紹。
