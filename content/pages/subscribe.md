@@ -17,8 +17,8 @@ Hi ，若你有興趣持續收到這個網站的內容更新，可以透過 Emai
 <div style="background: #f5f5f5;text-align: center">
 <h3>基本版：只訂閱 Pin 起來電子報</h3>
 
-<p style="padding: 1rem 4rem">Pin 起來電子報涵蓋我的各方面的選讀內容，以及當週特別想分享的事。我每週會固定發送一篇。
-<br>我覺得電子報最適合所有人閱讀，也最適合透過 Email 收到，因此我把它放在基本版的方案。你可以透過 <a href="/newsletters/archive">電子報歸檔</a> 瀏覽過去的內容。
+<p style="padding: 1rem 4rem"><a href="/newsletters">Pin 起來電子報</a>涵蓋我的各方面的選讀內容，以及當週特別想分享的事。我每週會固定發送一篇。
+<br>我覺得電子報最適合所有人閱讀，也最適合透過 Email 收到，因此我把它放在基本版的方案。
 </p>
 </div>
 
@@ -27,7 +27,7 @@ Hi ，若你有興趣持續收到這個網站的內容更新，可以透過 Emai
 <br>
 <div style="background: #f5f5f5;text-align: center">
 <h3>進階版：基本版 ＋ Blog 更新</h3>
-<p style="padding: 1rem 4rem">Blog 包含這個站上比較完整的文章，通常是介紹一個產品或服務、網站新功能上線的介紹、或者是比較完整的論述與工作流分享。發送的頻率並不固定，你可以透過 <a href="/archive">Blog 歸檔</a> 瀏覽過去的內容。
+<p style="padding: 1rem 4rem"><a href="/blog">Blog</a> 包含這個站上比較完整的文章，通常是介紹一個產品或服務、網站新功能上線的介紹、或者是比較完整的論述與工作流分享。發送的頻率並不固定。
 </p>
 </div>
 
@@ -37,7 +37,7 @@ Hi ，若你有興趣持續收到這個網站的內容更新，可以透過 Emai
 <div style="background: #f5f5f5;text-align: center">
 <h3>完整版：進階版 ＋ Snapshots 更新</h3>
 
-<p style="padding: 1rem 4rem">除了電子報與 Blog 之外，網站上還有一部分的內容屬於 Snapshots ，這些是我比較短的、不成熟的想法，可能是我對某件事的疑問，或者是我發現了、嘗試了什麼東西的心得。發送的頻率不固定，但應該是最常更新的內容，你可以透過 <a href="/snapshots/archive">Snapshots 歸檔</a> 瀏覽過去的內容。
+<p style="padding: 1rem 4rem">除了電子報與 Blog 之外，網站上還有一部分的內容屬於 <a href="/snapshots/archive">Snapshots</a> ，這些是我比較短的、不成熟的想法，可能是我對某件事的疑問，或者是我發現了、嘗試了什麼東西的心得。發送的頻率不固定，但應該是最常更新的內容。
 </p>
 </div>
 
