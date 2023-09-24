@@ -9,7 +9,7 @@ title: Pin 起來
 
 # Pin 起來
 
-歡迎來到 **Pin 起來** ，我是 [P.J. Wu 吳秉儒](https://twitter.com/WuPingJu)，這是我的個人網站，分享我好奇與感興趣的事、我的各種想法、以及我體驗不同事物後的心得。
+歡迎來到 **Pin 起來** ，我是 [PJ Wu 吳秉儒](https://twitter.com/WuPingJu)，這是我的個人網站，分享我好奇與感興趣的事、我的各種想法、以及我體驗不同事物後的心得。
 
 ---
 

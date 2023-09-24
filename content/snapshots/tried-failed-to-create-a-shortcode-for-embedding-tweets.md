@@ -27,7 +27,7 @@ taxonomies:
 
 實際運作的效果可以參考下方這則我的推文：
 
-<blockquote class="twitter-tweet"><p lang="zh" dir="ltr">2023 新年快樂！<br><br>也來分享一下那些在 2022 年開始進入我工作流的好工具們，完整的介紹可以看連結內的文章！<br><br>文內會依使用的情境與工作流，把工具分為三大類別，分別是：「個人知識管理」、「內容輸出與分享」與「工作記錄與溝通」。<br><br>而推文串則有各類內容的摘要！<a href="https://t.co/seUpT3MKJr">https://t.co/seUpT3MKJr</a></p>&mdash; P.J. Wu 吳秉儒 (@WuPingJu) <a href="https://twitter.com/WuPingJu/status/1609834874676051968?ref_src=twsrc%5Etfw">January 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="zh" dir="ltr">2023 新年快樂！<br><br>也來分享一下那些在 2022 年開始進入我工作流的好工具們，完整的介紹可以看連結內的文章！<br><br>文內會依使用的情境與工作流，把工具分為三大類別，分別是：「個人知識管理」、「內容輸出與分享」與「工作記錄與溝通」。<br><br>而推文串則有各類內容的摘要！<a href="https://t.co/seUpT3MKJr">https://t.co/seUpT3MKJr</a></p>&mdash; PJ Wu 吳秉儒 (@WuPingJu) <a href="https://twitter.com/WuPingJu/status/1609834874676051968?ref_src=twsrc%5Etfw">January 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 整體來說覺得還算堪用了！
 

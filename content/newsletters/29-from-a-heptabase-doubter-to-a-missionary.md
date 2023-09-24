@@ -45,7 +45,7 @@ Hi 大家好，歡迎回到 Pin 起來電子報！
 於是，我很快地申請了 waitlist ，並且在看了最一開始的 [onboarding 影片](https://www.youtube.com/watch?v=fxuzPgFixZ4)後，覺得興奮不已，直接選擇付了年費，成為了訂閱會員，初次接觸 Heptabase 的我就有很好的體驗與印象，還寫了一串推文串：
 
 
-<blockquote class="twitter-tweet"><p lang="zh" dir="ltr">今天早上發現順利收到 <a href="https://twitter.com/Heptabase?ref_src=twsrc%5Etfw">@Heptabase</a> 的邀請信，馬上手刀刷卡付了年費，下午到晚上都在玩，一開始卡住了好一陣子，後來好像稍微找到一些專屬自己的使用場景，來簡單分享一下心得。<br><br>不過目前應該還是超早期，我相信幾個月、甚至只要幾個禮拜後，很多目前在意的東西都會處理了。</p>&mdash; P.J. Wu 吳秉儒 (@WuPingJu) <a href="https://twitter.com/WuPingJu/status/1484903036015157253?ref_src=twsrc%5Etfw">January 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="zh" dir="ltr">今天早上發現順利收到 <a href="https://twitter.com/Heptabase?ref_src=twsrc%5Etfw">@Heptabase</a> 的邀請信，馬上手刀刷卡付了年費，下午到晚上都在玩，一開始卡住了好一陣子，後來好像稍微找到一些專屬自己的使用場景，來簡單分享一下心得。<br><br>不過目前應該還是超早期，我相信幾個月、甚至只要幾個禮拜後，很多目前在意的東西都會處理了。</p>&mdash; PJ Wu 吳秉儒 (@WuPingJu) <a href="https://twitter.com/WuPingJu/status/1484903036015157253?ref_src=twsrc%5Etfw">January 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 

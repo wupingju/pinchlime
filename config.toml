@@ -39,7 +39,7 @@ include_path = true
 include_content = false
 
 [extra]
-author = "P.J. Wu 吳秉儒"
+author = "PJ Wu 吳秉儒"
 email = "pj@pinchlime.com"
 theme_color = "#003c6d"
 
