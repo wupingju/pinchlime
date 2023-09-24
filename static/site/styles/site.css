@@ -209,6 +209,8 @@ hr {
   width: 30%;
   margin: 0 auto;
   border: 1px solid var(--colors-divider);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 ul {
   margin-top: 1.4rem;
