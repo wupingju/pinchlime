@@ -2,7 +2,7 @@
 title: Heptabase 介紹 - 以卡片和白板為基礎，最能讓你進入心流的視覺化學習軟體
 date: 2023-09-24
 updated: 2023-09-24
-path: 2022/02/27/heptabase-introduction/
+path: 2022/02/27/heptabase-introduction-2/
 description: 經過幾個月的使用， Heptabase 對我來說是當前市面上最符合我需求的「個人知識管理工具」，無論是拿來做筆記、思考、或者是學習新知，它在「輸入、處理、輸出」這三個讓「資訊」成為「知識」的不同階段上，都表現得很好，而且越來越好。
 draft: true
 taxonomies:
@@ -19,9 +19,9 @@ extra:
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-landing-2023_cirP6y.webp" loading="lazy" alt="heptabase-banner" align="center" />
 </a>
 
-這篇文章要來介紹的是，由台灣團隊開發的優秀知識管理工具： [Heptabase](https://heptabase.com/) 。
+這篇文章要來介紹的是，由台灣團隊開發的知識管理／學習軟體： [Heptabase](https://heptabase.com/) 。
 
-不過在介紹前要先說明一下，我從 2023 年 9 月開始[正式加入了 Heptabase 團隊](@/newsletters/29-from-a-heptabase-doubter-to-a-missionary.md)，但我仍會以一個用戶的角度去介紹 Heptabase 是什麼，所以還是歡迎你參考看看！
+在介紹前要先說明一下，我從 2023 年 9 月開始[正式加入了 Heptabase 團隊](@/newsletters/29-from-a-heptabase-doubter-to-a-missionary.md)，但這篇文仍會以一個用戶的角度去介紹 Heptabase 的各項基本功能以及簡單的心得，所以還是歡迎你參考看看！
 
 
 ---
@@ -92,7 +92,7 @@ extra:
 
 在每個白板裡，我都會根據這個白板的主題，去放置相關的卡片。例如，在生產力工具的白板裡面，我會放各種我自己寫的生產力工具相關的介紹文字卡片，或者為我特別喜歡使用的生產力工具再開設獨立的子白板。而在 Blockchain 這個白板裡，我可能會放置各種重要的白皮書與技術文件 PDF ，然後在旁邊寫下我的筆記卡片。
 
-不過，當這些東西慢慢累積起來，一定會開始變得混亂。為了讓每個白板內的東西都能根據使用者的偏好來安排與整理， Heptabase 也提供了非常多種不同的「白板元素」，來讓使用者靈活搭配使用，組合出自己心目中最舒服的白板。
+不過，當這些東西慢慢累積起來，一定會開始變得混亂。為了讓每個白板內的東西都能根據使用者的偏好來安排與整理， Heptabase 也提供了非常多種不同的「白板元件」，來讓使用者靈活搭配使用，組合出自己心目中最舒服的白板。
 
 ---
 
@@ -103,7 +103,7 @@ extra:
 有的時候，在 Heptabase 裡面你臨時需要一個類似便條貼的東西來補充想法或者註解某張卡片，這時就很適合使用 Heptabase 的 **Text Elements** ，可以在任何白板裡面按下右鍵選擇 Text ，就會出現一個透明的輸入框框。這個框框不只是可以輸入文字而已。在經過多次迭代後，這樣的一個 Text 元素，可以放入各種內容，也可以改變底色。幾乎就跟卡片一樣，例如下圖：
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-text_baEcxS.webp" data-fancybox data-caption="a-text-element">
-  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-text_baEcxS.webp" loading="lazy" alt="a-text-element" align="center" />
+  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-text_baEcxS.webp" width="400px" loading="lazy" alt="a-text-element" align="center" />
 </a>
 
 那麼，卡片跟 Text 到底有什麼不同？為什麼要多出這樣一個層級？
@@ -124,16 +124,42 @@ extra:
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-mindmap_ZdwLdB.webp" loading="lazy" alt="a-mindmap" align="center" />
 </a>
 
-
 在 2023 年推出的 Mindmap 功能，則是另一個完全可以跟卡片互補的白板元素。
 
-我以前並不常使用 Mindmap ，因為我用幾次後都覺得我只是在執行無意義的拆解跟列點整理而已。但在 Heptabase 推出 Mindmap 後，我發現 Mindmap 非常適合拿來執行「由下到上」的
+目前在 Heptabase 裡面，心智圖的功能還不到完全版，但已經可以做到下列幾件事：
+- 有純文字節點或者是卡片節點可以選擇
+- 可以展開卡片節點，此時畫面上的排版會自動調整
+- 可以隨意拖曳節點到別的節點底下
+- 可以隨意拖曳畫面上的卡片到某個心智圖成為節點
 
-Heptabase 的每個心智圖節點都可以轉成卡片，轉成卡片以後，就能夠透過功能完整的編輯器來編輯詳細內容。我發現這個自然的轉換，好像達成我原本非常期待的「大綱型軟體＋文本型軟體」的自由轉換，而不會有格式上的「硬要」或「不協調感」。
+這些功能裡面，我覺得最重要的是「排版自動調整」以及「隨意拖曳更改架構」這兩點。因為他們共同創造出了完全無壓力的自由體驗，讓我可以很容易地「由下到上」，學習我完全不熟悉的領域的相關概念。
 
-轉換成卡片後，就可以融入 Heptabase 愈趨成熟的整套卡片工作流來管理，例如我在研究某個題目時，透過 Mindmap 新增了一批關於該主題的卡片，此時我為他們標上一個特定的 tag 後，就可以轉向 Tag’s table 以及 Kanban view 來管理這些卡片的 metadata 以及寫作狀態。
+舉例來說，最近我在工作上要研究一個全新的領域，在沒有心智圖以前，我會透過卡片來記錄我在網路上看到的內容，並且再去整理他們。但透過心智圖這種樹狀圖的大綱架構，我可以很快地列出這個領域最重要的幾個重點，再來則是這幾個重點底下的子項目。
 
-心智圖式的大綱能更好地利用螢幕的空間。我較熟悉的大綱型軟體大多都是一個直式的列表，但是螢幕大多狀況下是橫式的，直式列表在橫式螢幕中比較沒有辦法完整運用螢幕空間，但放到白板裡的 Mindmap 則可以利用更多的螢幕空間，進而承載更多的資訊。
+而當我看了其他內容，發現我先前整理的東西需要調整時，我不用再去編排卡片上的段落，我只要用拖曳的方式把某個節點拖到另一個節點底下，就完成了結構的調整。
+
+在這個過程中，若我發現某則節點的重要內容不少，我也可以隨時把文字節點轉換成「卡片」，此時這張心智圖上的卡片節點，就成為了其他地方可以重複使用的內容。
+
+而且心智圖式的大綱能更好地利用螢幕的空間。我較熟悉的大綱型軟體大多都是一個直式的列表，但是螢幕大部分的狀況下都是橫的，直式列表在橫式螢幕中比較沒有辦法完整運用螢幕空間，但放到白板裡的 Mindmap 則可以利用更多的螢幕空間，進而承載更多的資訊。
+
+有了心智圖後，我覺得我在 Heptabase 裡面更能夠好好整理白板上的內容了，是我非常推薦的功能。
+
+---
+
+### **Section 分區**
+
+當你在 Heptabase 慢慢累積了一些白板與內容後，有的時候你會想把一小群的卡片放在一起組成一個群組。例如，我的個人知識管理系統裡面有探索、捕捉、發展、精煉、交流等五個階段，但他們彼此環環相扣，我希望把這五個階段的相關卡片都放在同一個白板上面，又想要能夠在視覺上有所區別，這時 Section 就是最適合我使用的白板元件。
+
+你只要把想要組成 Section 的卡片們框選在一起，再點選右鍵選單，就可以直接以這些卡片的佔用範圍來建立一個 Section ，建立好以後，當你移動這個 Section ，裡面的卡片也都會跟著移動，而且你可以為 Section 命名，或者更換不同的底色。
+
+那麼，白板跟 Section 同樣可以「涵蓋一些卡片」，這兩者有什麼不一樣呢？
+
+對我來說，白板更重視的是邏輯上的階層關係，就跟資料夾一樣，放在某個白板裡的，就是「屬於」這個白板主題的卡片。
+
+但 Section 重視的則比較偏向「視覺上」的關係，透過框框、顏色與連線等不同的視覺元素，可以在同一個白板裡面，建立數個不同的 Sections 分區，來一次處理多個群組之間的關係。
+
+另外，Section 有個隱藏功能是，當你把白板 zoom-out 到比較小的比例時，可能會看不太清楚各個卡片的細節內容，但這時 Section 的標題會被放大，因此你即使到了一個複雜的、擁有大量卡片的白板，只要好好地區分 Section ，還是很容易可以快速掌握全局，進而找到你當前最想看的區域。
+
 
 ---
 
