@@ -44,3 +44,6 @@ title: Pin 起來
 
 ### [Subscribe](/subscribe)
 若你有興趣持續收到這個網站的內容更新，可以透過 Email 或 RSS 訂閱本站內容。這個頁面有詳細的介紹。
+
+### [English Version](/en)
+有興趣的話，你也可以看看本站的英文版。
