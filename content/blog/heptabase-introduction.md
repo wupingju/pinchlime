@@ -1,7 +1,7 @@
 ---
 title: Heptabase 完整功能介紹 - 以卡片和白板為基礎，最能讓你進入心流的視覺化學習軟體
 date: 2023-09-30
-updated: 2023-09-30
+updated: 2023-10-22
 path: heptabase-introduction/
 description: Heptabase 對我來說是當前市面上最符合我需求的「個人知識管理工具」，無論是拿來做筆記、思考、或者是學習新知，它在「輸入、處理、輸出」這三個讓「資訊」成為「知識」的不同階段上，都表現得很好，而且越來越好。在用了 Heptabase 之後，我一直感覺到自己有種被「賦能」的感覺，因為使用它，而產生了更多的可能性與收穫。
 aliases: [2022/02/27/heptabase-introduction]
@@ -13,13 +13,14 @@ taxonomies:
     - Learning
 extra:
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-landing-2023_cirP6y.webp
+  en: true
 ---
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-landing-2023_cirP6y.webp" data-fancybox data-caption="heptabase-banner">
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-landing-2023_cirP6y.webp" loading="lazy" alt="heptabase-banner" align="center" />
 </a>
 
-這篇文章要來介紹的是，由台灣團隊開發的知識管理／學習軟體： [Heptabase](https://heptabase.com/) 。
+這篇文章要來介紹的是，由台灣團隊開發的知識管理／學習軟體： [Heptabase](https://get.heptabase.com/pinchlime) 。
 
 在介紹前要先說明一下，我從 2023 年 9 月開始[正式加入了 Heptabase 團隊](@/newsletters/29-from-a-heptabase-doubter-to-a-missionary.md)，但這篇文仍會以一個用戶的角度去介紹 Heptabase 的各項基本功能以及簡單的心得，所以還是歡迎你參考看看！
 
@@ -64,7 +65,7 @@ extra:
 
 這些不同類型的內容，在卡片裡面都是一個一個「區塊」（blocks）。透過區塊的互相搭配，你可以在每張卡片都自由地放入你想要放的內容。
 
-而且操作非常簡單，只要輸入一個 slash 反斜線 / ，就可以叫出這些選項，這時你也可以再打個關鍵字搜尋你想要的選項，例如輸入 im 就會自動跑出 image 可以插入圖片。。
+而且操作非常簡單，只要輸入一個 slash 反斜線 / ，就可以叫出這些選項，這時你也可以再打個關鍵字搜尋你想要的選項，例如輸入 im 就會自動跑出 image 可以插入圖片。
 
 **每張卡片都有標題與內文**
 
@@ -96,11 +97,11 @@ extra:
 
 ---
 
-## Heptabase 的白板元件 - Text, Mindmap, Section
+## Heptabase 的白板元件 - Text element, Media element, Mindmap, Section,
 
-### **Text Element**
+### **Text element**
 
-有的時候，在 Heptabase 裡面你臨時需要一個類似便條貼的東西來補充想法或者註解某張卡片，這時就很適合使用 Heptabase 的 **Text Element** ，可以在任何白板裡面按下右鍵選擇 Text ，就會出現一個透明的輸入框框。這個框框不只是可以輸入文字而已。在經過多次迭代後，這樣的一個 Text 元素，可以放入各種內容，也可以改變底色。幾乎就跟卡片一樣，例如下圖：
+有的時候，在 Heptabase 裡面你臨時需要一個類似便條貼的東西來補充想法或者註解某張卡片，這時就很適合使用 Heptabase 的 **Text element** ，可以在任何白板裡面按下右鍵選擇 Text ，就會出現一個透明的輸入框框。這個框框不只是可以輸入文字而已。在經過多次迭代後，這樣的一個 Text 元素，可以放入各種內容，也可以改變底色。幾乎就跟卡片一樣，例如下圖：
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-text_baEcxS.webp" data-fancybox data-caption="Text element">
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-text_baEcxS.webp" width="400px" loading="lazy" alt="Text element" align="center" />
@@ -115,6 +116,17 @@ extra:
 所以對我來說，假設有個概念我認為是未來有機會重複使用的，我就會使用卡片。
 
 假設某個東西只是為了讓當前的白板更好理解，我不太希望未來一直搜尋到它，那我就會使用 Text 元素。舉例來說，我的一些複雜白板會需要用顏色去區分卡片的狀態或者重要性，但這些規則過一段時間可能就會忘記，所以我就會用 Text 元素把規則寫在這個白板的視覺起點，讓我每次進入白板後，都知道該怎麼使用這個白板。
+
+---
+
+### **Media Element**
+
+除了文字以外，你在白板中也可以隨意地放入圖片、影片與音訊元素。你可以直接把檔案從電腦中拖曳到 Heptabase 裡面，也可以透過複製貼上的方式完成。
+
+而加進白板後的 media elements 也可以跟其他白板上的元素建立連線。
+
+對我來說，我會把單純只希望在這個白板上面看到的東西，透過 media element 放到白板上，而不會把他們放到卡片裡面。這些東西可能會是一些圖片示意、參考的註記、截圖存檔等等。
+
 
 ---
 
@@ -341,7 +353,7 @@ Card Library 是 Heptabase 裡面的卡片管理站，點進去後會看到一�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MmFXPav2uus?si=caX-S97V1h8nHO2L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-在 2023 年 9 月，Heptabase 的 mobile app 經歷了幾次更新，已經越來越成熟實用。
+從 2023 年 9 月以來，Heptabase 的 mobile app 經歷了幾次更新，已經越來越成熟實用。
 
 打開 app 後可以在畫面中選擇 Card Library, Whiteboard, Tag ，點進去以後就可以看到所屬的卡片，並且點開編輯他們，概念上就類似在電腦或網頁版使用一樣。
 
@@ -416,7 +428,7 @@ Card Library 是 Heptabase 裡面的卡片管理站，點進去後會看到一�
 
 不過隨著資料越來越多，備份檔案也會變大，因此我大概每兩個禮拜左右就會清理一次我的備份資料夾。
 
-除了備份以外， Heptabase 也提供了完整的手動資料導出功能。在設定裡面點選 Export Now，就會產出一個壓縮檔案，裡面會將所有卡片與白板都以 markdown 格式導出，並且附帶相關的圖片、影片與 PDF 檔案。
+除了備份以外， Heptabase 也提供了完整的手動資料導出功能。在設定裡面點選 Export Now，就會產出一個壓縮檔案，裡面會將所有卡片、心智圖與白板都以 markdown 格式導出，並且附帶相關的圖片、影片與 PDF 檔案。
 
 對我來說， Heptabase 的自動備份以及手動導出，都是一種「安心保險」，能夠讓我更放心地在裡面累積資料。
 
@@ -440,7 +452,7 @@ Card Library 是 Heptabase 裡面的卡片管理站，點進去後會看到一�
 
 所以非常推薦大家訂閱試用看看！
 
-官網連結： <https://heptabase.com/>
+官網七天免費試用連結： <https://get.heptabase.com/pinchlime>
 
 ----
 
@@ -469,6 +481,7 @@ Heptabase 提供了各種不同的能力（capabilities），隨著越來越熟�
 
 ```
 備註：本文初稿完成於 2022.02.27，後續更新紀錄如下：
+- 2023.10.22 更新了 media element 的段落。
 - 2023.09.30 大翻修，幾乎算是一篇全新的文章了。
 - 2022.07.03 更新：重新翻修了一次本文，將比較舊的資訊刪除，重新調整了一些內容，
   新增了許多圖，也新增了 v0.161.0 版本更新的 Journal 功能介紹。
