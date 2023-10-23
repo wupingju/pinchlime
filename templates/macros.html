@@ -13,7 +13,7 @@
   <div>{{ page.summary | safe }}</div>
   <div class="continue-reading-btn">
     <section>
-      <a href="{{ page.permalink }}#continue-reading"><span>{{ trans(key="label_read_more") }} </span></a>
+      <a href="{{ page.permalink }}#continue-reading"><span>{{ trans(key="label_read_more",lang=lang) }} </span></a>
     </section>
   </div>
   <br>
@@ -90,7 +90,7 @@
 {% macro page_toc(toc)%}
 <section class="sidebar-table-content">
   <ul >
-    <li><a href="#start">{{trans(key="label_back_to_start")}}</a></li>
+    <li><a href="#start">{{trans(key="label_back_to_start",lang=lang)}}</a></li>
   {% for h1 in toc %}
       <li>
           <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>

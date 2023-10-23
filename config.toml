@@ -57,8 +57,17 @@ edit_url_prefix = "https://github.com/wupingju/pinchlime/edit/master/content/"
 paths = "on"
 taxonomies = "on"
 
+[languages.en]
+generate_feed = true
+build_search_index = false
+taxonomies = [
+  {name = "tags", feed = true},
+  {name = "categories", feed = true},
+  {name = "kinds", feed = true},
+]
+
 [translations]
-keywords = "生產力工具, macOS, 專案管理, 任務管理, PM"
+keywords = "Heptabase, 生產力工具, macOS, 專案管理, 任務管理, PM"
 label_all_posts = "[看所有文章 ➞](/blog/)"
 label_all_newsletters = "[看所有電子報 ➞](/newsletters/)"
 label_all_snapshots = "[看所有 Snapshots ➞](/snapshots/)"
@@ -71,15 +80,44 @@ label_kinds = "所有類別"
 label_category = "Category: "
 label_created = "Posted"
 label_home = "首頁"
-label_new_posts_list_title = "最新 Blog 文章"
+label_related_posts = "看更多相關文章"
+label_new_posts_list_title = "看其他最新 Blog 文章"
 label_new_snapshots_list_title = "最新 Snapshots"
 label_new_newsletters_list_title = "最新電子報"
 label_read_more = "繼續閱讀全文 ➞"
-label_rss = "訂閱RSS"
+label_rss = "訂閱 RSS"
 label_table_contents = "目錄"
 label_sorting_articles ="看更多"
 label_tag = "Tags: "
 label_tags = "依標籤"
 label_timeline = "依時序"
 label_taxonomy = "類別"
-label_updated = "Last Modified"
+label_updated = "Last modified on"
+
+[languages.en.translations]
+keywords = "Heptabase, Productivity Tools, Learning"
+label_all_posts = "[See all posts ➞](/blog/)"
+label_all_newsletters = "[See all newsletters ➞](/newsletters/)"
+label_all_snapshots = "[See all snapshots ➞](/snapshots/)"
+label_archive = "Blog archive"
+label_newsletter_archive = "Newsletters archive"
+label_snapshot_archive = "Snapshots archive"
+label_back_to_start = "Starting here"
+label_categories = "All categories"
+label_kinds = "All kinds"
+label_category = "Category: "
+label_created = "Posted"
+label_home = "Home"
+label_related_posts = "More related posts"
+label_new_posts_list_title = "Latest blog posts"
+label_new_snapshots_list_title = "Latest snapshots"
+label_new_newsletters_list_title = "Latest newsletters"
+label_read_more = "Continue reading ➞"
+label_rss = "Subscribe RSS"
+label_table_contents = "Table of contents"
+label_sorting_articles ="More"
+label_tag = "Tags: "
+label_tags = "By tag"
+label_timeline = "By time"
+label_taxonomy = "Taxonomies"
+label_updated = "Last modified on"

@@ -11,7 +11,7 @@
   <header id="overview">
     <div class="pt">
       <span>&gt;&gt;</span>
-      <a href="{{ get_url(path="@/_index.md") }}">{{trans(key="label_home")}}</a>
+      <a href="{{ get_url(path="@/_index.md",lang=lang) }}">{{trans(key="label_home",lang=lang)}}</a>
       {% if term.name -%}
       <span class="divider"> / </span> {{ term.name }}
       {% endif -%}

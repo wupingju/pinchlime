@@ -15,7 +15,7 @@
 {% set_global section_content = section.content %}
 
 {% else %}
-{% set_global snapshots_section = get_section(path="snapshots/_index.md") -%}
+{% set_global snapshots_section = get_section(path="snapshots/_index"~file_lang_path~".md") -%}
 {% set_global section_pages = snapshots_section.pages | sort(attribute="updated") %}
 {% set_global section_pages = section_pages | reverse %}
 {% set_global section_content = snapshots_section.content %}
