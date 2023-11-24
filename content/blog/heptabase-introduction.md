@@ -470,10 +470,7 @@ Heptabase 提供了各種不同的能力（capabilities），隨著越來越熟�
 
 這篇文章只是一個起點，之後還會再介紹更多我覺得 Heptabase 獨到的特色與不同功能搭配的工作流，在那之前，你也可以參考看看[官方 wiki 的各種詳細介紹](https://wiki.heptabase.com/?lang=zh-Hant)，目前官方 Wiki 的每篇文章都有中文版本，裡面有許多文章是不需要使用 Heptabase 也受用的內容，非常推薦。
 
-最後，歡迎你透過下列方式跟我聯絡，可以聊聊關於 Heptabase 的各種事情或問題，我也可以提供一對一的 Heptabase 的使用教學。
-
-1. 寄信到 pj@heptabase.com 給我。
-2. 透過[這個連結](https://cal.com/wupingju/heptabase-customer-support)，跟我約個 30 分鐘內的線上會議。
+如果你有任何關於 Heptabase 的問題想詢問，可以直接寄信到 support@heptabase.com ，或者透過 in-app support system 提問，我們非常樂意提供協助！
 
 我很期待讀完這篇初步介紹文的你，也能體驗看看 Heptabase ，並且從中取得收穫，感受到它的價值！
 
