@@ -1,5 +1,5 @@
 ---
-updated: 2023-05-06
+updated: 2023-11-25
 sort_by: date
 sort_direction: decending
 transparent: true
@@ -38,6 +38,9 @@ title: Pin 起來
 
 ### [Now](/now)
 這是一個我很喜歡的獨立頁面，裡面放的是「當下」我最關注的事，以及我正在進行的事。這些事聚集在一起，指向的是我想達到的未來。
+
+### [Manifesto](/manifesto)
+在逐步建構這個網站的過程中，我發現我有一些特定的「堅持」，因此我決定把我的一些價值主張寫下來。
 
 ### [Changelog](/changelog/)
 這裡放的是關於這個站的 Changelog ，只要每次網站的架構或程式碼有什麼變化，我就會記錄一下！
