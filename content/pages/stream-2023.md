@@ -3,11 +3,28 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-08-04
+updated: 2023-11-25
 template: stream.html
 ---
 
 ## 2023
+
+### November
+
+{% fleet(num="51",time="Nov 25 22:48",year="2023") %}
+<strong>為什麼我要把 Snapshots 頁面解散？</strong>
+<br>
+因為我覺得目前這個 Stream 頁面與形式，就很適合拿來放原本一大部分的 Snapshots ，這些內容通常都短短的，只有幾行而已，比起單獨放一頁，我感覺更適合這樣子放在一個瀑布流式的空間呈現。<br>
+另一方面，根據我先前一些對 SEO 的理解，有太多短內容的頁面對網站來說也不太好。<br>綜合這兩個因素，我決定好好整頓一下 Snapshots。讓原本內容比較完整比較長的，可以單獨成篇，放到 Blog 裡面。<br><br>
+而比較短的，就全部收錄到 <a href="/stream/old-snapshots">My Old Snapshots</a> 這個頁面留紀錄就好。
+{% end %}
+
+
+{% fleet(num="50",time="Nov 25 22:46
+",year="2023") %}
+好幾個月沒更新了，經過一陣思考，我決定要把站內原本的 Snapshots 頁面的內容，分拆到 Blog 以及 Stream 兩個頁面。以下是我依照時間序，重新放過來的一些短內容。這些內容不會有序號，但會保留原本的 PO 文時間。
+<br>
+{% end %}
 
 ### August
 

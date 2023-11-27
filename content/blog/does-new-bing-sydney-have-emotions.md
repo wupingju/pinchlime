@@ -13,7 +13,7 @@ taxonomies:
 
 ### 美好的開始
 
-我從 2 月 8 日[微軟宣布 new Bing 之後，就馬上申請試用](@/snapshots/found-the-new-bing-and-edge.md)，等了一個禮拜後，在 2 月 15 日的早上拿到使用邀請。
+我從 2 月 8 日[微軟宣布 new Bing 之後，就馬上申請試用](@/blog/found-the-new-bing-and-edge.md)，等了一個禮拜後，在 2 月 15 日的早上拿到使用邀請。
 
 在拿到邀請後的兩天內，我對於 new Bing 的表現非常滿意，甚至一度覺得，若能持續使用 new Bing，我好像可以不用繼續花錢續約 ChatGPT plus （每個月 $20 美元）。
 

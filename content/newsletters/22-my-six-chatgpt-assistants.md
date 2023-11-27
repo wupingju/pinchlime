@@ -47,7 +47,7 @@ Hi 大家好，週四的時候 ChatGPT 的 API 版本正式推出，我原先以
 
 而且嘗試成功一次後，後續就可以在 ChatGPT API 有開放的規則裡面，繼續嘗試各種不同的變化版本。
 
-因此昨天一整天我又試著透過 Shortcuts 以及 Apple Notes ，[達成可以記憶對話脈絡的版本](@/snapshots/tried-tried-to-build-a-chatgpt-assistant-who-can-remember-contexts-via-shortcuts.md)。
+因此昨天一整天我又試著透過 Shortcuts 以及 Apple Notes ，[達成可以記憶對話脈絡的版本](@/blog/tried-tried-to-build-a-chatgpt-assistant-who-can-remember-contexts-via-shortcuts.md)。
 
 不過嘗試以後我發現，以目前 ChatGPT API 開放的溝通方式來說，還沒有特別適合保存對話脈絡，如果要這樣做，要嘛需要大量人工介入，要嘛需要耗費大量 tokens ，而且還有一個「單次處理內容不得超過 4096 tokens」的限制，很難簡單繞過。
 

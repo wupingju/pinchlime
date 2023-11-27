@@ -24,7 +24,7 @@ description: 我一直都想為自己的網站寫一個 Manifesto 頁面，因�
 
 由於我已經有了 1000 個訂閱用戶，根據 [Buttondown 的收費標準](https://buttondown.email/pricing)，這個選擇令我必須每個月花費 $29 美元來寄信，但我目前認為這個額外的費用支出是值得的。
 
-另外，在網站數據追蹤上，我也不使用 Google Analytics 。我選擇的是聲稱自己是 “Privacy-first” ，不追蹤瀏覽者指紋與 IP 等資料的 Cloudflare Web Analytics。你也可以參考這篇文的簡單介紹：「[開始使用 Cloudflare Web Analytics](@/snapshots/tried-tried-to-use-cloudflare-web-analytics.md)」。
+另外，在網站數據追蹤上，我也不使用 Google Analytics 。我選擇的是聲稱自己是 “Privacy-first” ，不追蹤瀏覽者指紋與 IP 等資料的 Cloudflare Web Analytics。你也可以參考這篇文的簡單介紹：「[開始使用 Cloudflare Web Analytics](@/blog/tried-tried-to-use-cloudflare-web-analytics.md)」。
 
 因此，你在瀏覽我的網站與收到我的電子信時可以放心，你不會留下任何能夠被我識別的足跡。
 

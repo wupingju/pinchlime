@@ -14,7 +14,7 @@ extra:
 
 這個部落格的流量追蹤與統計，是透過 [Umami](https://umami.is/) 這個開源的工具進行的。
 
-我在 2022 年 6 月時[從 Google Analytics 轉向使用 Umami](@/snapshots/tried-tried-to-install-umami-on-my-websites.md)，當時照著教學文章一步一步照著做，就透過 [Railway](https://railway.app/) 這個 PaaS 平台完成了設定，在 Railway 上面建立了一個資料庫，並部署 Umami 服務。
+我在 2022 年 6 月時從 Google Analytics 轉向使用 Umami，當時照著教學文章一步一步照著做，就透過 [Railway](https://railway.app/) 這個 PaaS 平台完成了設定，在 Railway 上面建立了一個資料庫，並部署 Umami 服務。
 
 從那之後，我很順利地累積了半年多的數據，Umami 的介面乾淨、對於一個個人網站來說該有的數據都有，我很滿意。
 

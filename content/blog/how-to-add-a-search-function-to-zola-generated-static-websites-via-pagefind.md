@@ -18,7 +18,7 @@ extra:
 
 這篇文是在一個非常滿足的狀態下寫完的。
 
-我沒有想到，僅僅四天前我才在「[為何我想為網站加上搜索功能？](@/snapshots/why-why-do-i-want-to-implement-search-function-in-this-site.md)」這篇文裡半放棄地說：
+我沒有想到，僅僅四天前我才在「為何我想為網站加上搜索功能？」這篇文裡半放棄地說：
 
 > Pagefind 對目前的我好像還是有點太進階了。
 >

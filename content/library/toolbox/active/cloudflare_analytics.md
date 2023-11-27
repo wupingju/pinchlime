@@ -34,4 +34,4 @@ path: library/cloudflare-web-analytics
 對我來說，追蹤功能不是我的「必需」，但是我也不想要因為不追蹤而失去一些有助於改善寫作的數據，因此免費又能夠有基本追蹤的 Cloudflare Web Analytics 剛好很符合我的需求。
 
 我曾寫過的相關文章：
-- [開始使用 Cloudflare Web Analytics](@/snapshots/tried-tried-to-use-cloudflare-web-analytics.md)
+- [開始使用 Cloudflare Web Analytics](@/blog/tried-tried-to-use-cloudflare-web-analytics.md)

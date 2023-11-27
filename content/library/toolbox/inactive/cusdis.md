@@ -34,6 +34,6 @@ Cusdis 是一個非常簡單輕便的網站評論系統，主打 privacy first�
 
 ## 我為何不再使用了？
 
-可以參考[為何我決定移除網站上的留言系統？](@/snapshots/why-why-did-I-decide-to-remove-the-comment-system-on-the-website.md) 這篇的內容。
+可以參考[為何我決定移除網站上的留言系統？](@/blog/why-why-did-I-decide-to-remove-the-comment-system-on-the-website.md) 這篇的內容。
 
 一方面是部署 Cusdis 還是稍微有點麻煩，另一方面是，我好像暫時沒有需要一個留言系統，我覺得透過 Twitter 與 Email 與潛在讀者互動就很棒了。

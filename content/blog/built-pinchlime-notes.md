@@ -55,7 +55,7 @@ taxonomies:
 
 ## Pin 起來的筆記與想法快照
 
-在建立的過程中，我重新思考了一個問題是：[我真正想要的好像不是「個人 wiki」](@/snapshots/random-what-i-truly-want-is-not-a-personal-wiki.md)。
+在建立的過程中，我重新思考了一個問題是：[我真正想要的好像不是「個人 wiki」](@/blog/random-what-i-truly-want-is-not-a-personal-wiki.md)。
 
 因為 wiki 感覺更像是一個「知識系統」或「知識社群」，但對我來說我更在意的是我自己的「想法」以及基於想法產生的「內容」。
 

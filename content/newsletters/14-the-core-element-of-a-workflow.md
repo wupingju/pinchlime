@@ -98,7 +98,7 @@ extra:
 
 完整的內容與使用心得請見： 
 
-[嘗試使用 Logseq 上面的 GPT-3 plugin](@/snapshots/tried-tried-to-use-logseq-plugin-gpt3-openai.md)
+[嘗試使用 Logseq 上面的 GPT-3 plugin](@/blog/tried-tried-to-use-logseq-plugin-gpt3-openai.md)
 
 對我來說，這個體驗非常有價值，它讓我這個非工程師第一次在新聞以外的地方直接體驗了跟 AI 互動的感覺，也透過自己的方式嘗試理解了 AI 擅長與不擅長的事。
 
