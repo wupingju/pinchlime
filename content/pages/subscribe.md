@@ -6,42 +6,10 @@ path: subscribe/
 template: subscribe.html
 ---
 
-Hi ，若你有興趣持續收到這個網站的內容更新，可以透過 Email 或 RSS 訂閱：
-
----
 
 ## 透過 Email 訂閱
 
-在這個網站裡有三大類的內容，你都可以透過 Email 訂閱。並且可以選擇要訂閱其中一種組合方案。
-
-<div style="background: #f5f5f5;text-align: center">
-<h3>基本版：只訂閱 Pin 起來電子報</h3>
-
-<p style="padding: 1rem 4rem"><a href="/newsletters">Pin 起來電子報</a>涵蓋我的各方面的選讀內容，以及當週特別想分享的事。我每週會固定發送一篇。
-<br>我覺得電子報最適合所有人閱讀，也最適合透過 Email 收到，因此我把它放在基本版的方案。
-</p>
-</div>
-
----
-
-<br>
-<div style="background: #f5f5f5;text-align: center">
-<h3>進階版：基本版 ＋ Blog 更新</h3>
-<p style="padding: 1rem 4rem"><a href="/blog">Blog</a> 包含這個站上比較完整的文章，通常是介紹一個產品或服務、網站新功能上線的介紹、或者是比較完整的論述與工作流分享。發送的頻率並不固定。
-</p>
-</div>
-
----
-
-<br>
-<div style="background: #f5f5f5;text-align: center">
-<h3>完整版：進階版 ＋ Snapshots 更新</h3>
-
-<p style="padding: 1rem 4rem">除了電子報與 Blog 之外，網站上還有一部分的內容屬於 <a href="/snapshots/archive">Snapshots</a> ，這些是我比較短的、不成熟的想法，可能是我對某件事的疑問，或者是我發現了、嘗試了什麼東西的心得。發送的頻率不固定，但應該是最常更新的內容。
-</p>
-</div>
-
----
+Hi ，若你有興趣持續收到這個網站的內容更新，可以透過 Email 或 RSS 訂閱：
 
 <br>
 <form
@@ -51,7 +19,7 @@ Hi ，若你有興趣持續收到這個網站的內容更新，可以透過 Emai
   onsubmit="window.open('https://buttondown.email/pinchlime', 'popupwindow')"
   class="embeddable-buttondown-form"
 >
-  <label for="email" style="text-align: center;font-size: 1.4rem">若要訂閱，請輸入你的 Email</label>
+  <label for="email" style="text-align: center;font-size: 1.2rem">若要訂閱，請輸入你的 Email</label>
   <input
     type="email"
     name="email"
@@ -59,16 +27,10 @@ Hi ，若你有興趣持續收到這個網站的內容更新，可以透過 Emai
     style="display: block; border-radius: 0.5rem; padding: 0.5rem 1rem; width: 100%; margin: 1rem auto; text-align: center; background-color: #ffffff;font-size:1.2rem "
   />
   <br>
-  <label for="email" style="font-size: 1.4rem;">接著，請選擇訂閱方案</label>
+  <label for="email" style="font-size: 1.2rem;">接著，請勾選訂閱方案</label>
   <ul>
         <input type="radio" id="Letter" name="tag" value="Letter">
-        <label for="Letter">基本版：只訂閱 Pin 起來電子報</label>
-        <br>
-        <input type="radio" id="Blog" name="tag" value="Blog">
-        <label for="Blog">進階版：基本版 ＋ Blog 更新</label>
-        <br>
-        <input type="radio" id="All" name="tag" value="All">
-        <label for="All">完整版：進階版 ＋ Snapshots 更新</label>
+        <label for="Letter">訂閱 Pin 起來電子報</label>
   </ul>
 
   <input type="hidden" value="1" name="embed" />
@@ -76,11 +38,9 @@ Hi ，若你有興趣持續收到這個網站的內容更新，可以透過 Emai
 </form>
 <br>
 
-> 在按下訂閱按鈕後，你應該會在信箱收到一封確認信，請你點擊裡面的確認連結，才算是完成訂閱。
+在按下訂閱按鈕後，你應該會在信箱收到一封確認信，請你點擊裡面的確認連結，才算是完成訂閱。若你沒有收到確認信，那麼肯定是哪邊出錯了，此時歡迎你直接寄信到 <pj@pinchlime.com> 給我，由我為你手動訂閱。
 
-> 若你沒有收到確認信，那麼肯定是哪邊出錯了，此時歡迎你直接寄信到 <pj@pinchlime.com> 給我，由我為你手動訂閱。
-
-> 若你已經是訂閱用戶，但想要更改訂閱的方案，很抱歉，目前沒有自己調整的方式（連退訂再重新訂閱也不行），所以請你直接寄信給我，我很樂意為你調整！
+若你已經是訂閱用戶，但想要更改訂閱的方案，很抱歉，目前沒有自己調整的方式（連退訂再重新訂閱也不行），所以請你直接寄信給我，我很樂意為你調整！
 
 <br>
 
@@ -94,7 +54,6 @@ Hi ，若你有興趣持續收到這個網站的內容更新，可以透過 Emai
 
 - [Blog](/blog/atom.xml)
 - [Newsletters](/newsletters/atom.xml)
-- [Snapshots](/snapshots/atom.xml)
 
 你也可以針對 [tags](/tags) 裡面的個別 tag 項目訂閱，你就點開這個標籤的連結，並且在後面加上 `/atom.xml` ，就可以單獨訂閱了。
 
