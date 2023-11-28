@@ -1,5 +1,5 @@
 <div class="fleet">
-    <span id="{{ num }}" class="fleet-time">{{ time }}<br><a style="text-decoration: none;color: #b3b3b1;" href="/stream/{{ year }}/#{{ num }}"># {{ num }}</a></span>
+  <div style="justify-content: space-between;display: flex;"><span id="{{ num }}" class="fleet-time">{{ time }}</span><a class="fleet-time" style="text-decoration: none;color: #b3b3b1;" href="/stream/{{ year }}/#{{ num }}"># {{ num }}</a></div>
     <blockquote class="fleet-content" style="margin-left: -0.5rem;">
         <p style="font-size: 1rem;">{{ body | safe }}</p>
         <div style="display: flex; justify-content: right;">

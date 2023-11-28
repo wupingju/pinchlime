@@ -550,17 +550,18 @@ li.inline {
   font-size: 18px;
 }
 .fleet {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
   margin-bottom: 2rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;  
 }
 .fleet-time {
   color: #b3b3b1;
   font-size: 1rem;
   line-height: 2;
   width: fit-content;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .fleet-content {
   text-align: justify;
@@ -568,7 +569,6 @@ li.inline {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 2;
-  width: 80%;
 }
 .jf-loading body { /*載入中不顯示*/
   opacity: 0;
@@ -917,10 +917,10 @@ div.pt a:hover {
     max-width: 16rem;
   }
   .fleet {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
+    margin-bottom: 2rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;  
   }
   .fleet-time {
     color: #b3b3b1;
