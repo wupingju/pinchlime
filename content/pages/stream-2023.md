@@ -22,7 +22,7 @@ template: stream.html
 
 {% fleet(num="50",time="Nov 25 22:46
 ",year="2023") %}
-好幾個月沒更新了，經過一陣思考，我決定要把站內原本的 Snapshots 頁面的內容，分拆到 Blog 以及 Stream 兩個頁面。以下是我依照時間序，重新放過來的一些短內容。這些內容不會有序號，但會保留原本的 PO 文時間。
+好幾個月沒更新了，經過一陣思考，我決定要把站內原本的 Snapshots 頁面的內容，分拆到 Blog 以及 Stream 兩個頁面。
 <br>
 {% end %}
 
