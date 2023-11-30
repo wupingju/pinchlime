@@ -3,13 +3,18 @@ title: My Stream
 description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-11-25
+updated: 2023-11-30
 template: stream.html
 ---
 
 ## 2023
 
 ### November
+
+{% fleet(num="52",time="Nov 30 22:01",year="2023") %}
+雖然我一直都不太信任 AI 摘要的內容，但剛剛試著自己做了一個 GPT，發現效果還挺不錯的。或許可以試著區分一下哪些場景可以用這個，哪些不行，不用一刀切。
+{% end %}
+
 
 {% fleet(num="51",time="Nov 25 22:48",year="2023") %}
 <strong>為什麼我要把 Snapshots 頁面解散？</strong>
