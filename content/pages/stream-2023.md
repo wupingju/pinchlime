@@ -9,6 +9,13 @@ template: stream.html
 
 ## 2023
 
+### December
+
+{% fleet(num="54",time="Dec 02 13:11",year="2023") %}
+最近一直在思考要不要退訂 Setapp ，因為我用的工具好像越來越少，一個月 12.49 的訂閱費有點太貴。不過想一想又覺得有些軟體要重買很麻煩，而且退訂後，有些低頻但偶爾會使用的軟體（Permute, Downie, Clean My Mac 等等）又要考慮要不要再單獨買，也很麻煩，所以就算了。<br><br>剛剛發現 Raycast Pro 要續費了，又開始想要不要花錢續訂，突然想到來看看 Setapp 裡面有沒有類似的 AI 工具好了，結果發現 [Elephas](https://elephas.app/) 這個東西，看起來跟 Popclip 這類工具有點像，就是 Mac 上面的輔助應用。<br><br>試用了一下發現還挺不錯的，好像可以滿足我基本的翻譯跟文法校正需求。於是我就退訂 Raycast Pro 了。這樣一想，Setapp 的價格好像就值了！
+{% end %}
+
+
 ### November
 
 {% fleet(num="53",time="Nov 30 22:23",year="2023") %}
