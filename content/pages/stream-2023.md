@@ -11,6 +11,19 @@ template: stream.html
 
 ### December
 
+{% fleet(num="55",time="Dec 02 23:24",year="2023") %}
+我每隔一段時間就會定期 review 與整理一次我的常用工具清單，剛剛開始進行後才發現，不知不覺中，已經有這麼多我曾經在用的工具，都已經不再使用了，因為 <a href="https://get.heptabase.com/pinchlime">Heptabase</a> 就可以滿足我的需求，甚至給我更好的體驗。<br><br>
+我曾經是 Obsidian 以及 Logseq 的愛好者，現在我都在 Heptabase 裡面閱讀、摘要與整理我的原子知識卡片。<br><br>
+我以前會用 OmniFocus 與 Todoist 來管理我的任務，但在 Heptabase 推出 Task 的功能後，我可以一覽我的所有 tasks ，而且我可以清楚知道他們各自的 context 是什麼。這讓我感覺我不再需要專門的任務管理工具了。<br><br>
+我以前會使用 PDF Expert 閱讀、畫線與註記 PDF ，現在都在 Heptabase 裡面進行。<br><br>
+我以前會用 Mindnode 與 Scapple 畫心智圖，現在可以直接在 Heptabase 裡面畫，並且與其他卡片和多媒體素材連結。我過去也會用 Raindrop 與 DEVONthink 收集網頁與所有的文件，現在我幾乎都直接複製貼上內容到 Heptabase 裡面，再進一步處理。<br><br>
+還有一些我非常喜歡的工具如 Readwise Reader, Workflowy 與 Drafts ，我也愈來愈少用，因為某些他們可以做的事情， Heptabase 也快要趕上了。<br><br>
+我沒有想過會有這樣一個產品可以滿足我多方面的知識管理需求，而且他還在持續變好，對我來說 Heptabase 的訂閱費真的花得非常值得，如果你還沒試過，也想試試看，歡迎點擊<a href="https://get.heptabase.com/pinchlime">連結</a>到官網嘗試七天免費試用！
+
+
+{% end %}
+
+
 {% fleet(num="54",time="Dec 02 13:11",year="2023") %}
 最近一直在思考要不要退訂 Setapp ，因為我用的工具好像越來越少，一個月 12.49 的訂閱費有點太貴。不過想一想又覺得有些軟體要重買很麻煩，而且退訂後，有些低頻但偶爾會使用的軟體（Permute, Downie, Clean My Mac 等等）又要考慮要不要再單獨買，也很麻煩，所以就算了。<br><br>剛剛發現 Raycast Pro 要續費了，又開始想要不要花錢續訂，突然想到來看看 Setapp 裡面有沒有類似的 AI 工具好了，結果發現 [Elephas](https://elephas.app/) 這個東西，看起來跟 Popclip 這類工具有點像，就是 Mac 上面的輔助應用。<br><br>試用了一下發現還挺不錯的，好像可以滿足我基本的翻譯跟文法校正需求。於是我就退訂 Raycast Pro 了。這樣一想，Setapp 的價格好像就值了！
 {% end %}
