@@ -8,15 +8,6 @@ extra:
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/moze_7GA7gP.webp
 ---
 
-| Property | Detail | 
-|---|---|
-| Website | <https://moze.app/> | 
-| Platform | iOS only | 
-| Pricing | 免費版、付費版每月 $30 TWD | 
-| Description | 介面漂亮、直覺易用的手機記帳軟體 | 
-
-<br>
-
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/moze_7GA7gP.webp" data-fancybox data-caption="Moze">
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/moze_7GA7gP.webp" loading="lazy" alt="Moze" align="center" />
 </a>
@@ -26,7 +17,7 @@ extra:
 
 ## 簡介
 
-我從 2023 年 5 月底開始，從使用了 5 年多的 [MoneyWiz](@/library/toolbox/inactive/moneywiz.md) 轉換到 Moze 記帳。
+我從 2023 年 5 月底開始，從使用了 5 年多的 [MoneyWiz](@/library/toolbox/inactive/moneywiz.md) 轉換到 [Moze](https://moze.app/) 記帳。
 
 Moze 是個來自台灣的產品，主打著「最美記帳」，我在幾年前有看過朋友推薦，但當時已經有在用的工具，就沒有特別關注。
 

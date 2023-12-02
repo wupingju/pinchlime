@@ -6,15 +6,6 @@ updated: 2023-05-18
 path: library/bob
 ---
 
-| Property | Detail |
-| --- | --- |
-| Website | <https://bobtranslate.com/> |
-| Platform | macOS |
-| Pricing | 買斷制， TWD $290 |
-| Description | 一款方便易用又輕巧的 Mac 翻譯軟體 |
-
-<br>
-
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bob-translator_nPByXZ.webp" data-fancybox data-caption="bob-translator">
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/bob-translator_nPByXZ.webp" loading="lazy" alt="bob-translator" align="center" />
 </a>
@@ -24,7 +15,7 @@ path: library/bob
 
 ## 簡介
 
-Bob 是一款 macOS 上的翻譯軟體，它很輕巧，可以搭配任何軟體或瀏覽器使用。
+[Bob](https://bobtranslate.com/) 是一款 macOS 上的翻譯軟體，它很輕巧，可以搭配任何軟體或瀏覽器使用。
 
 我常用的有他的劃詞翻譯以及截圖翻譯，前者只要我選取某段文字，再按下快捷鍵，就會翻譯我選取的內容。
 

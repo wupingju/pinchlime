@@ -6,24 +6,14 @@ updated: 2023-08-22
 path: library/spark
 ---
 
-| Property | Detail | 
-|---|---|
-| Website | <https://sparkmailapp.com/> | 
-| Platform | macOS, iOS, 好像也有 Windows | 
-| Pricing | 有免費版，也有 Premium 版本，年費 $59.99  | 
-| Description | 穩定可信任的 Mac email client | 
-
-<br>
-
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/spark_Nla5gr.webp" data-fancybox data-caption="Spark mail">
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/spark_Nla5gr.webp" loading="lazy" alt="Spark mail" align="center" />
 </a>
 <br>
 
-
 ## 簡介
 
-Spark 是由 Readdle 這家老牌的軟體公司開發的 Email 軟體，我從好幾年前就是忠實用戶，他可以讓我登入不同的 Google 帳號，並在同一個介面裡面收信、寄信。
+[Spark](https://sparkmailapp.com/) 是由 Readdle 這家老牌的軟體公司開發的 Email 軟體，我從好幾年前就是忠實用戶，他可以讓我登入不同的 Google 帳號，並在同一個介面裡面收信、寄信。
 
 我最喜歡 Spark 的地方是他穩定的同步，我在電腦上編輯到一半或者閱讀的紀錄，打開手機後就會馬上同步並且看到。除此之外，該有的功能例如簽名檔、Snooze（稍後讀）、儲存成 PDF 等等我都很常用，而且這些都是免費的。
 

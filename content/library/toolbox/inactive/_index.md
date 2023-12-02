@@ -15,3 +15,19 @@ extra:
 
 但我相信這些好工具仍能滿足特定人群的需求，因此我還是會把他們放在這裡，希望能幫助到需要的人。
 
+---
+
+以下是我已經沒有在使用，但也還沒空為他們開個頁面的工具，依照我曾經喜歡與頻繁使用的程度由上往下排序。
+
+- Devonthink
+- Obsidian
+- OmniFocus
+- Todoist
+- Logseq
+- The Archive
+- Fantastical
+- Inoreader
+- Raindrop.io
+
+
+以下則是我有單獨寫成介紹的工具們

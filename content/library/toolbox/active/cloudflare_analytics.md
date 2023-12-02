@@ -6,15 +6,6 @@ updated: 2023-05-20
 path: library/cloudflare-web-analytics
 ---
 
-| Property | Detail |
-| --- | --- |
-| Website | <https://www.cloudflare.com/web-analytics/> |
-| Platform | Web |
-| Pricing | Free |
-| Description | 容易使用、重視隱私的 Google Analytics 替代方案 |
-
-<br>
-
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cloudflare-web-analytics_Ju2RGs.webp" data-fancybox data-caption="cloudflare-web-analytics">
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cloudflare-web-analytics_Ju2RGs.webp" loading="lazy" alt="cloudflare-web-analytics" align="center" />
 </a>
@@ -24,7 +15,7 @@ path: library/cloudflare-web-analytics
 
 ## 簡介
 
-我從 2023 年 5 月初開始用 Cloudflare Web Analytics。
+我從 2023 年 5 月初開始用 [Cloudflare Web Analytics](https://www.cloudflare.com/web-analytics/)。
 
 目前我喜歡它的地方在於：
 1. 可以免費使用
