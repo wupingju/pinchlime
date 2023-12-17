@@ -1,11 +1,10 @@
 ---
 title: 如何自己打造一個 Heptabase 的快速輸入視窗
 date: 2023-01-08
+updated: 2023-01-08
 path: blog/how-to-build-a-quick-capture-window-for-heptabase
 description: 我在任何地方按下 F2 後，就會跑完上述一連串的流程，然後出現一個 Heptabase 的縮小版輸入視窗，鎖定在今天的 Journal 頁面，可以讓自己快速輸入想法。
 taxonomies:
-  categories: 
-    - Workflows
   tags: 
     - Heptabase
     - Keyboard Maestro

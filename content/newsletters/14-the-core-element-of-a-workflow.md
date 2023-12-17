@@ -58,7 +58,7 @@ extra:
 
 完整的內容可以直接看：
 
-[我的閱讀、畫線與註記工作流](@/blog/workflows-my-highlighting-and-annotating-workflow.md)
+[我的閱讀、畫線與註記工作流](@/library/workflows/capture/workflows-my-highlighting-and-annotating-workflow.md)
 
 透過這個更新版的方法，我可以用 Glasp 達到三件事：
 
