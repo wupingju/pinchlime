@@ -11,6 +11,11 @@ template: stream.html
 
 ### December
 
+{% fleet(num="56",time="Dec 16 23:04",year="2023") %}
+今天決定再微調一下 Library 的架構。我發現我一直拖延不想編輯他們的原因是，我覺得要幫每個工具都寫介紹太花力氣了，要寫到心目中好的程度很麻煩，但若沒寫好又覺得不太值得放，就一直拖在那裡。<br>我想了一下，寫 workflows 好像更有意思一點，因此就直接把 workflows 的內容從 Blog 搬到 Library 裡面。看看這樣會不會更好一點。
+{% end %}
+
+
 {% fleet(num="55",time="Dec 02 23:24",year="2023") %}
 我每隔一段時間就會定期 review 與整理一次我的常用工具清單，剛剛開始進行後才發現，不知不覺中，已經有這麼多我曾經在用的工具，都已經不再使用了，因為 <a href="https://get.heptabase.com/pinchlime">Heptabase</a> 就可以滿足我的需求，甚至給我更好的體驗。<br><br>
 我曾經是 Obsidian 以及 Logseq 的愛好者，現在我都在 Heptabase 裡面閱讀、摘要與整理我的原子知識卡片。<br><br>
