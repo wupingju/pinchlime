@@ -26,3 +26,4 @@ extra:
 
 - [Workflows](/library/workflows)
 - [Collections](/library/collections)
+- [Translations](/library/translations)
