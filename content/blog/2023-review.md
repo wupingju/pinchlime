@@ -18,9 +18,9 @@ extra:
 
 在寫之前，我重新看了去年寫的三篇年度回顧：
 
-- [2022 年度回顧 - 不成熟的隻字片語也有價值](https://pinchlime.com/blog/2022-yearly-review/)
-- [2022 年我不再使用的工具 - 還是喜歡，但用不到了](https://pinchlime.com/blog/2022-tools-i-dont-use-anymore/)
-- [2022 年開始進入我工作流的好工具們](https://pinchlime.com/blog/2022-tools-started-entering-my-workflows/)
+- [2022 年度回顧 - 不成熟的隻字片語也有價值](@/blog/2022-yearly-review.md)
+- [2022 年我不再使用的工具 - 還是喜歡，但用不到了](@/blog/2022-tools-i-dont-use-anymore.md)
+- [2022 年開始進入我工作流的好工具們](@/blog/2022-tools-started-entering-my-workflows.md)
 
 看完我覺得，我以前真棒，或者說，真有空，竟然可以寫完三篇分開的回顧。不過仔細看看，我發現 2023 跟 2022 相較起來，在「個人生產力工具」的使用上變化沒有到太大。換句話說，我確實達成了當時對 2023 年的預期：
 
@@ -59,8 +59,8 @@ extra:
 
 2023 年的下半年，我加入了 Heptabase 團隊，這方面的回顧與心路歷程可以看這兩篇紀錄：
 
-- [離開](https://pinchlime.com/newsletters/exit/)
-- [從 Heptabase 的懷疑者到傳教士](https://pinchlime.com/newsletters/from-a-heptabase-doubter-to-a-missionary/)
+- [離開](@/newsletters/28-exit.md)
+- [從 Heptabase 的懷疑者到傳教士](@/newsletters/29-from-a-heptabase-doubter-to-a-missionary.md)
 
 加入至今已經快半年，幾乎沒有好好說過在裡面的心得與收穫，一方面是實在有太多事可以做、需要做、想要做，因此個人時間顯著下降，另一方面是我自己不太習慣頻繁談論任職公司的事情。
 
@@ -76,7 +76,7 @@ extra:
 
 ## 重拾相機拍照
 
-2023 年，在生活上的另一個重要變化是，我重新拾起相機開始拍照了。在 2023 年 5 月時，我接觸到了[只能拍攝黑白照片的 “Monochrome” 相機](https://pinchlime.com/newsletters/camera-that-can-only-take-black-and-white-photos/)，很快地就為此著迷，購入了一台新相機 Q2 Monochrom。
+2023 年，在生活上的另一個重要變化是，我重新拾起相機開始拍照了。在 2023 年 5 月時，我接觸到了[只能拍攝黑白照片的 “Monochrome” 相機](@/newsletters/27-camera-that-can-only-take-black-and-white-photos.md)，很快地就為此著迷，購入了一台新相機 Q2 Monochrom。
 
 持有這台相機以後，我每天都好開心，即使到現在已經過了半年多，這種開心仍然每天都會冒出來。
 
@@ -100,7 +100,7 @@ extra:
 
 ## 個人知識管理系統的迭代
 
-在 2023 年 6 月的端午節連假，我寫了一篇「[我的個人知識管理系統](https://pinchlime.com/blog/my-personal-knowledge-management-system-2023/)」。
+在 2023 年 6 月的端午節連假，我寫了一篇「[我的個人知識管理系統](@/blog/my-personal-knowledge-management-system-2023.md)。
 
 這篇文章裡面把知識管理分成探索、捕捉、發展、精煉與交流這五個階段，每個階段都有一些目標以及實踐原則。姑且不論別人看完後的想法，我自己覺得光是寫完這篇，就有滿滿的收穫，我不僅確立了一個可以持續迭代與演進的基礎，也從書寫的過程，就知道自己擅長與不擅長哪些，因此知道下一步該怎麼調整與加強。
 
