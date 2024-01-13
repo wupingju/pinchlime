@@ -21,10 +21,8 @@ title: Pin 起來
 ### [Newsletters](/newsletters)
 這裡放的是「Pin 起來電子報」，目前電子報的定位是我對不同感興趣主題的探索想法與心得，會不定期寄送給有訂閱的人。
 
-### [Stream](/stream/2023)
+### [Stream](/stream/2024)
 這裡放的是我各種「不成熟的想法」，你可以把它當成私人版，專屬於我自己的 Twitter 。
-
-另外我也把 2023 年 11 月以前網站內一些比較零散的「短想法」（Snapshots）都搬到了 [My Old Snapshots](/stream/old-snapshots) 這個頁面。
 
 
 ---

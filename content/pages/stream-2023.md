@@ -1,9 +1,9 @@
 ---
-title: My Stream
-description: 我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
+title: My Stream - 2023
+description: 這是我 2023 年的 stream page。我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2023/
 date: 2023-02-23
-updated: 2023-11-30
+updated: 2023-12-16
 template: stream.html
 ---
 
