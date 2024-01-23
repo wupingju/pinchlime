@@ -21,7 +21,7 @@ title: Pin 起來
 ### [Newsletters](/newsletters)
 這裡放的是「Pin 起來電子報」，目前電子報的定位是我對不同感興趣主題的探索想法與心得，會不定期寄送給有訂閱的人。
 
-### [Stream](/stream/2024)
+### [Stream](https://stream.pinchlime.com/notes)
 這裡放的是我各種「不成熟的想法」，你可以把它當成私人版，專屬於我自己的 Twitter 。
 
 
