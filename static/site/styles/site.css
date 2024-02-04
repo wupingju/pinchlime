@@ -488,6 +488,7 @@ li.inline {
   font-size: 1.5rem;
 }
 .text-sm {
+  padding-top: 0.1rem;
   font-size: 1rem;
 }
 .text-sm p {

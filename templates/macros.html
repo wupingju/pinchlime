@@ -36,8 +36,10 @@
 
 
 {% macro post_min(page) %}
-<div style="display: flex;justify-content: space-between; padding-top: 0.5rem; padding-bottom: 0.5rem;">
-<a class="no-underline li_archive" href="{{ page.permalink }}">{{ page.title }}</a> 
+<div style="padding-top: 0.5rem; padding-bottom: 0.5rem;">
+<p style="margin-top: -0.5rem; margin-bottom: -0.5rem;"> 
+  <a class="no-underline li_archive" href="{{ page.permalink }}">{{ page.title }}</a> 
+</p>
 <span class="muted text-sm" style="font-family: menlo;">{{ page.updated | date(format="%Y.%m.%d") }}</span>
 </div>
 {% endmacro post_min %}
@@ -51,13 +53,11 @@
 {% endmacro snapshots_min %}
 
 {% macro newsletters_min(page) %}
-<div style="display: flex; justify-content: space-between;">
-  <div style="display: flex;">
-    <div class="li_archive_news">
-      <span style="margin-right: 1rem; font-family: menlo;">＃{{page.extra.issues }}</span><a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a>
-    </div>
-  </div>
-  <span class="muted text-sm" style="font-family: menlo; white-space: nowrap;">{{ page.date | date(format="%b %d") }}</span>
+<div style="padding-top: 0.5rem; padding-bottom: 0.5rem;">
+  <p style="margin-top: -0.5rem; margin-bottom: -0.5rem;"> 
+    <a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a>
+  </p>
+  <span class="muted text-sm" style="font-family: menlo; white-space: nowrap;">{{ page.date | date(format="%Y.%m.%d") }}</span>
 </div>
 
 {% endmacro newsletters_min %}
