@@ -2,20 +2,13 @@
 {% block title %}{{ config.title }} - 404{% endblock title %}
 {% block main %}
 
-<div class="alert alert-error navmargin">
+<div class="element">
   <h1>404 - Not found</h1>
+  <p>
+    你想找的頁面目前並不存在。<br />
+    可能是因為我設定錯誤，也有可能是因為我把這個頁面或文章給下架了。<br />
+    如果你從某個地方點擊連結到這裡，知道那個頁面或文章是什麼，很想要看到內容，<br />
+    歡迎寄信到 pj@pinchlime.com 給我，我這邊應該會有存檔可以分享給你！<br />
+  </p>
 </div>
-<p>
-  The page you requested was not found.<br />
-  You can try to find it by browsing the menus.
-</p>
-<p>
-  <a href="{{ config.base_url }}" class="btn btn-info" role="button">Home</a>
-  <a href="{{ config.base_url }}/categories" class="btn btn-info" role="button"
-    >Categories</a
-  >
-  <a href="{{ config.base_url }}/tags" class="btn btn-info" role="button"
-    >Tags</a
-  >
-</p>
 {% endblock main %}
