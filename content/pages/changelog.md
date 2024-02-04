@@ -4,7 +4,7 @@ description: 這邊放置 Pin 起來網站的 Changelog，主要的內容是描�
 path: changelog/
 draft: false
 date: 2022-04-20
-updated: 2023-11-27
+updated: 2024-02-04
 template: changelog.html
 ---
 
@@ -25,12 +25,21 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [2.14.0] - 2024.02.04
+
+### Removed
+
+- 繼續精簡網站，把原先的 evergreen notes 類別以及一些體驗類型的文章都移除，也把比較早期的 newsletters 移除了。
+
+---
+
 ## [2.13.1] - 2023.12.17
 
 ### Changed
 
 - 把 Workflows 類別的文章都搬到 Library 了，繼續讓 Blog 簡化。
 
+---
 
 ## [2.13.0] - 2023.11.27
 
@@ -38,6 +47,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 - 移除了舊的 Snapshots 相關頁面，把相關內容搬到了 Blog 以及 [My Old Snapshots](/stream/old-snapshots) 這個頁面。相應處理了蠻多檔案的搬遷與調整，目前頁面總數量大概少了近 100 個，瘦身多了！
 
+---
 
 ## [2.12.0] - 2023.11.25
 
