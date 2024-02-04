@@ -1,6 +1,7 @@
 ---
 title: 我為什麼還是想寫電子報？
 date: 2023-01-14
+updated: 2023-01-14
 description: 我感覺它好像是某種內在的試金石，因為這件事若要持續做，很困難，所以我想要挑戰看看有沒有機會達成。
 path: snapshots/why/why-do-i-still-want-to-write-newsletters
 taxonomies:

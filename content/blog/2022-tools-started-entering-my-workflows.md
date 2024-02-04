@@ -1,6 +1,7 @@
 ---
 title: 2022 年開始進入我工作流的好工具們
 date: 2023-01-02
+updated: 2023-01-02
 path: blog/2022-tools-started-entering-my-workflows
 description: 這篇文章會依照使用的情境與工作流，把工具分為三大類別，分別是「個人知識管理」、「內容輸出與分享」與「工作記錄與溝通」
 taxonomies:

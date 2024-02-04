@@ -1,6 +1,7 @@
 ---
 title: Why? Why? Why?
 date: 2022-05-14
+updated: 2022-05-14
 description: 5W1H 裡面，只有「Why」是可以直奔上位概念的疑問詞。其他 5 個都是針對「已有問題」的角度出發，並且思考如何具體解決問題，但 Why 則是在思考「我為什麼要解決這個問題？這個問題是最應該被解決的嗎？有沒有其他更應該解決的問題？
 draft: false
 path: newsletters/why-why-why

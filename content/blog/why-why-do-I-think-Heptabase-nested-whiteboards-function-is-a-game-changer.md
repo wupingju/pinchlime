@@ -1,6 +1,7 @@
 ---
 title: 為何我認為 Heptabase 的層級化白板是 game changer？
 date: 2022-05-29
+updated: 2022-05-29
 description: 我覺得 0.143.0 推出的層級化白板功能是 Heptabase 非常重要的一次更新，因為它讓筆記、卡片的後期整理變得容易。
 path: snapshots/why/why-do-I-think-Heptabase-nested-whiteboards-function-is-a-game-changer
 taxonomies:

@@ -1,6 +1,7 @@
 ---
 title: 讓他們清楚地知道你想幹嘛、你在幹嘛
 date: 2023-11-24
+updated: 2023-11-24
 description: 本次電子報想分享兩篇文章的閱讀心得，我覺得兩篇雖然講的是不同事情，但背後有個相近的概念是：讓你在職場上的協作對象清楚地知道你想幹嘛以及你在幹嘛。
 path: newsletters/let-them-know-clearly
 extra:

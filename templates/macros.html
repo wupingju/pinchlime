@@ -36,9 +36,9 @@
 
 
 {% macro post_min(page) %}
-<div style="display: flex;justify-content: space-between">
+<div style="display: flex;justify-content: space-between; padding-top: 0.5rem; padding-bottom: 0.5rem;">
 <a class="no-underline li_archive" href="{{ page.permalink }}">{{ page.title }}</a> 
-<span class="muted text-sm" style="font-family: menlo;">{{ page.date | date(format="%b %d") }}</span>
+<span class="muted text-sm" style="font-family: menlo;">{{ page.updated | date(format="%Y.%m.%d") }}</span>
 </div>
 {% endmacro post_min %}
 

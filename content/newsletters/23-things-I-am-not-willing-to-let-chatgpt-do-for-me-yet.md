@@ -1,6 +1,7 @@
 ---
 title: 那些我還不願意讓 ChatGPT 代我做的事
 date: 2023-03-12
+updated: 2023-03-12
 description: 從 ChatGPT 問世後，我一直深刻感覺、也很認同，生成式 AI 是在為我賦能。以 ChatGPT 來說，他讓我用更少的時間做我原本就會做的事、讓我更容易做到我原本不會做的事，也讓我把我原本就擅長的事做得更好。
 path: newsletters/things-I-am-not-willing-to-let-chatgpt-do-for-me-yet
 extra:

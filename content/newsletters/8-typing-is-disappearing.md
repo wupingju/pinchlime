@@ -1,6 +1,7 @@
 ---
 title: 用鍵盤打字逐漸成為稀有技能？
 date: 2022-04-04
+updated: 2022-04-04
 description: 能夠好好運用鍵盤打字的人，就能更有效率地聚集想法，並且讓這些想法們彼此碰撞、互動，產生更多質變。
 draft: false
 path: newsletters/typing-is-disappearing

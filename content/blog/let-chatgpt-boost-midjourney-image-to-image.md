@@ -1,6 +1,7 @@
 ---
 title: 讓 ChatGPT 搭配 Midjourney 一起以圖產圖
 date: 2023-04-08
+updated: 2023-04-08
 description: ChatGPT 很適合拿來處理這種整合、重組文字的工作，我相信若再測試更多輪，人工微調 prompt ，它整合的效果會更好。
 path: blog/let-chatgpt-boost-midjourney-image-to-image
 taxonomies:

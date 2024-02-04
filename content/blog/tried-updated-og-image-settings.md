@@ -1,6 +1,7 @@
 ---
 title: 嘗試改變部落格裡 og image 的設定
 date: 2022-12-24
+updated: 2022-12-24
 description: 接下來在社群上分享文章顯示的圖應該會更好看了！
 path: snapshots/what-i-tried-today/updated-og-image-settings
 taxonomies:

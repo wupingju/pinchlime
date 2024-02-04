@@ -1,6 +1,7 @@
 ---
 title: 嘗試透過 Apple Shortcuts 製作能夠記憶對話脈絡的 ChatGPT 助手
 date: 2023-03-04
+updated: 2023-03-04
 description: 這個過程蠻有趣的，雖然中間遇到一些挫折，但最後還是順利達成想要的結果。
 path: snapshots/what-i-tried-today/tried-to-build-a-chatgpt-assistant-who-can-remember-contexts-via-shortcuts
 taxonomies:

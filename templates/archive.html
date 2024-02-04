@@ -20,16 +20,12 @@
 <h1>Blog</h1>
 <br>
 {% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") %}
-{% for year, posts in all_blog_pages.pages | group_by(attribute="year") %}
-<h2>{{ year }}</h2>
 <br>
 <ul class="list-none">
-  {% for post in posts %}
+  {% for post in all_blog_pages.pages | sort(attribute="updated") | reverse %}
   <li>{{ macro::post_min(page=post) }}</li>
   {% endfor %}
 </ul>
-{% endfor %} 
-</div>
 </div>
 {% endblock main %}
 <summary style="text-decoration:line-through "></summary>

@@ -1,6 +1,7 @@
 ---
 title: 更換了網站的字型為「金萱那提」
 date: 2023-04-20
+updated: 2023-04-20
 description: 在全部設定完成後，我發現，我又更喜歡這個網站了！這樣的喜歡，會促使我更想在上面寫東西，即使只是寫給自己看，都非常開心。
 path: blog/changed-font-to-jinxuan-latte
 taxonomies:

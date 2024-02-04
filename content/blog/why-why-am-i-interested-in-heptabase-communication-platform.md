@@ -1,6 +1,7 @@
 ---
 title: 我為何對 Heptabase 的「溝通平台」想法有興趣？
 date: 2022-12-23
+updated: 2022-12-23
 description: 最期待 Heptabase 的是，在單一卡片的維度，可以有文件的嚴謹與清晰的架構，同時在多卡片的架構下，又能夠保有充足的思考脈絡；而在多人共享的平台中，能夠穿梭在不同人、不同時間的多卡片空間裡，形成最好的共享溝通思考平台。
 path: snapshots/why/why-am-i-interested-in-heptabase-communication-platform
 taxonomies:

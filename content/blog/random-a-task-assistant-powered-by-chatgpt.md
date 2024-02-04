@@ -1,6 +1,7 @@
 ---
 title: 想要一個 ChatGPT task assistant
 date: 2023-03-10
+updated: 2023-03-10
 description: 好期待有人做出這樣的東西，一定會很有趣。
 path: snapshots/random/a-task-assistant-powered-by-chatgpt
 taxonomies:

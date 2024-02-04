@@ -1,6 +1,7 @@
 ---
 title: Heptabase 開始可以把 Journal 卡片放到白板的意義
 date: 2022-11-20
+updated: 2022-11-20
 path: blog/the-benefits-of-putting-journals-on-whiteboards-in-heptabase
 description: 對我來說這個新上線的功能，打開的不只是對未來的規劃可能性而已，對過去紀錄內容的可達性也更高了。
 taxonomies:

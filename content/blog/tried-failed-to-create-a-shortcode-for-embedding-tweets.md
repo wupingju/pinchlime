@@ -1,6 +1,7 @@
 ---
 title: 嘗試製作一個嵌入 Tweets 的 shortcode 失敗
 date: 2023-01-24
+updated: 2023-01-24
 description: 我發現 Twitter 官方好像沒有提供 iframe 的嵌入方案。不過，Twitter 官方提供的方式也不能說困難。
 path: snapshots/what-i-tried-today/failed-to-create-a-shortcode-for-embedding-tweets
 taxonomies:

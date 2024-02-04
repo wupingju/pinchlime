@@ -1,6 +1,7 @@
 ---
 title: 我的個人知識管理系統
 date: 2023-06-23
+updated: 2023-06-23
 path: blog/my-personal-knowledge-management-system-2023
 description: 這篇文章提出了一個「個人知識管理系統」，期待能夠透過這套涵蓋「探索、捕捉、發展、精煉、交流」等五階段的流程，讓日常接觸到的各種資訊更容易轉化為有價值的知識，進而讓自己能夠應用這些知識來實際解決問題。
 taxonomies:

@@ -1,6 +1,7 @@
 ---
 title: DEVONthink 3 的基本介紹
 date: 2021-01-24
+updated: 2021-01-24
 path: 2021/01/24/devonthink3-introduction/
 description: 對我來說，DEVONthink 的強大在於，在一個軟體裡，我就能夠滿足知識管理的三個階段各自需要的功能。
 taxonomies:
