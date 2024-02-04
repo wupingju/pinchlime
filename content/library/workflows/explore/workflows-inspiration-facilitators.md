@@ -21,5 +21,3 @@ taxonomies:
 - 我看完這篇文章後產生哪些問題？
 
 此時，再透過筆記工具的 templates ，或者是效率工具如 Raycast 或 Keyboard Maestro 的 snippets 功能，快速在固定形式的筆記裡面導入這些「促進靈感元素」，就能讓自己更快進入狀況。
-
-之前提過的「[聯想羅盤](@/library/workflows/explore/workflows-the-compass-of-creating-thoughts.md)」也是類似的概念。

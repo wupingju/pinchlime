@@ -10,9 +10,6 @@ taxonomies:
     - DEVONthink
 ---
 
-上一篇 [Pin 起來的 Roadmap](@/blog/roadmap-2021.md) 裡面有講到，接下來這個部落格會慢慢介紹不同的生產力工具。  
-也會分成三個層次，有單純介紹分享、實際使用的初步心得、還有深度體驗後的分享，所以近期就從我[工具箱](/toolbox)裡五顆星的工具們開始介紹起吧！
-
 這篇想介紹的，是被我定位為 _第二大腦_ 的 Mac 軟體，[DEVONthink 3](https://www.devontechnologies.com/apps/devonthink)。
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/devonthink-banner_waugVb.webp" data-fancybox data-caption="devonthink-banner">

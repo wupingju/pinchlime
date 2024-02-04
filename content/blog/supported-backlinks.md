@@ -63,7 +63,7 @@ https://pinchlime.com/blog/article ，
 
 我最後選擇把 backlinks 區塊放在內文段落的下方、留言段落的上方，並且也微調了一下這個區塊的標題。
 
-原先在考慮是否該使用「Backlinks」，但我覺得這個詞對於一般人來說可能有點陌生、無法理解，因此我還是參考了上面提到的 Andy Matuschak 網站，把這個區塊命名為「Links to this page」，並且參考 Owen 的程式碼，加上了數量的資訊，如下圖，這是「[迅速迭代功能的 Heptabase 已成為我最愛用的知識管理工具](@/blog/heptabase-has-already-become-my-favorite-pkm-tool.md)」這篇文顯示的 backlinks 區塊。
+原先在考慮是否該使用「Backlinks」，但我覺得這個詞對於一般人來說可能有點陌生、無法理解，因此我還是參考了上面提到的 Andy Matuschak 網站，把這個區塊命名為「Links to this page」，並且參考 Owen 的程式碼，加上了數量的資訊，如下圖，這是「迅速迭代功能的 Heptabase 已成為我最愛用的知識管理工具」這篇文顯示的 backlinks 區塊。
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/backlinks-demo_fu67Vw.webp" data-fancybox data-caption="backlinks-demo">
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/backlinks-demo_fu67Vw.webp" loading="lazy" alt="backlinks-demo" align="center" />

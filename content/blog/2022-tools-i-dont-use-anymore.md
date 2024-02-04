@@ -33,7 +33,7 @@ taxonomies:
 
 ## Logseq
 
-大約從 2022 下半年開始，我就不再使用 Logseq 了，核心原因也是因為 Heptabase 的出現。[隨著 Heptabase 的迅速發展](@/blog/heptabase-has-already-become-my-favorite-pkm-tool.md)，它逐漸具備我在知識管理上期待的各項功能，
+大約從 2022 下半年開始，我就不再使用 Logseq 了，核心原因也是因為 Heptabase 的出現。隨著 Heptabase 的迅速發展，它逐漸具備我在知識管理上期待的各項功能，
 
 原先我在 Logseq 主要會透過 Journals 的介面每日速記想法，不過隨著想法逐漸累積，我發現 Logseq 沒有辦法讓我全心投入，因為它的介面讓我難以迅速「鳥瞰」過往的各種想法，我只知道我持續在記東西，但不容易一次看到過往的所有想法。
 

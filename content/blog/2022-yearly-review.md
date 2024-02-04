@@ -27,7 +27,7 @@ extra:
 
 ## 更精簡的知識管理工具組合
 
-2022 年最關鍵的變化是開始使用 Heptabase ，[快速成長與迭代的 Heptabase](@/blog/heptabase-has-already-become-my-favorite-pkm-tool.md) 漸漸在各層面替代了我好幾樣不同類型的工具。
+2022 年最關鍵的變化是開始使用 Heptabase ，快速成長與迭代的 Heptabase 漸漸在各層面替代了我好幾樣不同類型的工具。
 
 例如，記下閃念想法的部分替代了 Drafts 與 Logseq，整理與思考想法的部分替代了 Workflowy，寫長文字的部分替代了 Obsidian 與 iA Writer，作為所有想法歸檔之處的部分替代了 DEVONthink。
 

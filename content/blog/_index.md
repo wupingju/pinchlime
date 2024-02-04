@@ -11,7 +11,6 @@ title: 所有文章
 Hi，你現在看到的「**Blog**」頁面，是這個網站最核心的內容，通常篇幅較長，也比較完整。目前分成下列幾個類別：
 
 - [Tools](/categories/tools)：與各種生產力工具、產品、服務相關的介紹與討論。
-- [Evergreen notes](/categories/evergreen-notes)：一則就是一個想法、一個論點。
 - [Pinchlime](/categories/pinchlime)：與這個部落格有關的介紹與討論。
 - [Reviews](/categories/reviews)：各種主題性的回顧內容。
 

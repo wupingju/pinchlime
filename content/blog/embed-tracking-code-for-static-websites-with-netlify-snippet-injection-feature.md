@@ -40,7 +40,7 @@ taxonomies:
 
 ### 該怎麼設定？
 
-在 Netlify 上面[有詳細的說明](https://docs.netlify.com/site-deploys/post-processing/snippet-injection/)，不過我先以最簡單的 Google Analytics 的追蹤碼來示範好了。（我沒有用 GA 追蹤，目前是[使用 Umami 這個主打隱私的追蹤服務](@/blog/started-using-umami-cloud.md)，但 GA 應該更多人使用。）
+在 Netlify 上面[有詳細的說明](https://docs.netlify.com/site-deploys/post-processing/snippet-injection/)，不過我先以最簡單的 Google Analytics 的追蹤碼來示範好了。（我沒有用 GA 追蹤，目前是使用 Umami 這個主打隱私的追蹤服務，但 GA 應該更多人使用。）
 
 步驟一：先找到你要注入的 GA 追蹤碼。這部分請自行透過 GA 查找，以截圖的範例來說，大概會是長成下面這樣：
 
