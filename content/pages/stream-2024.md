@@ -3,7 +3,7 @@ title: My Stream
 description: 這是我 2024 年的 stream page。我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2024/
 date: 2024-01-23
-updated: 2024-01-23
+updated: 2024-02-05
 template: stream.html
 ---
 
@@ -11,8 +11,27 @@ template: stream.html
 
 ### January
 
+{% fleet(num="3",time="Jan 24 22:32",year="2024") %}
+今天 Heptabase 得到了 Golden Kitty ，非常開心。原先我自己的預期是應該蠻有機會得個前三名，但第一名則沒有什麼把握，畢竟同組的 Arc, Raycast, Superhuman 都是又潮又熱門的產品。<br><br>
+但沒想到是我們得了第一，真的很開心。
+<br><br>
+看到 Alan 發的公告裡面這一段也覺得很感人：<br>
+<blockquote class="fleet-content" style="margin-left: -0.5rem;">I also want to thank the tireless efforts of the Heptabase team. The best products are never created by just one person, but by a group of people iterating through countless cycles of feedback, debate, and development. Each member of the team has played an incredibly important role in these cycles. You have all seen the internal data - for a small team of six people to achieve such product retention and organic growth, and for these numbers to continue improving, you should feel incredibly proud!</blockquote><br>Yes, I'm incredibly proud of my team!
+{% end %}
+
+
+{% fleet(num="4",time="Jan 23 22:18",year="2024") %}
+37 signals 即將推出的 Campfire ，讓我感到頗心動，我感覺這可能會是一個讓我開始花力氣經營個人社群的契機。<br><Br>
+為什麼要有個人社群呢？<br><Br>
+我覺得過往許多自己有價值的想法都是在跟厲害的人討論交流時產生的，我想讓這樣的討論交流更容易發生。<br><Br>
+Twitter 的交流太公開，各種私訊的交流又過於刻意與私人，我覺得 Slack 和 Discord 可能會是比較好的方式，但我一直都沒有下定決心、付諸行動。<br><Br>
+再等等看好了！
+{% end %}
+
+
 {% fleet(num="3",time="Jan 23 21:32",year="2024") %}
-經過一番考量後，我決定換個地方放我的 Stream 們。新的地點會在這裡： <a href="https://stream.pinchlime.com/notes">Stream - Pinchlime</a>。 這是透過 <a href="https://gridea.dev/">Gridea</a> 這個工具架設的。<br><br>為什麼又想搬家呢？<br>主要原因是，目前這個拼湊起來的 Stream 頁面要編輯與更新實在是有點麻煩，很多限制，這些限制會降低我 po 文的動力，而即使我有些功能的想法也力有未逮。<br><br>因此，我決定嘗試看看新的選項，剛好 Gridea 看起來很符合我的需求，雖然簡單，但夠用就好。<br><br>總之，這邊會暫時停更，但不會下架，也許哪天我又想搬回自己控制的地方了。
+經過一番考量後，我決定換個地方放我的 Stream 們。新的地點會在這裡： <a href="https://stream.pinchlime.com/notes">Stream - Pinchlime</a>。 這是透過 <a href="https://gridea.dev/">Gridea</a> 這個工具架設的。<br><br>為什麼又想搬家呢？<br>主要原因是，目前這個拼湊起來的 Stream 頁面要編輯與更新實在是有點麻煩，很多限制，這些限制會降低我 po 文的動力，而即使我有些功能的想法也力有未逮。<br><br>因此，我決定嘗試看看新的選項，剛好 Gridea 看起來很符合我的需求，雖然簡單，但夠用就好。<br><br>總之，這邊會暫時停更，但不會下架，也許哪天我又想搬回自己控制的地方了。<br><br>
+（後記：兩週後，我又決定搬回來了，還是在自己這邊更自在一些！）
 {% end %}
 
 
