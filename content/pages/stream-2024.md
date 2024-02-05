@@ -9,14 +9,24 @@ template: stream.html
 
 ## 2024
 
+### Feburary
+
+{% fleet(num="6",time="Feb 05 22:33",year="2024") %}
+連兩天更新 HEY World 了，我覺得我好棒！<br><br>
+附上這兩天的文章連結：
+<br>
+<a href="https://world.hey.com/mimir/a-letter-from-pj-9652abe2">A letter from PJ - 我發現我想寫的不是電子報，是信</a><br><a href="https://world.hey.com/mimir/a-letter-form-pj-bb667bf7">A letter from PJ - 想要經營的更像是一個小店鋪</a>
+{% end %}
+
+
 ### January
 
-{% fleet(num="3",time="Jan 24 22:32",year="2024") %}
+{% fleet(num="5",time="Jan 24 22:32",year="2024") %}
 今天 Heptabase 得到了 Golden Kitty ，非常開心。原先我自己的預期是應該蠻有機會得個前三名，但第一名則沒有什麼把握，畢竟同組的 Arc, Raycast, Superhuman 都是又潮又熱門的產品。<br><br>
 但沒想到是我們得了第一，真的很開心。
 <br><br>
 看到 Alan 發的公告裡面這一段也覺得很感人：<br>
-<blockquote class="fleet-content" style="margin-left: -0.5rem;">I also want to thank the tireless efforts of the Heptabase team. The best products are never created by just one person, but by a group of people iterating through countless cycles of feedback, debate, and development. Each member of the team has played an incredibly important role in these cycles. You have all seen the internal data - for a small team of six people to achieve such product retention and organic growth, and for these numbers to continue improving, you should feel incredibly proud!</blockquote><br>Yes, I'm incredibly proud of my team!
+<blockquote class="fleet-content" style="margin-left: -0.5rem;">I also want to thank the tireless efforts of the Heptabase team. The best products are never created by just one person, but by a group of people iterating through countless cycles of feedback, debate, and development. Each member of the team has played an incredibly important role in these cycles. You have all seen the internal data - for a small team of six people to achieve such product retention and organic growth, and for these numbers to continue improving, you should feel incredibly proud!</blockquote><br><br>Yes, I'm incredibly proud of my team!
 {% end %}
 
 
