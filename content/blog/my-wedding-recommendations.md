@@ -75,6 +75,12 @@ extra:
 
 我們在這邊購買了一些文定儀式與迎娶儀式需要的東西，例如囍字貼紙、有印字的紅包袋、扇子、米篩等等，老闆當天很親切的跟我們說明每個東西是幹嘛用的，也不會強迫推銷，有的直接說你們應該不需要，因此我們很順利地準備好該買的東西，價格也不貴，很推薦！
 
+---
+
+**[喜帖製作 (Pinkoi)](https://www.pinkoi.com/product/t6nEeZK3)**
+
+當初因家人需求，希望可以給長輩一個實體卡片作紀念，故找了相關廠商。因為不在意樣式需要很獨特，僅希望資訊清楚且清爽，在 Pinkoi 隨意找了一間模板喜帖服務。我們買的方案是雙面卡片、有信封且有電子檔服務。過程中與店家溝通相當順暢，且出貨快速，相當推薦！（信封有細緻的閃光，很喜歡）
+
 ----
 
 ### 推薦的人
@@ -114,5 +120,15 @@ extra:
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/wedding-cards_fV7pFU.webp" data-fancybox data-caption="Wedding cards">
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/wedding-cards_fV7pFU.webp" loading="lazy" alt="Wedding cards" align="center" />
 </a>
+
+---
+
+**[奧盛印刷](https://awesomeprinter.com.tw/tw)**
+
+由於卡比設計的小卡超級可愛，不想浪費這番設計的心意。跟卡比討論後，找到了這個印刷店。因為老婆想要閃閃亮亮的設計，選了炫光紙與高磅數的卡片與貼紙（可根據需求選擇你要的紙材與磅數）。
+
+印刷店現場幫我們排版與討論適當的數量（會影響價格），調整速度非常快，而且印刷價格很親民，未來有印製需求會再來這間捧場！
+
+---
 
 以上是簡單的分享，祝大家若要舉辦婚禮、婚宴與相關儀式，都能順順利利的，遇到好的店家與專業人士！
