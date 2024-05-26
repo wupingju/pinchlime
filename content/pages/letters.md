@@ -15,6 +15,7 @@ template: changelog.html
 
 ## A Letter from PJ
 
+- 2024.05.26 [為什麼一直想著要寫東西？](https://world.hey.com/mimir/a-letter-from-pj-bdf95d36)
 - 2024.05.25 [“The best essay” 的讀後心得](https://world.hey.com/mimir/a-letter-from-pj-the-best-essay-ed2ab313)
 - 2024.05.24 [一次完全斷網的體驗](https://world.hey.com/mimir/a-letter-from-pj-8e254a4c)
 - 2024.02.17 [新創 Skiff 被 Notion 收購，卻造成 Skiff 用戶們的憤怒](https://world.hey.com/mimir/a-letter-from-pj-skiff-notion-skiff-4f075074)
