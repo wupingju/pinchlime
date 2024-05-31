@@ -2,7 +2,7 @@
 title: A Letter from PJ
 path: letters/
 date: 2024-05-26
-updated: 2024-05-29
+updated: 2024-05-31
 description: 大致上會是關於我最近做了、看了什麼、嘗試了什麼的經驗分享，篇幅不會太長，大概就像一篇短篇幅的臉書或 Twitter 貼文這樣。發文的時間與頻率不會固定，你可以想成有個朋友有事沒事就會傳個訊息給你，跟你分享他最近看了什麼或體驗了什麼東西。
 template: changelog.html
 ---
@@ -15,6 +15,8 @@ template: changelog.html
 
 ## A Letter from PJ
 
+
+- 2024.05.31 [一個以 List 為基礎的 Twitter 追蹤規則](https://world.hey.com/mimir/a-letter-from-pj-list-twitter-777ae916)
 - 2024.05.29 [Timing 對我不再重要](https://world.hey.com/mimir/a-letter-from-pj-timing-e2f053aa)
 - 2024.05.26 [為什麼一直想著要寫東西？](https://world.hey.com/mimir/a-letter-from-pj-bdf95d36)
 - 2024.05.25 [“The best essay” 的讀後心得](https://world.hey.com/mimir/a-letter-from-pj-the-best-essay-ed2ab313)
