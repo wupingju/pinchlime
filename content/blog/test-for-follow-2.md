@@ -1,8 +1,8 @@
 ---
-title: 測試
-date: 2021-09-01
-updated: 2021-09-01
-path: blog/test-for-follow
+title: 測試-2
+date: 2024-10-01
+updated: 2024-10-01
+path: blog/test-for-follow-2
 description: test
 taxonomies:
   categories: 
