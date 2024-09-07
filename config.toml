@@ -2,10 +2,9 @@ base_url = "https://pinchlime.com"
 build_search_index = false
 compile_sass = false
 default_language = "zh-TW"
-description = "feedId:41324816676184064+userId:43206110708628480"
+description = "介紹生產力工具，以及分享使用心得"
 generate_feed = true
 generate_rss = true
-feed_filenames = "rss.xml"
 taxonomies = [
   {name = "tags", feed = true},
   {name = "categories", feed = true},
