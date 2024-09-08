@@ -3,11 +3,18 @@ title: My Stream
 description: 這是我 2024 年的 stream page。我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2024/
 date: 2024-01-23
-updated: 2024-02-05
+updated: 2024-09-08
 template: stream.html
 ---
 
 ## 2024
+
+### September
+
+{% fleet(num="7",time="Sep 08 12:25",year="2024") %}
+這兩天覺得有餘力開始閱讀新東西了，於是開始整理 RSS feeds，看到好多人仍然持續在更新，真不錯！
+{% end %}
+
 
 ### Feburary
 
