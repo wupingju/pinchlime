@@ -3,11 +3,23 @@ title: My Stream
 description: 這是我 2024 年的 stream page。我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2024/
 date: 2024-01-23
-updated: 2024-09-08
+updated: 2024-10-17
 template: stream.html
 ---
 
 ## 2024
+
+### October
+
+{% fleet(num="9",time="Oct 17 22:13",year="2024") %}
+雜感：永遠要記得不要用「這不就是」「這不都是」之類的詞展開一個句子，這只會讓別人聽了不爽。<br>
+{% end %}
+
+
+{% fleet(num="8",time="Oct 17 22:10",year="2024") %}
+雜感：要對所有統稱的敘述保持警惕，例如「在外商工作的人都是怎樣怎樣」，因為這太容易找到反例了。
+{% end %}
+
 
 ### September
 
