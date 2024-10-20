@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} - {{ config.title }}{% endblock title %}
+{% block main %}
+<div class="element">
+  {% block breadcrumbs -%}
+  <div class="pt" style="justify-content: space-between;display: flex;">
+    <span>
+    <span>&gt;&gt;</span>
+    <a class="category" href="{{ get_url(path="@/photography/_index.md",lang=lang) }}">Photography</a>
+    {% if page.taxonomies.categories %}
+    <span class="divider">/</span>
+    <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}"> {{ page.taxonomies.categories[0] }}</a>
+    {% endif %}
+    </span>
+  </div>
+  {% endblock breadcrumbs %}
+
+  <header id="overview">
+    <div>
+      <h1>{{ page.title }}</h1>
+      <div class="muted" style="justify-content: space-between;display: flex;">
+        <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time> 
+        <span>{{ config.extra.author }}</span>
+      </div>
+    </div>
+  </header>
+
+  <section data-pagefind-body>
+    <section class="main">
+      <article>
+        <div class="album-content">
+          {{ page.content | safe }}
+        </div>
+
+        <div class="photo-main">
+          {% if page.extra.images[0] %}
+            <a href="{{ page.extra.images[0].full }}" data-fancybox="gallery" {% if page.extra.images[0].caption %}data-caption="{{ page.extra.images[0].caption }}"{% endif %}>
+              <img src="{{ page.extra.images[0].full }}" alt="{{ page.title }}">
+            </a>
+          {% endif %}
+        </div>
+
+        <div class="photo-carousel-container">
+          <div class="photo-carousel">
+            {% for image in page.extra.images | slice(start=1) %}
+              <a href="{{ image.full }}" data-fancybox="gallery" {% if image.caption %}data-caption="{{ image.caption }}"{% endif %}>
+                <img src="{{ image.thumb }}" alt="{{ page.title }}">
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+
+        {% if page.taxonomies.tags %}
+        <p>
+          {% for tag in page.taxonomies.tags %}
+          <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">#{{ tag }}</a>
+          {% if not loop.last %} {% endif %}
+          {% endfor %}
+        </p>
+        {% endif %}
+      </article>
+    </section>
+  </section>
+</div>
+{% endblock main %}
