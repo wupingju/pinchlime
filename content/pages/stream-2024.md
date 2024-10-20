@@ -3,13 +3,18 @@ title: My Stream
 description: 這是我 2024 年的 stream page。我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2024/
 date: 2024-01-23
-updated: 2024-10-17
+updated: 2024-10-20
 template: stream.html
 ---
 
 ## 2024
 
 ### October
+
+{% fleet(num="10",time="Oct 20 23:20",year="2024") %}
+今天試用 Cursor ，想要讓他協助我改 blog ，結果體驗非常棒，我基本上只要出一張嘴然後慢慢改就有機會改到我想像中的樣子。但問題在於我缺乏想像，所以應該要找到更好的參考範例給他，這樣或許會有幫助！
+{% end %}
+
 
 {% fleet(num="9",time="Oct 17 22:13",year="2024") %}
 雜感：永遠要記得不要用「這不就是」「這不都是」之類的詞展開一個句子，這只會讓別人聽了不爽。<br>
