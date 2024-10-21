@@ -45,18 +45,6 @@
           </article>
         </section>
       </section>
-      {% block outro %}
-      {% if config.extra.email %}
-      <br>
-      <section id="contact">
-      <div id="email-comment" class="muted text-sm">
-        <p style="margin-left: 0;">
-        如果你想回覆或討論特定的某一則 Stream ，歡迎提到它的編號，並且可以<a class="muted" href="mailto:pj@pinchlime.com?subject={{"回覆："~page.title | urlencode }}">來信</a>到：<code>pj@pinchlime.com</code> 跟我分享！
-        </p>
-      </div>
-      </section>
-      {% endif %}
-      {% endblock outro %}
 </div>
 {% endblock main%}
 

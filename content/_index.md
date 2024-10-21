@@ -1,5 +1,5 @@
 ---
-updated: 2023-11-25
+updated: 2024-10-21
 sort_by: date
 sort_direction: decending
 transparent: true
@@ -45,6 +45,3 @@ title: Pin 起來
 
 ### [Changelog](/changelog/)
 這裡放的是關於這個站的 Changelog ，只要每次網站的架構或程式碼有什麼變化，我就會記錄一下！
-
-### [English Version](/en)
-有興趣的話，你也可以看看本站的英文版。
