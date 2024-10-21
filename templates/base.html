@@ -95,7 +95,6 @@
   <body>
     <section id="top">
       {% block nav_bar -%}
-      {% if lang == 'zh-TW' -%}
       <nav class="navbar-top">
         <div class="nav-container">
         <div>
@@ -134,33 +133,6 @@
         </div>
         </div>
       </nav>
-      {% elif lang == 'en' %}
-      <nav class="navbar-top">
-        <div class="nav-container">
-        <div>
-          <a class="navbar-a" href="{{ get_url(path="@/_index.md",lang=lang) }}" >
-            <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-02-no-sub-96x96_Bgz9Ey.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
-            <span class="navbar-name">Pinchlime</span>
-          </a> 
-        </div>
-        <div class="mobile-menu-icon">
-          <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="navbar-name">
-          <a class="menu-button" href="{{ get_url(path="@/blog/_index.md",lang=lang) }}">Blog</a>
-        </div>
-        <div class="mobile-menu">
-          <a class="menu-button" href="{{ get_url(path="@/blog/_index.md",lang=lang) }}">Blog</a>
-          <hr class="custom-hr">
-          <a class="menu-button" href="/en/about/">About</a>
-        </div>
-        </div>
-      </nav>
-      {% endif %}
       {% endblock nav_bar %}
     </section>
     <section id="root" >

@@ -8,14 +8,11 @@
 {% set_global blog_section = get_section(path="blog/_index"~file_lang_path~".md") -%}
 {% set_global section_content = blog_section.content %}
 <div class="element-container">
-  {% if lang == 'zh-TW' %}
   <div class="element">
   <setion>
     {{ section_content | safe}}
   </setion>
 </div> 
-{% elif lang == 'en' %}
-{% endif %}
 <div class="element">
 <h1>Blog</h1>
 <br>
