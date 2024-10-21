@@ -26,7 +26,7 @@
       {% block detail_meta -%}
       <header id="overview">
         {% block breadcrumbs -%}
-        <div class="pt" style="justify-content: space-between;display: flex;">
+        <div class="pt breadcrumbs">
           <span>
           <span>&gt;&gt;</span>
           <a class="category" href="{{ get_url(path="@/blog/_index.md",lang=lang) }}">Blog</a>
@@ -53,7 +53,7 @@
         {% endblock breadcrumbs %}
         <div>
           <h1>{% block detail_meta_slot %}{% endblock detail_meta_slot %}{{ page.title }}</h1>
-          <div class="muted" style="justify-content: space-between;display: flex;">
+          <div class="muted post-meta">
             <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time> 
             <span>{{ config.extra.author }}</span>
           </div>
@@ -76,7 +76,7 @@
             {% endif %}
              <br>
              {% if page.updated %}
-             <div class="muted" style="justify-content: right;display: flex;">
+             <div class="muted updated-time">
              <span>{{trans(key="label_updated",lang=lang)}}&nbsp;</span><time pubdate>{{ page.updated | date(format="%Y-%m-%d") }}</time>
              <br>
              {% endif %}
@@ -103,52 +103,3 @@
           {% endblock comments %}
 </div>
 {% endblock main%}
-
-{% block sidebar %}
-<aside class="sidebar">
-{% if page.toc %}
-<div class="sidebar-element">
-<h2>{{trans(key="label_table_contents",lang=lang)}}</h2>
-{{ macro::page_toc(toc=page.toc) }}
-</div>
-{% endif %}
-{% if lang == 'zh-TW' -%}
-{% block newsletter_sidebar_slot %}{% endblock newsletter_sidebar_slot %}
-{% block section_sidebar_slot %}{% endblock section_sidebar_slot %}
-{% if page.taxonomies.categories %}
-<body>
-  <div class="sidebar-element">
-  <h2>{{trans(key="label_related_posts",lang=lang) | markdown(inline=true) | safe}}</h2>
-  <ul>
-    <li class="no-underline">
-    <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0]) }}">➤&emsp;其他 {{
-      page.taxonomies.categories[0] }} 分類</a><br>      
-    </li>
-    {% if page.taxonomies.tags -%}
-    {% for tag in page.taxonomies.tags %}
-    <li class="no-underline">
-    <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">➤&emsp;其他 {{ tag }} 標籤</a>{% if page.taxonomies.tags | length > 1 %}{% if
-    loop.index != page.taxonomies.tags | length %}<br>{% endif %}{% endif %}
-    </li>
-    {% endfor %}
-    {% endif %}
-  </ul>
-  </div>
-  </body>
-  <div class="sidebar-element">
-  <h2>{{trans(key="label_new_posts_list_title",lang=lang) | markdown(inline=true) | safe}}</h2>
-  <ul>
-    {% set all_blog_pages = get_section(path="blog/_index.md") -%}
-    {% for page in all_blog_pages.pages | slice(start=0,end=10)  %} 
-    <li class="no-underline">
-      {{ macro::post_side(page=page) }}
-    </li>
-    {% endfor %} 
-  </ul>
-  </div>
-{% endif %}
-{% elif lang == 'en' %}
-{% endif %}
-</aside>
-
-{% endblock sidebar %}

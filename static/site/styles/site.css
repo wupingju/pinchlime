@@ -212,6 +212,13 @@ hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.custom-hr {
+  display: block;
+  height: 1px;
+  width: 30%;
+  margin: 2rem auto;
+  border: 1px solid var(--colors-divider);
+}
 ul {
   margin-top: 1.4rem;
   margin-bottom: 1.4rem;
@@ -469,6 +476,21 @@ article:last-of-type {
   padding-bottom: 0;
 }
 
+.breadcrumbs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.updated-time {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .zola-anchor {
   margin-left: 0.5rem;
   text-decoration: none;
@@ -479,6 +501,7 @@ article:last-of-type {
 }
 .sidebar {
   border-top: 0px solid var(--colors-divider);
+  display: block;
 }
 li.inline {
   display: inline-block;
@@ -857,6 +880,7 @@ div.pt a:hover {
     z-index: 1;
     width: 28rem;
     overflow-y: auto;
+    display: block;
   }
   .sidebar ul {
     list-style: none;

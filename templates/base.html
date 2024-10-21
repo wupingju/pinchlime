@@ -37,10 +37,9 @@
     <meta name="author" itemprop="author" content="{{ config.extra.author }}" />
     <meta itemprop="headline" content="{{ config.title }}" />
     <meta itemprop="copyrightYear" content="{{ now() | date(format="%Y") }}" />
-    <link rel="icon" href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/favicon-32x32_to9pAp.png"
-    type="image/x-icon"> 
+    <link rel="icon" href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/favicon-32x32_to9pAp.png" type="image/x-icon"> 
     <link rel="icon" type="image/png" sizes="32x32" href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/favicon-32x32_to9pAp.png"> 
-    <link rel="icon" type="image/png" sizes="16x16" href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/favicon-32x32_to9pAp.png"> 
+    <link rel="icon" type="image/png" sizes="16x16" href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/favicon-32x32_to9pAp.png">
     <link rel="manifest" href="{{ get_url(path="site/images/manifest.json") }}">
     <link rel="me" href="https://pkm.social/@pj"> 
     <link rel="preload" as="font">
@@ -100,8 +99,8 @@
       <nav class="navbar-top">
         <div class="nav-container">
         <div>
-          <a class="navbar-a" style="color: #ffffff" href="{{ get_url(path="@/_index.md",lang=lang) }}" >
-            <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-02-no-sub-96x96_Bgz9Ey.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
+          <a class="navbar-a" href="{{ get_url(path="@/_index.md",lang=lang) }}">
+            <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-02-no-sub-96x96_Bgz9Ey.webp" width="48" height="48" alt="Logo of Pinchlime">
             <span class="navbar-name">Pin 起來</span>
           </a> 
         </div>
@@ -140,7 +139,7 @@
       <nav class="navbar-top">
         <div class="nav-container">
         <div>
-          <a class="navbar-a" style="color: #ffffff" href="{{ get_url(path="@/_index.md",lang=lang) }}" >
+          <a class="navbar-a" href="{{ get_url(path="@/_index.md",lang=lang) }}" >
             <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-logo-02-no-sub-96x96_Bgz9Ey.webp" width = "48" height = "48" alt="Logo of Pinchlime" >
             <span class="navbar-name">Pinchlime</span>
           </a> 
@@ -157,7 +156,7 @@
         </div>
         <div class="mobile-menu">
           <a class="menu-button" href="{{ get_url(path="@/blog/_index.md",lang=lang) }}">Blog</a>
-          <hr style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
+          <hr class="custom-hr">
           <a class="menu-button" href="/en/about/">About</a>
         </div>
         </div>
