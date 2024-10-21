@@ -112,6 +112,22 @@ body {
   color: var(--color-text);
   background-color: var(--colors-background);
 }
+.element-container {
+  width: 100%;
+  height: auto;
+}
+
+.element {
+  width: var(--element-width, 90%);
+  background-color: #fff;
+  padding: var(--element-padding, 2rem 2.5rem);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+  max-width: var(--element-max-width, 52rem);
+  min-width: var(--element-min-width, 24rem);
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+}
+
 #root {
   margin-left: auto;
   margin-right: auto;
@@ -834,38 +850,28 @@ div.pt a:hover {
   #root {
     display: flex;
   }
-  .element-container {
-    width: 100%;
-    height: auto;
+
+  :root {
+    --element-width: 100%;
+    --element-padding: 1rem 4rem;
+    --element-max-width: 52rem;
+    --element-min-width: 24rem;
   }
-  
-  .element {
-    width: 100%;
-    background-color: #fff;
-    padding: 1rem 4rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
-    max-width: 52rem;
-    min-width: 24rem;
-    margin: 0 auto;
-    margin-bottom: 2.5rem;
-  }
+
   .sidebar-element {
     width: 100%;
     background-color: #fff;
-    padding-left: 1.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    padding: 0.5rem 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     max-width: 24rem;
     min-width: 20rem;
-    margin-top: 1.4rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
+    margin: 1.4rem 1rem 2rem;
   }
+
   .no-toc {
     width: 22rem;
   }
+
   .main-toc {
     display: none;
   }
@@ -873,6 +879,7 @@ div.pt a:hover {
   .body-zone {
     flex-direction: row;
   }
+
   .sidebar {
     position: sticky;
     top: 60px;
@@ -882,94 +889,99 @@ div.pt a:hover {
     overflow-y: auto;
     display: block;
   }
+
   .sidebar ul {
     list-style: none;
   }
+
   .sidebar li {
-    font-size: 1.0rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
     padding-right: 2rem;
   }
+
   .sidebar h2,
   .sidebar h3 {
     margin-bottom: 0;
     font-size: 1rem;
-    /* font-weight: 400; */
     padding-bottom: 1rem;
     border: none;
   }
+
   #library-sidebar ul {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
+    margin: 0;
   }
+
   #library-sidebar li {
-    font-size: 1.0rem;
-    margin-bottom: 0rem;
-    padding-right: 0rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+    padding-right: 0;
   }
+
   #library-sidebar h2,
   #library-sidebar h3,
   #library-sidebar h4 {
     line-height: 1;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
+    margin: 0;
+    padding: 0.8rem 0;
     font-size: 1rem;
-    font-weight:500;
+    font-weight: 500;
     border: none;
   }
 }
+
+/* 移動版樣式 */
 @media (max-width: 52rem) {
   #root {
     display: flex;
+    flex-direction: column;
   }
-  p {
-    text-align: left;
+
+  :root {
+    --element-width: 90%;
+    --element-padding: 2rem 2.5rem;
+    --element-max-width: 36rem;
+    --element-min-width: 20rem;
   }
+
   html {
     font-size: 13px;
   }
+
+  p {
+    text-align: left;
+  }
+
   .element-container {
     width: 100%;
     height: auto;
   }
-  .element {
-    width: 90%;
-    background-color: #fff;
-    padding-top: 2rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-bottom: 2.5rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
-    max-width: 36rem;
-    min-width: 20rem;
-    margin: 0 auto;
-    margin-top: -0.5rem;
-    margin-bottom: 2.5rem;
-  }
+
+  .element,
   .sidebar-element {
     width: 90%;
     background-color: #fff;
-    padding-top: 0.5rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-bottom: 0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    padding: 2rem 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     max-width: 36rem;
     min-width: 20rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
+    margin: 0 auto 2.5rem;
   }
+
+  .sidebar-element {
+    padding: 0.5rem 2.5rem;
+  }
+
   .sidebar ul {
     list-style: none;
   }
+
   .sidebar li {
-    font-size: 1.0rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
     padding-right: 1rem;
   }
+
   .sidebar h2,
   .sidebar h3 {
     margin-bottom: 0;
@@ -978,47 +990,45 @@ div.pt a:hover {
     padding-bottom: 1rem;
     border: none;
   }
+
   .menu-button {
     text-decoration: none;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
+    margin: 0.5rem 0.2rem;
   }
+
   .menu-button-search {
     text-decoration: none;
-    margin-left: 0.4rem;
-    margin-right: 0.4rem;
+    margin: 0 0.4rem;
     height: 16px;
     width: 16px;
   }
-  .li_archive {
-    max-width: 16rem;
-  }
+
+  .li_archive,
   .li_archive_news {
     max-width: 16rem;
   }
+
   .fleet {
     margin-bottom: 2rem;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;  
   }
+
   .fleet-time {
     color: #b3b3b1;
     font-size: 1rem;
     line-height: 2;
     width: fit-content;
   }
+
   .fleet-content {
     text-align: justify;
     font-size: 1rem;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     width: 100%;
     flex-grow: 1;
     flex-shrink: 1;
   }
+
   .mobile-menu.show {
     display: flex;
     font-size: 15px;
@@ -1027,12 +1037,12 @@ div.pt a:hover {
     flex-direction: column;
     position: absolute;
     top: 56px;
-    right: 0rem;
+    right: 0;
     background-color: #ffffff;
     padding: 0.5rem;
     z-index: 1000;
     color: #000000;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
   .mobile-menu.show a {
@@ -1047,27 +1057,32 @@ div.pt a:hover {
   .navbar-name {
     display: none;
   }
+
   #library-sidebar {
     display: none;
   }
+
   table {
     max-width: 24rem;
     table-layout: fixed;
   }
 }
 
+/* 攝影相關樣式 */
 .photography-container {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
-.albums-section, .articles-section {
+.albums-section,
+.articles-section {
   flex: 1;
   min-width: 300px;
 }
 
-.photo-albums, .photo-articles {
+.photo-albums,
+.photo-articles {
   list-style: none;
   padding: 0;
   display: grid;
@@ -1095,7 +1110,8 @@ div.pt a:hover {
   object-fit: cover;
 }
 
-.photo-albums h3, .photo-albums p {
+.photo-albums h3,
+.photo-albums p {
   padding: 0.5rem;
   margin: 0;
 }
