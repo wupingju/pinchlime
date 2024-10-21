@@ -935,15 +935,32 @@ div.pt a:hover {
   #root {
     display: flex;
     flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #ffffff;
   }
-
+  body {
+    background-color: #ffffff;
+  }
   :root {
-    --element-width: 90%;
-    --element-padding: 2rem 2.5rem;
-    --element-max-width: 36rem;
-    --element-min-width: 20rem;
+    --element-width: 100%;
+    --element-padding: 1.5rem;
+    --element-max-width: none;
+    --element-min-width: none;
+  }
+  .main {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
+  .flex-1 {
+    flex: none;
+  }
+
+  .py {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   html {
     font-size: 13px;
   }
@@ -955,19 +972,25 @@ div.pt a:hover {
   .element-container {
     width: 100%;
     height: auto;
+    background-color: #ffffff; /* 確保容器背景為白色 */
   }
 
   .element,
   .sidebar-element {
-    width: 90%;
+    width: 100%;
     background-color: #fff;
-    padding: 2rem 2.5rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    max-width: 36rem;
-    min-width: 20rem;
-    margin: 0 auto 2.5rem;
+    padding: var(--element-padding);
+    box-shadow: none; /* 移除陰影 */
+    max-width: none;
+    min-width: none;
+    margin: 0; /* 移除上下邊距 */
+    border-radius: 0;
   }
-
+  /* 移除最後一個 element 的底部邊距 */
+  .element:last-child,
+  .sidebar-element:last-child {
+    margin-bottom: 0;
+  }
   .sidebar-element {
     padding: 0.5rem 2.5rem;
   }
