@@ -12,13 +12,13 @@ taxonomies:
     - Subscription
     - Search Engine
 extra:
-  image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/P1000459_WzVnnd.webp
+  image: https://image-webp.pinchlime.com/kagi-banner_DHsRIn.png
 ---
 
 前言：在分享了「[我目前有在訂閱的產品與服務（2024 October）](@/blog/my-current-subscriptions-2024-10.md)」這篇文後，我突然覺得我可以開啟一個新的系列文，分享為什麼我要訂閱這些產品。近期應該會持續更新，歡迎你不定期回來看看，或者[訂閱本站的 RSS](https://pinchlime.com/subscribe/)。
 
 <br>
-<a href="https://image-webp.pinchlime.com/kagi-banner_DHsRIn.pngg" data-fancybox data-caption="Kagi">
+<a href="https://image-webp.pinchlime.com/kagi-banner_DHsRIn.png" data-fancybox data-caption="Kagi">
   <img src="https://image-webp.pinchlime.com/kagi-banner_DHsRIn.png" loading="lazy" alt="Kagi" align="center" />
 </a>
 
