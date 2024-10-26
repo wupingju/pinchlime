@@ -2,7 +2,7 @@
 title: A Letter from PJ
 path: letters/
 date: 2024-05-26
-updated: 2024-10-24
+updated: 2024-10-26
 description: 大致上會是關於我最近做了、看了什麼、嘗試了什麼的經驗分享，篇幅不會太長，大概就像一篇短篇幅的臉書或 Twitter 貼文這樣。發文的時間與頻率不會固定，你可以想成有個朋友有事沒事就會傳個訊息給你，跟你分享他最近看了什麼或體驗了什麼東西。
 template: changelog.html
 ---
@@ -15,6 +15,7 @@ template: changelog.html
 
 ## A Letter from PJ
 
+- 2024.10.26 [Arc 瀏覽器宣布不會推出 2.0，但我看完後產生好多問號](https://world.hey.com/mimir/a-letter-from-pj-arc-2-0-8b110637)
 - 2024.10.24 [虛假的需求](https://world.hey.com/mimir/a-letter-from-pj-23b02e61)
 - 2024.10.21 [第一次用 Cursor 改部落格樣式的體驗](https://world.hey.com/mimir/a-letter-from-pj-cursor-7d1f1c38)
 - 2024.10.05 [那時的我還不知道](https://world.hey.com/mimir/a-letter-from-pj-1c034d36)
