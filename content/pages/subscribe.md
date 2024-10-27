@@ -2,7 +2,7 @@
 title: 透過 RSS 訂閱 Pin 起來
 description: 訂閱 Pin 起來
 date: 2023-02-04
-updated: 2024-10-23
+updated: 2024-10-27
 path: subscribe/
 template: subscribe.html
 ---
@@ -19,3 +19,6 @@ template: subscribe.html
 
 例如，若你只對 Heptabase 這個標籤相關的更新有興趣，你就可以透過 <https://pinchlime.com/tags/heptabase/atom.xml> 單獨訂閱 Heptabase 這個 tag 的相關內容。 
 
+---
+
+另外，我目前也有在 HEY World 寫信給訂閱的人，信件的標題是 [A Letter from PJ](@/pages/letters.md)，你可以[透過 email 訂閱](https://world.hey.com/mimir)，也可以[透過 RSS 訂閱](https://world.hey.com/mimir/feed.atom)。
