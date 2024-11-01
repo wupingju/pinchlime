@@ -2,7 +2,7 @@
 title: A Letter from PJ
 path: letters/
 date: 2024-05-26
-updated: 2024-10-28
+updated: 2024-11.01
 description: 大致上會是關於我最近做了、看了什麼、嘗試了什麼的經驗分享，篇幅不會太長，大概就像一篇短篇幅的臉書或 Twitter 貼文這樣。發文的時間與頻率不會固定，你可以想成有個朋友有事沒事就會傳個訊息給你，跟你分享他最近看了什麼或體驗了什麼東西。
 template: changelog.html
 ---
@@ -15,6 +15,9 @@ template: changelog.html
 
 ## A Letter from PJ
 
+- 2024.11.01 [第二十一封信](https://world.hey.com/mimir/a-letter-from-pj-3e67e504)
+- 2024.10.31 [稍後閱讀放了好幾年，只有長篇文章會讓現在的我還想閱讀](https://world.hey.com/mimir/a-letter-from-pj-9536f8b0)
+- 2024.10.30 [又一個免費軟體 Omnivore 以糟糕的方式謝幕](https://world.hey.com/mimir/a-letter-from-pj-omnivore-d8734726)
 - 2024.10.28 [要你好看 No.1 - Reflections on Palantir](https://world.hey.com/mimir/a-letter-from-pj-no-1-reflections-on-palantir-41e00bae)
     - 原文：[Reflections on Palantir](https://nabeelqu.co/reflections-on-palantir) | [雙語機器翻譯頁面](https://readit.site/a/D16IS/reflections-on-palantir)
 - 2024.10.26 [Arc 瀏覽器宣布不會推出 2.0，但我看完後產生好多問號](https://world.hey.com/mimir/a-letter-from-pj-arc-2-0-8b110637)
