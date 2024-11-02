@@ -1,7 +1,7 @@
 ---
-title: Heptabase 完整功能介紹 - 以卡片和白板為基礎，最能讓你進入心流的視覺化學習軟體
-date: 2023-09-30
-updated: 2023-10-22
+title: Heptabase 完整介紹 - 以卡片和白板為基礎，最能讓你進入心流的視覺化學習軟體
+date: 2024-11-02
+updated: 2024-11-02
 path: heptabase-introduction/
 description: Heptabase 對我來說是當前市面上最符合我需求的「個人知識管理工具」，無論是拿來做筆記、思考、或者是學習新知，它在「輸入、處理、輸出」這三個讓「資訊」成為「知識」的不同階段上，都表現得很好，而且越來越好。在用了 Heptabase 之後，我一直感覺到自己有種被「賦能」的感覺，因為使用它，而產生了更多的可能性與收穫。
 aliases: [2022/02/27/heptabase-introduction]
@@ -13,7 +13,6 @@ taxonomies:
     - Learning
 extra:
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-landing-2023_cirP6y.webp
-  en: true
 ---
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-landing-2023_cirP6y.webp" data-fancybox data-caption="heptabase-banner">
@@ -22,7 +21,7 @@ extra:
 
 這篇文章要來介紹的是，由台灣團隊開發的知識管理／學習軟體： [Heptabase](https://get.heptabase.com/pinchlime) 。
 
-在介紹前要先說明一下，我從 2023 年 9 月開始[正式加入了 Heptabase 團隊](@/newsletters/29-from-a-heptabase-doubter-to-a-missionary.md)，但這篇文仍會以一個用戶的角度去介紹 Heptabase 的各項基本功能以及簡單的心得，所以還是歡迎你參考看看！
+在介紹前要先說明一下，我從 2023 年 9 月開始[加入了 Heptabase 團隊](@/newsletters/29-from-a-heptabase-doubter-to-a-missionary.md)擔任 customer support，但這篇文仍會以一個用戶的角度去介紹 Heptabase 的各項基本功能以及簡單的心得，還是歡迎你參考看看！
 
 
 ---
@@ -31,11 +30,13 @@ extra:
 
 ## Heptabase 是什麼？
 
-我最早是在 2021 年 10 月左右，從[星箭廣播](https://podcast.starrocket.io/)得知 Heptabase 這個由台灣人新創團隊開發的全新生產力工具，當時它還叫做 Project-Meta ，但後來…這名字變成了大家知道的那個 Meta ，於是他們改名為 Heptabase。
+如果要用一句話介紹，我會說 Heptabase 是一個幫你理解複雜主題的學習軟體。
 
-一開始對 Heptabase 的理解和第一印象是很酷的「白板軟體」，可以在上面畫流程圖之類的，但沒有細看介紹，後來在 2022 年 1 月的時候傳出 Heptabase 獲得[矽谷創投 Y Combinator 投資](https://twitter.com/Heptabase/status/1482526830972518403)的消息，又讓我對 Hepta 產生興趣，接著又看到創辦人詹雨安（Alan Chan）在 [YouTube 上面的介紹](https://www.youtube.com/watch?v=fxuzPgFixZ4)後，發現 Heptabase 好像比我想的更成熟、更讚，於是就申請了測試，也順利拿到了測試機會，並爽快付費（關於費用的資訊，詳見後續段落）。
+如果可以再多一點字，我會說 Heptabase 是一個融合白板、卡片與其他好用功能的視覺化筆記軟體，目標是幫你更好的理解與學習複雜的知識。
 
-經過一年多的使用， Heptabase 對我來說已經成為了當前市面上最符合我需求的「個人知識管理工具」，無論是拿來做筆記、思考、或者是學習新知，它在「輸入、處理、輸出」這三個讓「資訊」成為「知識」的不同階段上，都表現得很好，而且越來越好。
+我是在 2021 年 10 月時第一次知道這個軟體，後來在隔年 1 月看到 Heptabase 獲得[矽谷創投 Y Combinator 投資](https://twitter.com/Heptabase/status/1482526830972518403)的消息時開始感興趣想嘗試，就直接開始付費使用，結果用了一年多，還加入了開發團隊成為員工。
+
+目前 Heptabase 是市面上最符合我需求的「個人知識管理工具」，無論是拿來做筆記、思考、或者是學習新知，它在「輸入、處理、輸出」這三個讓「資訊」成為「知識」的不同階段上，都表現得很好，而且越來越好。
 
 靠著 Heptabase 的幫助，我也順利地建立了專屬於[我自己的個人知識管理系統](@/blog/my-personal-knowledge-management-system-2023.md)，並且持續迭代中。
 
@@ -47,7 +48,7 @@ extra:
 
 首先來介紹 Heptabase 最核心的兩個元素：**卡片以及白板**。
 
-若你沒有接觸過任何類似的視覺化筆記軟體，或許你可以先把「卡片」跟「白板」想像為其他工具裡面比較常見的「頁面」（page）與「資料夾」（folder）。
+若你沒有接觸過任何類似的視覺化筆記軟體，或許你可以先把「卡片」跟「白板」想像為其他工具裡面比較常見的「頁面／文件」（page/doc）與「資料夾」（folder）。
 
 只要稍微理解這兩個元素的搭配方式與用法，你就很容易可以建立對你有幫助的內容階層架構！
 
@@ -59,21 +60,45 @@ extra:
 " loading="lazy" alt="Card" align="center" />
 </a>
 
+
 **功能豐富的卡片編輯器**
 
-卡片是 Heptabase 裡面最基礎的元素，在卡片裡你可以放入各種各樣的內容，例如單純的文字、三個層級的標題、Todo list、有序與無序列表、可以收合的 Toggle list、表格、程式碼、數學公式、還有圖片、影片、音訊檔案等等。
+筆記卡片（note card）是 Heptabase 裡面最基礎的元素，在卡片裡你可以放入各種各樣的內容，例如單純的文字、三個層級的標題、Todo list、有序與無序列表、可以收合的 Toggle list、表格、程式碼、數學公式、還有圖片、影片、音訊檔案等等。
 
 這些不同類型的內容，在卡片裡面都是一個一個「區塊」（blocks）。透過區塊的互相搭配，你可以在每張卡片都自由地放入你想要放的內容。
 
 而且操作非常簡單，只要輸入一個 slash 反斜線 / ，就可以叫出這些選項，這時你也可以再打個關鍵字搜尋你想要的選項，例如輸入 im 就會自動跑出 image 可以插入圖片。
 
-**每張卡片都有標題與內文**
+**每張卡片都可以與其他卡片連結**
 
-每張卡片的第一行就是該卡片的「標題／卡片名稱」。可以被其他卡片以「超連結」的方式來連結與引用。例如下圖的範例，內文的藍色文字「數位的筆記軟體讓卡片筆記法的編碼系統更彈性好用」就是另一張卡片的名字，透過超連結，我可以很容易地在卡片裡面建立跟其他卡片之間的關係。
+每張卡片的第一行就是該卡片的「標題／卡片名稱」。可以被其他卡片以「超連結」的方式來連結與引用。例如下圖的範例，內文有三段列點的藍色文字：
+- 當你對別人視為理所當然的事情產生疑惑並提出問題，就有機會激發思考與回應並形成一篇好的文章
+- 透過問題產生想法的最好方式就是把那些你思考後的初步見解寫下來，即使他們很糟糕也要寫下來
+- 只有針對自己感興趣與在乎的主題才能產生新穎的見解
 
-<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/a-card-example_jSaSGJ.webp" data-fancybox data-caption="Card">
-  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/a-card-example_jSaSGJ.webp" loading="lazy" alt="Card" align="center" />
+這三點分別對應到的是三張不同的卡片。透過這種超連結的方式，我可以很容易地在卡片裡面建立跟其他卡片之間的關係。
+
+<a href="https://image-webp.pinchlime.com/a-card-example_jBR1zV.png" data-fancybox data-caption="Card">
+  <img src="https://image-webp.pinchlime.com/a-card-example_jBR1zV.png" loading="lazy" alt="Card" align="center" />
 </a>
+
+**透過 Card Info 看到更多卡片的資訊**
+
+每張卡片的下半部會有個 "Card Info"，這邊會由三個區域構成：基本資訊、Backlinks（反向連結）以及 Tag & Properties。
+
+基本資訊包含建立日期、更新日期、字數、所屬白板等等。
+
+反向連結聽起來有點複雜，但白話來說就是「**有哪些卡片連到自己**」？
+
+以下圖為例，這是上面那張卡片裡面連結到的第三張卡片「只有針對自己感興趣與在乎的主題才能產生新穎的見解」，所以你可以看到在反向連結的區域裡面有「A letter from PJ - “The best essay” 的讀後心得」這張卡片（代表這張卡片有連向自己），當然也包含了其他「有連到自己」的卡片。
+
+<a href="https://image-webp.pinchlime.com/card-info_0FLimV.png" data-fancybox data-caption="Card Info">
+  <img src="https://image-webp.pinchlime.com/card-info_0FLimV.png" loading="lazy" alt="Card Info" align="center" />
+</a>
+
+這個功能的用途是，只要你有意識地建立反向連結，你在未來就有可能會發現「不同卡片之間的關聯性」。例如我已經五個多月沒看這張卡片，但現在看這反向連結的資訊，我就會觸發許多當時的印象，讓我更快進入當時閱讀的情境裡面。不過**這不是一定要做的事，我有非常多卡片沒有任何的反向連結。**
+
+最後一個區域則是 Tag & Properties 的資訊，這個稍後會介紹。
 
 ---
 
@@ -89,15 +114,17 @@ extra:
 - 每個白板裡面都可以放置無限個「子白板」
 - 每個白板和子白板都可以放置無限個卡片與其他白板元件
 
-我在介紹 Heptabase 給朋友時，都會將白板描述為「主題資料夾」，比方說我有一個大主題白板是「My Knowledge Base」，這是我最常進入的入口。而這個白板裡面，還有著我感興趣的諸多主題白板（子白板），例如「Productivity Tools」、「AI」、「Blockchain & Crypto」、「Business」、「Photography」等等。
+我在介紹 Heptabase 給朋友時，都會將白板描述為「主題資料夾」，比方說我有「生產力工具」白板，有「攝影」白板，有「職涯規劃」白板，當我建立這些白板後，我會把相關的卡片放到這些白板裡面。
 
-在每個白板裡，我都會根據這個白板的主題，去放置相關的卡片。例如，在生產力工具的白板裡面，我會放各種我自己寫的生產力工具相關的介紹文字卡片，或者為我特別喜歡使用的生產力工具再開設獨立的子白板。而在 Blockchain 這個白板裡，我可能會放置各種重要的白皮書與技術文件 PDF ，然後在旁邊寫下我的筆記卡片。
+除了主題資料夾以外，另一個我很常使用白板的方式是把它當成「數位書桌」。我以前會在實體書桌上把印出來的講義攤開來放，並且把其他相關的資料放在不遠處。
+
+在 Heptabase 裡面，這件事變得更方便、更好用，你可以先把研究與思考某件事相關的資料全部都丟到白板裡，然後再慢慢去思考它、整理它。我自己的經驗是，單純能把許多文件與資訊平鋪在同一個空間，就是一件非常能幫助理解與思考的事。
 
 不過，當這些東西慢慢累積起來，一定會開始變得混亂。為了讓每個白板內的東西都能根據使用者的偏好來安排與整理， Heptabase 也提供了非常多種不同的「白板元件」，來讓使用者靈活搭配使用，組合出自己心目中最舒服的白板。
 
 ---
 
-## Heptabase 的白板元件 - Text element, Media element, Mindmap, Section,
+## Heptabase 的白板元件 - Text element, Mindmap, Section
 
 ### **Text element**
 
@@ -117,16 +144,6 @@ extra:
 
 假設某個東西只是為了讓當前的白板更好理解，我不太希望未來一直搜尋到它，那我就會使用 Text 元素。舉例來說，我的一些複雜白板會需要用顏色去區分卡片的狀態或者重要性，但這些規則過一段時間可能就會忘記，所以我就會用 Text 元素把規則寫在這個白板的視覺起點，讓我每次進入白板後，都知道該怎麼使用這個白板。
 
----
-
-### **Media Element**
-
-除了文字以外，你在白板中也可以隨意地放入圖片、影片與音訊元素。你可以直接把檔案從電腦中拖曳到 Heptabase 裡面，也可以透過複製貼上的方式完成。
-
-而加進白板後的 media elements 也可以跟其他白板上的元素建立連線。
-
-對我來說，我會把單純只希望在這個白板上面看到的東西，透過 media element 放到白板上，而不會把他們放到卡片裡面。這些東西可能會是一些圖片示意、參考的註記、截圖存檔等等。
-
 
 ---
 
@@ -136,19 +153,16 @@ extra:
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-mindmap_ZdwLdB.webp" loading="lazy" alt="Mindmap" align="center" />
 </a>
 
-在 2023 年推出的 Mindmap 功能，則是另一個完全可以跟卡片互補的白板元件。
+Heptabase 的 Mindmap 功能，則是另一個完全可以跟卡片互補的白板元件。你只要在白板上按滑鼠右鍵，就可以建立一個新的 Mindmap。你也可以在一張卡片上面按下右鍵，將 Mindmap 選項打勾，這樣就可以讓這張卡片成為 Mindmap 的主節點。
 
-目前在 Heptabase 裡面，心智圖的功能還不到完全版，但已經可以做到下列幾件事：
-- 有純文字節點或者是卡片節點可以選擇
-- 可以展開卡片節點，此時畫面上的排版會自動調整
-- 可以隨意拖曳節點到別的節點底下
-- 可以隨意拖曳畫面上的卡片到某個心智圖成為節點
+Mindmap 是特殊規格的元件，它有幾個「只有它才有」的特性，例如：
 
-這些功能裡面，我覺得最重要的是「排版自動調整」以及「隨意拖曳更改架構」這兩點。因為他們共同創造出了完全無壓力的自由體驗，讓我可以很容易地「由下到上」，學習我完全不熟悉的領域的相關概念。
+- 在編輯時會自動排版，你可以專注於層級與內容，讓 Heptabase 幫你排版與連線
+- 可以輕易地拖曳子節點到不同層級裡面，這時也會自動調整排版
 
-舉例來說，最近我在工作上要研究一個全新的領域，在沒有心智圖以前，我會透過卡片來記錄我在網路上看到的內容，並且再去整理他們。但透過心智圖這種樹狀圖的大綱架構，我可以很快地列出這個領域最重要的幾個重點，再來則是這幾個重點底下的子項目。
+我覺得「排版自動調整」以及「隨意拖曳更改架構」這兩個專屬於 Mindmap 的特性，創造出了完全無壓力的自由體驗，讓我可以很容易地「由下到上」，學習我完全不熟悉的領域的相關概念。
 
-而當我看了其他內容，發現我先前整理的東西需要調整時，我不用再去編排卡片上的段落，我只要用拖曳的方式把某個節點拖到另一個節點底下，就完成了結構的調整。
+舉例來說，當我在工作上要研究一個全新的領域，我會邊看網路上的介紹，把他們記在心智圖上，這時我可以專注於記錄以及簡單的上下階層關係。而當我看了更多介紹，我可能會發現原本的心智圖需要調整層級，這時我也可以很輕鬆地拖曳調整架構。
 
 在這個過程中，若我發現某則節點的重要內容不少，我也可以隨時把文字節點轉換成「卡片」，此時這張心智圖上的卡片節點，就成為了其他地方可以重複使用的內容。
 
@@ -163,7 +177,6 @@ extra:
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-section_whisp6.webp" data-fancybox data-caption="Section">
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-section_whisp6.webp" loading="lazy" alt="Section" align="center" />
 </a>
-
 
 當你在 Heptabase 慢慢累積了一些白板與內容後，有的時候你會想把一小群的卡片放在一起組成一個群組。例如，我的個人知識管理系統裡面有探索、捕捉、發展、精煉、交流等五個階段，但他們彼此環環相扣，我希望把這五個階段的相關卡片都放在同一個白板上面，又想要能夠在視覺上有所區別，這時 Section 就是最適合我使用的白板元件。
 
@@ -191,7 +204,7 @@ extra:
 
 另外，無論是卡片、白板、分區、連線等內容，全部都可以選擇不同的顏色（目前淺色模式跟深色模式都各有 8 種顏色）。
 
-透過這幾項視覺元素，可以很輕鬆地建立白板上不同物件之間的關係。例如，我在 8 月初曾在 Twitter po 了一篇[【我的 Heptabase use case 之一：求職】](https://twitter.com/WuPingJu/status/1688202424312639488)，當時我就是靠著一個白板，寫下我的履歷、過去經歷與能力、以及其他相關的內容，再搭配顏色與連線讓內容的重點更加突出。
+透過這幾項視覺元素，可以很輕鬆地建立白板上不同物件之間的關係。例如，我之前曾在 Twitter po 了一篇[【我的 Heptabase use case 之一：求職】](https://twitter.com/WuPingJu/status/1688202424312639488)，當時我就是靠著一個白板，寫下我的履歷、過去經歷與能力、以及其他相關的內容，再搭配顏色與連線讓內容的重點更加突出。
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-heptabase-use-case_A3OgV4.webp" data-fancybox data-caption="Arrow and Connection">
   <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-heptabase-use-case_A3OgV4.webp" loading="lazy" alt="Arrow and Connection" align="center" />
@@ -201,7 +214,7 @@ extra:
 
 ---
 
-## Heptabase 的卡片管理與查找： Card Library , Tag , Search
+## Heptabase 的卡片管理與查找： Card Library, Tag, Search
 
 當你的卡片愈來愈多，這時你可能會發現有幾個狀況
 
@@ -213,20 +226,20 @@ extra:
 
 ### **Card Library** 
 
-<a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-card-library_XiK6Jx.webp" data-fancybox data-caption="Card Library">
-  <img src="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-card-library_XiK6Jx.webp" loading="lazy" alt="Card Library" align="center" />
+<a href="https://image-webp.pinchlime.com/card-library_7mxmIb.png" data-fancybox data-caption="Card Library">
+  <img src="https://image-webp.pinchlime.com/card-library_7mxmIb.png" loading="lazy" alt="Card Library" align="center" />
 </a>
 
 Card Library 是 Heptabase 裡面的卡片管理站，點進去後會看到一張一張的卡片依照時序並排在一起。
 
 在 Card Library 的上方有一排篩選選單，在這裡依序有幾個不同的選項：
 
-1. All Cards：看到所有卡片
-2. Uncategorized ：所有不屬於任何白板、沒有 tag 的孤立卡片。
-3. PDF：所有 PDF 卡片
-4. Tags：可以依照 Tags 去篩選卡片
-5. Whiteboards：可以篩選特定白板內的卡片
-6. Custom：可以自訂篩選過濾器，根據標籤、白板、關鍵字去自訂過濾器，並把這個過濾器儲存起來。
+1. Card Type：可以依照卡片的類型篩選卡片
+2. Tags：可以篩選特定 tag 的卡片
+3. Whiteboards：可以篩選特定白板內的卡片
+4. Uncategorized ：所有不屬於任何白板、沒有 tag 的孤立卡片。
+5. Custom：可以自訂篩選過濾器，根據 tag 、白板、關鍵字去自訂過濾器，並把這個過濾器儲存起來。
+
 
 在篩選出想要的卡片後，也可以直接在 Card Library 框選想要的卡片，然後就會出現一個選單，這時可以選擇一次把這些卡片：
 - 開啟在一個新的 tab 查看寫作
@@ -305,7 +318,7 @@ Card Library 是 Heptabase 裡面的卡片管理站，點進去後會看到一�
 
 ---
 
-## Heptabase 的收集箱： Journal & Mobile App
+## Heptabase 的收集箱： Journal & Task
 
 ### **Journal**
 
@@ -315,7 +328,7 @@ Card Library 是 Heptabase 裡面的卡片管理站，點進去後會看到一�
 
 在 Heptabase 裡面，有一個專門為了「快速無壓紀錄」而設置的獨立空間 Journal ，只要點選左側邊欄的第一個按鈕，就可以進入這個「以日期為主體」的內容存放空間，透過上面的導覽列和日曆可以跳轉到想要的日期。
 
-每一天的開始，就是一則空白的輸入區塊，在這邊可以快速記下靈感與想法文字，這些內容就會存放在這一天的這則 journal 裡面，但這些文字還不會成為「卡片」，他們更像是某個便條紙、日記本、收集箱之類的存在，獨立於自己的卡片與白板工作區，但若有需要，隨時可以將 journal 裡的文字轉為卡片。
+每一天的開始，就是一則空白的輸入區塊，在這邊可以快速記下靈感與想法文字，這些內容就會存放在這一天的這則 journal 裡面，但這些文字還不會成為獨立的卡片，他們更像是某個便條紙、日記本、收集箱之類的存在，獨立於自己的卡片與白板工作區，但若有需要，隨時可以將 journal 裡的文字轉為卡片。
 
 第一種方式是透過 block menu 轉換，只要將想要轉換的文字都框選起來，再點選左邊那個小小的「block 符號」，並選擇「Turn into new card」，就可以將這段文字轉換成卡片。第一段的文字內容則會成為該卡片的標題。
 
@@ -336,7 +349,6 @@ Card Library 是 Heptabase 裡面的卡片管理站，點進去後會看到一�
 這兩種讓「零散文字」轉換為「卡片」的操作，讓 Journal 成為 Heptabase 裡面很適合記下靈感與想法的第一站。
 
 但我覺得 Heptabase 裡面 Journal 最實用的地方，是直接按照日期，做成一個 Journal 日曆。
-
 關於這部分的實作經驗，可以參考 Heptabase 社群中的 Chase 的這篇文章：
 
 [Heptabase 的 Journal 使用方法，掌握週回顧與月回顧](https://medium.com/@chasehuang/heptabase-%E7%9A%84-journal-%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95-%E6%8E%8C%E6%8F%A1%E9%80%B1%E5%9B%9E%E9%A1%A7%E8%88%87%E6%9C%88%E5%9B%9E%E9%A1%A7-76faabe52abd)
@@ -347,21 +359,122 @@ Card Library 是 Heptabase 裡面的卡片管理站，點進去後會看到一�
 
 ---
 
-### Mobile App
+### **Task**
 
-<div class="videobox">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MmFXPav2uus?si=caX-S97V1h8nHO2L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+當你在任何一張卡片或者 Text element 或 Journal 裡面，使用 /todo list 新增一個待辦事項後，你會發現左側多了一個紫色的「Task」按鈕。點進去可以看到所有你在 Heptabase 裡面記下的待辦事項、他們的到期日、以及他們所屬的卡片或白板。
 
-從 2023 年 9 月以來，Heptabase 的 mobile app 經歷了幾次更新，已經越來越成熟實用。
+另外，這些待辦事項會依照他們的「到期日」分成四類，分別是：
+- Today：今天到期的任務
+- Upcoming：在未來到期的任務
+- Overdue：已經到期的任務
+- No due date：沒有設定到期日的任務。
 
-打開 app 後可以在畫面中選擇 Card Library, Whiteboard, Tag ，點進去以後就可以看到所屬的卡片，並且點開編輯他們，概念上就類似在電腦或網頁版使用一樣。
+Task app 的用途很單純，就是讓你可以「無壓力地記下待辦事項」。比方說，你在 Journal 裡面記錄心情時，突然想到一件可以做的事，你就記下了待辦事項。或者是，你在白板裡面研究某個主題時，你想到應該要再看某篇文章，你也可以隨意地記下來。
 
-同時，下方的 Tab 則還有 Journal、搜尋、新增卡片三個按鈕，可以快速查看與紀錄 journal 想法、查找卡片、以及新增卡片。
+這些未完成的任務，會忠實地出現在 Task app 裡面，這讓你不用擔心找不到過去某個時間點記下的任務。
 
-目前我覺得 Heptabase 手機版本提供的是「在移動時可以快速紀錄」與「查找並編輯過往的卡片」這兩個能力，這對於出門在外臨時有想法想記錄、突然想看一下自己某個卡片研究的東西等場景，都非常實用。
+不過，Heptabase 的目標並不是成為一個 "All-in-one" 的全能軟體，因此待辦事項的功能也不會像其他專門的任務管理軟體一樣那麼完整。對我來說，他是一個基本堪用的功能，我會拿來記錄一些思考與學習時還未有結論的問題或下一步行動。但我不會拿它來管理我的日常工作與待辦事項。
 
-我最期待的是未來可以直接在手機閱讀與畫線，這樣體驗一定超讚！
+---
+
+## Heptabase 裡面不同的卡片類型： Card Types
+
+### **不同類型的物件都可以是卡片**
+
+在 Heptabase 裡面目前共有七種類型的卡片，他們分別是
+- Note card：最基礎的筆記卡片，也是可以最靈活運用的卡片。
+- PDF card：只要是放入 Heptabase 的 PDF ，都會變成 PDF card。
+- Journal card：在 Heptabase 裡面所有有內容的 Journal 日期都會變成單獨的 journal cards，讓你可以方便的篩選與管理他們。
+- Highlight card：在 PDF 或者 Readwise 畫線產出的 highlights 都會變成 highlight cards。
+
+比較特別的是下列這三個：
+- Image card：圖片卡片
+- Video card：影片卡片
+- Audio card：聲音卡片
+
+這三種類型的卡片，我們先以 media cards 統稱。在 Heptabase 裡面，你目前有兩種方式可以「製作 media cards」。
+
+第一種是在卡片裡面先上傳某個圖片影片或聲音檔案，這時你將滑鼠游標移到這個檔案的右上角，點選選單，就可以看到「Add to card library」的選項，按下去就會把這個單純的檔案轉換為卡片。
+
+第二種方式是點選畫面最左上角區域的＋號按鈕，就可以選擇想要的類型，並且上傳檔案變成卡片。
+
+那麼，為什麼要這麼麻煩？還要多一個步驟「轉換」呢？單純的圖片、影片與聲音，跟「卡片」差別是什麼？
+
+
+### **Media Elements 與 Media Cards 差在哪？**
+
+我們先統稱那些「未轉換成卡片」的叫做 media elements，而轉換後的叫做 media cards，他們關鍵的差別有下列幾點：
+
+1. 只有 media cards 會出現在 Card Library （因為他們是卡片）
+2. 只有 media cards 可以加上 Tag 與 Properties （因為他們是卡片）
+3. 只有 media cards 可以被提及引用（例如你可以用 @ 提及一張很關鍵的地圖 image card。）
+4. 只有 media cards 可以拿來進一步利用（例如產生逐字稿、產生 AI 的摘要或者其他後製的功能。這些功能目前還沒有開發，但是很有機會在未來開發，他們應該都是只能針對「cards」使用的功能）
+
+
+換句話說，要不要轉換成卡片，你可以自己看你的用途來決定。對我來說，一個判斷標準是：
+- 這個多媒體檔案是否有重要到我會需要重複提及與使用？如果會，那就轉成卡片。
+
+但如果這個東西只有在目前的白板或卡片情境下才有意義，那就未必需要轉換成卡片，反正你隨時都可以再轉換，有需要再加入 Card Library 就好。
+
+---
+
+## Heptabase 的情境切換與讀取工具： Left & Right Sidebar
+
+Heptabase 的左右側邊欄是稍微有一點點進階的概念，但只要熟悉後，就會覺得非常好用，非常有幫助。所以還是值得稍微了解一下。建議可以搭配[官方 Wiki 的這篇文章](https://wiki.heptabase.com/user-interface-logic?lang=zh-Hant)一起閱讀。
+
+### **Left Sidebar**
+
+首先是左側邊欄，你可以先把 Heptabase 想像成一個網頁瀏覽器，在左側邊的每一個 Tab 就是一個單獨的「分頁」，比方說打開白板後就會開啟一個「白板分頁」，當你在白板中點選進入某個子白板，這個分頁就變成了那個子白板。
+
+這跟其他筆記軟體是蠻不一樣的地方，在其他軟體的左側邊欄大多是呈現檔案資料夾的結構，所以你可以看到所有的檔案，也可以隨時點選進入這些檔案。但在 Heptabase 裡面，你反而沒辦法一次看到你所有的檔案（卡片）。
+
+不過，Heptabase 提供了 Pinned tab、Tab folder、以及 Tab group這幾個不同的功能來取得平衡。
+
+首先是 Pinned Tab，你可以在常用的 Tab 分頁上面按右鍵選擇 "Pin" ，這就會讓他固定在左側邊欄上面，讓你隨時都可以點選它。
+
+接著是 Tab folder，你可以建立資料夾來管理這些常用的 Pinned tabs。
+
+最後是 Tab Group，它代表著「全新的另一組分頁架構」，可以有一套新的 Tab folder、Pinned tabs 以及開啟的分頁。
+
+舉例來說，我最常用的三個 Tab groups 分別是： PKM、Travel & Leisure & Customer Support。這三個分頁群組裡面分別開啟與釘選著完全不同的白板或卡片分頁，例如：
+
+- PKM 裡面，有我正在撰寫的文章草稿與歸檔紀錄
+- Travel & Leisure 裡面，有我為了每次旅遊計畫而製作的白板 tab 以及相關的卡片，也有我的攝影白板。
+- Customer Support 裡面，則是有個測試專用的白板分頁，還有某些分類好的常見問題回答，以及某些我需要時常重讀與思考的卡片。
+
+從這個案例可以看到，每當我一早開始工作時，我就會直接切換我的 Tab group 到 Customer Support ，這時我用得到、我會想看的白板與卡片，就已經全部都開啟在左邊。
+
+而當我下班後，開始寫我想寫的東西時，我則會切換到 PKM group ，這可以一鍵讓我離開工作的情境，轉移到我的思考與寫作情境。
+
+有時候當我看到某些想去的地方或者一些好看的照片，我則會切到 Travel & Leisure 群組，然後把看到的東西記下來。
+
+對我來說，左側邊欄代表的是「迅速切換整組情境的能力」，這讓我想到某件事，就可以直達那件事，而不會在中途分心。這是 Heptabase 非常棒的一個功能。
+
+### **Right sidebar**
+
+如果說左側邊欄是讓你快速切換整組情境，那右側邊欄就是快速讓你讀取「這個情境裡面輔助資訊」。
+
+Heptabase 的右側邊欄有個特色是，它的功能會根據「分頁的類型」有所不同。
+
+例如，白板或一般卡片分頁裡面，右側邊欄會有 References、Table of content、Info、Insight 這幾個項目。
+
+但是 Journal 的分頁裡面，右側邊欄會多出一個「Task」的項目，呈現那些「該日到期的任務」。
+
+而 PDF 卡片的分頁裡面，右側邊欄則只有 References、Info 以及 Highlight 這幾個選項。
+
+這樣設計的用意是，希望你在進入某個分頁時，就可以用最快的速度找到與使用對你有幫助的資訊。
+
+另外，每個分頁的右側邊欄歷史是各自獨立的，比方說我的「攝影」白板裡面開啟的右側邊欄是許多張我常常參考的卡片，但是在某篇我正在寫作的文章裡面，右側邊欄則是他的 table of content 目錄。
+
+這達到的效果是，每次我透過左側邊欄切換情境與分頁時，我上次工作到一半的右側邊欄就會自動開啟，維持在先前的狀態，這讓我非常容易接續著進行之前在做的事。
+
+### **白板才有的特殊右側欄工具： Journal, Card Library, Highlight**
+
+如果你照著上面的介紹開始玩 Heptabase ，你會發現白板分頁的右上角有比較多不同的選項。例如可以打開 Journal 或 Card Library ，直接在上面記東西或把卡片拖到白板上。
+
+以我來說，我很常在整理一個白板時想到某些靈感，這時我就會開啟 Journal 側邊欄把靈感記錄在上面。而當我想到某張卡片，想把它放到白板上面時，我就會打開 Card Library 側邊欄把卡片拖進來。
+
+這些靈活的操作方式都讓我每次能夠「想到什麼就做什麼」，所以在 Heptabase 裡面非常容易進入專注的心流狀態。
 
 ---
 
@@ -379,42 +492,57 @@ Card Library 是 Heptabase 裡面的卡片管理站，點進去後會看到一�
 
 ---
 
-## Heptabase 的多平台與 Web 版本
+## Heptabase 的 Mobile app
 
-目前 Heptabase 提供了多平台的版本，包含 MacOS, Windows, Linux 等三個不同桌面版作業系統，iOS 與 Android 兩個行動作業系統，以及無論哪個作業系統都可以使用的 Web 版本。
+目前 Heptabase 的手機 app 已經越來越成熟，你可以在上面閱讀與編輯卡片和白板，也可以速記 journal 的內容。
+
+對我來說，目前的 Heptabase 手機版本提供的是「在移動時可以快速紀錄」與「查找並編輯過往的卡片」這兩個能力，這對於出門在外臨時有想法想記錄、突然想看一下自己某個卡片研究的東西等場景，都非常實用。
+
+不過我自己覺得若再補上幾個功能，手機會變得更完整、更好用：
+
+- 在手機 app 裡面閱讀 PDF 與劃線註解的能力
+- 在手機 app 查看 Task 的能力
+- 在手機 app 編輯 Tag 資訊的能力
+
+在這幾個功能完成後，我預計會再寫一篇更完整的手機 app 介紹，請拭目以待！
+
+---
+
+## Heptabase 的多平台與網頁版
+
+目前 Heptabase 提供了多平台的版本，包含 MacOS, Windows, Linux 等三個不同桌面版作業系統，iOS 與 Android 兩個行動作業系統，以及無論哪個作業系統都可以使用的網頁版（web app）。
 
 你可以在 [Heptabase 的 download 頁面](https://heptabase.com/download)下載最新版本的 Heptabase 。
 
-你也可以點選官網右上角的 Log in，或者是直接輸入[https://app.heptabase.com](https://app.heptabase.com) 來使用體驗跟電腦版幾乎完全一致的 Web 版本。
+你也可以點選官網右上角的 Log in，或者是直接輸入[https://app.heptabase.com](https://app.heptabase.com) 來使用體驗跟電腦版幾乎完全一致的網頁版。
 
-對我來說，我更常使用 Mac 版本，因為快捷鍵不容易與瀏覽器衝突。但在下列特定的使用場景中，我認為 Web 版本更有優勢：
+對我來說，我更常使用 Mac 版本，因為快捷鍵不容易與瀏覽器衝突。但在下列特定的使用場景中，我認為網頁版更有優勢：
 
-1. 當我希望多開 Heptabase 時，只需一個瀏覽器就可以開啟多個 Heptabase。這對於某些特定情境很有幫助，例如開啟小視窗快速紀錄、並列視窗進行對照等。
-
-2. 當我希望使用瀏覽器的插件時，Web 版本也很適合搭配使用。
-
+1. 假設電腦的儲存空間較少，那麼這時非常建議使用網頁版，因為若使用電腦版，會把所有資料都存在硬碟裡（以讓你離線使用），但網頁版則會全部都讀取伺服器的資料，不會佔用網頁空間。
+2. 當我希望使用瀏覽器的插件時，網頁版也很適合搭配使用。
 3. 在某些無法下載單機軟體的場合，例如圖書館或辦公室的公用電腦，這時也適合搭配 Web 版本使用（但用完要記得登出）
 
 ---
 
 ## Heptabase 的同步機制與離線使用
 
-**同步機制**
+### **Heptabase 的同步機制**
 
-在上述提到的所有平台使用 Heptabase 時，只要開啟「Sync」同步，就可以享受幾乎實時同步的編輯體驗，例如，同時開啟 Web 版與 Mac 版與手機版，在 Journal 打下幾個字，大約零點幾秒後，這些字也會出現在其他對應的版本裡面。
+在上述提到的所有平台使用 Heptabase 時，只要開啟「Sync」同步，就可以享受幾乎實時同步的編輯體驗，例如，同時開啟網頁版與 Mac 版與手機版，在 Journal 打下幾個字，大約零點幾秒後，這些字也會出現在其他對應的版本裡面。
 
 不僅是純文字，圖片、影片或檔案也一樣，能很快地就完成同步，所以完全可以拿 Heptabase 當做簡單的「跨裝置傳資料」工具。
 
-不過，有同步功能之後最擔心的就是「版本衝突」的問題。舉例來說，原先在 Web 版本編輯一張卡片，此時打開 Mobile 版本進入這張卡片，但 Mobile 版本還沒完全同步雲端的版本，就編輯了新的內容。此時因為 Mobile 版本的時間戳更新，就會反過來覆蓋掉 Web 版本的內容。
+不過，有同步功能之後最擔心的就是「版本衝突」的問題。舉例來說，原先在網頁版編輯一張卡片，此時打開 Mobile 版本進入這張卡片，但 Mobile 版本還沒完全同步雲端的版本，就編輯了新的內容。此時因為 Mobile 版本的時間戳更新，就會反過來覆蓋掉網頁版的內容。
 
-針對偶爾可能出現的這種狀況， Heptbase 目前的處理機制是「版本紀錄」（version history）的功能，點開每張卡片或 Journal 日誌的選單，都可以看到這個頁面，進入後就會看到不同裝置與不同時間的編輯紀錄。
+針對偶爾可能出現的這種狀況， Heptbase 目前的處理機制是「版本紀錄」（[version history](https://wiki.heptabase.com/version-history?lang=zh-Hant)）的功能，點開每張卡片或 Journal 日誌的選單，都可以看到這個頁面，進入後就會看到不同裝置與不同時間的編輯紀錄。
 
-歡迎看這篇 wiki 教學的說明：[How does version history work in Heptabase?
-](https://wiki.heptabase.com/version-history?lang=zh-Hant)。
+### **Heptabase 可以離線使用**
 
-**離線使用**
+除了完全同步使用 Heptabase 之外，Heptabase 也允許你「離線使用」或「停用同步」。
 
-除了完全同步使用 Heptabase 之外，Heptabase 也允許你「離線使用」或「停用同步」。在使用電腦版 Heptabase 時，相關的資料也會存在電腦裡面，因此即使突然之間離線了，仍然能夠正常、順暢地使用 Heptabase 。當連線回復時，則會再與雲端同步資料的最新狀態。
+若你使用的是電腦版的 Heptabase，系統會把所有的資料儲存在你的電腦裡面，因此即使突然之間離線了，仍然能夠正常、順暢地使用 Heptabase 。當連線回復時，則會再與雲端同步資料的最新狀態。
+
+我曾經在搭飛機時完全離線使用 Heptabase ，當時的體驗非常好，短短幾小時的時間內讀了好幾篇文章，製作了一堆卡片。推薦有機會可以嘗試看看。（直接把 wifi 關閉就可以了）
 
 另一方面，有些人則是希望自己的資料從頭到尾都不要同步到雲端，因為可能公司的資安規範有要求，或者是自己有很隱私機密的資料，此時只要在設定裡面取消同步，Heptabase 就會完全刪除雲端的資料，接下來所有的使用都會變成一個純單機版軟體。
 
@@ -424,7 +552,7 @@ Card Library 是 Heptabase 裡面的卡片管理站，點進去後會看到一�
 
 ## Heptabase 的備份、導出與永續性
 
-前面提到的同步，是會在雲端持續產生最新版本的資料，但 Heptabase 也提供了完整的「單機備份」功能。每次當你關閉 Heptabase 時，系統就會自動產生一個壓縮檔，裡面有一個涵蓋整個 Heptabase 資料庫的 .json 檔案，因此若想要復原到某個版本，也可以直接用備份檔案復原。
+前面提到的同步，是會在雲端持續產生最新版本的資料，但 Heptabase 也提供了完整的「單機備份」功能。每次當你關閉 Heptabase 時，系統就會自動產生一個壓縮檔，裡面有一個涵蓋整個 Heptabase 卡片資料的 .json 檔案，因此若想要復原到某個版本，也可以直接用備份檔案復原。（這個功能需要由客服手動開啟才能使用）
 
 不過隨著資料越來越多，備份檔案也會變大，因此我大概每兩個禮拜左右就會清理一次我的備份資料夾。
 
@@ -448,11 +576,9 @@ Card Library 是 Heptabase 裡面的卡片管理站，點進去後會看到一�
 
 無論是要採取哪種付費方案，在註冊新帳號時，都可以享有七天的免費試用。這個試用必須要填入信用卡號，填入後不會馬上扣款，但七天試用期過了就會根據你選擇的方案扣款。
 
-我自己在功能還蠻陽春的一年多前就付費訂閱，當時就已經覺得很划算，現在的 Heptabase 功能更全面，使用體驗也更好，已經成為我不可或缺的學習工具以及知識管理流程的核心，我覺得它帶給我的收益遠超過每個月我為它支付的費用。
+我自己在功能還蠻陽春的 2022 年 1 月就付費訂閱，當時就已經覺得很划算，現在的 Heptabase 功能更全面，使用體驗也更好，已經成為我不可或缺的學習工具以及知識管理流程的核心，我覺得它帶給我的收益遠超過每個月我為它支付的費用。所以非常推薦大家訂閱試用看看！
 
-所以非常推薦大家訂閱試用看看！
-
-官網七天免費試用連結： <https://get.heptabase.com/pinchlime>
+> 歡迎使用我的[推薦連結](https://join.heptabase.com?invite-acc-id=c3af7fb1-f4a2-4ed2-9b3c-8fc3d516942f)註冊使用，可以享有第一次付款時 $5 美元的折扣。
 
 ----
 
@@ -478,6 +604,7 @@ Heptabase 提供了各種不同的能力（capabilities），隨著越來越熟�
 
 ```
 備註：本文初稿完成於 2022.02.27，後續更新紀錄如下：
+- 2024.11.02 大幅更新這一年來追加的新功能，並改寫部分段落。
 - 2023.10.22 更新了 media element 的段落。
 - 2023.09.30 大翻修，幾乎算是一篇全新的文章了。
 - 2022.07.03 更新：重新翻修了一次本文，將比較舊的資訊刪除，重新調整了一些內容，
