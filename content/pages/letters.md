@@ -2,7 +2,7 @@
 title: A Letter from PJ
 path: letters/
 date: 2024-05-26
-updated: 2024-11-08
+updated: 2024-11-13
 description: 大致上會是關於我最近做了、看了什麼、嘗試了什麼的經驗分享，篇幅不會太長，大概就像一篇短篇幅的臉書或 Twitter 貼文這樣。發文的時間與頻率不會固定，你可以想成有個朋友有事沒事就會傳個訊息給你，跟你分享他最近看了什麼或體驗了什麼東西。
 template: changelog.html
 ---
@@ -15,6 +15,7 @@ template: changelog.html
 
 ## A Letter from PJ
 
+- 2024.11.13 [我開始在 email 裡面寫靈感筆記](https://world.hey.com/mimir/a-letter-from-pj-email-1d904bf3)
 - 2024.11.08 [Attention Is All You Need](https://world.hey.com/mimir/a-letter-from-pj-attention-is-all-you-need-28c1eff0)
 - 2024.11.05 [要你好看 No.2 - 能夠更順暢跟 AI 協作的人是怎樣的人？](https://world.hey.com/mimir/a-letter-from-pj-no-2-ai-12549d51)
     - 原文：[专访"Prompt之神"李继刚 - 我想用20年时间，给世界留一句话。](https://mp.weixin.qq.com/s/JT2oOG2SYw2pDYEHlEmcyQ)
