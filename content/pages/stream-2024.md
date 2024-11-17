@@ -3,13 +3,18 @@ title: My Stream
 description: 這是我 2024 年的 stream page。我在這裡放各種即時的想法、靈感、以及看到的、讀到的內容。
 path: stream/2024/
 date: 2024-01-23
-updated: 2024-11-14
+updated: 2024-11-17
 template: stream.html
 ---
 
 ## 2024
 
 ### November
+
+{% fleet(num="13",time="Nov 17 23:10",year="2024") %}
+這幾天繼續看《斜槓時代的高效閱讀法》，覺得很不錯，不知道是什麼機緣巧合竟然從書架上拿下這本書來看，真有趣。很適合作為「好久沒讀書了，我要開始認真讀很多書」的起點。
+{% end %}
+
 
 {% fleet(num="12",time="Nov 14 22:37",year="2024") %}
 昨晚開始看《斜槓時代的高效閱讀法》，書名不太 ok ，但內容蠻不錯的，今天看完了第一章！
