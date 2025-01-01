@@ -1,9 +1,8 @@
 ---
 paginate_by: 20
 sort_by: date
-sort_direction: decending
 transparent: true
-generate_feed: false
+generate_feeds: false
 title: Photography
 template: photography_archive.html
 page_template: photography_page.html

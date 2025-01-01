@@ -1,7 +1,6 @@
 ---
 title: Communicate
 sort_by: title
-sort_direction: decending
 weight: 5
 template: library.html
 page_template: library_page.html

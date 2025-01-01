@@ -1,7 +1,6 @@
 ---
 title: Pin 起來的 Toolbox
 sort_by: weight
-sort_direction: decending
 weight: 1
 template: library.html
 page_template: library_page.html

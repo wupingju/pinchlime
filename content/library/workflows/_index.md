@@ -1,7 +1,6 @@
 ---
 title: My Workflows
 sort_by: weight
-sort_direction: decending
 weight: 2
 template: library.html
 page_template: library_page.html

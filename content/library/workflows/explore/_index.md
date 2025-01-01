@@ -1,7 +1,6 @@
 ---
 title: Explore
 sort_by: title
-sort_direction: decending
 weight: 1
 template: library.html
 page_template: library_page.html

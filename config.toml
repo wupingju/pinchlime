@@ -3,8 +3,7 @@ build_search_index = false
 compile_sass = false
 default_language = "zh-TW"
 description = "介紹生產力工具，以及分享使用心得"
-generate_feed = true
-generate_rss = true
+generate_feeds = true
 taxonomies = [
   {name = "tags", feed = true},
   {name = "categories", feed = true},

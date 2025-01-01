@@ -1,7 +1,6 @@
 ---
 title: 我不再使用的工具
 sort_by: title
-sort_direction: decending
 weight: 3
 template: library.html
 page_template: library_page.html

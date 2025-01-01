@@ -1,7 +1,6 @@
 ---
 title: 我正在關注的新工具
 sort_by: title
-sort_direction: decending
 weight: 4
 template: library.html
 page_template: library_page.html

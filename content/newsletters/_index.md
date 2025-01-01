@@ -2,9 +2,8 @@
 title: Pin 起來電子報
 paginate_by: 20
 sort_by: date
-sort_direction: decending
 transparent: true
-generate_feed: true
+generate_feeds: true
 template: newsletter_archive.html
 page_template: newsletter_page.html
 ---

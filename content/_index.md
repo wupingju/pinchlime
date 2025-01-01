@@ -1,9 +1,6 @@
 ---
-updated: 2024-10-24
-sort_by: date
-sort_direction: decending
 transparent: true
-generate_feed: true
+generate_feeds: true
 title: Pin 起來
 ---
 
