@@ -2,7 +2,7 @@
 title: A Letter from PJ
 path: letters/
 date: 2024-05-26
-updated: 2024-11-21
+updated: 2025-01-05
 description: 大致上會是關於我最近做了、看了什麼、嘗試了什麼的經驗分享，篇幅不會太長，大概就像一篇短篇幅的臉書或 Twitter 貼文這樣。發文的時間與頻率不會固定，你可以想成有個朋友有事沒事就會傳個訊息給你，跟你分享他最近看了什麼或體驗了什麼東西。
 template: changelog.html
 ---
@@ -15,6 +15,8 @@ template: changelog.html
 
 ## A Letter from PJ
 
+
+- 2025.01.05 [該如何結識更多志同道合的人與厲害的人？](https://world.hey.com/mimir/a-letter-from-pj-c021bac4)
 - 2024.11.21 [要你好看 No.3 -《斜槓時代的高效閱讀法》山口周](https://world.hey.com/mimir/a-letter-from-pj-no-3-187a87fd)
 - 2024.11.17 [當我問 LLM 問題時，我到底該問他問題還是要請他生成答案？](https://world.hey.com/mimir/a-letter-form-pj-llm-836ccae5)
 - 2024.11.13 [我開始在 email 裡面寫靈感筆記](https://world.hey.com/mimir/a-letter-from-pj-email-1d904bf3)
