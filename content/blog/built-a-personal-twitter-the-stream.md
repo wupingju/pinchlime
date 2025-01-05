@@ -16,6 +16,10 @@ extra:
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-stream_cM7m3M.webp
 ---
 
+> 2025.01.05 更新：我決定先關閉我的 Stream 頁面。
+
+
+---
 
 這幾天下班後都在做一件事：建立我自己的迷你版 Twitter ： [Stream](/stream/2023)，昨晚初步搞定了，來介紹分享一下。
 
