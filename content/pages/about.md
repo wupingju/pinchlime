@@ -44,7 +44,7 @@ description: 這個網站 Pin 起來 ／ Pinchlime.com 是由我自己一個人�
 
 如果你看了哪篇我寫的東西很有共鳴，或者想要詢問我問題，歡迎寄信給我，我喜歡透過信件交流，也一定會回信。
 
-我的信箱： mimir@hey.com
+我的信箱： pj@pinchlime.com
 
 
 ---
