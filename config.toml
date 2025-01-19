@@ -10,6 +10,9 @@ taxonomies = [
   {name = "kinds", feed = true},
 ]
 title = "Pin 起來！"
+generate_sitemap = true
+generate_robots_txt = true
+
 
 [markdown]
 # When set to "true", all code blocks are highlighted.
