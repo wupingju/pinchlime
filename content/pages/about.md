@@ -1,8 +1,8 @@
 ---
 title: 關於 PJ Wu 以及 Pin 起來
 path: about/
-date: 2022-04-17
-updated: 2025-01-13
+date: 2025-01-13
+updated: 2025-01-19
 description: 這個網站 Pin 起來 ／ Pinchlime.com 是由我自己一個人獨立經營的部落格，主要是拿來放我寫的各種關於生產力工具、生產力方法論、工作流（workflow）、以及其他各種雜談的文章。
 ---
 
@@ -23,28 +23,26 @@ description: 這個網站 Pin 起來 ／ Pinchlime.com 是由我自己一個人�
 
 ---
 
-## 聯絡資訊
+## 我關注的領域
 
-我會在網路上的幾個不同地方出沒，每個地方對我來說有些不同的價值，因此有時你可能會在不同地方看到我的相同內容，如果這讓你感到困擾，還請見諒。
+我的興趣很廣泛，對很多領域的知識常識都很感興趣。但隨著工作愈來愈繁忙，我發現關注太多不同領域很容易讓我分心，因此我有意識地在持續調整我的資訊來源。我希望能聚焦在對目前的我來說最重要的領域就好。
 
-對我來說，每個平台最舒適的交流方式不太一樣，歡迎你根據下列說明，選擇對你舒適的方式交流聯繫。
+以下是我目前關注的領域：
+- Customer Experience & Support
+- Startup & Business
+- Product Growth
+- Product Management
+- Personal Knowledge Management
+- Thinking, Decision-Making & Strategy
+- Writing
+- Communication
 
-### 社群平台
-
-- Twitter： [@WuPingJu](https://twitter.com/WuPingJu)
-- Threads： [wu_pingju](https://www.threads.net/@wu_pingju)
-
-歡迎你追蹤我的 Twitter 與 Threads ，我大部分時間會在這兩個地方分享一樣的東西，少數時間不一樣，我還沒有很清楚是否該分別分享不同的東西。也歡迎你留言交流，但我不太建議在這兩個平台私訊聯絡，我很少打開，我也覺得很難交流。
-
-- LinkedIn： [PJ Wu](https://www.linkedin.com/in/wupingju/)
-
-歡迎 connect！ 只要我看得出你是一個真人而不是機器人，我都會直接同意。我還不確定要在 LinkedIn 上面分享什麼，如果你有這方面的建議歡迎跟我分享。
-
-### 電子郵件
-
-如果你看了哪篇我寫的東西很有共鳴，或者想要詢問我問題，歡迎寄信給我，我喜歡透過信件交流，也一定會回信。
-
-我的信箱： pj@pinchlime.com
+以下是我感興趣，但暫時不特別關注的領域：
+- Investing
+- Crypto Assets & Regulation
+- Career & Interview 
+- Personal Fitness
+- Content Marketing
 
 
 ---
