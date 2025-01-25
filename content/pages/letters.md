@@ -2,7 +2,7 @@
 title: A Letter from PJ
 path: letters/
 date: 2024-05-26
-updated: 2025-01-19
+updated: 2025-01-25
 description: 大致上會是關於我最近做了、看了什麼、嘗試了什麼的經驗分享，篇幅不會太長，大概就像一篇短篇幅的臉書或 Twitter 貼文這樣。發文的時間與頻率不會固定，你可以想成有個朋友有事沒事就會傳個訊息給你，跟你分享他最近看了什麼或體驗了什麼東西。
 template: changelog.html
 ---
@@ -15,6 +15,7 @@ template: changelog.html
 
 ## A Letter from PJ
 
+- 2025.01.25 [在 ChatGPT 的幫助下，我開始用英文製作卡片](https://world.hey.com/mimir/a-letter-from-pj-chatgpt-f3c29a94)
 - 2025.01.19 [一次失敗的嘗試：個人關係管理系統 （Airtable & Folk)](https://world.hey.com/mimir/a-letter-from-pj-airtable-folk-78c53f39)
 - 2025.01.14 [我開始提供諮詢服務了，為什麼？](https://world.hey.com/mimir/a-letter-from-pj-56681427)
 - 2025.01.07 [做那些一點也不像工作，但還能賺錢的事](https://world.hey.com/mimir/a-letter-from-pj-c8c8d334)
