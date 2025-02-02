@@ -4,7 +4,7 @@ description: 這邊放置 Pin 起來網站的 Changelog，主要的內容是描�
 path: changelog/
 draft: false
 date: 2022-04-20
-updated: 2025-01-19
+updated: 2025-02-02
 template: changelog.html
 ---
 
@@ -22,6 +22,13 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 - 修訂號：表示部落格既有功能有修改內容，例如 css 樣式的調整、既有頁面或段落的連結調整、或者分類類別的調整等。
 
 以下是依時間倒序排列的 changelogs ，歡迎瀏覽！
+
+---
+
+## [2.21.0] - 2025.02.02
+
+### Removed
+- 我把上次加的 Linkz.ai 移除了，因為感覺不太到它對我或讀者有什麼幫助 😆
 
 
 ---
