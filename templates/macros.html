@@ -44,14 +44,6 @@
 </div>
 {% endmacro post_min %}
 
-{% macro snapshots_min(page) %}
-<div style="display: flex;justify-content: space-between">
-<a class="no-underline li_archive" href="{{ page.permalink }}">{{ page.title }}</a> 
-<span class="muted text-sm" style="font-family: menlo;">{{ page.date | date(format="%b %d") }}</span>
-</div>
-
-{% endmacro snapshots_min %}
-
 {% macro newsletters_min(page) %}
 <div style="padding-top: 0.5rem; padding-bottom: 0.5rem;">
   <p style="margin-top: -0.5rem; margin-bottom: -0.5rem;"> 
@@ -65,10 +57,6 @@
 {% macro post_side(page) %}
 <a href="{{ page.permalink }}">{{ page.title }}</a><br>
 {% endmacro post_side %}
-
-{% macro snapshots_side(page) %}
-<a href="{{ page.permalink }}">{{ page.title }}</a><br>
-{% endmacro snapshots_side %}
 
 {% macro newsletters_side(page) %}
 <span>＃{{page.extra.issues }} </span><a href="{{ page.permalink }}">{{ page.title }}</a><br>

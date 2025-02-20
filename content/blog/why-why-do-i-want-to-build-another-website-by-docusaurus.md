@@ -3,6 +3,7 @@ title: 我為什麼又想用 Docusaurus 架一個子網站？
 date: 2023-02-11
 updated: 2023-02-11
 description: Docusaurus 看起來直接用「預設基本款」就能達到這種雙欄式的文檔瀏覽介面，完全打中我的需求。
+draft: true
 path: snapshots/why/why-do-i-want-to-build-another-website-by-docusaurus
 taxonomies:
   categories:
@@ -57,7 +58,7 @@ extra:
 
 ### 我想拿這個子網站放什麼？
 
-由於我 1 月才剛把前一個「筆記與想法快照」的子網站搬回主網站，我這幾天也在思考，我真的有必要建立一個子網站嗎？它跟筆記與想法，或者說現在的「[Snapshots](/snapshots/) 頁面們」又有什麼不同？
+由於我 1 月才剛把前一個「筆記與想法快照」的子網站搬回主網站，我這幾天也在思考，我真的有必要建立一個子網站嗎？它跟筆記與想法，或者說現在的「Snapshots 頁面們」又有什麼不同？
 
 想了想，我覺得性質還是不太一樣。
 

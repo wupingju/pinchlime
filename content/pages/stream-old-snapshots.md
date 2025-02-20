@@ -420,7 +420,7 @@ Access to script at 'https://cusdis-production-54de.up.railway.app/js/iframe.umd
 <br>
 - 他看起來是一個非常簡單輕便的網站評論系統，且主打 privacy first。
 <br>
-- 我曾在「<a href="@/snapshots/why-why-dont-i-put-a-comment-system-on-my-blog.md">為何我不在部落格上面放評論系統？</a>」這篇裡面寫過，我暫時不想在部落格放評論系統的原因之一是，覺得既有的評論系統介面都不好看，而且好像會拖累網站效能。
+- 我曾在「為何我不在部落格上面放評論系統？」這篇裡面寫過，我暫時不想在部落格放評論系統的原因之一是，覺得既有的評論系統介面都不好看，而且好像會拖累網站效能。
 <br>
 - 但 Cusdis 看起來有機會成為那個例外，他的介面很單純，可以看他們官網的 blog 頁面如： <a href="https://blog.cusdis.com/hello-world/">Hello Cusdis | Cusdis Blog</a> 。
 <br>

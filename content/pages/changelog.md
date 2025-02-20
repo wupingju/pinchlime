@@ -157,7 +157,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Removed
 
-- 移除了網站上的留言系統 Cusdis，原因放在[這邊](/snapshots/why/why-did-I-decide-to-remove-the-comment-system-on-the-website)。
+- 移除了網站上的留言系統 Cusdis。
 
 
 ---
@@ -469,7 +469,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Changed
 
-- 把 Pin 起來的 wiki page 從 Logseq 改為 Dendron 輸出，網址不變一樣是 https://wiki.pinchlime.com （2023.01.02 更新，目前經過兩次迭代，個人 wiki 的內容已經都變成站上的 [Snapshots](/snapshots) 專區的內容了），但內容則換了。也覺得可以把連結放到 Sidebar 上面了。
+- （2025.02.21）把個人 wiki 相關內容都刪除了。
 
 --- 
 
