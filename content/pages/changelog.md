@@ -183,7 +183,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Added
 
-- 新增了站內的 [Library](/library) 區塊。並且連帶著增加了該區塊專屬的 breadcrumbs, sidebar, 以及對應的 javascript 內容，讓我可以紀錄 sidebar 的點擊狀態。（2025.02.21 更新：已刪除該區塊）
+- 新增了站內的 Library 區塊。並且連帶著增加了該區塊專屬的 breadcrumbs, sidebar, 以及對應的 javascript 內容，讓我可以紀錄 sidebar 的點擊狀態。（2025.02.21 更新：已刪除該區塊）
 
 ---
 
@@ -659,7 +659,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Added 
 
-- 透過新增 macro.html 以及 base.html 來新增側邊欄的「最新文章欄位」（可參考[增加了部落格側邊欄的「最新文章」欄位](@/blog/added-latest-section-in-sidebar.md)）
+- 透過新增 macro.html 以及 base.html 來新增側邊欄的「最新文章欄位」。
 
 ---
 

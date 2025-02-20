@@ -1,16 +1,6 @@
 {% extends "base.html" -%}
 {% block post_meta-%}
 <meta name="title" content="{{ page.title }}">
-<style>
-  .sidebar{
-    display: block;
-  }
-  @media (min-width: 52rem) {
-    .sidebar{
-      display: block;
-    }
-  }
-</style>
 {% endblock post_meta -%}
 {% block title %}{{ page.title }} - {{ config.title}}{% endblock title %}
 {% block ogtitle %}{{ page.title }} - {{ config.title}}{% endblock ogtitle %}
@@ -38,6 +28,3 @@
       </section>
 </div>
 {% endblock main%}
-
-{% block sidebar %}
-{% endblock sidebar %}

@@ -74,28 +74,6 @@
 <span>＃{{page.extra.issues }} </span><a href="{{ page.permalink }}">{{ page.title }}</a><br>
 {% endmacro newsletters_side %}
 
-{% macro page_toc(toc)%}
-<section class="sidebar-table-content">
-  <ul >
-    <li><a href="#start">{{trans(key="label_back_to_start",lang=lang)}}</a></li>
-  {% for h1 in toc %}
-      <li>
-          <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
-          {% if h1.children %}
-              <ul>
-                  {% for h2 in h1.children %}
-                      <li>
-                          <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
-                      </li>
-                  {% endfor %}
-              </ul>
-          {% endif %}
-      </li>
-  {% endfor %}
-  </ul>
-</section>
-{% endmacro page_toc %}
-
 {% macro paginator(ref, extra) %}
 <div class="element" style="background: none; box-shadow:none;"">
   <ul class="list-none flex justify-between" style="max-width: 50rem;">

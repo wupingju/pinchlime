@@ -1,16 +1,6 @@
 {% extends "base.html" -%}
 {% block post_meta-%}
 <meta name="title" content="{{ page.title }}">
-<style>
-  .sidebar{
-    display: block;
-  }
-  @media (min-width: 52rem) {
-    .sidebar{
-      display: block;
-    }
-  }
-</style>
 {% endblock post_meta -%}
 {% block canonical_url %}
 <link rel="canonical" href="{{ config.base_url }}{{ page.path }}" />
