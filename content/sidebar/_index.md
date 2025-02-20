@@ -8,5 +8,4 @@ sort_by: date
 - [Now](/now)
 - [Changelog](/changelog/)
 - [Glossary](/glossary)
-- [Search](/search)
 - [Subscribe](/subscribe)

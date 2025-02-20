@@ -25,6 +25,14 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [2.21.1] - 2025.02.21
+
+### Removed
+- 部落格簡化運動：刪除了網站上的 Search 功能，因為我懶得維護它。
+
+
+---
+
 ## [2.21.0] - 2025.02.02
 
 ### Removed
@@ -339,7 +347,6 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 ### Added
 
 - 網站新增了「[搜尋](/search)」的功能！
-    - 相關心得與步驟可以參考這篇文章：[如何透過 Pagefind 在 Zola 產生的靜態網站裡加入搜尋功能](@/blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind.md)
 
 ---
 

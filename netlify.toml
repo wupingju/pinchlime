@@ -9,7 +9,7 @@
 
 [build]
     publish = "public/"
-    command = "zola build && npx pagefind@v1.1.0 --source public"
+    command = "zola build"
     
 
     [build.environment]

@@ -398,12 +398,6 @@ a.muted,
   text-decoration: none;
   margin-left: 1.5rem;
 }
-.menu-button-search {
-  text-decoration: none;
-  margin-left: 1.5rem;
-  height: 20px;
-  width: 20px;
-}
 .m-l-2 {
   margin-left: 0.5rem;
 }
@@ -1014,13 +1008,6 @@ div.pt a:hover {
   .menu-button {
     text-decoration: none;
     margin: 0.5rem 0.2rem;
-  }
-
-  .menu-button-search {
-    text-decoration: none;
-    margin: 0 0.4rem;
-    height: 16px;
-    width: 16px;
   }
 
   .li_archive,
