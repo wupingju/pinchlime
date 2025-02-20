@@ -4,6 +4,7 @@ date: 2023-12-16
 updated: 2023-12-16
 description: 使用 Heptabase 的「頓悟時刻」是，當你逐漸從愈來愈多的地方，累積愈來愈多的卡片，你會發現你在白板上面建立理解的過程會非常流暢，很容易就進入思考的心流，幾個小時後，你會發現你已經針對這個主題建立了屬於你的獨特理解。你會知道接下來你該閱讀什麼、你該如何將新學到的知識與你既有的知識結合，並且你也會知道這些屬於你的理解，將永遠透過視覺化的方式儲存在這裡。
 path: library/translations/alan-chan-heptabase-featured-tool
+draft: true
 taxonomies:
   tags: 
     - Alan Chan

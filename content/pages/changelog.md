@@ -29,6 +29,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Removed
 - 部落格簡化運動：刪除了網站上的 Search 功能，因為我懶得維護它。
+- 部落格簡化運動：刪除了網站上的 Library 區塊，因為我沒力氣維護它。
 
 
 ---
@@ -182,7 +183,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Added
 
-- 新增了站內的 [Library](/library) 區塊。並且連帶著增加了該區塊專屬的 breadcrumbs, sidebar, 以及對應的 javascript 內容，讓我可以紀錄 sidebar 的點擊狀態。
+- 新增了站內的 [Library](/library) 區塊。並且連帶著增加了該區塊專屬的 breadcrumbs, sidebar, 以及對應的 javascript 內容，讓我可以紀錄 sidebar 的點擊狀態。（2025.02.21 更新：已刪除該區塊）
 
 ---
 

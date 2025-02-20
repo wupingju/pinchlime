@@ -62,13 +62,6 @@
 
 {% endmacro newsletters_min %}
 
-{% macro library_min(page) %}
-<div style="display: flex;justify-content: space-between; line-height: 1;">
-<a class="no-underline li_archive" href="{{ page.permalink }}">{{ page.title }}</a> 
-<span class="muted text-sm" style="font-family: menlo;">{{ page.updated | date(format="%Y-%m-%d") }}</span>
-</div>
-{% endmacro library_min %}
-
 {% macro post_side(page) %}
 <a href="{{ page.permalink }}">{{ page.title }}</a><br>
 {% endmacro post_side %}
@@ -80,12 +73,6 @@
 {% macro newsletters_side(page) %}
 <span>＃{{page.extra.issues }} </span><a href="{{ page.permalink }}">{{ page.title }}</a><br>
 {% endmacro newsletters_side %}
-
-{% macro library_side(page) %}
-<li>
-<a href="{{ page.permalink }}">{{ page.title }}</a>
-</li>
-{% endmacro library_side %}
 
 {% macro page_toc(toc)%}
 <section class="sidebar-table-content">
@@ -203,43 +190,3 @@
   <a href="{{ page.permalink }}">{{ current_page.title }}</a>
 </div>
 {% endmacro page_breadcrumbs %}
-
-
-
-
-
-
-{% macro render_sidebar(section) %}
-    <ul class="nav-level-1">
-        {% for child_path in section.subsections %}
-            {% set child = get_section(path=child_path) %}
-            <li>
-                <div class="nav-toggle">
-                    <h3><a href="{{ child.permalink }}">{{ child.extra.bread_name }}</a></h3>
-                    <span class="arrow right"></span>
-                </div>
-                {% if child.subsections %}
-                    <ul class="nav-level-2 nav-hidden">
-                        {% for grandchild_path in child.subsections %}
-                            {% set grandchild = get_section(path=grandchild_path) %}
-                            <li>
-                                <div class="nav-toggle">
-                                    <h4><a href="{{ grandchild.permalink }}">{{ grandchild.extra.bread_name }}</a></h4>
-                                    <span class="arrow right"></span>
-                                </div>
-                                {% if grandchild.pages %}
-                                    <ul class="nav-level-3 nav-hidden">
-                                        {% for page in grandchild.pages | slice(start=0,end=10) %}
-                                            <li>{{ macro::library_side(page=page) }}</li>
-                                        {% endfor %}
-                                    </ul>
-                                {% endif %}
-                            </li>
-                        {% endfor %}
-                    </ul>
-                {% endif %}
-            </li>
-        {% endfor %}
-    </ul>
-    <br>
-{% endmacro render_sidebar %}
