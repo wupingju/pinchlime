@@ -30,7 +30,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 ### Removed
 - 部落格簡化運動：刪除了網站上的 Search 功能，因為我懶得維護它。
 - 部落格簡化運動：刪除了網站上的 Library 區塊，因為我沒力氣維護它。
-
+- 部落格簡化運動：刪除了網站上的 Glossary 區塊，因為我沒力氣維護它。
 
 ---
 
@@ -210,7 +210,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Removed
 
-- 簡化了 [Snapshots](/snapshots) 頁面的類型，把比較少在更新的 Daily What 與 Daily How 都整併到其他類別裡了。我覺得， What 類型的問題好像適合放在 [Glossary](/glossary) 裡面，而 How 類型的問題通常則可以直接放在 [Blog](/blog) 裡面。
+- 簡化了 Snapshots 頁面的類型，把比較少在更新的 Daily What 與 Daily How 都整併到其他類別裡了。我覺得， What 類型的問題好像適合放在 Glossary 裡面，而 How 類型的問題通常則可以直接放在 [Blog](/blog) 裡面。（2025.02.21 更新：已刪除 Glossary 區塊，更早之前已刪除 Snapshots 區塊。）
 
 ---
 
@@ -263,8 +263,8 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Added
 
-- 站內新增了「[Glossary 個人詞庫](/glossary)」section 以及相關功能。
-- 詳細的介紹可以看這篇：「[完成了站內的 Glossary 個人詞庫 v1 版本](@/blog/completed-the-v1-version-of-my-personal-glossary.md)」
+- 站內新增了「Glossary 個人詞庫 section 以及相關功能。（2025.02.21 更新：已刪除該區塊）
+- 詳細的介紹可以看這篇：「完成了站內的 Glossary 個人詞庫 v1 版本」。（2025.02.21 更新：已刪除該文章）
 
 
 

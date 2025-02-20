@@ -44,8 +44,6 @@ https://pinchlime.com/blog/article ，
 
 設定成功的當下真的是非常開心，因為自動 backlinks 是我一直很想要放在網站上的功能，它能夠讓讀者更有機會在站內穿梭瀏覽，甚至是發現其他相關的、可能有興趣的內容。
 
-例如我在「[我打算在網站上建立的「個人詞庫」是什麼？](@/blog/what-what-is-the-personal-glossary-section-i-plan-to-build-on-my-website.md)」裡面提到的個人詞庫，就是很適合搭配 backlinks 的功能，因為大家可以透過這些詞彙的 backlinks ，判別這個詞彙在整個網站裡面的重要性、以及與哪些頁面和詞彙有關。
-
 ---
 
 ### Zola Backlinks 的侷限

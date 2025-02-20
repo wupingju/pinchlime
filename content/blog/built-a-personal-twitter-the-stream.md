@@ -81,7 +81,7 @@ Linus 在 [About 頁面](https://stream.thesephist.com/about/)有提到：
 
 雖然我很喜歡 Linus 的頁面，但我暫時沒有能力跟動機去研究或複製他的做法，因此我想的是如何在既有的網站上製作出類似的樣式與功能。
 
-我想到的是之前曾經在「[完成了站內的 Glossary 個人詞庫 v1 版本](@/blog/completed-the-v1-version-of-my-personal-glossary.md)」這篇裡面有用過的 Shortcode 。
+我想到的是之前曾經有用過的 Shortcode 。
 
 
 

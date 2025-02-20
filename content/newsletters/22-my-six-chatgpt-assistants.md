@@ -21,7 +21,7 @@ Hi 大家好，週四的時候 ChatGPT 的 API 版本正式推出，我原先以
 
 ## 什麼是 API ？
 
-[API](@/glossary/application-programming-interface.md) 的全名是 Application Programming Interface ，翻譯叫做「應用程式介面」。我不是工程師，第一次認真聽到 API 這個詞應該是在 2019 年的[星箭廣播 EP15](https://blog.starrocket.io/posts/star-rocket-podcast-ep15-api/) 上面，很推薦跟我一樣不是工程師的人可以再去複習一下。
+API 的全名是 Application Programming Interface ，翻譯叫做「應用程式介面」。我不是工程師，第一次認真聽到 API 這個詞應該是在 2019 年的[星箭廣播 EP15](https://blog.starrocket.io/posts/star-rocket-podcast-ep15-api/) 上面，很推薦跟我一樣不是工程師的人可以再去複習一下。
 
 但如果要以我現在的理解來翻譯的話，可以將 API 理解成「一種有特定格式的溝通方式」，舉例來說， ChatGPT 的 API ，就定義了一些基本規則，你在跟他溝通前，必須填寫你選用的模型、你要請他處理的 message ，他會根據你填寫的內容，回傳特定類型的資料給你。
 

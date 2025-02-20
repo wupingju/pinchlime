@@ -7,5 +7,4 @@ sort_by: date
 - [About](/about/)
 - [Now](/now)
 - [Changelog](/changelog/)
-- [Glossary](/glossary)
 - [Subscribe](/subscribe)
