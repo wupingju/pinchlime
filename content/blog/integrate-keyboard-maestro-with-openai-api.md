@@ -62,6 +62,8 @@ Keyboard Maestro 是一個 Mac 上的老牌工具，他裡面有非常多可以�
 2. 請在這邊輸入你想使用的模型，[這邊可以看到目前有的模型](https://platform.openai.com/docs/models)，如果是嘗試使用，我推薦先用 gpt-4o-mini ，因為很便宜！
 3. 請輸入你想要這個助手做的事情在 System Prompt 裡面，如果你沒有想法只是想翻譯看看，你可以先隨意輸入類似這樣的文字：You are an expert in English and fluent in Mandarin. You will translate user input to English while maintaining the original meaning accurately. 
 
+這樣做的效果，就是會把你框選的文字翻譯成英文。（你當然也可以反過來改寫成翻譯為中文，或者是其他用途。）
+
 
 <br>
 <a href="https://image-webp.pinchlime.com/CleanShot%202025-03-04%20at%2019.20.57@2x_r0hwwP.png" data-fancybox data-caption="integrate-keyboard-maestro-with-openai-api-2">
@@ -88,4 +90,8 @@ Keyboard Maestro 是一個 Mac 上的老牌工具，他裡面有非常多可以�
 
 ---
 
-基本上，只要你設定了黃色的三個區塊，就可以在某個可以打字的地方，選一段文字，然後按熱鍵執行看看，成功的話再繼續根據你的需要微調修改，歡迎跟我分享你的成果！
+基本上，只要你設定了黃色的三個區塊，就可以在某個可以打字的地方，選一段中文文字，然後按熱鍵執行看看，成功的話就會翻譯成英文了。
+
+接著，你可以再繼續根據你的需要微調修改，可以改 prompt 讓他效果更好，也可以測試不同模型的做法。我覺得以翻譯來說，用 gpt-4o 是可以兼顧品質跟成本的好選擇。
+
+如果你有其他更厲害的做法，歡迎跟我分享你的成果！
