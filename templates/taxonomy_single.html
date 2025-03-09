@@ -9,12 +9,12 @@
 <div class="element">
 
   <header id="overview">
-    <div class="pt">
-      <span>&gt;&gt;</span>
-      <a href="{{ get_url(path="@/_index.md",lang=lang) }}">{{trans(key="label_home",lang=lang)}}</a>
+    <div class="breadcrumbs">
+      <a href="{{ get_url(path="/", lang=lang) }}">Pin 起來</a>
+      <span class="separator">/</span>
       {% if term.name -%}
-      <span class="divider"> / </span> {{ term.name }}
-      {% endif -%}
+      <span> {{ term.name }}</span>
+      {% endif -%}       
       </div>
   </header>
   <section>

@@ -488,8 +488,30 @@ article:last-of-type {
 }
 
 .breadcrumbs {
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 0;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.breadcrumbs a {
+  color: #495057;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  font-weight: 500;
+}
+
+.breadcrumbs a:hover {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.breadcrumbs .separator {
+  margin: 0 8px;
+  color: #adb5bd;
+  user-select: none;
 }
 
 .post-meta {

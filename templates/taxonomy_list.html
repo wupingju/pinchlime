@@ -7,16 +7,6 @@
 
 {% block main %}
 <div class="element">
-
-  <header id="overview">
-    <div class="pt">
-      <span>&gt;&gt;</span>
-      <a href="{{ get_url(path="@/_index.md",lang=lang) }}">{{trans(key="label_home",lang=lang)}}</a>
-      {% if term.name -%}
-      <span class="divider"> / </span> {{ term.name }}
-      {% endif -%}
-      </div>
-  </header>
   <section>
     <div class="page-header">
       <h1>All {{ taxonomy.name }}</h1>

@@ -12,21 +12,11 @@
 <div class="element">
       {% block detail_meta -%}
       <header id="overview">
-        <div class="pt">
-          <span>&gt;&gt;</span>
-          <a href="{{ get_url(path="@/_index.md") }}">{{trans(key="label_home")}}</a>
-          {% if page.taxonomies %}
-          <span class="divider">/</span>
-          <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0]) }}">{{
-            page.taxonomies.categories[0] }}</a>
-          
-          {% if page.taxonomies.tags -%}
-          <span class="divider">/</span>
-          {% for tag in page.taxonomies.tags %}
-          <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}{% if
-          loop.index != page.taxonomies.tags | length %},{% endif %}{% endif %}
-          {% endfor %}
-          {% endif %}
+        <div class="breadcrumbs">
+          <a href="{{ get_url(path="/", lang=lang) }}">Pin 起來</a>
+          <span class="separator">/</span>
+          {% if page %}
+          <span>{{ page.title }}</span>
           {% endif %}
         </div>
         

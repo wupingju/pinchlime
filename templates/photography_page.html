@@ -16,19 +16,18 @@
       {% block detail_meta -%}
       <header id="overview">
         {% block breadcrumbs -%}
-        <div class="pt" style="justify-content: space-between;display: flex;">
-          <span>
-          <span>&gt;&gt;</span>
+        <div class="breadcrumbs">
+          <a href="{{ get_url(path="/", lang=lang) }}">Pin 起來</a>
+          <span class="separator">/</span>
           <a class="category" href="{{ get_url(path="@/photography/_index.md",lang=lang) }}">Photography</a>
+          <span class="separator">/</span>
           {% if page.taxonomies.categories %}
-          <span class="divider">/</span>
           <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}"> {{ page.taxonomies.categories[0] }}</a>
           {% endif %}
           {% if page.taxonomies.kinds %}
           <span class="divider">/</span>
           <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0],lang=lang) }}">{{ page.taxonomies.kinds[0] }}</a>    
           {% endif %}
-          </span>          
         </div>
         {% endblock breadcrumbs %}
         <div>
