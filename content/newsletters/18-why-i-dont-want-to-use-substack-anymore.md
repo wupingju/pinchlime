@@ -8,7 +8,7 @@ extra:
   issues: 18
 ---
 
-在幾天前[發現 Buttondown 這個電子報服務](@/blog/first-impression-of-buttondown.md)後，我就決定要搬離 Substack ，不再使用 Substack 寄我的電子報。
+在幾天前[發現 Buttondown 這個電子報服務](@/archive/first-impression-of-buttondown.md)後，我就決定要搬離 Substack ，不再使用 Substack 寄我的電子報。
 
 核心的原因除了 Buttondown 有一些非常切合我需求的功能之外，最重要的「推力」，還是 Substack 自身的問題。
 

@@ -34,7 +34,7 @@ extra:
 
 這帶來的好處是，屬於我自己的想法，都可以灌進 Heptabase 就好，想找的時候，也只要從 Heptabase 找就好，不用再去分不同的地方。
 
-而在閱讀、註解與處理方面，年底開始使用[非常令人驚喜的 Readwise Reader ](@/blog/readwise-reader-introduction.md)，這也直接讓我選擇明年不再續約 Inoreader、不再需要使用 Raindrop，也不再需要透過 Glasp 進行網頁註記畫線。
+而在閱讀、註解與處理方面，年底開始使用[非常令人驚喜的 Readwise Reader ](@/archive/readwise-reader-introduction.md)，這也直接讓我選擇明年不再續約 Inoreader、不再需要使用 Raindrop，也不再需要透過 Glasp 進行網頁註記畫線。
 
 Heptabase 與 Readwise Reader 這兩個工具幾乎包辦了我從收集、處理、整理、輸出的知識管理流程，兩者之間還可以直接對接，Readwise Reader 畫線與註解的內容可以直接從 Heptabase 中讀取導入，非常方便。
 
@@ -46,7 +46,7 @@ Heptabase 與 Readwise Reader 這兩個工具幾乎包辦了我從收集、處�
 
 而在知識管理的另一個階段「分享」方面，今年我接觸到 Zola 這個靜態網站產生器，並且在 4 月[把部落格從 Wordpress.com 搬走](@/blog/rebuilt-pinchlime.md)，取而代之的是目前這個透過 Zola 蓋的，非常輕便、且檔案都在自己本機、完全免費的架站方式。
 
-在 6 月時，我也透過類似的流程，建立了一個[放置筆記與想法快照的子網站](@/blog/built-pinchlime-notes.md)，在建好這兩個網站後，我分享輸出的意願更高、阻力更低、速度也更快，這帶來的是更多更多的分享內容。
+在 6 月時，我也透過類似的流程，建立了一個[放置筆記與想法快照的子網站](@/archive/built-pinchlime-notes.md)，在建好這兩個網站後，我分享輸出的意願更高、阻力更低、速度也更快，這帶來的是更多更多的分享內容。
 
 今年度這個部落格已經發布了超過 20 篇文章，[想法與快照的子網站](https://notes.pinchlime.com/)也更新了超過 50 篇的短想法，我覺得一個好的流程真的能夠大幅促進輸出的效率，甚至會期待分享、會因為分享而感到滿足。
 

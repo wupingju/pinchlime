@@ -66,7 +66,7 @@ taxonomies:
 
 定位：收集＆吸收、歸檔＆回顧
 
-在 2022 年 12 月才開始使用的 [Readwise Reader](https://readwise.io/read) ，很快就讓我買單，主要的介紹可以看 [合理，且處處是驚喜的 Readwise Reader](@/blog/readwise-reader-introduction.md) 這篇。
+在 2022 年 12 月才開始使用的 [Readwise Reader](https://readwise.io/read) ，很快就讓我買單，主要的介紹可以看 [合理，且處處是驚喜的 Readwise Reader](@/archive/readwise-reader-introduction.md) 這篇。
 
 我最喜歡 Reader 的地方是它能夠讓我快速存下想讀的文章、並且隨時都可以接上閱讀的狀態，例如：
 
@@ -236,7 +236,7 @@ taxonomies:
 
 [Raycast](https://www.raycast.com/) 大概是我在 2022 年 3 月左右開始使用的工具，一開始是聽了不少人推薦介紹，好像是個厲害的 Alfred 替代品，結果用了以後發現真的很好用，就整個轉而使用 Raycast 了。
 
-簡單的介紹可以看 4 月寫的 [Raycast - 讓你更專注的高效率啟動器](@/blog/raycast-introduction.md) ，不過經過快一年， Raycast 又有許多變化與更新，好用的插件也更多了，我打算今年再花一些時間好好練習如何透過 Raycast 讓自己更有效率。
+簡單的介紹可以看 4 月寫的 [Raycast - 讓你更專注的高效率啟動器](@/archive/raycast-introduction.md) ，不過經過快一年， Raycast 又有許多變化與更新，好用的插件也更多了，我打算今年再花一些時間好好練習如何透過 Raycast 讓自己更有效率。
 
 對我來說，使用 Raycast 的最大好處是能夠促進自己的專注，尤其我的工作需要面對非常頻繁的「情境切換」，Raycast 能夠讓我在切換情境時比較不會迷失或分心，進而更容易達成心流的狀態，習慣以後會完全感覺不到 Raycast 的存在，它很自然地就幫你把事情完成了。
 

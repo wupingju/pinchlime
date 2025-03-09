@@ -5,21 +5,15 @@
 {% block ogdesc %}{{ section.title }}{% endblock ogdesc %}
 {% block ogurl %}{{ config.base_url }}{{ section.path }}{% endblock ogurl %}
 {% block main %} 
-{% set_global archive_section = get_section(path="archive/_index"~file_lang_path~".md") -%}
-{% set_global section_content = archive_section.content %}
-<div class="element-container">
-  <div class="element">
-  <setion>
-    {{ section_content | safe}}
-  </setion>
-</div> 
+{% set_global blog_section = get_section(path="blog/_index"~file_lang_path~".md") -%}
+{% set_global section_content = blog_section.content %}
 <div class="element">
-<h1>Archive</h1>
+<h1>Blog</h1>
 <br>
-{% set all_archive_pages = get_section(path="archive/_index"~file_lang_path~".md") %}
+{% set all_blog_pages = get_section(path="blog/_index"~file_lang_path~".md") %}
 <br>
 <ul class="list-none">
-  {% for post in all_archive_pages.pages | sort(attribute="updated") | reverse %}
+  {% for post in all_blog_pages.pages | sort(attribute="updated") | reverse %}
   <li>{{ macro::post_min(page=post) }}</li>
   {% endfor %}
 </ul>

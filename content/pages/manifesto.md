@@ -20,7 +20,7 @@ description: 我一直都想為自己的網站寫一個 Manifesto 頁面，因�
 
 我也在開始架網站以後才發現，我以為算是「世界通用標準」的 Google Analytics ，原來這麼的惡名昭彰，許多產品都主打自己是更注重隱私的追蹤工具，只追蹤最必要的流量資訊，並且去識別化，不會將瀏覽資訊販售給廣告公司。
 
-因此，基於對讀者隱私的尊重，我選擇了[可以讓我選擇「不追蹤」開信狀況的服務 Buttondown](@/blog/first-impression-of-buttondown.md) ，而不是追蹤許多個人識別資訊，且無法關閉追蹤的 Substack 。我有寫了一篇文來說明這個選擇的考量：「[為何我不想再用 Substack 寄送電子報？](@/newsletters/18-why-i-dont-want-to-use-substack-anymore.md)」。
+因此，基於對讀者隱私的尊重，我選擇了[可以讓我選擇「不追蹤」開信狀況的服務 Buttondown](@/archive/first-impression-of-buttondown.md) ，而不是追蹤許多個人識別資訊，且無法關閉追蹤的 Substack 。我有寫了一篇文來說明這個選擇的考量：「[為何我不想再用 Substack 寄送電子報？](@/newsletters/18-why-i-dont-want-to-use-substack-anymore.md)」。
 
 由於我已經有了 1000 個訂閱用戶，根據 [Buttondown 的收費標準](https://buttondown.email/pricing)，這個選擇令我必須每個月花費 $29 美元來寄信，但我目前認為這個額外的費用支出是值得的。
 

@@ -25,6 +25,17 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ---
 
+## [2.22.0] - 2025.03.09
+
+### Added
+- 部落格簡化運動：建立了一個 [Archive](/archive) 專區，把我認為過時的文章都丟進去。
+
+### Changed
+- 調整了 Blockquote 的樣式，感謝 Claude。
+
+
+---
+
 ## [2.21.1] - 2025.02.21
 
 ### Removed
@@ -235,7 +246,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 ### Added
 
 - 站內新增了「[Stream](/stream/2023)」頁面。
-- 詳細的介紹可以看這篇：[建了一個迷你版的個人 Twitter ： Stream](@/blog/built-a-personal-twitter-the-stream.md)。
+- 詳細的介紹可以看這篇：[建了一個迷你版的個人 Twitter ： Stream](@/archive/built-a-personal-twitter-the-stream.md)。
 
 
 ### Removed
@@ -366,7 +377,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 ### Added
 
 - 今天一個起心動念，想把筆記與想法的子網站搬回主網站這邊，就開始動工。經過一整個下午與晚上的調整與導入後，完成了全新的 2.0 版本，把內容分成三個區塊： Blog, Newsletters, Snapshots。
-- 我把搬家的紀錄跟簡單心得放在這篇文章：[我把筆記與想法快照的內容都搬回 Pin 起來主網站了](@/blog/migrated-notes-and-snapshots-back-to-the-main-site.md)
+- 我把搬家的紀錄跟簡單心得放在這篇文章：[我把筆記與想法快照的內容都搬回 Pin 起來主網站了](@/archive/migrated-notes-and-snapshots-back-to-the-main-site.md)
 
 ---
 
@@ -387,7 +398,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Changed
 
-- 根據[這篇紀錄](@/blog/tried-updated-og-image-settings.md)的作法調整了部落格裡對於 og image 的相關設定，讓未來的社群預覽能夠更多變化。
+- 根據[這篇紀錄](@/archive/tried-updated-og-image-settings.md)的作法調整了部落格裡對於 og image 的相關設定，讓未來的社群預覽能夠更多變化。
 
 ---
 
@@ -487,7 +498,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Added
 
-- 部落格上線了 footnotes 的功能，具體的說明可以看[部落格新增了 Footnotes 註腳的功能](@/blog/added-footnotes-function.md)這篇文章。
+- 部落格上線了 footnotes 的功能，具體的說明可以看[部落格新增了 Footnotes 註腳的功能](@/archive/added-footnotes-function.md)這篇文章。
 
 
 ---

@@ -42,13 +42,13 @@ API 的全名是 Application Programming Interface ，翻譯叫做「應用程�
 
 在 ChatGPT API 開放的那天，很快地就看到一些我熟悉的工具串起 API 的嘗試，例如 Popclip 、 Drafts 、Bob 等等。
 
-其中，從 Popclip 的程式碼裡面我發現，要串這個 API 好像不難耶！然後再看了一下 OpenAI 的文件，發現好像有機會自己做做看，因此當天就做了一個 Shortcut 版本的助手，詳情可以參考[不懂程式也可以輕鬆透過 Apple Shortcut 串接 ChatGPT](@/blog/chatgpt-api-shortcut.md)這篇。
+其中，從 Popclip 的程式碼裡面我發現，要串這個 API 好像不難耶！然後再看了一下 OpenAI 的文件，發現好像有機會自己做做看，因此當天就做了一個 Shortcut 版本的助手，詳情可以參考[不懂程式也可以輕鬆透過 Apple Shortcut 串接 ChatGPT](@/archive/chatgpt-api-shortcut.md)這篇。
 
 這個經驗對我來說很重要，是我第一次串 API ，雖然還是透過 Shortcuts 這種 no-code 工具，但還是有種自己很棒的感覺。
 
 而且嘗試成功一次後，後續就可以在 ChatGPT API 有開放的規則裡面，繼續嘗試各種不同的變化版本。
 
-因此昨天一整天我又試著透過 Shortcuts 以及 Apple Notes ，[達成可以記憶對話脈絡的版本](@/blog/tried-tried-to-build-a-chatgpt-assistant-who-can-remember-contexts-via-shortcuts.md)。
+因此昨天一整天我又試著透過 Shortcuts 以及 Apple Notes ，[達成可以記憶對話脈絡的版本](@/archive/tried-tried-to-build-a-chatgpt-assistant-who-can-remember-contexts-via-shortcuts.md)。
 
 不過嘗試以後我發現，以目前 ChatGPT API 開放的溝通方式來說，還沒有特別適合保存對話脈絡，如果要這樣做，要嘛需要大量人工介入，要嘛需要耗費大量 tokens ，而且還有一個「單次處理內容不得超過 4096 tokens」的限制，很難簡單繞過。
 

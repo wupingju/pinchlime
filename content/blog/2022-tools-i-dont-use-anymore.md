@@ -18,7 +18,7 @@ taxonomies:
 
 ## DEVONthink
 
-雖然寫出來有點不捨，但事實是我真的沒有在用[以前非常推薦的 DEVONthink](@/blog/devonthink3-introduction.md) 了。關鍵的原因可能有幾個：
+雖然寫出來有點不捨，但事實是我真的沒有在用[以前非常推薦的 DEVONthink](@/archive/devonthink3-introduction.md) 了。關鍵的原因可能有幾個：
 
 1. 「所有文件與想法歸檔」這個定位被 Heptabase 取代，我不需要、也找不到理由，分兩個地方儲存所有資料。
 

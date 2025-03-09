@@ -40,10 +40,13 @@
         </div>
       </header>
       {% endblock detail_meta -%}
+
       <section data-pagefind-body>
         <section class="main">
           <section id="start"></section>
           <article>
+            {% block note -%}
+            {% endblock note -%}
             {{ page.content | safe }}
             {% if page.taxonomies.tags %}
             <p>

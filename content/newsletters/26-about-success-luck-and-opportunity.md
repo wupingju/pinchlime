@@ -98,14 +98,14 @@ extra:
 
 Blog
 
-* [嘗試透過 ChatGPT API 打造了一個「靈感夥伴」](@/blog/tried-to-build-a-muse-mate-with-chatgpt-api.md)
+* [嘗試透過 ChatGPT API 打造了一個「靈感夥伴」](@/archive/tried-to-build-a-muse-mate-with-chatgpt-api.md)
 * [更換了網站的字型為「金萱那提」](@/blog/changed-font-to-jinxuan-latte.md)
 
 Snapshots
 
-* [對 Twitter blocked Substack 的一些看法](@/blog/random-thoughts-on-twitter-blocking-substack.md)
+* [對 Twitter blocked Substack 的一些看法](@/archive/random-thoughts-on-twitter-blocking-substack.md)
 * [讓「中間態」的筆記作為自己未來靈感的 prompt](@/blog/random-let-the-notes-of-middle-state-serve-as-prompts-for-your-future-inspiration.md)
-* [為何我很樂意繼續訂閱 Twitter Blue？](@/blog/why-why-am-i-willing-to-continue-subscribing-to-twitter-blue.md)
+* [為何我很樂意繼續訂閱 Twitter Blue？](@/archive/why-why-am-i-willing-to-continue-subscribing-to-twitter-blue.md)
 * [關於「建立自己數位分身」的一些想法](@/blog/random-thoughts-about-building-a-digital-copy.md)
 
 我很喜歡靈感夥伴、中間態這兩篇，我覺得一個好的工作流能夠讓我更容易產生靈感與想法。如果串接到今天這篇的主題，就是讓「創造」更容易誕生。
