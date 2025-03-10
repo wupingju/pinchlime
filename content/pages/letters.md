@@ -2,7 +2,7 @@
 title: A Letter from PJ
 path: letters/
 date: 2024-05-26
-updated: 2025-02-27
+updated: 2025-03-10
 description: 大致上會是關於我最近做了、看了什麼、嘗試了什麼的經驗分享，篇幅不會太長，大概就像一篇短篇幅的臉書或 Twitter 貼文這樣。發文的時間與頻率不會固定，你可以想成有個朋友有事沒事就會傳個訊息給你，跟你分享他最近看了什麼或體驗了什麼東西。
 template: changelog.html
 ---
@@ -15,6 +15,7 @@ template: changelog.html
 
 ## A Letter from PJ
 
+- 2025.03.10 [Simplify](https://world.hey.com/mimir/a-letter-from-pj-simplify-387d8c7f)
 - 2025.02.27 [回母校分享 ChatGPT & Deep Research 應用的一些心得隨記](https://world.hey.com/mimir/a-letter-from-pj-chatgpt-deep-research-ed247568)
 - 2025.02.15 [分享一個 ChatGPT Deep Research 搭配 o1 Pro 搭配 Heptabase 的工作流](https://world.hey.com/mimir/a-letter-from-pj-chatgpt-deep-research-o1-pro-heptabase-968d82ef)
 - 2025.02.09 [有了 Deep Research 後，我還需要 Heptabase 嗎？當然要，更需要了！](https://world.hey.com/mimir/a-letter-from-pj-deep-research-heptabase-3ac6b689)
