@@ -2,7 +2,7 @@
 title: 關於 PJ Wu 以及 Pin 起來
 path: about/
 date: 2025-01-13
-updated: 2025-01-19
+updated: 2025-03-10
 template: changelog.html
 description: 這個網站 Pin 起來 ／ Pinchlime.com 是由我自己一個人獨立經營的部落格，主要是拿來放我寫的各種關於生產力工具、生產力方法論、工作流（workflow）、以及其他各種雜談的文章。
 ---
@@ -11,40 +11,28 @@ description: 這個網站 Pin 起來 ／ Pinchlime.com 是由我自己一個人�
 
 我是 PJ Wu 吳秉儒，PJ 是我的名字 "Ping Ju" 的縮寫，因為我發現大部分的人不知道該怎麼唸 "Ju"，我也不想要再取個英文名字，所以就請大家叫我 PJ，歡迎你在與我聯絡時直接叫我 PJ ，不用加上任何尊稱。
 
-目前在 [Heptabase](https://get.heptabase.com/pinchlime) 團隊中擔任 Customer Experience Manager。Heptabase 是一個我非常喜歡的產品，喜歡到最後決定加入這間公司，成為其中的一份子。如果你對我加入 Heptabase 以及在裡面任職的心得感興趣，你可以參考這兩篇文章：
+目前在 Heptabase 團隊中擔任 Customer Experience Manager。
+
+Heptabase 是一個我非常喜歡的產品，喜歡到最後決定加入這間公司，成為其中的一份子。如果你對我加入 Heptabase 以及在裡面任職的心得感興趣，你可以參考這兩篇文章：
 
 - 2023.08.19 - [從 Heptabase 的懷疑者到傳教士](@/newsletters/29-from-a-heptabase-doubter-to-a-missionary.md)
 - 2024.09.01 - [加入 Heptabase 一年，我發現我比原本想的更喜歡「支援用戶」](@/blog/my-first-year-in-heptabase.md)
 
 我現在最主要的工作內容是客服，假設你是 Heptabase 的用戶，或者對 Heptabase 感興趣，你幾乎可以隨時透過信件或 Heptabase 的 in app support 系統找到我，歡迎你跟我分享任何你覺得 Heptabase 可以更好的地方、或者你覺得卡住、不如預期的地方。
 
-在加入 Heptabase 前，我在台灣的設計公司「簡訊設計」的網站部門擔任協調人與 Project Manager，也有在該公司創立的志祺七七頻道擔任頻道企劃與 Project Manager。簡訊設計是一間非常好的公司，歡迎參考[這篇推文](https://twitter.com/WuPingJu/status/1686395947600039936)的分享。
-
-我還想要模仿[愷開的自介](https://me.kalan.dev/)多寫一點內容，歡迎過一陣子再回來看，我會持續加上去。
-
 ---
 
-## 我關注的領域
+## 我的個性（特質）
 
-我的興趣很廣泛，對很多領域的知識常識都很感興趣。但隨著工作愈來愈繁忙，我發現關注太多不同領域很容易讓我分心，因此我有意識地在持續調整我的資訊來源。我希望能聚焦在對目前的我來說最重要的領域就好。
+- 我連續幾年測出來都是 INTJ-A ，我認為對於這個類型的描述與我有許多相近的地方，但也有差距不小的。我相信這只是最接近的其中一個切面，但不會「就是那樣」。
+- 我很喜歡成為新科技、新產品的早期使用者，只要我對一個產品有[好奇心](/blog/curiosity)，我就會去嘗試與體驗，並且持續關注他們的發展。
+- 我喜歡支持需要付費的產品和服務，因為我認為對耗費心力開發優秀產品與提供高品質服務的人來說，能夠獲得對應的收入一定會是很開心的事。
+- 我喜歡背後堅持著某些我欣賞的價值觀的產品，例如我曾在 [Manifesto](/manifesto) 這篇提到的 HEY 或 Buttondown。
+- 我重視一個人做事的動機，我會反覆咀嚼思考這件事。
+- 我喜歡分享我自己的想法，也喜歡看到別人對我想法的想法。
+  
 
-以下是我目前關注的領域：
-- Customer Experience & Support
-- Startup & Business
-- Product Growth
-- Product Management
-- Personal Knowledge Management
-- Thinking, Decision-Making & Strategy
-- Writing
-- Communication
-
-以下是我感興趣，但暫時不特別關注的領域：
-- Investing
-- Crypto Assets & Regulation
-- Career & Interview 
-- Personal Fitness
-- Content Marketing
-
+> 這個段落的架構是參考我很喜歡的[愷開的自介](https://me.kalan.dev/)撰寫的，我會持續更新，歡迎有空就來逛逛。
 
 ---
 
