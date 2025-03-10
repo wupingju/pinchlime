@@ -20,8 +20,8 @@
           <a href="{{ get_url(path="/", lang=lang) }}">Pin 起來</a>
           <span class="separator">/</span>
           <a class="category" href="{{ get_url(path="@/blog/_index.md",lang=lang) }}">Blog</a>
-          <span class="separator">/</span>
           {% if page.taxonomies.categories %}
+          <span class="separator">/</span>
           <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}"> {{ page.taxonomies.categories[0] }}</a>
           {% endif %}
           {% if page.taxonomies.kinds %}
