@@ -100,19 +100,20 @@
               {% endfor %}
             </p>
             {% endif %}
-            
             <br>
             {% if page.updated %}
             <div class="muted updated-time">
               <span>{{trans(key="label_updated",lang=lang)}}&nbsp;</span><time pubdate>{{ page.updated | date(format="%Y-%m-%d") }}</time>
             </div>
+            <section id="backlinks">
+              {{ macro::backlink(pages=page.backlinks) }}
+            </section>
             {% endif %}
           </article>
+         
         </section>
       </section>
       
-      <section id="backlinks">
-        {{ macro::backlink(pages=page.backlinks) }}
-      </section>
+
 </div>
 {% endblock main%}
