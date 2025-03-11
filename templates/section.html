@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 
-{# Common block definitions for all section types #}
 {% block canonical_url %}
 <link rel="canonical" href="{{ config.base_url }}{{ section.path }}" />
 {% endblock canonical_url %}
+
 {% block title %}{{ config.title }} - {{ section.title }}{% endblock title %}
 {% block ogtitle %}{{ config.title }} - {{ section.title }}{% endblock ogtitle %}
 {% block description %}{{ section.title }}{% endblock description %}
@@ -11,24 +11,20 @@
 {% block ogurl %}{{ config.base_url }}{{ section.path }}{% endblock ogurl %}
 
 {% block main %}
-{# Handle pagination if present #}
+{# Determine section pages with pagination support #}
 {% if paginator %}
-  {% set_global section_pages = paginator.pages %}
+  {% set section_pages = paginator.pages %}
 {% else %}
-  {% set_global section_pages = section.pages | sort(attribute="updated") | reverse %}
+  {% set section_pages = section.pages | sort(attribute="updated") | reverse %}
 {% endif %}
 
-{# Get section type based on path #}
-{% set section_type = "" %}
-{% if section.path is starting_with("blog/") or section.relative_path is starting_with("blog/") %}
-  {% set section_type = "Blog" %}
-{% elif section.path is starting_with("archive/") or section.relative_path is starting_with("archive/") %}
-  {% set section_type = "Archive" %}
-{% elif section.path is starting_with("newsletters/") or section.relative_path is starting_with("newsletters/") %}
-  {% set section_type = "Newsletters" %}
+{# Determine section type from path #}
+{% set section_type = section.path | split(pat="/") | first | capitalize %}
+{% if section_type == "" and section.relative_path %}
+  {% set section_type = section.relative_path | split(pat="/") | first | capitalize %}
 {% endif %}
 
-{# Display section content #}
+{# Display section content if section type exists #}
 {% if section_type %}
   <div class="element">
     <h1>{{ section_type }}</h1>

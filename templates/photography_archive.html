@@ -4,28 +4,24 @@
 {% block description %}{{ section.title }}{% endblock description %}
 {% block ogdesc %}{{ section.title }}{% endblock ogdesc %}
 {% block ogurl %}{{ config.base_url }}{{ section.path }}{% endblock ogurl %}
-{% block main %} 
-{% set_global photography_section = get_section(path="photography/_index"~file_lang_path~".md") -%}
-{% set_global section_content = photography_section.content %}
+{% block main %}
+{% set photography_section = get_section(path="photography/_index.md") %}
 <div class="element-container">
-  {% if lang == 'zh-TW' %}
   <div class="element">
-  <setion>
-    {{ section_content | safe}}
-  </setion>
-</div> 
-{% elif lang == 'en' %}
-{% endif %}
-<div class="element">
-<h1>Photography</h1>
-<br>
-{% set all_photography_pages = get_section(path="photography/_index"~file_lang_path~".md") %}
-<br>
-<ul class="list-none">
-  {% for post in all_photography_pages.pages | sort(attribute="updated") | reverse %}
-  <li>{{ macro::post_min(page=post) }}</li>
-  {% endfor %}
-</ul>
+    <section>
+      {{ photography_section.content | safe }}
+    </section>
+  </div>
+
+  <div class="element">
+    <h1>Photography</h1>
+    <br>
+    <ul class="list-none">
+      {% for post in photography_section.pages | sort(attribute="updated") | reverse %}
+        <li>{{ macro::post_min(page=post) }}</li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 {% endblock main %}
 <summary style="text-decoration:line-through "></summary>

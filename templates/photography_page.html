@@ -56,7 +56,7 @@
              <br>
              {% if page.updated %}
              <div class="muted" style="justify-content: right;display: flex;">
-             <span>{{trans(key="label_updated",lang=lang)}}&nbsp;</span><time pubdate>{{ page.updated | date(format="%Y-%m-%d") }}</time>
+             <span>Last modified on&nbsp;</span><time pubdate>{{ page.updated | date(format="%Y-%m-%d") }}</time>
              <br>
              {% endif %}
           </article>
