@@ -218,6 +218,15 @@ a:hover {
   font-weight: 600;
 }
 
+.font-mono {
+  font-family: Menlo, monospace;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+
 /* ==============================
    5. LAYOUT & CONTAINERS
 ============================== */
@@ -267,6 +276,11 @@ a:hover {
 
 .body-zone {
   flex-direction: column;
+}
+
+.bg-none {
+  background: none;
+  box-shadow: none;
 }
 
 /* ==============================
@@ -564,6 +578,16 @@ pre > code {
   margin-bottom: 2.4rem;
 }
 
+.my-md {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-neg-sm {
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
+}
+
 .m-l-2 {
   margin-left: var(--spacing-sm);
 }
@@ -619,6 +643,11 @@ pre > code {
   padding-bottom: var(--spacing-sm);
 }
 
+.pb-md {
+  padding-bottom: 1rem;
+}
+
+
 .p0 {
   padding: 0;
 }
@@ -661,6 +690,11 @@ pre > code {
 
 .display-none {
   display: none;
+}
+
+/* Width */
+.max-w-xl {
+  max-width: 50rem;
 }
 
 /* ==============================

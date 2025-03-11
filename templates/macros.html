@@ -3,7 +3,7 @@
   <div class="element">
   <h1><a class="no-underline " href="{{ page.permalink }}">{{ page.title }}</a></h1>
   <section>
-    <div class="muted" style="justify-content: space-between;display: flex;">
+    <div class="muted flex justify-between">
       <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time>
       <span>{{ config.extra.author }}</span>
     </div>
@@ -20,7 +20,7 @@
   {% elif page.content -%}
   <p>{{ page.content | safe }}</p>
   {% endif -%}
-  <div class="muted" style="justify-content: space-between;display: flex;">
+  <div class="muted flex justify-between">
   {% if page.taxonomies.tags %}
   <div>
     {% for tag in page.taxonomies.tags %}
@@ -36,20 +36,22 @@
 
 
 {% macro post_min(page) %}
-<div style="padding-top: 0.5rem; padding-bottom: 0.5rem;">
-<p style="margin-top: -0.5rem; margin-bottom: -0.5rem;"> 
-  <a class="no-underline li_archive" href="{{ page.permalink }}">{{ page.title }}</a> 
+<div class="py-sm">
+  <p class="my-neg-sm">
+    <a class="no-underline li_archive" href="{{ page.permalink }}">{{ page.title }}</a> 
 </p>
-<span class="muted text-sm" style="font-family: menlo;">{{ page.updated | date(format="%Y.%m.%d") }}</span>
+<span class="muted text-sm font-mono">
+  {{ page.updated | date(format="%Y.%m.%d") }}</span>
 </div>
 {% endmacro post_min %}
 
 {% macro newsletters_min(page) %}
-<div style="padding-top: 0.5rem; padding-bottom: 0.5rem;">
-  <p style="margin-top: -0.5rem; margin-bottom: -0.5rem;"> 
+<div class="py-sm">
+  <p class="my-neg-sm">
     <a class="no-underline" href="{{ page.permalink }}">{{ page.title }}</a>
   </p>
-  <span class="muted text-sm" style="font-family: menlo; white-space: nowrap;">{{ page.date | date(format="%Y.%m.%d") }}</span>
+  <span class="muted text-sm font-mono nowrap">
+    {{ page.date | date(format="%Y.%m.%d") }}</span>
 </div>
 
 {% endmacro newsletters_min %}
@@ -63,8 +65,8 @@
 {% endmacro newsletters_side %}
 
 {% macro paginator(ref, extra) %}
-<div class="element" style="background: none; box-shadow:none;"">
-  <ul class="list-none flex justify-between" style="max-width: 50rem;">
+<div class="element bg-none">
+  <ul class="list-none flex justify-between max-w-xl">
     {% if ref.current_index != 1 %}
       <li><a class="no-underline" href="{{ ref.first }}">&larrb;</a></li>
     {% else %}
@@ -128,7 +130,7 @@
 {% endmacro breadcrumb_link %}
 
 {% macro breadcrumbs(current_section) %}
-<div class="pt" style="padding-bottom: 1rem;">
+<div class="pt pb-md">
   {% for path in current_section.ancestors %}
     {% if path != "_index.md" %}
       {{ macro::breadcrumb_link(path=path) }}
@@ -145,7 +147,7 @@
 {% endmacro page_breadcrumb_link %}
 
 {% macro page_breadcrumbs(page) %}
-<div class="pt" style="padding-bottom: 1rem;">
+<div class="pt pb-md">
   {% for path in page.ancestors %}
     {% if path != "_index.md" %}
       {{ macro::page_breadcrumb_link(path=path) }}
