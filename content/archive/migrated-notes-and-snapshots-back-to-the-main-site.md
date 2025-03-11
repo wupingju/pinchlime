@@ -4,6 +4,8 @@ date: 2023-01-01
 updated: 2023-01-01
 description: 有一個自己認可的地方、有趁手的工具，真的會大幅提高自己投入時間與熱情來分享的意願，對我來說尤其是如此，這可能是 2022 年影響我最大的改變之一。
 path: blog/migrated-notes-and-snapshots-back-to-the-main-site
+extra:
+  page_type: archive
 ---
 
 在昨天，也就是 2022 年的最後一天，我突然起心動念，想把運作半年、發了大約 100 篇短內容的「筆記與想法快照」分站的內容，都搬回主網站這邊。

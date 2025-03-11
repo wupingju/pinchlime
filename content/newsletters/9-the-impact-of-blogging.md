@@ -6,6 +6,7 @@ description: 這兩個部分互相影響，會形成一個持續運作的動力�
 draft: false
 path: newsletters/the-impact-of-blogging
 extra:
+  page_type: newsletter
   issues: 9
 ---
 

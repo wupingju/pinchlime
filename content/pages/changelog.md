@@ -4,8 +4,9 @@ description: 這邊放置 Pin 起來網站的 Changelog，主要的內容是描�
 path: changelog/
 draft: false
 date: 2022-04-20
-updated: 2025-02-02
-template: changelog.html
+updated: 2025-03-11
+extra:
+  page_type: single
 ---
 
 這邊放置 Pin 起來網站的 Changelog。
@@ -22,6 +23,16 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 - 修訂號：表示部落格既有功能有修改內容，例如 css 樣式的調整、既有頁面或段落的連結調整、或者分類類別的調整等。
 
 以下是依時間倒序排列的 changelogs ，歡迎瀏覽！
+
+---
+
+## [2.23.0] - 2025.03.11
+
+### Refactored
+- 靠著 Claude Sonnet 3.7 大幅更新網站上的程式碼架構，合併類似的區塊，刪掉不必要的內容。
+
+### Removed
+- 部落格簡化運動：刪除了網站上的 Photography 區塊，因為我沒力氣維護它。
 
 ---
 
@@ -108,7 +119,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Added
 
-- 新增了 [Photography](/photography) 頁面。
+- 新增了 Photography 頁面。
 
 ---
 

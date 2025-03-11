@@ -11,6 +11,7 @@ taxonomies:
     - Photography
     - Cameras
 extra:
+  page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/DSCF2058_drI438.webp
 ---
 

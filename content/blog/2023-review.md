@@ -12,6 +12,7 @@ taxonomies:
     - Photography
     - Heptabase
 extra:
+  page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/P1000459_WzVnnd.webp
 ---
 

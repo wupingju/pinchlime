@@ -8,6 +8,7 @@
           <span class="separator">/</span>
           <a class="category" href="{{ get_url(path="@/photography/_index.md",lang=lang) }}">Photography</a>
           {% if page.taxonomies.categories %}
+          <span class="separator">/</span>
           <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}"> {{ page.taxonomies.categories[0] }}</a>
           {% endif %}
           {% if page.taxonomies.kinds %}

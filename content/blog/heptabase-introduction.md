@@ -12,6 +12,7 @@ taxonomies:
     - Heptabase
     - Learning
 extra:
+  page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-landing-2023_cirP6y.webp
 ---
 

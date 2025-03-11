@@ -6,6 +6,7 @@ description: 5W1H 裡面，只有「Why」是可以直奔上位概念的疑問�
 draft: false
 path: newsletters/why-why-why
 extra:
+  page_type: newsletter
   issues: 11
 ---
 

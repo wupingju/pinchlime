@@ -5,6 +5,7 @@ updated: 2023-05-07
 description: 當我看到那些好看的黑白相機照片時，我的腦中完全可以浮現它們彩色的樣子，我覺得這可能跟黑白相機拍出來的品質與階調有關，也可能是我單純著迷的心理錯覺。
 path: newsletters/camera-that-can-only-take-black-and-white-photos
 extra:
+  page_type: newsletter
   issues: 27
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/random-b-and-w_fuq7e8.webp
 ---

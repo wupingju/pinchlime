@@ -9,6 +9,8 @@ taxonomies:
     - Pinchlime
   tags:
     - Logo
+extra:
+  page_type: blog
 ---
 
 一直以來都想要好好幫自己的部落格找一個 logo ，之前剛創立的時候隨便去那種 logo 產生網站做了一個免費的，但一直沒有很滿意。

@@ -10,6 +10,8 @@ taxonomies:
   tags: 
     - Placeholder
     - Evergreen Notes
+extra:
+  page_type: blog
 ---
 
 今天看到[有篇文章](https://medium.com/@mattbrockwell/a-taxonomy-of-notes-c6fc77aac311)在講他怎麼記 evergreen notes，其中一個步驟是把自己有興趣的主題記下來作為「placeholder」，也就是先卡個紀錄在那邊，但不特別去處理它。

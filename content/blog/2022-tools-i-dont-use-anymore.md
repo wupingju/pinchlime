@@ -9,6 +9,8 @@ taxonomies:
     - Reviews
   tags: 
     - Productivity Tools
+extra:
+  page_type: blog
 ---
 
 在前一篇 [2022 年度回顧 - 不成熟的隻字片語也有價值](@/blog/2022-yearly-review.md) 裡面提到，我的工具組合越來越精簡，因此這篇也想記錄一下，在 2022 年底，有哪些工具我已經幾乎不再使用了，以及為什麼。

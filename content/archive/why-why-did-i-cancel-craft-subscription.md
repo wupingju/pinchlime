@@ -4,6 +4,8 @@ date: 2022-11-19
 updated: 2022-11-19
 description: 雖然 Craft 有不少優點，但其中好像沒有那個「獨一無二的 killer feature 」，這就導致我會傾向用其他手上的工具來完成想在 Craft 上面做的事。我想，這可能代表我不太是 Craft 主打的客群。
 path: snapshots/why/why-did-i-cancel-craft-subscription
+extra:
+  page_type: archive
 ---
 
 昨晚心血來潮，覺得好像可以把 Craft 上面累積半年多的工作專案記錄及信件草稿搬走，搬到 Obsidian 上面，而 Craft 就停止訂閱 Personal Pro 版本。

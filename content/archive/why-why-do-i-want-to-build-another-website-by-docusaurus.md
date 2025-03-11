@@ -5,6 +5,7 @@ updated: 2023-02-11
 description: Docusaurus 看起來直接用「預設基本款」就能達到這種雙欄式的文檔瀏覽介面，完全打中我的需求。
 path: snapshots/why/why-do-i-want-to-build-another-website-by-docusaurus
 extra:
+  page_type: archive
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/docusaurus-social-card_WKa2xI.jpg
 ---
 

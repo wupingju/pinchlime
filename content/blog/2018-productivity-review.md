@@ -10,6 +10,8 @@ taxonomies:
   tags: 
     - GTD
     - OmniFocus
+extra:
+  page_type: blog
 ---
 
 ## 開始接觸GTD理論，開始使用各種生產力工具

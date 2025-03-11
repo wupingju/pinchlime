@@ -6,6 +6,7 @@ description: Twitter 上面可以匿名，可以鎖帳號，完全不用管現�
 draft: false
 path: newsletters/why-twitter-is-better-than-facebook
 extra:
+  page_type: newsletter
   issues: 10
 ---
 

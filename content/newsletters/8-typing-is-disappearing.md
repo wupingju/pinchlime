@@ -6,6 +6,7 @@ description: 能夠好好運用鍵盤打字的人，就能更有效率地聚集�
 draft: false
 path: newsletters/typing-is-disappearing
 extra:
+  page_type: newsletter
   issues: 8
 ---
 

@@ -5,6 +5,8 @@ updated: 2022-06-03
 description: 我在 Obsidian 裡面實踐 MOC 的形式是 top-down 的方式，但那讓內容太難增生，每次產生想法都在想這個該放哪，久而久之就壓力很大，覺得無法順利進行。
 path: snapshots/random/pros-and-cons-of-structured-and-destructured-note-taking-tools
 draft: false
+extra:
+  page_type: archive
 ---
 
 這是從[雙向鏈接的一點思考](https://www.yuque.com/arvinxx/knowledge-note/rdtyem)這篇文章延伸的一些想法。

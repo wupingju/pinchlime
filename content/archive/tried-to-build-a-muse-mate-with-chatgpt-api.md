@@ -5,6 +5,7 @@ updated: 2023-04-15
 description: 我覺得這個助手有助於把我腦中原本很模糊、不精準的一些片段想法與疑問，轉換成某個更有結構的形式，接著我好像就更容易可以想得更清晰、透徹一點。我覺得這樣的效果很棒！
 path: blog/tried-to-build-a-muse-mate-with-chatgpt-api
 extra:
+  page_type: archive
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/muse-spark_MVFfyO.webp
 ---
 

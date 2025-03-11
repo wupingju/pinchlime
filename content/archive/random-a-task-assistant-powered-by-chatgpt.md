@@ -4,6 +4,8 @@ date: 2023-03-10
 updated: 2023-03-10
 description: 好期待有人做出這樣的東西，一定會很有趣。
 path: snapshots/random/a-task-assistant-powered-by-chatgpt
+extra:
+  page_type: archive
 ---
 
 在 ChatGPT API 出現後，我幾乎每天都有一些新的想法。今天來記一下其中一個「任務助手」的想法。我覺得好像有機會透過 Shortcut 搭配 Notes 就做出這樣的東西。

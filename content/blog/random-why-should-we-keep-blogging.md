@@ -9,6 +9,8 @@ taxonomies:
     - Random
   tags: 
     - Blogging
+extra:
+  page_type: blog
 ---
 
 在一個偶然的契機下，看到有人分享這篇[《我為什麼鼓勵工程師寫 blog》](https://dotblogs.com.tw/hatelove/2017/03/26/why-engineers-should-keep-blogging)文章，看完覺得有不少收穫，裡面確實有打到幾個我真實存在的各種小劇場，所以在這裡分享一下，非常推薦大家閱讀。

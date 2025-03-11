@@ -5,6 +5,7 @@ updated: 2023-04-21
 description: 如果要說的話，我建議的判斷標準是：訂閱 Twitter Blue 後獲得的額外能力，能否為你帶來更多價值。
 path: snapshots/why/why-am-i-willing-to-continue-subscribing-to-twitter-blue
 extra:
+  page_type: archive
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/twitter-blue_7sZ9MQ.webp
 ---
 

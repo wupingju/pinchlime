@@ -9,6 +9,8 @@ taxonomies:
     - Tools
   tags: 
     - Productivity Tools
+extra:
+  page_type: blog
 ---
 
 好久沒更新我目前有在訂閱的產品與服務了。今年有意識地減少不必要的訂閱，希望只留下真正需要用到的產品。以下是我目前還有在訂閱的產品與服務。

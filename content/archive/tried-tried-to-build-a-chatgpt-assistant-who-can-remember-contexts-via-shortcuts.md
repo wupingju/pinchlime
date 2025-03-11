@@ -4,6 +4,8 @@ date: 2023-03-04
 updated: 2023-03-04
 description: 這個過程蠻有趣的，雖然中間遇到一些挫折，但最後還是順利達成想要的結果。
 path: snapshots/what-i-tried-today/tried-to-build-a-chatgpt-assistant-who-can-remember-contexts-via-shortcuts
+extra:
+  page_type: archive
 ---
 
 在昨天成功[透過 Shortcuts 串接 ChatGPT API](@/archive/chatgpt-api-shortcut.md) 後，今天繼續花了不少時間製作 shortcut 腳本，我嘗試想要直接在 shortcut 裡面達成「聊天」的效果。

@@ -9,6 +9,8 @@ taxonomies:
     - Pinchlime
   tags: 
     - Zola
+extra:
+  page_type: archive
 ---
 
 最近又開始比較密集分享兩個部落格的文章，不過在 Twitter 上面分享時，通常都只會顯示部落格的 LOGO （如下圖），沒辦法顯示裡面的配圖。

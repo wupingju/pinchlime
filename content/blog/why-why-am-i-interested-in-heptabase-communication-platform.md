@@ -10,6 +10,8 @@ taxonomies:
   tags: 
     - Heptabase
     - Commnunication
+extra:
+  page_type: blog
 ---
 
 今天 Alan 在 Heptabase 的 discord 宣布：

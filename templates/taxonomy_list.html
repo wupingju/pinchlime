@@ -13,10 +13,9 @@
     </div>
     <ul class="root-ul">
       {% for category in terms %}
-        <h2 style="margin-left: -2.5rem"><a class="no-underline" href="{{ category.permalink }}">{{ category.name }}</a> ({{
+        <h3 style="margin-left: -2.5rem"><a class="no-underline" href="{{ category.permalink }}">{{ category.name }}</a> ({{
         category.pages | length }})</h2>
         {% for year, posts in category.pages | group_by(attribute="year") %}
-        <h3>{{ year }}</h3>
         <ul style="margin-left: -2.5rem">
           {% for post in posts %}
           <li>{{ macro::post_min(page=post) }}</li>

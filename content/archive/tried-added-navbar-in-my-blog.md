@@ -5,6 +5,8 @@ updated: 2022-06-04
 description: 這個研究的過程也讓我開始思考，是不是個人 wiki 還是用 Zola 來建更好？
 path: snapshots/what-i-tried-today/added-navbar-in-my-blog
 draft: false
+extra:
+  page_type: archive
 ---
 
 * 今天比較有空，就來處理 blog to-do list 上面的其中一項：加上 navbar。

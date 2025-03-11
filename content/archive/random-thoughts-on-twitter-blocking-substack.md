@@ -10,6 +10,8 @@ taxonomies:
   tags: 
     - Substack
     - Twitter
+extra:
+  page_type: archive
 ---
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/twitter-blocked-substack_ZKiaoI.webp" data-fancybox data-caption="Blocked on Twitter: Create a political cartoon illustrating Twitter blocking Substack. Consider using bold lines, caricatured figures, and ironic text to convey your message. 4k --ar 3:2 --v 5 ">

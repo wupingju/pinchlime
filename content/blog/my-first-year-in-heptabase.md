@@ -10,6 +10,8 @@ taxonomies:
   tags: 
     - Heptabase
     - Customer support
+extra:
+  page_type: blog
 ---
 
 今天是我加入 Heptabase 團隊正職滿一年的日子，想來寫個簡單的紀錄。

@@ -14,6 +14,8 @@ taxonomies:
     - Github
     - Markdown
     - Static Sites
+extra:
+  page_type: blog
 ---
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/zola-banner_pOklOy.webp" data-fancybox data-caption="zola-banner">

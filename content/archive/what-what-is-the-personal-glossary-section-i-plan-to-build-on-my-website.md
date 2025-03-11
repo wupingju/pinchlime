@@ -4,6 +4,8 @@ date: 2023-01-11
 updated: 2023-01-11
 description: 我可以更理解與更確定自己在用的這些詞，究竟是什麼意思？我有沒有誤用？這個詞本身是否有歧義？我怎麼看待這些歧義？
 path: snapshots/what/what-is-the-personal-glossary-section-i-plan-to-build-on-my-website
+extra:
+  page_type: archive
 ---
 
 最近在看了「[卡片笔记中的三种笔记类型](https://utgd.net/article/6941)」這篇文章後，對於「公認詞條筆記」跟「自創詞條筆記」這兩種類型的筆記很嚮往。

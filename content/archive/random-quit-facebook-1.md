@@ -4,6 +4,8 @@ date: 2020-09-05
 updated: 2020-09-05
 path: 2020/09/06/quit-facebook-1/
 description: 9月初台灣這波臉書大改版，真的是糟糕透頂，也讓我終於下定決心，要開始啟動放在抽屜很久的離開臉書計畫。
+extra:
+  page_type: archive
 ---
 
 我不是設計師、也不是什麼產品專家，

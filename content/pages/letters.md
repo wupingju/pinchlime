@@ -4,7 +4,8 @@ path: letters/
 date: 2024-05-26
 updated: 2025-03-10
 description: 大致上會是關於我最近做了、看了什麼、嘗試了什麼的經驗分享，篇幅不會太長，大概就像一篇短篇幅的臉書或 Twitter 貼文這樣。發文的時間與頻率不會固定，你可以想成有個朋友有事沒事就會傳個訊息給你，跟你分享他最近看了什麼或體驗了什麼東西。
-template: changelog.html
+extra:
+  page_type: single
 ---
 
 我會把我寫的信持續更新在這裡，讓你更容易連結過去，如果你要訂閱，請你到[這個連結](https://world.hey.com/mimir)輸入你的信箱並訂閱。

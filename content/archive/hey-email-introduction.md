@@ -10,6 +10,8 @@ taxonomies:
   tags: 
     - Email
     - HEY
+extra:
+  page_type: archive
 ---
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/hey-email_1WGP9P.webp" data-fancybox data-caption="hey-email">

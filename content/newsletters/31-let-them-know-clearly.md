@@ -5,6 +5,7 @@ updated: 2023-11-24
 description: 本次電子報想分享兩篇文章的閱讀心得，我覺得兩篇雖然講的是不同事情，但背後有個相近的概念是：讓你在職場上的協作對象清楚地知道你想幹嘛以及你在幹嘛。
 path: newsletters/let-them-know-clearly
 extra:
+  page_type: newsletter
   issues: 31
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/let-them-know-clearly_rVK4HY.webp
 ---

@@ -4,7 +4,8 @@ description: 訂閱 Pin 起來
 date: 2023-02-04
 updated: 2024-10-27
 path: subscribe/
-template: subscribe.html
+extra:
+  page_type: single
 ---
 
 
@@ -13,7 +14,6 @@ template: subscribe.html
 例如，你可以透過下列連結，只訂閱特定主類別的內容：
 
 - [Blog](/blog/atom.xml)
-- [Photography](/photography/atom.xml)
 
 你也可以針對 [tags](/tags) 裡面的個別 tag 項目訂閱，你就點開這個標籤的連結，並且在後面加上 `/atom.xml` ，就可以單獨訂閱了。
 

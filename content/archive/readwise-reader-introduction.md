@@ -4,6 +4,8 @@ date: 2022-12-18
 updated: 2022-12-18
 path: blog/readwise-reader-introduction
 description: 使用幾天下來，最大的收穫是，我的資訊「收集」、「畫線」、「註解」流程更順暢了，而且不用再自己建立一套有點複雜的工作流，在 Readwise 裡面完成後，就可以倒到 Heptabase 裡面處理與輸出。
+extra:
+  page_type: archive
 ---
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/readwise-reader_7e6hi8.webp" data-fancybox data-caption="readwise-reader">

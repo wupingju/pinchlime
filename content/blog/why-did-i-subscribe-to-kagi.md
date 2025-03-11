@@ -12,6 +12,7 @@ taxonomies:
     - Subscription
     - Search Engine
 extra:
+  page_type: blog
   image: https://image-webp.pinchlime.com/kagi-banner_DHsRIn.png
 ---
 

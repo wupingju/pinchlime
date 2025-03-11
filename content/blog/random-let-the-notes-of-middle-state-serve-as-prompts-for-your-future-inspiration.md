@@ -11,6 +11,7 @@ taxonomies:
     - Prompt
     - Ideas
 extra:
+  page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/abstract-colon_i1BdaA.webp
 ---
 

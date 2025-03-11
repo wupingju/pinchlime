@@ -4,6 +4,8 @@ date: 2022-04-30
 updated: 2022-04-30
 description: 最符合我期待的 footnotes 實踐方式，是讓比較與原文段落無關的補充，能夠出現在一個特定的地方，讀者可以「想看就找得到，不想看也不用看」。
 path: blog/added-footnotes-function
+extra:
+  page_type: archive
 ---
 
 昨天在 Zola 的官方討論區看到[有人在提問某個程式碼的問題](https://zola.discourse.group/t/getting-markdown-without-paragraph/1282)，但發現他那段程式碼的目的是想要自訂 footnotes ，也就是註腳的功能，這就讓我很感興趣。

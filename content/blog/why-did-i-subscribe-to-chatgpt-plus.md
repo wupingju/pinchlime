@@ -12,6 +12,7 @@ taxonomies:
     - o1
     - Subscription
 extra:
+  page_type: blog
   image: https://image-webp.pinchlime.com/chatgpt-o1_otE7ge.webp
 ---
 

@@ -9,6 +9,8 @@ taxonomies:
     - Tools
   tags: 
     - Heptabase
+extra:
+  page_type: blog
 ---
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-journal-cards_av2Keu.webp" data-fancybox data-caption="heptabase-journal-cards">

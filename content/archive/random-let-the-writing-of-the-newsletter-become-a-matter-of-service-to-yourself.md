@@ -9,6 +9,8 @@ taxonomies:
     - Random
   tags: 
     - Newsletters
+extra:
+  page_type: archive
 ---
 
 如同「[我為什麼還是想寫電子報？](@/archive/why-why-do-i-still-want-to-write-newsletters.md)」這篇裡面提到的，對我來說，要持續更新電子報這件事，因為是件持續性的事情，且不容易辦到，所以心理門檻很高，久而久之就容易擺爛放棄，但我又不想放棄。

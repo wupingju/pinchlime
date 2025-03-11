@@ -4,6 +4,8 @@ date: 2023-03-06
 updated: 2023-03-06
 description: 目前 ChatGPT API 還沒有辦法很好的保存對話脈絡。我想到的解方是，讓用戶可以自己選擇，要不要保存本次對話。這樣一來，只有你覺得重要、希望他記憶的對話，才會被記下來持續疊加使用，不僅比較省 tokens ，也更有機會維持更多輪保有脈絡的對話。
 path: blog/chatgpt-api-shortcut-chat-mode
+extra:
+  page_type: archive
 ---
 
 ## 前言

@@ -4,8 +4,8 @@ paginate_by: 20
 sort_by: date
 transparent: true
 generate_feeds: true
-template: newsletter_archive.html
-page_template: newsletter_page.html
+template: section.html
+page_template: page.html
 ---
 
 Hi ，你現在看到的是我曾經寫過的 **Pin 起來電子報** 存檔頁面。

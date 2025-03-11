@@ -9,6 +9,8 @@ taxonomies:
     - Random
   tags: 
     - Newsletters
+extra:
+  page_type: archive
 ---
 
 我最近打算開始重新連載電子報，這個念頭持續盤旋在我心中好久了。

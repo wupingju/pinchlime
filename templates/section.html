@@ -1,4 +1,6 @@
-{% extends "base.html" %} 
+{% extends "base.html" %}
+
+{# Common block definitions for all section types #}
 {% block canonical_url %}
 <link rel="canonical" href="{{ config.base_url }}{{ section.path }}" />
 {% endblock canonical_url %}
@@ -7,17 +9,39 @@
 {% block description %}{{ section.title }}{% endblock description %}
 {% block ogdesc %}{{ section.title }}{% endblock ogdesc %}
 {% block ogurl %}{{ config.base_url }}{{ section.path }}{% endblock ogurl %}
-{% block main %} 
 
-<section>
-  {% if paginator %} 
-  {% for page in paginator.pages %} 
-  {{ macro::post_max(page=page) }} 
-  {% endfor %} 
-  {% else %} 
-  {% for page in section.pages %} 
-  {{ macro::post_max(page=page) }} 
-  {% endfor %} 
-  {% endif %}
-</section>
+{% block main %}
+{# Handle pagination if present #}
+{% if paginator %}
+  {% set_global section_pages = paginator.pages %}
+{% else %}
+  {% set_global section_pages = section.pages | sort(attribute="updated") | reverse %}
+{% endif %}
+
+{# Get section type based on path #}
+{% set section_type = "" %}
+{% if section.path is starting_with("blog/") or section.relative_path is starting_with("blog/") %}
+  {% set section_type = "Blog" %}
+{% elif section.path is starting_with("archive/") or section.relative_path is starting_with("archive/") %}
+  {% set section_type = "Archive" %}
+{% elif section.path is starting_with("newsletters/") or section.relative_path is starting_with("newsletters/") %}
+  {% set section_type = "Newsletters" %}
+{% endif %}
+
+{# Display section content #}
+{% if section_type %}
+  <div class="element">
+    <h1>{{ section_type }}</h1>
+    <br>
+    <section>
+      {{ section.content | safe }}
+    </section>
+    <br>
+    <ul class="list-none">
+      {% for post in section_pages %}
+        <li>{{ macro::post_min(page=post) }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
 {% endblock main %}

@@ -5,6 +5,7 @@ updated: 2023-01-14
 description: 在經歷過多次失敗後，我想到，何不問問 ChatGPT 呢？
 path: blog/how-to-add-a-search-function-to-zola-generated-static-websites-via-pagefind
 extra:
+  page_type: archive
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pagefind_MyUsEp.webp
 ---
 

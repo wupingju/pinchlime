@@ -12,61 +12,107 @@
 {% block ogurl %}{% if page.path %}{{ config.base_url }}{{ page.path }} {% endif %}{% endblock ogurl %}
 {% block ogimg %}{% if page.extra.image %}{{ page.extra.image }}{% endif %}{% endblock ogimg %}
 {% block main %}
-<div class="element">
-      {% block detail_meta -%}
-      <header id="overview">
-        {% block breadcrumbs -%}
-        <div class="breadcrumbs">
-          <a href="{{ get_url(path="/", lang=lang) }}">Pin 起來</a>
-          <span class="separator">/</span>
-          <a class="category" href="{{ get_url(path="@/blog/_index.md",lang=lang) }}">Blog</a>
-          {% if page.taxonomies.categories %}
-          <span class="separator">/</span>
-          <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}"> {{ page.taxonomies.categories[0] }}</a>
-          {% endif %}
-          {% if page.taxonomies.kinds %}
-          <span class="divider">/</span>
-          <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0],lang=lang) }}">{{ page.taxonomies.kinds[0] }}</a>    
-          {% endif %}
-        </div>
-        {% endblock breadcrumbs %}
-        <div>
-          <h1>{% block detail_meta_slot %}{% endblock detail_meta_slot %}{{ page.title }}</h1>
-          <div class="muted post-meta">
-            <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time> 
-            <span>{{ config.extra.author }}</span>
-          </div>
-        </div>
-      </header>
-      {% endblock detail_meta -%}
 
-      <section data-pagefind-body>
+<div class="element">
+  <header id="overview">
+    {# Breadcrumbs based on page type #}
+    {% if page.extra.page_type != "single" %}
+    <div class="breadcrumbs">
+      <a href="{{ get_url(path="/", lang=lang) }}">Pin 起來</a>          
+      {% if page.extra.page_type == "archive" %}
+        <span class="separator">/</span>
+        <a class="category" href="{{ get_url(path="@/archive/_index.md",lang=lang) }}">Archive</a>
+      {% elif page.extra.page_type == "newsletter" %}
+        <span class="separator">/</span>
+        <a class="category" href="/newsletters/">Newsletters</a>
+        {% if page.taxonomies.categories %}
+        <span class="separator">/</span>
+        <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}"> {{ page.taxonomies.categories[0] }}</a>
+        {% endif %}
+        {% if page.taxonomies.kinds %}
+        <span class="divider">/</span>
+        <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0],lang=lang) }}">{{ page.taxonomies.kinds[0] }}</a>    
+        {% endif %}
+      {% elif page.extra.page_type == "blog" %}
+        <span class="separator">/</span>
+        <a class="category" href="{{ get_url(path="@/blog/_index.md",lang=lang) }}">Blog</a>
+        {% if page.taxonomies.categories %}
+        <span class="separator">/</span>
+        <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}"> {{ page.taxonomies.categories[0] }}</a>
+        {% endif %}
+        {% if page.taxonomies.kinds %}
+        <span class="divider">/</span>
+        <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0],lang=lang) }}">{{ page.taxonomies.kinds[0] }}</a>    
+        {% endif %}
+      {% endif %}
+    </div>
+    {% endif %}
+    
+    <div>
+      <h1>
+        {# Issue number for newsletters #}
+        {% if page.extra.page_type == "newsletter" and page.extra.issues %}
+        <span># {{page.extra.issues }} &nbsp;</span>
+        {% endif %}
+        {{ page.title }}
+      </h1>
+      <div class="muted post-meta">
+        <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time> 
+        <span>{{ config.extra.author }}</span>
+      </div>
+    </div>
+  </header>
         <section class="main">
           <section id="start"></section>
           <article>
-            {% block note -%}
-            {% endblock note -%}
+            {# Type-specific notices #}
+            <br>
+            {% if page.extra.page_type == "archive" %}
+            <setion>
+              <div class="archive-notice">
+                <p>
+                  <span class="archive-notice-icon">📦</span>
+                  <strong>這是一篇<a href="/archive">已歸檔</a>的文章</strong><br>
+                  這代表著我認為這篇文章的資訊已經過時；或者是對我來說已經不那麼重要。<br><br>
+                  如果你還是能在這些文字上面發現任何有價值的資訊或想法，歡迎跟我分享，也許我又會有新的想法了！
+                </p>
+              </div>
+            </setion>
+            <hr>
+            {% elif page.extra.page_type == "newsletter" %}
+            <setion>
+              <div class="archive-notice">
+                <p>
+                你正在閱讀的是舊版的 Pin 起來電子報！<br>
+                我現在已經轉移到另一個平台寫信，歡迎參考<a href="/newsletters/stop-writing-newsletters">這篇說明</a>以訂閱最新的信。<br>
+                </p>
+              </div>
+            </setion>
+            <hr>
+            {% endif %}            
             {{ page.content | safe }}
+            
             {% if page.taxonomies.tags %}
             <p>
               {% for tag in page.taxonomies.tags %}
               <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
               {% if loop.index != page.taxonomies.tags | length %}&nbsp;{% endif %}{% endif %}
-            {% endfor %}
+              {% endfor %}
             </p>
-           
             {% endif %}
-             <br>
-             {% if page.updated %}
-             <div class="muted updated-time">
-             <span>{{trans(key="label_updated",lang=lang)}}&nbsp;</span><time pubdate>{{ page.updated | date(format="%Y-%m-%d") }}</time>
-             <br>
-             {% endif %}
+            
+            <br>
+            {% if page.updated %}
+            <div class="muted updated-time">
+              <span>{{trans(key="label_updated",lang=lang)}}&nbsp;</span><time pubdate>{{ page.updated | date(format="%Y-%m-%d") }}</time>
+            </div>
+            {% endif %}
           </article>
         </section>
       </section>
-          <section id="backlinks">
-            {{ macro::backlink(pages=page.backlinks) }}
-          </section>
+      
+      <section id="backlinks">
+        {{ macro::backlink(pages=page.backlinks) }}
+      </section>
 </div>
 {% endblock main%}

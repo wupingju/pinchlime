@@ -5,6 +5,7 @@ updated: 2023-04-08
 description: ChatGPT 很適合拿來處理這種整合、重組文字的工作，我相信若再測試更多輪，人工微調 prompt ，它整合的效果會更好。
 path: blog/let-chatgpt-boost-midjourney-image-to-image
 extra:
+  page_type: archive
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/animals-merged_ipmegk.webp
 ---
 

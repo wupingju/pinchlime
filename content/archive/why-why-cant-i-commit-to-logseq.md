@@ -5,6 +5,8 @@ updated: 2022-06-03
 description: 自從 Heptabase 出現後，我就感覺 Logseq 蠻難作為第二大腦的儲放地點，最多最多只能當作想法隨意萌芽迸發的地方，而一但有了某種固定的結構，就適合放到 Heptabase 裡面當作我的原子筆記。
 path: snapshots/why/why-cant-i-commit-to-logseq
 draft: false
+extra:
+  page_type: archive
 ---
 
 我覺得使用 Logseq 幾個月下來，似乎讓我沒辦法有「累積」的感覺，我只知道我建立了很多東西，但他的搜尋體驗沒有太好，很難直覺找到我想找的東西，而即使要透過連結，我也必須要先知道「我有這個東西可以連結」，才能連結的到。

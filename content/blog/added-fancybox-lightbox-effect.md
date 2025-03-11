@@ -10,6 +10,8 @@ taxonomies:
   tags: 
     - Zola
     - Fancybox
+extra:
+  page_type: blog
 ---
 
 這兩天又幫網站新增了一個小功能：圖片燈箱彈窗。效果可以直接點擊下圖參考：

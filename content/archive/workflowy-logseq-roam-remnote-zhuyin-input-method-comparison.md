@@ -4,6 +4,8 @@ date: 2022-02-26
 updated: 2022-02-26
 path: 2022/02/26/workflowy-logseq-roam-remnote-zhuyin-input-method-comparison/
 description: 如果仰賴注音輸入啟動雙向連結，建議用 Logseq 或 Roam Research。
+extra:
+  page_type: archive
 ---
 
 > 本文原先是我自己[在推特上的想法](https://twitter.com/WuPingJu/status/1496869085186908163)，擴寫為比較完整的文。

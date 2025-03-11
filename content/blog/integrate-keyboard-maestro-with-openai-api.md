@@ -10,6 +10,8 @@ taxonomies:
   tags: 
     - OpenAI API
     - Keyboard Maestro
+extra:
+  page_type: blog
 ---
 
 

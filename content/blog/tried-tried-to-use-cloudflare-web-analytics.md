@@ -12,6 +12,7 @@ taxonomies:
     - Umami
     - Netlify
 extra:
+  page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cloudflare-web-analytics_Ju2RGs.webp
 ---
 

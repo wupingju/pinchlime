@@ -5,6 +5,7 @@ updated: 2023-01-09
 description: 覺得整體表現比我想像中的還好，因為我 7 到 11 月幾乎都沒在 PO 文，所以應該都是靠先前的幾篇文章撐起流量的。
 path: blog/2022-website-stats
 extra:
+  page_type: archive
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/umami-record-pinchlime-2206-2212_7z9h7t.webp
 ---
 

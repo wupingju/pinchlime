@@ -5,6 +5,7 @@ updated: 2023-03-19
 description: 這些核心的概念再進一步收攏歸納後，共通點是，我在使用 AI 工具上可以更有效率。我不會因為用了某工具反而做得更差、我也不會迷失在萬千 AI 工具裡面不知道接下來要幹嘛、該選哪個用。
 path: newsletters/my-three-principles-for-choosing-ai-tools
 extra:
+  page_type: newsletter
   issues: 24
 ---
 

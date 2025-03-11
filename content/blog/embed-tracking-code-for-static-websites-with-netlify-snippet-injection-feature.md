@@ -10,6 +10,8 @@ taxonomies:
   tags: 
     - Netlify
     - Static Websites
+extra:
+  page_type: blog
 ---
 
 過年期間，來清倉一些之前想要寫，但沒時間寫的小題目。

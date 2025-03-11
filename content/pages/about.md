@@ -3,8 +3,9 @@ title: 關於 PJ Wu 以及 Pin 起來
 path: about/
 date: 2025-01-13
 updated: 2025-03-10
-template: changelog.html
 description: 這個網站 Pin 起來 ／ Pinchlime.com 是由我自己一個人獨立經營的部落格，主要是拿來放我寫的各種關於生產力工具、生產力方法論、工作流（workflow）、以及其他各種雜談的文章。
+extra:
+  page_type: single
 ---
 
 ## 關於我

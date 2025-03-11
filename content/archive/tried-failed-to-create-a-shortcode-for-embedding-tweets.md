@@ -11,6 +11,8 @@ taxonomies:
     - Twitter
     - Zola
     - Shortcode
+extra:
+  page_type: archive
 ---
 
 本週在編輯第 16 期電子報的時候，嘗試了 substack 貼上推文串的功能，覺得效果蠻好的、也很直覺。

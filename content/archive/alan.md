@@ -6,6 +6,7 @@ description: 使用 Heptabase 的「頓悟時刻」是，當你逐漸從愈來�
 path: library/translations/alan-chan-heptabase-featured-tool
 draft: true
 extra:
+  page_type: archive
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-interview-1_rFJlXH.webp
 ---
 

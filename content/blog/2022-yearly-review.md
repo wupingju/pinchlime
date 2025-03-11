@@ -10,6 +10,7 @@ taxonomies:
   tags: 
     - Productivity
 extra:
+  page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/2022-review-1200_iTja5i.webp
 ---
 

@@ -10,6 +10,8 @@ taxonomies:
   tags: 
     - ChatGPT
     - new Bing
+extra:
+  page_type: blog
 ---
 
 ### 美好的開始

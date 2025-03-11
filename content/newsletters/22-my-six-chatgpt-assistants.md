@@ -5,6 +5,7 @@ updated: 2023-03-05
 description: 整個過程測試下來，我發現目前若要大量串接使用 API 協助我，「prompts 的設定方式」還是很重要的，不僅可以更有效率得到自己想要的內容，也可以省下寶貴的 tokens 。但更重要的應該還是釐清自己的需求是什麼，先有某個很想要解決或尋求幫助的任務，再來考慮如何請 AI 幫忙，就會更省力也更容易達成目標。
 path: newsletters/my-six-chatgpt-assistants
 extra:
+  page_type: newsletter
   issues: 22
 ---
 

@@ -9,6 +9,8 @@ taxonomies:
     - Reviews
   tags: 
     - Productivity Tools
+extra:
+  page_type: blog
 ---
 
 上週分享了一篇 [2022 年我不再使用的工具 ](@/blog/2022-tools-i-dont-use-anymore.md)，今天來分享那些 2022 年開始成為我工作流一部份的好工具。

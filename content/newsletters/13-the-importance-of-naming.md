@@ -6,6 +6,7 @@ description: 在命名的架構裡面，時間是一個通用的單位，能讓�
 draft: false
 path: newsletters/the-importance-of-naming
 extra:
+  page_type: newsletter
   issues: 13
 ---
 

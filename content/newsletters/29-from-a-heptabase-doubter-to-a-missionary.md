@@ -5,6 +5,7 @@ updated: 2023-08-19
 description: 雖然還是一個很早期的新創公司，但令我印象深刻的是 ，Hepta 內部對於公司願景（vision）、使命（mission）、文化與核心價值觀的討論非常頻繁，而且也與我自己的價值觀與追求高度相符，這也讓我能夠很順利地融入，並且對齊我自己的工作期待。
 path: newsletters/from-a-heptabase-doubter-to-a-missionary
 extra:
+  page_type: newsletter
   issues: 29
 ---
 

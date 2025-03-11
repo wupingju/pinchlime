@@ -10,6 +10,8 @@ taxonomies:
   tags: 
     - Heptabase
     - Insight Generator
+extra:
+  page_type: blog
 ---
 
 昨天，[Heptabase](https://get.heptabase.com/pinchlime) 推出 v1.36.0 版本，上線了 [Insight Generator](https://www.youtube.com/watch?v=uYGqvEksAz8) 這個功能。他可以透過 AI 的協助，從你選定的文章卡片，產生出幾個 “insight” 段落，並附上相對應的原文段落。

@@ -6,6 +6,7 @@ description: 當別人更理解我正在想什麼、好奇什麼、喜歡研究�
 draft: false
 path: newsletters/open-source-my-thoughts
 extra:
+  page_type: newsletter
   issues: 12
 ---
 

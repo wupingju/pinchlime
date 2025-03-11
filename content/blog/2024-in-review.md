@@ -9,6 +9,8 @@ taxonomies:
     - Reviews
   tags: 
     - Productivity
+extra:
+  page_type: blog
 ---
 
 

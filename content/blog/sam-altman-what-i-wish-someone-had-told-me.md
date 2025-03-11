@@ -8,6 +8,8 @@ draft: true
 taxonomies:
   tags: 
     - Sam Altman
+extra:
+  page_type: blog
 ---
 
 

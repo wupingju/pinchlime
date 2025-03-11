@@ -4,6 +4,8 @@ date: 2022-04-02
 updated: 2022-04-02
 path: 2022/04/02/raycast-introduction/
 description: Raycast 在我短短體驗的心得看來，是個更親人、更好入門，但功能卻不打折的超級啟動器，能減少很多繁瑣的流程，讓自己更專注於完成那些想進行的任務。
+extra:
+  page_type: archive
 ---
 
 <a href="https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/raycast_A44cKa.webp" data-fancybox data-caption="raycast">
