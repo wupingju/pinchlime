@@ -188,7 +188,7 @@ h2 {
   font-size: var(--font-size-xl);
   padding-left: var(--spacing-md);
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
   margin-top: var(--spacing-md);
   margin-bottom: var(--spacing-md);
@@ -202,14 +202,7 @@ h3 {
   padding-bottom: var(--spacing-xs);
   margin-bottom: var(--spacing-xs);
   line-height: 1.5;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: var(--font-size-lg);
-  padding-top: var(--spacing-xs);
-  padding-bottom: var(--spacing-xs);
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /* Paragraphs and lists */
