@@ -192,15 +192,8 @@ a:hover {
 
 .no-underline:link,
 .no-underline:visited,
-.sidebar a:link,
-.sidebar a:visited {
-  text-decoration: none;
-}
 
 /* Text utilities */
-.text-lg {
-  font-size: var(--font-size-xl);
-}
 
 .text-sm {
   font-size: var(--font-size-sm);
@@ -267,11 +260,6 @@ a:hover {
   flex-direction: column;
 }
 
-.bg-none {
-  background: none;
-  box-shadow: none;
-}
-
 /* ==============================
    6. NAVIGATION
 ============================== */
@@ -312,10 +300,6 @@ a:hover {
 
 .navbar-top a:link {
   color: var(--color-white);
-}
-
-.menu li:not(:last-child) {
-  margin-right: var(--spacing-md);
 }
 
 .menu-button {
@@ -564,23 +548,6 @@ pre > code {
   padding-right: var(--spacing-sm);
 }
 
-.px {
-  padding-left: var(--spacing-lg);
-  padding-right: var(--spacing-lg);
-}
-
-.pt {
-  padding-top: var(--spacing-md);
-  padding-bottom: var(--spacing-xl);
-}
-
-.pb {
-  padding-bottom: var(--spacing-lg);
-}
-
-.pb-md {
-  padding-bottom: 1rem;
-}
 
 /* Display */
 
@@ -591,10 +558,6 @@ pre > code {
   padding: 0;
 }
 
-/* Width */
-.max-w-xl {
-  max-width: 50rem;
-}
 
 /* ==============================
    11. COMPONENTS
@@ -629,18 +592,6 @@ hr {
 /* Lists */
 .li_archive {
   max-width: 36rem;
-}
-
-.li_archive_news {
-  max-width: 36rem;
-  margin-left: 2.5rem;
-  margin-right: var(--spacing-md);
-  text-indent: -48px;
-}
-
-li.inline {
-  display: inline-block;
-  margin-right: var(--spacing-sm);
 }
 
 /* Archive notice */
@@ -767,15 +718,6 @@ li.inline {
   color: #666;
 }
 
-/* Continue reading button */
-.continue-reading-btn {
-  padding: 8px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  font-size: 18px;
-}
 
 /* Anchor links */
 :target {
@@ -787,16 +729,6 @@ li.inline {
   display: block;
   height: 56px;
   margin-top: -56px;
-}
-
-.zola-anchor {
-  margin-left: var(--spacing-sm);
-  text-decoration: none;
-}
-
-.zola-anchor:link,
-.zola-anchor:visited {
-  text-decoration: none;
 }
 
 /* Font loading */
@@ -904,9 +836,6 @@ li.inline {
   }
 
   .li_archive,
-  .li_archive_news {
-    max-width: 16rem;
-  }
 
   .fleet {
     width: 100%;
