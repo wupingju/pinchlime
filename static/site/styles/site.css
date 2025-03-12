@@ -127,6 +127,8 @@ select {
 html {
   font-size: var(--font-size-base);
   box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
 
 body {
