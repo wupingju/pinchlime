@@ -168,8 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: var(--font-size-xxl);
   padding-top: var(--spacing-md);
-  padding-bottom: var(--spacing-xs);
-  margin-bottom: var(--spacing-xs);
+  padding-bottom: var(--spacing-md);
   line-height: 1.5;
   font-weight: 600;
 }
@@ -181,16 +180,15 @@ h2 {
   font-weight: 600;
   position: relative;
   margin-top: var(--spacing-md);
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
   border-left: 4px solid var(--color-primary);
   margin-left: -16px;
 }
 
 h3 {
   font-size: var(--font-size-lg);
-  padding-top: var(--spacing-lg);
-  padding-bottom: var(--spacing-xs);
-  margin-bottom: var(--spacing-xs);
+  padding-top: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
   line-height: 1.5;
   font-weight: 600;
 }
@@ -205,6 +203,8 @@ p, dl, ol, ul {
 
 p {
   text-align: justify;
+  padding-top: var(--spacing-sm);
+  padding-bottom: var(--spacing-sm);
 }
 
 li {
@@ -275,7 +275,6 @@ a:hover {
   max-width: var(--element-max-width);
   min-width: var(--element-min-width);
   margin: 0 auto;
-  margin-bottom: var(--spacing-xxl);
 }
 
 /* Flex utilities */
@@ -879,7 +878,7 @@ hr {
     display: flex;
     font-size: 15px;
     text-align: center;
-    width: 50%;
+    width: 25%;
     flex-direction: column;
     position: absolute;
     top: 56px;
@@ -892,7 +891,6 @@ hr {
   }
 
   .mobile-menu.show a {
-    padding: var(--spacing-sm) 0;
     color: var(--color-text);
   }
 
