@@ -72,9 +72,8 @@
   
   /* Font Stacks */
   --font-primary: "Noto Sans TC", "Inter", "Menlo", "PT Mono", "Arial", "Helvetica", 
-                  "Helvetica Neue", "PingFang TC", "PingFang SC", 
-                  sans-serif, Georgia;
-  --font-mono: Menlo, Courier, monospace, Consolas, "Liberation Mono";
+                  "Helvetica Neue", "PingFang TC";
+  --font-mono: "Courier", "monospace", "Liberation Mono";
 }
 
 /* ==============================
@@ -722,30 +721,10 @@ hr {
    6. UTILITIES
 ============================== */
 /* Margins */
-.my {
-  margin-top: var(--spacing-lg);
-  margin-bottom: var(--spacing-lg);
-}
-
-.my-md {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
 
 .my-neg-sm {
-  margin-top: -0.5rem;
-  margin-bottom: -0.5rem;
-}
-
-/* Padding */
-.py {
-  padding-top: var(--spacing-lg);
-  padding-bottom: var(--spacing-lg);
-}
-
-.py-sm {
-  padding-top: var(--spacing-sm);
-  padding-bottom: var(--spacing-sm);
+  margin-top: 0rem;
+  margin-bottom: -1rem;
 }
 
 /* Anchor links */
@@ -773,14 +752,6 @@ hr {
     --element-padding: 1rem 4rem;
     --element-max-width: 52rem;
     --element-min-width: 24rem;
-  }
-
-  .no-toc {
-    width: 22rem;
-  }
-
-  .main-toc {
-    display: none;
   }
 
   .body-zone {
