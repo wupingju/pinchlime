@@ -50,14 +50,17 @@
   --font-size-xl: calc(var(--font-size-lg) * var(--font-size-scale));
   --font-size-xxl: calc(var(--font-size-xl) * var(--font-size-scale));
   
-  /* Spacing Scale */
-  --spacing-unit: 0.2rem;
+  /* Refined Spacing Scale */
+  --spacing-unit: 0.25rem;  /* From 0.2rem to 0.25rem for better alignment with 4px grid */
   --spacing-xs: var(--spacing-unit);
-  --spacing-sm: calc(var(--spacing-xs) * 2);
-  --spacing-md: calc(var(--spacing-sm) * 2);
-  --spacing-lg: calc(var(--spacing-md) * 1.4);
-  --spacing-xl: calc(var(--spacing-md) * 2);
-  --spacing-xxl: calc(var(--spacing-xl) * 1.25);
+  --spacing-sm: calc(var(--spacing-unit) * 2);  /* 0.5rem */
+  --spacing-md: calc(var(--spacing-unit) * 4);  /* 1rem */
+  --spacing-lg: calc(var(--spacing-unit) * 6);  /* 1.5rem */
+  --spacing-xl: calc(var(--spacing-unit) * 8);  /* 2rem */
+  --spacing-xxl: calc(var(--spacing-unit) * 12); /* 3rem */
+  
+  /* Add content spacing */
+  --content-spacing: var(--spacing-md);  /* Consistent spacing between content elements */
   
   /* Layout */
   --element-width: 90%;
@@ -238,6 +241,13 @@ a:visited {
 a:hover {
   color: var(--color-link-hover);
   text-decoration: underline;
+}
+
+
+/* Add text selection styling */
+::selection {
+  background-color: var(--color-primary);
+  color: white;
 }
 
 /* Text utilities */
@@ -561,13 +571,14 @@ pre > code {
 /* 5.5 Blockquotes & notices */
 blockquote {
   background-color: #f8f9fa;
-  border-left: 4px solid #6c757d;
-  padding: 12px 16px;
-  margin-bottom: 24px;
-  border-radius: 0 4px 4px 0;
-  font-size: 0.9rem;
-  color: #6c757d;
+  border-left: 4px solid var(--color-primary);  /* Use your primary color instead of gray */
+  padding: 16px 20px;  /* Slightly more padding */
+  margin: var(--spacing-lg) 0;  /* Use your spacing variables */
+  border-radius: 0 8px 8px 0;  /* Rounder right corners */
+  font-size: 1rem;  /* Slightly larger */
+  color: #4a5568;  /* Darker text for better readability */
   position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);  /* Subtle shadow */
 }
 
 blockquote p {
@@ -578,7 +589,7 @@ blockquote p {
 hr {
   display: block;
   height: 1px;
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
   border: 1px solid var(--color-divider);
   margin-top: var(--spacing-xl);
@@ -588,13 +599,14 @@ hr {
 /* Archive notice */
 .archive-notice {
   background-color: #f8f9fa;
-  border-left: 4px solid #6c757d;
-  padding: 12px 16px;
-  margin-bottom: 24px;
-  border-radius: 0 4px 4px 0;
-  font-size: 0.9rem;
-  color: #6c757d;
+  border-left: 4px solid var(--color-primary);  /* Use your primary color instead of gray */
+  padding: 16px 20px;  /* Slightly more padding */
+  margin: var(--spacing-lg) 0;  /* Use your spacing variables */
+  border-radius: 0 8px 8px 0;  /* Rounder right corners */
+  font-size: 1rem;  /* Slightly larger */
+  color: #4a5568;  /* Darker text for better readability */
   position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);  /* Subtle shadow */
 }
 
 .archive-notice p {
