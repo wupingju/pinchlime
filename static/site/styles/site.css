@@ -214,10 +214,6 @@ a:hover {
   color: var(--color-muted);
 }
 
-.bold {
-  font-weight: 600;
-}
-
 .font-mono {
   font-family: Menlo, monospace;
 }
@@ -250,16 +246,9 @@ a:hover {
   display: flex;
 }
 
-.flex-3 {
-  flex: 3;
-}
-
+/* 用在 base main */
 .flex-1 {
   flex: 1;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .justify-between {
@@ -548,34 +537,10 @@ pre > code {
    10. UTILITY CLASSES
 ============================== */
 /* Margins */
-.mb {
-  margin-bottom: var(--spacing-lg);
-}
-
-.mb-li {
-  margin-bottom: var(--spacing-md);
-}
-
-.mb-lg {
-  margin-bottom: 2.4rem;
-}
-
-.mr {
-  margin-right: var(--spacing-lg);
-}
-
-.mr-sm {
-  margin-right: var(--spacing-sm);
-}
 
 .my {
   margin-top: var(--spacing-lg);
   margin-bottom: var(--spacing-lg);
-}
-
-.my-2 {
-  margin-top: 2.4rem;
-  margin-bottom: 2.4rem;
 }
 
 .my-md {
@@ -586,10 +551,6 @@ pre > code {
 .my-neg-sm {
   margin-top: -0.5rem;
   margin-bottom: -0.5rem;
-}
-
-.m-l-2 {
-  margin-left: var(--spacing-sm);
 }
 
 /* Padding */
@@ -608,88 +569,26 @@ pre > code {
   padding-right: var(--spacing-lg);
 }
 
-.px-sm {
-  padding-top: var(--spacing-sm);
-  padding-right: var(--spacing-sm);
-}
-
-.px-2xl {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.pr-sm {
-  padding-right: var(--spacing-sm);
-}
-
-.pl-sm {
-  padding-left: var(--spacing-sm);
-}
-
 .pt {
   padding-top: var(--spacing-md);
   padding-bottom: var(--spacing-xl);
-}
-
-.pl {
-  padding-left: var(--spacing-lg);
 }
 
 .pb {
   padding-bottom: var(--spacing-lg);
 }
 
-.pb-sm {
-  padding-bottom: var(--spacing-sm);
-}
-
 .pb-md {
   padding-bottom: 1rem;
 }
 
-
-.p0 {
-  padding: 0;
-}
-
-.p-sm {
-  padding: var(--spacing-xs);
-}
-
-/* Borders & Shapes */
-.border-muted {
-  border: 1px solid var(--color-muted);
-}
-
-.rounded-full {
-  border-radius: 999rem;
-}
-
-.rounded {
-  border-radius: 0.25rem;
-}
-
-.no-border {
-  border: none;
-}
-
 /* Display */
-.w-full {
-  width: 100%;
-}
 
-.inline-block {
-  display: inline-block;
-}
 
 .list-none {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-.display-none {
-  display: none;
 }
 
 /* Width */
@@ -725,14 +624,6 @@ hr {
   border: 1px solid var(--color-divider);
   margin-top: var(--spacing-xl);
   margin-bottom: var(--spacing-xl);
-}
-
-.custom-hr {
-  display: block;
-  height: 1px;
-  width: 30%;
-  margin: var(--spacing-xl) auto;
-  border: 1px solid var(--color-divider);
 }
 
 /* Lists */
