@@ -128,7 +128,6 @@ html {
   font-size: var(--font-size-base);
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
 }
 
 body {
@@ -137,6 +136,9 @@ body {
   color: var(--color-text);
   background-color: var(--color-background);
   line-height: 2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 #root {
@@ -163,25 +165,35 @@ body {
    3. TYPOGRAPHY
 ============================== */
 /* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+  /* Fix font rendering issues */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* Prevent fractional positioning by using pixel-snapping */
+  transform: translateZ(0);
+}
+
 h1 {
   font-size: var(--font-size-xxl);
   padding-top: var(--spacing-md);
   padding-bottom: var(--spacing-xs);
   margin-bottom: var(--spacing-xs);
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: 600;
 }
 
 h2 {
   font-size: var(--font-size-xl);
   padding-left: var(--spacing-md);
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: 500;
   position: relative;
   margin-top: var(--spacing-md);
   margin-bottom: var(--spacing-md);
-  border-left: 0.5rem solid var(--color-primary);
-  margin-left: -1.5rem;
+  border-left: 4px solid var(--color-primary);
+  margin-left: -16px;
 }
 
 h3 {
@@ -189,7 +201,7 @@ h3 {
   padding-top: var(--spacing-lg);
   padding-bottom: var(--spacing-xs);
   margin-bottom: var(--spacing-xs);
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: bold;
 }
 
