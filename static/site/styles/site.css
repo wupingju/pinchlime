@@ -44,7 +44,7 @@
   /* Typography Scale */
   --font-size-base: 15px;
   --font-size-scale: 1.1;
-  --font-size-sm: 1rem;
+  --font-size-sm: 1.1rem;
   --font-size-md: calc(var(--font-size-sm) * var(--font-size-scale));
   --font-size-lg: calc(var(--font-size-md) * var(--font-size-scale));
   --font-size-xl: calc(var(--font-size-lg) * var(--font-size-scale));
@@ -71,8 +71,8 @@
   --container-max-width: 90rem;
   
   /* Font Stacks */
-  --font-primary: "jf-jinxuanlatte", "Inter", "Menlo", "PT Mono", "Arial", "Helvetica", 
-                  "Helvetica Neue", "Noto Sans TC", "PingFang TC", "PingFang SC", 
+  --font-primary: "Noto Sans TC", "Inter", "Menlo", "PT Mono", "Arial", "Helvetica", 
+                  "Helvetica Neue", "PingFang TC", "PingFang SC", 
                   sans-serif, Georgia;
   --font-mono: Menlo, Courier, monospace, Consolas, "Liberation Mono";
 }
@@ -149,19 +149,6 @@ body {
   margin-right: auto;
   max-width: var(--container-max-width);
   padding-top: var(--navbar-height);
-}
-
-/* Font loading */
-.jf-loading body {
-  opacity: 0;
-  visibility: hidden;
-}
-
-.jf-active body, 
-.jf-inactive body {
-  opacity: 1;
-  visibility: visible;
-  transition: opacity 0.3s ease;
 }
 
 /* ==============================
