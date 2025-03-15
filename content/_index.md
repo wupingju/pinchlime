@@ -15,7 +15,7 @@ title: Pin 起來
 ## 如何使用這個網站？
 
 ### 看 Heptabase 相關內容
-在這個網站中最受歡迎的內容是[ Heptabase 的完整介紹](@/blog/heptabase-introduction.md)，如果你順著 [Heptabase](/tags/heptabase) 的標籤瀏覽，你會看到更多 Heptabase 相關的心得或介紹。
+在這個網站中最受歡迎的內容是 [Heptabase 的完整介紹](@/blog/heptabase-introduction.md)，如果你順著 [Heptabase](/tags/heptabase) 的標籤瀏覽，你會看到更多 Heptabase 相關的心得或介紹。
 
 
 ### 看一些比較長篇的介紹或回顧心得
