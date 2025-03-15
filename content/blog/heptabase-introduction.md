@@ -7,10 +7,7 @@ description: Heptabase 對我來說是當前市面上最符合我需求的「個
 aliases: [2022/02/27/heptabase-introduction]
 taxonomies:
   categories: 
-    - Tools
-  tags: 
     - Heptabase
-    - Learning
 extra:
   page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/heptabase-landing-2023_cirP6y.webp

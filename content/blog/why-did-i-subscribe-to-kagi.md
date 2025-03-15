@@ -7,10 +7,6 @@ description: 幾次搜尋下來，我發現我不用做任何事情，搜尋的�
 taxonomies:
   categories: 
     - Tools
-  tags: 
-    - Kagi
-    - Subscription
-    - Search Engine
 extra:
   page_type: blog
   image: https://image-webp.pinchlime.com/kagi-banner_DHsRIn.png

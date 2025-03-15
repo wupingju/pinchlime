@@ -7,9 +7,6 @@ description: 就這樣一個牽一個，我不知不覺地接觸到了許多之�
 taxonomies:
   categories: 
     - Reviews
-  tags: 
-    - GTD
-    - OmniFocus
 extra:
   page_type: blog
 ---

@@ -11,12 +11,7 @@
 {% block ogurl %}{{ config.base_url }}{{ section.path }}{% endblock ogurl %}
 
 {% block main %}
-{# Determine section pages with pagination support #}
-{% if paginator %}
-  {% set section_pages = paginator.pages %}
-{% else %}
-  {% set section_pages = section.pages | sort(attribute="updated") | reverse %}
-{% endif %}
+{% set section_pages = section.pages | sort(attribute="updated") | reverse %}
 
 {# Determine section type from path #}
 {% set section_type = section.path | split(pat="/") | first | capitalize %}

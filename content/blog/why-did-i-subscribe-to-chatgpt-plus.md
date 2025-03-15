@@ -7,10 +7,6 @@ description: 我知道這幾個細節就是這個任務的關鍵，我也知道�
 taxonomies:
   categories: 
     - Tools
-  tags: 
-    - ChatGPT
-    - o1
-    - Subscription
 extra:
   page_type: blog
   image: https://image-webp.pinchlime.com/chatgpt-o1_otE7ge.webp

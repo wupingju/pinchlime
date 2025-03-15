@@ -6,8 +6,6 @@ path: blog/the-benefits-of-putting-journals-on-whiteboards-in-heptabase
 description: 對我來說這個新上線的功能，打開的不只是對未來的規劃可能性而已，對過去紀錄內容的可達性也更高了。
 taxonomies:
   categories: 
-    - Tools
-  tags: 
     - Heptabase
 extra:
   page_type: blog

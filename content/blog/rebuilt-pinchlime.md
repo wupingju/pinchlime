@@ -7,13 +7,6 @@ path: blog/rebuilt-pinchlime
 taxonomies:
   categories: 
     - Pinchlime
-  tags: 
-    - Wordpress
-    - Zola
-    - Netlify
-    - Github
-    - Markdown
-    - Static Sites
 extra:
   page_type: blog
 ---

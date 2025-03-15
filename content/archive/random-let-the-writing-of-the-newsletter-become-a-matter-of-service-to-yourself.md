@@ -7,8 +7,6 @@ path: snapshots/random/let-the-writing-of-the-newsletter-become-a-matter-of-serv
 taxonomies:
   categories: 
     - Random
-  tags: 
-    - Newsletters
 extra:
   page_type: archive
 ---

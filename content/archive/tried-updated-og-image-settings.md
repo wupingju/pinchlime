@@ -7,8 +7,6 @@ path: snapshots/what-i-tried-today/updated-og-image-settings
 taxonomies:
   categories: 
     - Pinchlime
-  tags: 
-    - Zola
 extra:
   page_type: archive
 ---

@@ -7,8 +7,6 @@ path: snapshots/random/thoughts-about-building-a-digital-copy
 taxonomies:
   categories: 
     - Random
-  tags: 
-    - Digital Copy
 extra:
   page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/my-digital-copy_ivqb5z.webp

@@ -48,10 +48,6 @@
         <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0], lang=lang) }}">{{ page.taxonomies.categories[0] }}</a>
         {% endif %}
         
-        {% if page.taxonomies.kinds %}
-        <span class="divider">/</span>
-        <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0], lang=lang) }}">{{ page.taxonomies.kinds[0] }}</a>
-        {% endif %}
       {% endif %}
     </div>
     {% endif %}
@@ -65,7 +61,11 @@
         {{ page.title }}
       </h1>
       <div class="muted post-meta">
-        <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time> 
+        {% if page.updated and page.updated != page.date %}
+        <time pubdate>{{ page.updated | date(format="%Y-%m-%d") }}</time>
+        {% else %}
+        <time pubdate>{{ page.date | date(format="%Y-%m-%d") }}</time>
+        {% endif %}
         <span>{{ config.extra.author }}</span>
       </div>
     </div>
@@ -97,25 +97,12 @@
       {% endif %}
       
       {{ page.content | safe }}
-      
-      {% if page.taxonomies.tags %}
-      <p>
-        {% for tag in page.taxonomies.tags %}
-        <a class="muted text-sm" href="{{ get_taxonomy_url(kind="tags", name=tag, lang=lang) }}">#{{ tag }}</a>
-        {% if not loop.last %}&nbsp;{% endif %}
-        {% endfor %}
-      </p>
-      {% endif %}
-      
+            
       <br>
-      {% if page.updated %}
-      <div class="muted updated-time">
-        <span>Last modified on&nbsp;</span><time pubdate>{{ page.updated | date(format="%Y-%m-%d") }}</time>
-      </div>
       <section id="backlinks">
         {{ macro::backlink(pages=page.backlinks) }}
       </section>
-      {% endif %}
+
     </article>
   </section>
 </div>

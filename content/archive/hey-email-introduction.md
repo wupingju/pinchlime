@@ -7,9 +7,6 @@ description: HEY 認為，Email 本該是寶藏，但近年來卻讓人失望，
 taxonomies:
   categories: 
     - Tools
-  tags: 
-    - Email
-    - HEY
 extra:
   page_type: archive
 ---

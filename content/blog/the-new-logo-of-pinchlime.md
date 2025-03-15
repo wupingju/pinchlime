@@ -7,8 +7,6 @@ description: Pin 起來 這個部落格當時是先想好中文的名字，覺�
 taxonomies:
   categories: 
     - Pinchlime
-  tags:
-    - Logo
 extra:
   page_type: blog
 ---

@@ -7,9 +7,6 @@ path: snapshots/random/thoughts-on-twitter-blocking-substack
 taxonomies:
   categories: 
     - Random
-  tags: 
-    - Substack
-    - Twitter
 extra:
   page_type: archive
 ---

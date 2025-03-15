@@ -5,9 +5,7 @@ default_language = "zh-TW"
 description = "介紹生產力工具，以及分享使用心得"
 generate_feeds = true
 taxonomies = [
-  {name = "tags", feed = true},
   {name = "categories", feed = true},
-  {name = "kinds", feed = true},
 ]
 title = "Pin 起來！"
 generate_sitemap = true

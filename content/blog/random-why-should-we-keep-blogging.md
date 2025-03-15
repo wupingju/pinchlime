@@ -7,8 +7,6 @@ description: 只要多寫、持續寫，很多原本想像不到的好事情，�
 taxonomies:
   categories: 
     - Random
-  tags: 
-    - Blogging
 extra:
   page_type: blog
 ---

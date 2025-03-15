@@ -7,10 +7,6 @@ path: snapshots/what-i-tried-today/failed-to-create-a-shortcode-for-embedding-tw
 taxonomies:
   categories: 
     - Pinchlime
-  tags: 
-    - Twitter
-    - Zola
-    - Shortcode
 extra:
   page_type: archive
 ---

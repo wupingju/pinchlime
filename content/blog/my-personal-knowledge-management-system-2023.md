@@ -7,10 +7,6 @@ description: 這篇文章提出了一個「個人知識管理系統」，期待�
 taxonomies:
   categories: 
     - Tools
-  tags: 
-    - Personal Knowledge Management
-    - Heptabase
-    - Productivity
 extra:
   page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/personal_knowledge_management_AALGXU.webp

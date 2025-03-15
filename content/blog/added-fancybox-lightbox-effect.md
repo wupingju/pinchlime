@@ -7,9 +7,6 @@ path: blog/added-fancybox-lightbox-effect
 taxonomies:
   categories: 
     - Pinchlime
-  tags: 
-    - Zola
-    - Fancybox
 extra:
   page_type: blog
 ---

@@ -6,10 +6,7 @@ path: blog/my-first-year-in-heptabase
 description: 我知道我在做的工作是有價值的事，因此我就更有動力把這些事做好。而當我把事情做好，又會直接得到團隊或用戶的正面回饋，這就進入了一個正循環。我發現，這種對於自己工作價值的認同，是能夠持續帶來工作動力的重要關鍵。
 taxonomies:
   categories: 
-    - Reviews
-  tags: 
     - Heptabase
-    - Customer support
 extra:
   page_type: blog
 ---

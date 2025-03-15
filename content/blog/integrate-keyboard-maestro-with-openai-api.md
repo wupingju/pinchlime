@@ -7,9 +7,6 @@ description: 這篇想簡單介紹昨天我跟 Claude 協作的一個小工具�
 taxonomies:
   categories: 
     - Tools
-  tags: 
-    - OpenAI API
-    - Keyboard Maestro
 extra:
   page_type: blog
 ---

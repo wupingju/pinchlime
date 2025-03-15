@@ -7,8 +7,6 @@ description: 兩場婚宴全部辦完塵埃落定後，想來分享一下我們�
 taxonomies:
   categories: 
     - Reviews
-  tags: 
-    - Recommendations
 extra:
   page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/wedding-banner_blpUEc.webp

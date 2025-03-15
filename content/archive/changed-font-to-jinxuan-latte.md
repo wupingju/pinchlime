@@ -7,8 +7,6 @@ path: blog/changed-font-to-jinxuan-latte
 taxonomies:
   categories: 
     - Pinchlime
-  tags: 
-    - Blog
 extra:
   page_type: archive
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/pinchlime-new-font_ATleKx.webp

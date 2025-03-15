@@ -6,10 +6,7 @@ description: 這樣做的好處是可以讓自己的網站原始碼保持乾淨�
 path: blog/embed-tracking-code-for-static-websites-with-netlify-snippet-injection-feature
 taxonomies:
   categories: 
-    - Tools
-  tags: 
-    - Netlify
-    - Static Websites
+    - Pinchlime
 extra:
   page_type: blog
 ---

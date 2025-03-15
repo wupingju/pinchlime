@@ -7,8 +7,6 @@ description:
 taxonomies:
   categories: 
     - Reviews
-  tags: 
-    - Productivity
 extra:
   page_type: blog
 ---

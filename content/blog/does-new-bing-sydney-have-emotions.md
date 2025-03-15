@@ -7,9 +7,6 @@ path: blog/does-new-bing-sydney-have-emotions
 taxonomies:
   categories: 
     - Tools
-  tags: 
-    - ChatGPT
-    - new Bing
 extra:
   page_type: blog
 ---

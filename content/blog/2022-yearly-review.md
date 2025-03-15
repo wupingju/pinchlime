@@ -7,8 +7,6 @@ description: 2022 年是我分享地最頻繁的一年，也是最無壓力的�
 taxonomies:
   categories: 
     - Reviews
-  tags: 
-    - Productivity
 extra:
   page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/2022-review-1200_iTja5i.webp

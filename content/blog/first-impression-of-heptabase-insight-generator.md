@@ -6,10 +6,7 @@ path: blog/first-impression-of-heptabase-insight-generator
 description: Insight Generator 不試圖代替我理解，而是協助我理解，並且讓我從線性的理解架構解脫，轉為那種「逛地圖」式的快速鳥瞰體驗，這是我強烈感受到的價值。
 taxonomies:
   categories: 
-    - Tools
-  tags: 
     - Heptabase
-    - Insight Generator
 extra:
   page_type: blog
 ---

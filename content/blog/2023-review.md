@@ -7,10 +7,6 @@ description: 寫完這篇文章後，我察覺到的最大變化是，我實際�
 taxonomies:
   categories: 
     - Reviews
-  tags: 
-    - Productivity
-    - Photography
-    - Heptabase
 extra:
   page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/P1000459_WzVnnd.webp

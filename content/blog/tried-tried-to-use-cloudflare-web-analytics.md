@@ -7,10 +7,6 @@ path: snapshots/what-i-tried-today/tried-to-use-cloudflare-web-analytics
 taxonomies:
   categories: 
     - Tools
-  tags: 
-    - Cloudflare
-    - Umami
-    - Netlify
 extra:
   page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/cloudflare-web-analytics_Ju2RGs.webp

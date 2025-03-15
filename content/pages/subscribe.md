@@ -15,9 +15,9 @@ extra:
 
 - [Blog](/blog/atom.xml)
 
-你也可以針對 [tags](/tags) 裡面的個別 tag 項目訂閱，你就點開這個標籤的連結，並且在後面加上 `/atom.xml` ，就可以單獨訂閱了。
+你也可以針對 [categories](/categories) 裡面的個別分類項目訂閱，你就點開這個分類的連結，並且在後面加上 `/atom.xml` ，就可以單獨訂閱了。
 
-例如，若你只對 Heptabase 這個標籤相關的更新有興趣，你就可以透過 <https://pinchlime.com/tags/heptabase/atom.xml> 單獨訂閱 Heptabase 這個 tag 的相關內容。 
+例如，若你只對 Heptabase 這個分類相關的更新有興趣，你就可以透過 <https://pinchlime.com/categories/heptabase/atom.xml> 單獨訂閱 Heptabase 這個分類的相關內容。 
 
 ---
 

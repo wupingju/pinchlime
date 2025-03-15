@@ -7,8 +7,6 @@ description: 在某些新選擇出現後，我有了更好的解決方案，不�
 taxonomies:
   categories: 
     - Reviews
-  tags: 
-    - Productivity Tools
 extra:
   page_type: blog
 ---

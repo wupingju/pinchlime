@@ -7,8 +7,6 @@ path: snapshots/why/why-do-i-still-want-to-write-newsletters
 taxonomies:
   categories: 
     - Random
-  tags: 
-    - Newsletters
 extra:
   page_type: archive
 ---

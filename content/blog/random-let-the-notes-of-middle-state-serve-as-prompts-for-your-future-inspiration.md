@@ -7,9 +7,6 @@ path: snapshots/random/let-the-notes-of-middle-state-serve-as-prompts-for-your-f
 taxonomies:
   categories: 
     - Random
-  tags: 
-    - Prompt
-    - Ideas
 extra:
   page_type: blog
   image: https://pinchlime-screenshots.s3.ap-northeast-1.amazonaws.com/abstract-colon_i1BdaA.webp

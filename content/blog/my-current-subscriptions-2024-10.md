@@ -7,8 +7,6 @@ description: 好久沒更新我目前有在訂閱的產品與服務了。今年�
 taxonomies:
   categories: 
     - Tools
-  tags: 
-    - Productivity Tools
 extra:
   page_type: blog
 ---

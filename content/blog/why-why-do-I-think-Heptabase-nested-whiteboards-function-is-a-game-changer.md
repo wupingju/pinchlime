@@ -6,10 +6,7 @@ description: 我覺得 0.143.0 推出的層級化白板功能是 Heptabase 非�
 path: snapshots/why/why-do-I-think-Heptabase-nested-whiteboards-function-is-a-game-changer
 taxonomies:
   categories: 
-    - Tools
-  tags: 
     - Heptabase
-    - Nested Whiteboards
 extra:
   page_type: blog
 ---

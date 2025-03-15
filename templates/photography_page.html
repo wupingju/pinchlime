@@ -24,10 +24,6 @@
           {% if page.taxonomies.categories %}
           <a class="category" href="{{ get_taxonomy_url(kind="categories", name=page.taxonomies.categories[0],lang=lang) }}"> {{ page.taxonomies.categories[0] }}</a>
           {% endif %}
-          {% if page.taxonomies.kinds %}
-          <span class="divider">/</span>
-          <a class="category" href="{{ get_taxonomy_url(kind="kinds", name=page.taxonomies.kinds[0],lang=lang) }}">{{ page.taxonomies.kinds[0] }}</a>    
-          {% endif %}
         </div>
         {% endblock breadcrumbs %}
         <div>
@@ -44,15 +40,6 @@
           <section id="start"></section>
           <article>
             {{ page.content | safe }}
-            {% if page.taxonomies.tags %}
-            <p>
-              {% for tag in page.taxonomies.tags %}
-              <a class="muted text-sm" href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
-              {% if loop.index != page.taxonomies.tags | length %}&nbsp;{% endif %}{% endif %}
-            {% endfor %}
-            </p>
-           
-            {% endif %}
              <br>
              {% if page.updated %}
              <div class="muted" style="justify-content: right;display: flex;">

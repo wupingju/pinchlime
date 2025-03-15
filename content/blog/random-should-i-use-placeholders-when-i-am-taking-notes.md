@@ -7,9 +7,6 @@ path: snapshots/random/should-i-use-placeholders-when-i-am-taking-notes
 taxonomies:
   categories: 
     - Random
-  tags: 
-    - Placeholder
-    - Evergreen Notes
 extra:
   page_type: blog
 ---

@@ -6,10 +6,7 @@ description: 最期待 Heptabase 的是，在單一卡片的維度，可以有�
 path: snapshots/why/why-am-i-interested-in-heptabase-communication-platform
 taxonomies:
   categories: 
-    - Tools
-  tags: 
     - Heptabase
-    - Commnunication
 extra:
   page_type: blog
 ---

@@ -7,8 +7,6 @@ description: 這篇文章會依照使用的情境與工作流，把工具分為�
 taxonomies:
   categories: 
     - Reviews
-  tags: 
-    - Productivity Tools
 extra:
   page_type: blog
 ---
