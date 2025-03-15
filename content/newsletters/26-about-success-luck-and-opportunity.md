@@ -100,7 +100,7 @@ extra:
 Blog
 
 * [嘗試透過 ChatGPT API 打造了一個「靈感夥伴」](@/archive/tried-to-build-a-muse-mate-with-chatgpt-api.md)
-* [更換了網站的字型為「金萱那提」](@/blog/changed-font-to-jinxuan-latte.md)
+* [更換了網站的字型為「金萱那提」](@/archive/changed-font-to-jinxuan-latte.md)
 
 Snapshots
 
