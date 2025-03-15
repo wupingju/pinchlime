@@ -47,7 +47,7 @@
             {% if page.taxonomies.tags %}
             <p>
               {% for tag in page.taxonomies.tags %}
-              <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
+              <a class="muted text-sm" href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">#{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}
               {% if loop.index != page.taxonomies.tags | length %}&nbsp;{% endif %}{% endif %}
             {% endfor %}
             </p>

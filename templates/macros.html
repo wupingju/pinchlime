@@ -1,7 +1,7 @@
 {% macro post_min(page) %}
 <div>
-  <p class="my-neg-sm">
-    <a class="no-underline li_archive" href="{{ page.permalink }}">{{ page.title }}</a> 
+  <p class="archive-list">
+    <a href="{{ page.permalink }}">{{ page.title }}</a> 
 </p>
 <span class="muted text-sm font-mono">
   {{ page.updated | date(format="%Y.%m.%d") }}</span>

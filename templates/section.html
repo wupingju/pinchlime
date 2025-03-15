@@ -28,11 +28,12 @@
 {% if section_type %}
   <div class="element">
     <h1>{{ section_type }}</h1>
-    <br>
+    {% if section.content %}
     <section>
       {{ section.content | safe }}
     </section>
-    <br>
+    <hr>
+    {% endif %}
     <ul class="list-none">
       {% for post in section_pages %}
         <li>{{ macro::post_min(page=post) }}</li>

@@ -28,6 +28,7 @@
   --color-primary: #003C6D;
   --color-primary-light: #4363bb;
   --color-secondary: #14213d;
+  --color-secondary-light: #2b6bff;
   
   /* Neutral Colors */
   --color-white: #ffffff;
@@ -275,6 +276,18 @@ a:hover {
   min-width: var(--element-min-width);
   margin: 0 auto;
 }
+.element a:link,
+.element a:visited {
+  color: var(--color-secondary-light); /* Different color for main content links */
+  text-decoration: none; /* No underline in normal state */
+}
+
+.element a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: var(--color-secondary-light); /* Keep the same color on hover */
+  text-underline-offset: 4px; /* Maintain the same offset as your original styles */
+}
+
 
 /* Flex utilities */
 .flex {
@@ -340,8 +353,16 @@ a:hover {
   text-decoration: none;
 }
 
-.navbar-top a:link {
+.navbar-top a:link,
+.navbar-top a:visited {
   color: var(--color-white);
+  text-decoration: none; /* No underline in normal state */
+}
+
+.navbar-top a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: var(--color-white); /* Keep the same color on hover */
+  text-underline-offset: 4px; /* Maintain the same offset as your original styles */
 }
 
 .menu-button {
@@ -407,16 +428,16 @@ a:hover {
   color: #6c757d;
 }
 
-.breadcrumbs a {
-  color: #495057;
+.breadcrumbs a:link,
+.breadcrumbs a:visited {
+  color: var(--color-text);
   text-decoration: none;
-  transition: color 0.2s ease;
-  font-weight: 500;
 }
 
 .breadcrumbs a:hover {
-  color: #0066cc;
   text-decoration: underline;
+  color: var(--color-text);
+  text-underline-offset: 4px; 
 }
 
 .breadcrumbs .separator {
@@ -611,10 +632,6 @@ hr {
   padding: 0;
 }
 
-.li_archive {
-  max-width: 36rem;
-}
-
 /* 5.7 Post meta */
 .post-meta {
   display: flex;
@@ -717,15 +734,29 @@ hr {
   color: #666;
 }
 
-/* ==============================
-   6. UTILITIES
-============================== */
-/* Margins */
-
-.my-neg-sm {
+/* 5.9 Archive-list */
+.archive-list {
   margin-top: 0rem;
   margin-bottom: -1rem;
 }
+
+.archive-list a:link,
+.archive-list a:visited {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.archive-list a:hover {
+  text-decoration: underline;
+  color: var(--color-secondary-light);
+  text-underline-offset: 4px;
+}
+
+
+/* ==============================
+   6. UTILITIES
+============================== */
+
 
 /* Anchor links */
 :target {
@@ -823,7 +854,7 @@ hr {
     margin: 0.5rem 0.2rem;
   }
 
-  .li_archive {
+  .archive-list {
     width: 100%;
   }
 

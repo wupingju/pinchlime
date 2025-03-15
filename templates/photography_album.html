@@ -56,7 +56,7 @@
         {% if page.taxonomies.tags %}
         <p>
           {% for tag in page.taxonomies.tags %}
-          <a class="muted text-sm no-underline" href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">#{{ tag }}</a>
+          <a class="muted text-sm" href="{{ get_taxonomy_url(kind="tags", name=tag,lang=lang) }}">#{{ tag }}</a>
           {% if not loop.last %} {% endif %}
           {% endfor %}
         </p>
