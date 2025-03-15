@@ -4,7 +4,7 @@ description: 這邊放置 Pin 起來網站的 Changelog，主要的內容是描�
 path: changelog/
 draft: false
 date: 2022-04-20
-updated: 2025-03-11
+updated: 2025-03-15
 extra:
   page_type: single
 ---
@@ -23,6 +23,15 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 - 修訂號：表示部落格既有功能有修改內容，例如 css 樣式的調整、既有頁面或段落的連結調整、或者分類類別的調整等。
 
 以下是依時間倒序排列的 changelogs ，歡迎瀏覽！
+
+---
+
+## [2.23.1] - 2025.03.15
+
+### Refactored
+- 繼續更新樣式，把超連結的顏色獨立出來，並且微調一些間距和字級。
+- 部落格簡化運動：把自訂的字體刪掉了，因為覺得開源字體也蠻好看的，而且這樣讀取速度跑分快很多。
+
 
 ---
 
@@ -240,7 +249,7 @@ Changelog 主要是講「這個網站」本身的變化，包含新增、調整�
 
 ### Changed
 
-- 更換站內字型為金萱那提，並更動了 blog, newsletters, snapshots 這三個主頁面的排版方式，詳情可以看這篇：[更換了網站的字型為「金萱那提」](@/blog/changed-font-to-jinxuan-latte.md)
+- 更換站內字型為金萱那提，並更動了 blog, newsletters, snapshots 這三個主頁面的排版方式，詳情可以看這篇：[更換了網站的字型為「金萱那提」](@/archive/changed-font-to-jinxuan-latte.md)
 
 ---
 
