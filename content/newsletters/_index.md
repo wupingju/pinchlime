@@ -1,6 +1,5 @@
 ---
 title: Pin 起來電子報
-paginate_by: 20
 sort_by: date
 transparent: true
 generate_feeds: true
