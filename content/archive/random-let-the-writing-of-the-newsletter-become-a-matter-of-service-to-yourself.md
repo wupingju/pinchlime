@@ -1,7 +1,6 @@
 ---
 title: 讓寫電子報變成是為自己服務的事
 date: 2023-01-15
-updated: 2023-01-15
 description: 讓寫電子報變成是為自己服務：透過寫電子報，我可以更頻繁地更新我的閱讀紀錄與想法；透過寫電子報，我也能夠檢視我閱讀不同內容、嘗試不同工具的動機
 path: snapshots/random/let-the-writing-of-the-newsletter-become-a-matter-of-service-to-yourself
 taxonomies:

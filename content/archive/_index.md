@@ -1,6 +1,6 @@
 ---
 title: Archive
-sort_by: date
+sort_by: update_date
 template: section.html
 draft: false
 page_template: page.html

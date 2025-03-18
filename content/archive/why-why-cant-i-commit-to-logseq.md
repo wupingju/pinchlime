@@ -1,7 +1,6 @@
 ---
 title: 我為何無法全心投入 Logseq？
 date: 2022-06-03
-updated: 2022-06-03
 description: 自從 Heptabase 出現後，我就感覺 Logseq 蠻難作為第二大腦的儲放地點，最多最多只能當作想法隨意萌芽迸發的地方，而一但有了某種固定的結構，就適合放到 Heptabase 裡面當作我的原子筆記。
 path: snapshots/why/why-cant-i-commit-to-logseq
 draft: false

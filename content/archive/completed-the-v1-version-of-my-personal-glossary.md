@@ -1,7 +1,6 @@
 ---
 title: 完成了站內的 Glossary 個人詞庫 v1 版本
 date: 2023-01-27
-updated: 2023-01-27
 description: 我想要透過這個功能，讓我在使用比較專有的詞彙時，能夠更清楚知道自己到底在講什麼，避免使用自己其實不太熟悉的酷炫詞彙。
 path: blog/completed-the-v1-version-of-my-personal-glossary
 extra:

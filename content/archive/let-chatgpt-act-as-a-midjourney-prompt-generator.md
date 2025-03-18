@@ -1,7 +1,6 @@
 ---
 title: 嘗試讓 ChatGPT 扮演 Midjourney prompt 產生器
 date: 2023-04-04
-updated: 2023-04-04
 description: ChatGPT 最擅長模仿文字，所以關鍵在於找出你覺得好的範例，讓他模仿。只要把握這個概念，我相信你也可以做出最符合自己喜好的 Midjourney prompt 產生器，甚至是用在其他的場合，製作不同類型的產生器。
 path: blog/let-chatgpt-act-as-a-midjourney-prompt-generator
 extra:

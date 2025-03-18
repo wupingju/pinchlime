@@ -1,6 +1,6 @@
 ---
 title: 好奇心是珍貴的、神聖的
-date: 2025-03-10
+date: 2021-03-20
 updated: 2025-03-11
 path: blog/curiosity
 aliases: [2021/03/20/curiosity/]

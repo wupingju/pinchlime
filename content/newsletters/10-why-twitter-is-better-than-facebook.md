@@ -1,7 +1,6 @@
 ---
 title: Twitter 比 Facebook 更好的地方
 date: 2022-05-02
-updated: 2022-05-02
 description: Twitter 上面可以匿名，可以鎖帳號，完全不用管現實生活的「關係」，而能基於自己真正感興趣的內容去追蹤以及維護動態牆，藉此持續汲取自己有興趣、可能會喜歡的內容。
 draft: false
 path: newsletters/why-twitter-is-better-than-facebook

@@ -1,7 +1,6 @@
 ---
 title: 建了一個迷你版的個人 Twitter ： Stream
 date: 2023-02-25
-updated: 2023-02-25
 description: 我感覺這個 Stream 是更接近「私人 murmur」的呈現形式。例如，我就只是單純看到某個有趣的產品，但連體驗都還沒體驗、我看到某一句很棒的文字，想要摘要下來，或者有些真的很短，頂多兩三句而已，但又不是那麼想在 Twitter 分享的想法。
 path: blog/built-a-personal-twitter-the-stream
 extra:

@@ -1,7 +1,6 @@
 ---
 title: What I Wish Someone Had Told Me
 date: 2023-12-22
-updated: 2023-12-22
 description: Working with great people is one of the best parts of life.
 path: library/translations/sam-altman-what-i-wish-someone-had-told-me
 draft: true

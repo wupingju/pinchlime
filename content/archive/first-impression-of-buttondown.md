@@ -1,7 +1,6 @@
 ---
 title: 令人忍不住想掏錢支持的 Buttondown 
 date: 2023-02-02
-updated: 2023-02-02
 description: Buttondown 可以讓我選擇「不追蹤」使用者的開信狀況以及點擊連結狀況。這點對我來說是 killer feature
 path: blog/first-impression-of-buttondown
 extra:

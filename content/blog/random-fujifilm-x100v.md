@@ -1,7 +1,6 @@
 ---
 title: 我與 Fujifilm X100V 的短暫緣分
 date: 2023-08-27
-updated: 2023-08-27
 description: 我應該還會再找找有沒有更喜歡的彩色相機，我相信當我遇到時，馬上就會感覺到的。
 path: snapshots/random/fujifilm-x100v
 taxonomies:

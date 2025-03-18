@@ -3,9 +3,15 @@
   <p class="archive-list">
     <a href="{{ page.permalink }}">{{ page.title }}</a> 
 </p>
+{% if page.updated %}
 <span class="muted text-sm font-mono">
   {{ page.updated | date(format="%Y.%m.%d") }}</span>
 </div>
+{% else %}
+<span class="muted text-sm font-mono">
+  {{ page.date | date(format="%Y.%m.%d") }}</span>
+</div>
+{% endif %}
 {% endmacro post_min %}
 
 

@@ -1,7 +1,6 @@
 ---
 title: 不再更新 Pin 起來電子報，但會開始持續寫信
 date: 2024-05-26
-updated: 2024-05-26
 description: 對我來說，光是命名為「電子報」或者「信」，就會在動機面產生巨大無比的差異，後者讓我覺得分享起來更自在，因此也更能夠持續產出。
 path: newsletters/stop-writing-newsletters
 extra:

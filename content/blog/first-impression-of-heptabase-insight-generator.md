@@ -1,7 +1,6 @@
 ---
 title: Heptabase 的 Insight Generator 好在哪？ 
 date: 2024-09-05
-updated: 2024-09-05
 path: blog/first-impression-of-heptabase-insight-generator
 description: Insight Generator 不試圖代替我理解，而是協助我理解，並且讓我從線性的理解架構解脫，轉為那種「逛地圖」式的快速鳥瞰體驗，這是我強烈感受到的價值。
 taxonomies:

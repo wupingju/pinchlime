@@ -1,7 +1,6 @@
 ---
 title: 我把筆記與想法快照的內容都搬回 Pin 起來主網站了
 date: 2023-01-01
-updated: 2023-01-01
 description: 有一個自己認可的地方、有趁手的工具，真的會大幅提高自己投入時間與熱情來分享的意願，對我來說尤其是如此，這可能是 2022 年影響我最大的改變之一。
 path: blog/migrated-notes-and-snapshots-back-to-the-main-site
 extra:

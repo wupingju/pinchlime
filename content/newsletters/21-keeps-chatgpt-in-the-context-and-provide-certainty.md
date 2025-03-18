@@ -1,7 +1,6 @@
 ---
 title: 讓 ChatGPT 維持脈絡以及提供把握度
 date: 2023-02-27
-updated: 2023-02-27
 description: 我覺得「脈絡問題」與「把握度問題」，在我身上造成的影響主要是浪費時間，我必須反覆重新對話以取得符合上下文脈絡的回答，我也必須花額外的時間去驗證不熟悉答案的正確性。這些都會降低我的使用效率。
 path: newsletters/keeps-chatgpt-in-the-context-and-provide-certainty
 extra:

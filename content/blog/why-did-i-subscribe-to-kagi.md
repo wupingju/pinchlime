@@ -1,7 +1,6 @@
 ---
 title: 我為什麼要訂閱 Kagi 這個需要付費才能用的搜尋引擎？
 date: 2024-10-23
-updated: 2024-10-23
 path: blog/why-did-i-subscribe-to-kagi
 description: 幾次搜尋下來，我發現我不用做任何事情，搜尋的首頁就都是我感興趣、而且看了以後也覺得有價值的內容。
 taxonomies:

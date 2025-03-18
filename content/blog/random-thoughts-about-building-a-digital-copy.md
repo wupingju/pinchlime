@@ -1,7 +1,6 @@
 ---
 title: 關於「建立自己數位分身」的一些想法
 date: 2023-04-23
-updated: 2023-04-23
 description: 這個 copy 不能只是覆述我講過的話、想過的事，而是必須以這些資訊為基礎，建立起與我相近的價值觀與認知。
 path: snapshots/random/thoughts-about-building-a-digital-copy
 taxonomies:

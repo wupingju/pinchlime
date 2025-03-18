@@ -1,7 +1,6 @@
 ---
 title: 在任何輸入框都可以一鍵翻譯：我用 Keyboard Maestro 搭配 OpenAI API 做的腳本
 date: 2025-03-04
-updated: 2025-03-04
 path: blog/integrate-keyboard-maestro-with-openai-api
 description: 這篇想簡單介紹昨天我跟 Claude 協作的一個小工具，準確來說是一個 Keyboard Maestro 的腳本，它的用處是可以在 Mac 任何可以複製貼上文字的輸入框，都能呼叫 OpenAI 的 API ，根據你設定好的 prompt 去處理文字。
 taxonomies:

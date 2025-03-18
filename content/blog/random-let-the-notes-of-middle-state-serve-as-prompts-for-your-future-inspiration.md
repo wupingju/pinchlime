@@ -1,7 +1,6 @@
 ---
 title: 讓「中間態」的筆記作為自己未來靈感的 prompt
 date: 2023-04-11
-updated: 2023-04-11
 description: 我愈來愈相信，那些不成熟的對話與文字，只要記下來，最終都會化為未來想法的養分。
 path: snapshots/random/let-the-notes-of-middle-state-serve-as-prompts-for-your-future-inspiration
 taxonomies:

@@ -1,7 +1,6 @@
 ---
 title: 我為什麼要在有很多免費替代方案的現在訂閱 ChatGPT Plus？
 date: 2025-01-12
-updated: 2025-01-12
 path: blog/why-did-i-subscribe-to-chatgpt-plus
 description: 我知道這幾個細節就是這個任務的關鍵，我也知道我自己絕對無法很快想出或察覺到這幾個細節，但在 o1 老前輩的指引下，這些事情好像就變得容易起來。
 taxonomies:

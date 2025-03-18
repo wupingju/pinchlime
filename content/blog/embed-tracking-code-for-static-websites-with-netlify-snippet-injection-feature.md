@@ -1,7 +1,6 @@
 ---
 title: 透過 Netlify 的 snippet injection 功能為靜態網站輕鬆埋設追蹤碼
 date: 2023-01-24
-updated: 2023-01-24
 description: 這樣做的好處是可以讓自己的網站原始碼保持乾淨，不用把各種追蹤或 A/B test 的設定代碼全都加到網站的程式碼裡面。
 path: blog/embed-tracking-code-for-static-websites-with-netlify-snippet-injection-feature
 taxonomies:

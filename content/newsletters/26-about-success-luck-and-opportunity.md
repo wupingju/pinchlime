@@ -1,7 +1,6 @@
 ---
 title: 關於成功、運氣與機會
 date: 2023-04-23
-updated: 2023-04-23
 description: 我更感興趣的命題好像是：「如何遇見並掌握更多的機會」。透過這個命題的微調，我可以連結更多的個人經驗，也更可以想像該如何創造機會，而非聚焦於一個隱形的、看似無法捉摸的運氣。
 path: newsletters/about-success-luck-and-opportunity
 extra:

@@ -1,7 +1,6 @@
 ---
 title: HEY! Email 原來可以這樣用
 date: 2021-03-14
-updated: 2021-03-14
 path: 2021/03/14/hey-email-introduction/
 description: HEY 認為，Email 本該是寶藏，但近年來卻讓人失望，因此他們決定重新設計一套圍繞著 Email 的工作流程。
 taxonomies:

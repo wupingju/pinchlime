@@ -1,7 +1,6 @@
 ---
 title: 寫部落格對我的影響
 date: 2022-04-23
-updated: 2022-04-23
 description: 這兩個部分互相影響，會形成一個持續運作的動力機器，不斷地推動我留意、收集、理解、思考，並且產出。
 draft: false
 path: newsletters/the-impact-of-blogging

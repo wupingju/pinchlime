@@ -11,7 +11,7 @@
 {% block ogurl %}{{ config.base_url }}{{ section.path }}{% endblock ogurl %}
 
 {% block main %}
-{% set section_pages = section.pages | sort(attribute="updated") | reverse %}
+{% set section_pages = section.pages %}
 
 {# Determine section type from path #}
 {% set section_type = section.path | split(pat="/") | first | capitalize %}

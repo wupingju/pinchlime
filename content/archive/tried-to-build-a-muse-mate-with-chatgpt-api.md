@@ -1,7 +1,6 @@
 ---
 title: 嘗試透過 ChatGPT API 打造了一個「靈感夥伴」
 date: 2023-04-15
-updated: 2023-04-15
 description: 我覺得這個助手有助於把我腦中原本很模糊、不精準的一些片段想法與疑問，轉換成某個更有結構的形式，接著我好像就更容易可以想得更清晰、透徹一點。我覺得這樣的效果很棒！
 path: blog/tried-to-build-a-muse-mate-with-chatgpt-api
 extra:

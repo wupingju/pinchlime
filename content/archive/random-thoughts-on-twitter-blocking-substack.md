@@ -1,7 +1,6 @@
 ---
 title: 對 Twitter blocked Substack 的一些看法
 date: 2023-04-09
-updated: 2023-04-09
 description: 我很好奇 Twitter 祭出這一招後，Substack 上的創作者究竟是會更用力地宣傳 Substack ，還是會反過來施壓 Substack 去跟 Twitter 達成某種「妥協」的協議。
 path: snapshots/random/thoughts-on-twitter-blocking-substack
 taxonomies:

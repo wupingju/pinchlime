@@ -1,7 +1,6 @@
 ---
 title: 為何我對 Timestripe 有興趣又馬上沒興趣？
 date: 2022-05-25
-updated: 2022-05-25
 description: 喪失興趣的點：中文輸入很糟，一樣會有選字的 enter 直接輸入的問題。沒有看到 export 的功能，感覺累積越多會越被綁定。這兩個缺點，就讓我喪失探索功能、研究 workflow 的動機了。
 path: snapshots/why/why-did-I-get-interested-in-timestripe-and-then-immediately-lost-interest
 extra:

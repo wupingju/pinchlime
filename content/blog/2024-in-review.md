@@ -1,7 +1,6 @@
 ---
 title: 2024 年度回顧 - 更多的自我對話
 date: 2025-01-05
-updated: 2025-01-05
 path: blog/2024-in-review
 description: 
 taxonomies:

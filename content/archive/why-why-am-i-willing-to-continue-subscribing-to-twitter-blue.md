@@ -1,7 +1,6 @@
 ---
 title: 為何我很樂意繼續訂閱 Twitter Blue？
 date: 2023-04-21
-updated: 2023-04-21
 description: 如果要說的話，我建議的判斷標準是：訂閱 Twitter Blue 後獲得的額外能力，能否為你帶來更多價值。
 path: snapshots/why/why-am-i-willing-to-continue-subscribing-to-twitter-blue
 extra:

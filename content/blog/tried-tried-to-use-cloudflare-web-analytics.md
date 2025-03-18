@@ -1,7 +1,6 @@
 ---
 title: 開始使用 Cloudflare Web Analytics
 date: 2023-05-05
-updated: 2023-05-05
 description: 看了一下以後發現 Cloudflare Web Analytics 好像還不錯！因為他有下列最在意的優點：免費使用、重視隱私。
 path: snapshots/what-i-tried-today/tried-to-use-cloudflare-web-analytics
 taxonomies:

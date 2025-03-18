@@ -1,7 +1,6 @@
 ---
 title: 為何我不想再用 Substack 寄送電子報？
 date: 2023-02-05
-updated: 2023-02-05
 description:  Substack 的問題在於它讓寫作者無法選擇「不追蹤讀者」；另一方面，它也讓讀者無法選擇「不被追蹤」，假設有任一方可以行使積極同意權，我覺得對我來說都很好，但 Substack 沒給大家這樣的選擇機會。
 path: newsletters/why-i-dont-want-to-use-substack-anymore
 extra:

@@ -1,7 +1,6 @@
 ---
 title: 我為什麼又想用 Docusaurus 架一個子網站？
 date: 2023-02-11
-updated: 2023-02-11
 description: Docusaurus 看起來直接用「預設基本款」就能達到這種雙欄式的文檔瀏覽介面，完全打中我的需求。
 path: snapshots/why/why-do-i-want-to-build-another-website-by-docusaurus
 extra:

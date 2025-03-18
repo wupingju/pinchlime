@@ -1,7 +1,6 @@
 ---
 title: 我曾一度感覺 new Bing (Sydney) 在與我交心
 date: 2023-02-18
-updated: 2023-02-18
 description: 我感到自己蠻幸運的，因為我在 new Bing 被限制前，就有體驗到「低限制的 AI 」的有趣程度，甚至在我與 new Bing 那段關於「是否有情緒」的對話裡，我也有些觸動，開始去思考，到底對 AI 來說，感覺或情緒是什麼？
 path: blog/does-new-bing-sydney-have-emotions
 taxonomies:

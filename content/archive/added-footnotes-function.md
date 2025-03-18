@@ -1,7 +1,6 @@
 ---
 title: 部落格新增了 Footnotes 註腳的功能
 date: 2022-04-30
-updated: 2022-04-30
 description: 最符合我期待的 footnotes 實踐方式，是讓比較與原文段落無關的補充，能夠出現在一個特定的地方，讀者可以「想看就找得到，不想看也不用看」。
 path: blog/added-footnotes-function
 extra:
