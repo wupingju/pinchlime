@@ -1,7 +1,7 @@
 ---
 title: A Letter from PJ
 path: letters/
-draft: true
+draft: false
 date: 2024-05-26
 updated: 2025-03-10
 description: 大致上會是關於我最近做了、看了什麼、嘗試了什麼的經驗分享，篇幅不會太長，大概就像一篇短篇幅的臉書或 Twitter 貼文這樣。發文的時間與頻率不會固定，你可以想成有個朋友有事沒事就會傳個訊息給你，跟你分享他最近看了什麼或體驗了什麼東西。
