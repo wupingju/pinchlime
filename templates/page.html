@@ -34,6 +34,9 @@
       {% elif page.extra.page_type == "newsletter" %}
         {% set page_section = "Newsletters" %}
         {% set section_url = "/newsletters/" %}
+      {% elif page.extra.page_type == "letter" %}
+        {% set page_section = "Letters" %}
+        {% set section_url = "/letters/" %}
       {% elif page.extra.page_type == "blog" %}
         {% set page_section = "Blog" %}
         {% set section_url = get_url(path="@/blog/_index.md", lang=lang) %}
@@ -75,7 +78,6 @@
     <section id="start"></section>
     <article>
       {# Type-specific notices #}
-      <br>
       {% if page.extra.page_type == "archive" %}
       <div class="archive-notice">
         <p>

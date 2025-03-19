@@ -21,4 +21,4 @@ extra:
 
 ---
 
-另外，我目前也有在 HEY World 寫信給訂閱的人，信件的標題是 [A Letter from PJ](@/pages/letters.md)，你可以[透過 email 訂閱](https://world.hey.com/mimir)，也可以[透過 RSS 訂閱](https://world.hey.com/mimir/feed.atom)。
+另外，我目前也有在 HEY World 寫信給訂閱的人，信件的標題是 [A Letter from PJ](/letters)，你可以[透過 email 訂閱](https://world.hey.com/mimir)，也可以[透過 RSS 訂閱](https://world.hey.com/mimir/feed.atom)。

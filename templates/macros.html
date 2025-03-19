@@ -1,17 +1,15 @@
 {% macro post_min(page) %}
-<div>
-  <p class="archive-list">
-    <a href="{{ page.permalink }}">{{ page.title }}</a> 
-</p>
-{% if page.updated %}
-<span class="muted text-sm font-mono">
-  {{ page.updated | date(format="%Y.%m.%d") }}</span>
+<div class="archive-list">
+  <a href="{{ page.permalink }}">{{ page.title }}</a>
+  <div class="dashed-line"></div>
+  <span class="post-date">
+  {% if page.updated %}
+  {{ page.updated | date(format="%Y.%m.%d") }}
+  {% else %}
+  {{ page.date | date(format="%Y.%m.%d") }}
+  {% endif %}
+  </span>
 </div>
-{% else %}
-<span class="muted text-sm font-mono">
-  {{ page.date | date(format="%Y.%m.%d") }}</span>
-</div>
-{% endif %}
 {% endmacro post_min %}
 
 
