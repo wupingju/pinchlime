@@ -22,11 +22,21 @@
 {# Display section content if section type exists #}
 {% if section_type %}
   <div class="element">
+    {% if section_type == "Letters" %}
+    <h1>A Letter from PJ</h1>
+    {% if section.content %}
+    <section>
+      {{ section.content | safe }}
+    </section>
+    {% endif %}
+    <hr>
+    {% else %}
     <h1>{{ section_type }}</h1>
     {% if section.content %}
     <section>
       {{ section.content | safe }}
     </section>
+    {% endif %}
     <hr>
     {% endif %}
     <ul class="list-none">
