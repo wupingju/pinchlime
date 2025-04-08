@@ -53,6 +53,9 @@ extra:
 ---
 
 ### 上次還有，本次更新已退訂的
+
+| 產品名稱 | 訂閱方案 | 訂閱費用 | 用途 |
+|---------|-----|---------|------|
 | Typefully | 年費 | $74.99 | 可以排程發文 Twitter 與 Threads |
 | [Kagi](@/blog/why-did-i-subscribe-to-kagi.md) | 月費 | $5 | 付費搜尋引擎 |
 | Justfont | 年費 | $588 TWD | 部落格的自訂字型 |
