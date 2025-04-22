@@ -55,7 +55,7 @@ extra:
 
 ---
 
-### 推理（Reasoning） - 產製卡片標題
+### 推理（Reasoning） - 分段產製卡片標題
 
 `使用工具：ChatGPT Plus`
 
