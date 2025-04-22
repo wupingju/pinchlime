@@ -1,6 +1,7 @@
 ---
 title: 我為什麼要在有很多免費替代方案的現在訂閱 ChatGPT Plus？
 date: 2025-01-12
+updated: 2025-04-22
 path: blog/why-did-i-subscribe-to-chatgpt-plus
 description: 我知道這幾個細節就是這個任務的關鍵，我也知道我自己絕對無法很快想出或察覺到這幾個細節，但在 o1 老前輩的指引下，這些事情好像就變得容易起來。
 taxonomies:
@@ -17,6 +18,8 @@ extra:
 </a>
 
 `圖片來源：OpenAI 官網`
+
+> 2025.04.22： OpenAI 在 2025/4 推出了 o3 模型，它是 o1 模型的進化版本，所以我原本怎麼用 o1 ，就是繼續用同樣的方式使用 o3。原文內容就先不更新了。
 
 
 這一篇文是「我為什麼要訂閱ＯＯＯ」系列的第二篇文，這篇要講的 ChatGPT 與第一篇介紹的 [Kagi](@/blog/why-did-i-subscribe-to-kagi.md)完全不同，幾乎每個人都知道它。
