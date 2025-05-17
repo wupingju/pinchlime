@@ -28,3 +28,12 @@ twitter_user = "@WuPingJu"
 [slugify]
 paths = "on"
 taxonomies = "on"
+
+[languages.zh-TW]
+title = "Pin 起來！"
+description = "介紹生產力工具，以及分享使用心得"
+
+[languages.en]
+title = "Pinchlime"
+description = "Productivity tools and workflow articles"
+
