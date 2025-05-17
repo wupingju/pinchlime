@@ -532,7 +532,7 @@ Heptabase 的右側邊欄有個特色是，它的功能會根據「分頁的類�
 
 不過，有同步功能之後最擔心的就是「版本衝突」的問題。舉例來說，原先在網頁版編輯一張卡片，此時打開 Mobile 版本進入這張卡片，但 Mobile 版本還沒完全同步雲端的版本，就編輯了新的內容。此時因為 Mobile 版本的時間戳更新，就會反過來覆蓋掉網頁版的內容。
 
-針對偶爾可能出現的這種狀況， Heptbase 目前的處理機制是「版本紀錄」（[version history](https://wiki.heptabase.com/version-history?lang=zh-Hant)）的功能，點開每張卡片或 Journal 日誌的選單，都可以看到這個頁面，進入後就會看到不同裝置與不同時間的編輯紀錄。
+針對偶爾可能出現的這種狀況， Heptabase 目前的處理機制是「版本紀錄」（[version history](https://wiki.heptabase.com/version-history?lang=zh-Hant)）的功能，點開每張卡片或 Journal 日誌的選單，都可以看到這個頁面，進入後就會看到不同裝置與不同時間的編輯紀錄。
 
 ### **Heptabase 可以離線使用**
 
