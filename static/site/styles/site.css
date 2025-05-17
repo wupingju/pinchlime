@@ -947,7 +947,7 @@ hr {
     display: flex;
     font-size: 15px;
     text-align: center;
-    width: 25%;
+    width: 50%;
     flex-direction: column;
     position: absolute;
     top: 56px;
