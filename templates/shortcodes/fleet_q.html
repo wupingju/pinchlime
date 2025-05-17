@@ -4,13 +4,13 @@
         <p style="font-size: 1rem;">{{ body | safe }}</p>
         <div style="display: flex; justify-content: right;">
           <p style="font-size: 1rem">
-          <span>—&nbsp;</span>
-          {% if link %}
-          <a href="{{ link }}">{{ source_name }}</a>
-          {% else %}
-          {{ source_name }}
+            <span>—&nbsp;</span>
+            {% if link %}
+            <a href="{{ link }}">{{ source_name }}</a>
+            {% else %}
+            {{ source_name }}
+            {% endif %}
           </p>
-          {% endif %}
         </div>
     </blockquote>
 </div>
