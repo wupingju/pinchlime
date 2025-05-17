@@ -94,6 +94,15 @@
             <a class="menu-button" href="/manifesto/">Manifesto</a>
             <a class="menu-button" href="/changelog/">Changelog</a>
           </div>
+          {% if config.languages and config.languages | length > 1 %}
+          <div class="language-switcher">
+            {% for code in config.languages | keys %}
+              {% if code != lang %}
+              <a class="menu-button" href="{{ get_url(path="/", lang=code) }}">{{ code }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
         </div>
       </nav>
       {% endblock nav_bar %}
